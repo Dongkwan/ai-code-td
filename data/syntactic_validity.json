@@ -1,0 +1,67 @@
+{
+ "Human": {
+  "valid": 100,
+  "total": 100,
+  "rate": 1.0
+ },
+ "GPT-4-Turbo": {
+  "valid": 99,
+  "total": 100,
+  "rate": 0.99
+ },
+ "DeepSeek-Coder": {
+  "valid": 100,
+  "total": 100,
+  "rate": 1.0
+ },
+ "StarCoder-15B": {
+  "valid": 100,
+  "total": 100,
+  "rate": 1.0
+ },
+ "InstructCodeGen-16B": {
+  "valid": 99,
+  "total": 100,
+  "rate": 0.99
+ },
+ "Magicoder-6.7B": {
+  "valid": 100,
+  "total": 100,
+  "rate": 1.0
+ },
+ "CodeLlama-13B": {
+  "valid": 95,
+  "total": 100,
+  "rate": 0.95
+ },
+ "GPT-3.5-Turbo": {
+  "valid": 97,
+  "total": 100,
+  "rate": 0.97
+ },
+ "Gemini-Pro": {
+  "valid": 94,
+  "total": 100,
+  "rate": 0.94
+ },
+ "WizardCoder-15B": {
+  "valid": 53,
+  "total": 100,
+  "rate": 0.53
+ },
+ "CodeGeeX2-6B": {
+  "valid": 46,
+  "total": 100,
+  "rate": 0.46
+ },
+ "PolyCoder-2.7B": {
+  "valid": 100,
+  "total": 100,
+  "rate": 1.0
+ },
+ "SantaCoder-1.1B": {
+  "valid": 100,
+  "total": 100,
+  "rate": 1.0
+ }
+}

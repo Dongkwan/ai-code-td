@@ -1,0 +1,298 @@
+{
+ "n_models": 12,
+ "n_rows_total": 2167,
+ "n_ai_greedy": 1083,
+ "n_human": 100,
+ "syntactic_validity": {
+  "Human|reference": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  },
+  "GPT-4-Turbo|greedy": {
+   "valid": 99,
+   "total": 100,
+   "rate": 0.99
+  },
+  "GPT-3.5-Turbo|greedy": {
+   "valid": 97,
+   "total": 100,
+   "rate": 0.97
+  },
+  "GPT-3.5-Turbo|t0.2": {
+   "valid": 95,
+   "total": 100,
+   "rate": 0.95
+  },
+  "Gemini-Pro|greedy": {
+   "valid": 94,
+   "total": 100,
+   "rate": 0.94
+  },
+  "Gemini-Pro|t0.2": {
+   "valid": 89,
+   "total": 100,
+   "rate": 0.89
+  },
+  "DeepSeek-Coder-6.7B|greedy": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  },
+  "DeepSeek-Coder-6.7B|t0.2": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  },
+  "CodeLlama-13B|greedy": {
+   "valid": 95,
+   "total": 100,
+   "rate": 0.95
+  },
+  "CodeLlama-13B|t0.2": {
+   "valid": 94,
+   "total": 100,
+   "rate": 0.94
+  },
+  "WizardCoder-15B|greedy": {
+   "valid": 53,
+   "total": 100,
+   "rate": 0.53
+  },
+  "WizardCoder-15B|t0.2": {
+   "valid": 49,
+   "total": 100,
+   "rate": 0.49
+  },
+  "Magicoder-6.7B|greedy": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  },
+  "Magicoder-6.7B|t0.2": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  },
+  "StarCoder-15B|greedy": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  },
+  "StarCoder-15B|t0.2": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  },
+  "InstructCodeGen-16B|greedy": {
+   "valid": 99,
+   "total": 100,
+   "rate": 0.99
+  },
+  "InstructCodeGen-16B|t0.2": {
+   "valid": 99,
+   "total": 100,
+   "rate": 0.99
+  },
+  "CodeGeeX2-6B|greedy": {
+   "valid": 46,
+   "total": 100,
+   "rate": 0.46
+  },
+  "CodeGeeX2-6B|t0.2": {
+   "valid": 58,
+   "total": 100,
+   "rate": 0.58
+  },
+  "PolyCoder-2.7B|greedy": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  },
+  "PolyCoder-2.7B|t0.2": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  },
+  "SantaCoder-1.1B|greedy": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  },
+  "SantaCoder-1.1B|t0.2": {
+   "valid": 100,
+   "total": 100,
+   "rate": 1.0
+  }
+ },
+ "RQ1_12_models": {
+  "ai_density": 36.26572295209058,
+  "human_density": 11.617193944402322,
+  "ratio": 3.1217282870245104,
+  "p": 0.7061190998844487,
+  "cliffs_delta": 0.016694367497691598,
+  "null_holds": true
+ },
+ "RQ1_published_seven_recheck": {
+  "ai_density": 9.930376035652737,
+  "p": 0.602002974579158
+ },
+ "RQ2_12_models": {
+  "kruskal_H": 96.32594061643883,
+  "p": 9.507463907468132e-16,
+  "k": 12,
+  "min_density": 4.5715057466176,
+  "max_density": 166.18333021741077,
+  "spread": 36.35198978812785,
+  "significant": true
+ },
+ "per_model_density": {
+  "GPT-4-Turbo": 4.5715057466176,
+  "GPT-3.5-Turbo": 12.03692898555562,
+  "Gemini-Pro": 15.219518404111072,
+  "DeepSeek-Coder-6.7B": 5.98156362940826,
+  "CodeLlama-13B": 10.223364275995856,
+  "WizardCoder-15B": 15.490282880837622,
+  "Magicoder-6.7B": 8.944230384011416,
+  "StarCoder-15B": 7.372182855634978,
+  "InstructCodeGen-16B": 8.382894961147016,
+  "CodeGeeX2-6B": 58.21197588014856,
+  "PolyCoder-2.7B": 120.76989247422684,
+  "SantaCoder-1.1B": 166.18333021741077
+ },
+ "capability": {
+  "n": 11,
+  "spearman_rho": -0.6758061321662903,
+  "p": 0.022454376986333617,
+  "pass_at_1": {
+   "GPT-4-Turbo": 0.38,
+   "GPT-3.5-Turbo": 0.25,
+   "Gemini-Pro": 0.31,
+   "DeepSeek-Coder-6.7B": 0.27,
+   "CodeLlama-13B": 0.21,
+   "WizardCoder-15B": 0.08,
+   "Magicoder-6.7B": 0.22,
+   "InstructCodeGen-16B": 0.05,
+   "CodeGeeX2-6B": 0.08,
+   "PolyCoder-2.7B": 0.0,
+   "SantaCoder-1.1B": 0.0
+  },
+  "significant": true
+ },
+ "H3_decoding": {
+  "n_models_with_both": 11,
+  "wilcoxon_density": {
+   "W": 31.0,
+   "p": 0.8984375
+  },
+  "rank_preserved_spearman": {
+   "rho": 0.9727272727272729,
+   "p": 5.14217704904919e-07
+  },
+  "wilcoxon_duplicate_share": {
+   "W": 18.0,
+   "p": 0.2060546875
+  },
+  "per_model": [
+   {
+    "model": "GPT-3.5-Turbo",
+    "greedy_density": 12.03692898555562,
+    "t02_density": 10.64593559290923,
+    "greedy_dup_share": 0.23809523809523808,
+    "t02_dup_share": 0.2222222222222222,
+    "greedy_valid": 97,
+    "t02_valid": 95
+   },
+   {
+    "model": "Gemini-Pro",
+    "greedy_density": 15.219518404111072,
+    "t02_density": 12.86633481159781,
+    "greedy_dup_share": 0.24528301886792453,
+    "t02_dup_share": 0.21428571428571427,
+    "greedy_valid": 94,
+    "t02_valid": 89
+   },
+   {
+    "model": "DeepSeek-Coder-6.7B",
+    "greedy_density": 5.98156362940826,
+    "t02_density": 8.959054118014901,
+    "greedy_dup_share": 0.0,
+    "t02_dup_share": 0.06896551724137931,
+    "greedy_valid": 100,
+    "t02_valid": 100
+   },
+   {
+    "model": "CodeLlama-13B",
+    "greedy_density": 10.223364275995856,
+    "t02_density": 11.60756862174539,
+    "greedy_dup_share": 0.23333333333333334,
+    "t02_dup_share": 0.3888888888888889,
+    "greedy_valid": 95,
+    "t02_valid": 94
+   },
+   {
+    "model": "WizardCoder-15B",
+    "greedy_density": 15.490282880837622,
+    "t02_density": 14.34910354159865,
+    "greedy_dup_share": 0.21428571428571427,
+    "t02_dup_share": 0.36363636363636365,
+    "greedy_valid": 53,
+    "t02_valid": 49
+   },
+   {
+    "model": "Magicoder-6.7B",
+    "greedy_density": 8.944230384011416,
+    "t02_density": 9.408303198689321,
+    "greedy_dup_share": 0.07407407407407407,
+    "t02_dup_share": 0.1111111111111111,
+    "greedy_valid": 100,
+    "t02_valid": 100
+   },
+   {
+    "model": "StarCoder-15B",
+    "greedy_density": 7.372182855634978,
+    "t02_density": 7.871627384802074,
+    "greedy_dup_share": 0.3333333333333333,
+    "t02_dup_share": 0.3157894736842105,
+    "greedy_valid": 100,
+    "t02_valid": 100
+   },
+   {
+    "model": "InstructCodeGen-16B",
+    "greedy_density": 8.382894961147016,
+    "t02_density": 10.140960766993757,
+    "greedy_dup_share": 0.4,
+    "t02_dup_share": 0.7450980392156863,
+    "greedy_valid": 99,
+    "t02_valid": 99
+   },
+   {
+    "model": "CodeGeeX2-6B",
+    "greedy_density": 58.21197588014856,
+    "t02_density": 48.104139049457,
+    "greedy_dup_share": 0.7692307692307693,
+    "t02_dup_share": 0.78125,
+    "greedy_valid": 46,
+    "t02_valid": 58
+   },
+   {
+    "model": "PolyCoder-2.7B",
+    "greedy_density": 120.76989247422684,
+    "t02_density": 132.47403975307273,
+    "greedy_dup_share": 0.9594594594594594,
+    "t02_dup_share": 0.9631901840490797,
+    "greedy_valid": 100,
+    "t02_valid": 100
+   },
+   {
+    "model": "SantaCoder-1.1B",
+    "greedy_density": 166.18333021741077,
+    "t02_density": 148.817113123285,
+    "greedy_dup_share": 0.8940092165898618,
+    "t02_dup_share": 0.8743169398907104,
+    "greedy_valid": 100,
+    "t02_valid": 100
+   }
+  ]
+ }
+}

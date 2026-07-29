@@ -1,0 +1,3823 @@
+{
+ "n_repos": 100,
+ "n_ai_classes": 5176,
+ "n_human_classes": 4194,
+ "pooled": {
+  "ai_density_mean": 47.40034299999828,
+  "human_density_mean": 77.81130662723223,
+  "ratio": 0.6091703770902777,
+  "mannwhitney_p": 0.00013761856413977469,
+  "cliffs_delta": -0.041106784624240555
+ },
+ "repo_level": {
+  "n_repos": 100,
+  "n_repos_ai_higher": 40,
+  "wilcoxon_means": {
+   "W": 1850.0,
+   "p": 0.029150317282228545
+  },
+  "wilcoxon_medians": {
+   "W": 429.0,
+   "p": 0.10293449583235374
+  },
+  "mean_of_repo_ratios": 1.7907051464864108
+ },
+ "project_scale": {
+  "commits": {
+   "min": 31,
+   "q1": 368.5,
+   "median": 1023.0,
+   "q3": 2665.5,
+   "max": 51664
+  },
+  "python_files_added": {
+   "min": 31,
+   "q1": 181.5,
+   "median": 326.0,
+   "q3": 1308.5,
+   "max": 118319
+  },
+  "history_span_days": {
+   "min": 0,
+   "q1": 115.525,
+   "median": 224.7,
+   "q3": 407.0,
+   "max": 5199
+  },
+  "classes_analysed": {
+   "min": 19,
+   "q1": 48.0,
+   "median": 95.5,
+   "q3": 135.75,
+   "max": 160
+  }
+ },
+ "per_agent": {
+  "Copilot": {
+   "n_repos": 17,
+   "n_ai_classes": 892,
+   "n_human_classes": 834,
+   "ai_density_mean": 112.16780383576781,
+   "human_density_mean": 116.1696688296196,
+   "ratio": 0.9655515502956187,
+   "mannwhitney_p": 0.15772785418965718,
+   "cliffs_delta": -0.035156628060780126,
+   "mean_smell_share": {
+    "LongMethod": 0.08098077131003044,
+    "DeepNesting": 0.08348298422975298,
+    "GodClass": 0.06445574178583244,
+    "Duplicate": 0.36355452653637427,
+    "LongParamList": 0.0808273879674381,
+    "ComplexConditional": 0.010968123739594009,
+    "HighComplexity": 0.256906935019213
+   }
+  },
+  "Claude": {
+   "n_repos": 77,
+   "n_ai_classes": 3924,
+   "n_human_classes": 3060,
+   "ai_density_mean": 32.108758948166184,
+   "human_density_mean": 66.85253187565509,
+   "ratio": 0.48029233968113716,
+   "mannwhitney_p": 0.027886463452535228,
+   "cliffs_delta": -0.027359953495499467,
+   "mean_smell_share": {
+    "LongMethod": 0.11647397305622248,
+    "DeepNesting": 0.17269486017342278,
+    "GodClass": 0.06034985913099334,
+    "Duplicate": 0.31035108499350517,
+    "LongParamList": 0.06813255553450841,
+    "ComplexConditional": 0.009582648060931403,
+    "HighComplexity": 0.21046696710236437
+   }
+  },
+  "Cursor": {
+   "n_repos": 6,
+   "n_ai_classes": 360,
+   "n_human_classes": 300,
+   "ai_density_mean": 53.599233983005824,
+   "human_density_mean": 82.954562170682,
+   "ratio": 0.6461276219229929,
+   "mannwhitney_p": 1.5308250582617942e-05,
+   "cliffs_delta": -0.18573148148148144,
+   "mean_smell_share": {
+    "LongMethod": 0.12312552511996007,
+    "DeepNesting": 0.11627701630904391,
+    "GodClass": 0.06472417192618145,
+    "Duplicate": 0.263855433181771,
+    "LongParamList": 0.10429006666443946,
+    "ComplexConditional": 0.02351756675916827,
+    "HighComplexity": 0.3042102200394358
+   }
+  }
+ },
+ "smell_share_ai": {
+  "LongMethod": 0.09161851879642831,
+  "HighComplexity": 0.17048097846477075,
+  "ComplexConditional": 0.00915434831544984,
+  "GodClass": 0.048623095970586026,
+  "LongParamList": 0.04569670593531928,
+  "DeepNesting": 0.11938170631049749,
+  "Duplicate": 0.5150446462069483
+ },
+ "smell_share_human": {
+  "LongMethod": 0.07233815587705847,
+  "HighComplexity": 0.12794186279085273,
+  "ComplexConditional": 0.007933862257483833,
+  "GodClass": 0.03766917794519635,
+  "LongParamList": 0.04153610240682712,
+  "DeepNesting": 0.08347223148209881,
+  "Duplicate": 0.6291086072404827
+ },
+ "per_repo": [
+  {
+   "repo": "dzungttfci/ms_agent-governance-toolkit",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 1240,
+    "Claude": 24
+   },
+   "n_commits": 2293,
+   "n_python_files_added": 1392,
+   "history_span_days": 147.2,
+   "n_ai": 80,
+   "n_human": 61,
+   "ai_density_mean": 17.942097157337514,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 22.657155311562317,
+   "hu_density_median": 0.0,
+   "ratio": 0.7918954039292554,
+   "mannwhitney_p": 0.19439414007311218,
+   "cliffs_delta": -0.10184426229508192,
+   "ai_smell_share": {
+    "LongMethod": 0.05454545454545454,
+    "HighComplexity": 0.2545454545454545,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.07272727272727272,
+    "LongParamList": 0.2,
+    "DeepNesting": 0.03636363636363636,
+    "Duplicate": 0.38181818181818183
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.08620689655172414,
+    "HighComplexity": 0.2413793103448276,
+    "ComplexConditional": 0.017241379310344827,
+    "GodClass": 0.034482758620689655,
+    "LongParamList": 0.08620689655172414,
+    "DeepNesting": 0.08620689655172414,
+    "Duplicate": 0.4482758620689655
+   }
+  },
+  {
+   "repo": "microsoft/agent-governance-toolkit",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 1261,
+    "Claude": 24
+   },
+   "n_commits": 2519,
+   "n_python_files_added": 1428,
+   "history_span_days": 147.5,
+   "n_ai": 80,
+   "n_human": 67,
+   "ai_density_mean": 20.86872724953951,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 22.440792056441556,
+   "hu_density_median": 0.0,
+   "ratio": 0.92994610872254,
+   "mannwhitney_p": 0.441464525361037,
+   "cliffs_delta": -0.060447761194029836,
+   "ai_smell_share": {
+    "LongMethod": 0.05714285714285714,
+    "HighComplexity": 0.21428571428571427,
+    "ComplexConditional": 0.014285714285714285,
+    "GodClass": 0.1,
+    "LongParamList": 0.32857142857142857,
+    "DeepNesting": 0.05714285714285714,
+    "Duplicate": 0.22857142857142856
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.11764705882352941,
+    "HighComplexity": 0.25,
+    "ComplexConditional": 0.014705882352941176,
+    "GodClass": 0.04411764705882353,
+    "LongParamList": 0.08823529411764706,
+    "DeepNesting": 0.07352941176470588,
+    "Duplicate": 0.4117647058823529
+   }
+  },
+  {
+   "repo": "baoqger/agt-fork",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 1217,
+    "Claude": 24
+   },
+   "n_commits": 2236,
+   "n_python_files_added": 1358,
+   "history_span_days": 142.9,
+   "n_ai": 80,
+   "n_human": 63,
+   "ai_density_mean": 18.967632266091773,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 23.90212752678531,
+   "hu_density_median": 0.0,
+   "ratio": 0.7935541405189215,
+   "mannwhitney_p": 0.19417348627122866,
+   "cliffs_delta": -0.10376984126984123,
+   "ai_smell_share": {
+    "LongMethod": 0.1,
+    "HighComplexity": 0.2714285714285714,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.08571428571428572,
+    "LongParamList": 0.17142857142857143,
+    "DeepNesting": 0.02857142857142857,
+    "Duplicate": 0.34285714285714286
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.11594202898550725,
+    "HighComplexity": 0.2463768115942029,
+    "ComplexConditional": 0.014492753623188406,
+    "GodClass": 0.043478260869565216,
+    "LongParamList": 0.08695652173913043,
+    "DeepNesting": 0.07246376811594203,
+    "Duplicate": 0.42028985507246375
+   }
+  },
+  {
+   "repo": "leo477/book-club-be",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 41,
+    "Claude": 17
+   },
+   "n_commits": 372,
+   "n_python_files_added": 103,
+   "history_span_days": 95.8,
+   "n_ai": 24,
+   "n_human": 12,
+   "ai_density_mean": 0.0,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 0.0,
+   "hu_density_median": 0.0,
+   "ratio": null,
+   "mannwhitney_p": 1.0,
+   "cliffs_delta": 0.0,
+   "ai_smell_share": {},
+   "hu_smell_share": {}
+  },
+  {
+   "repo": "microsoft/prompty",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 177
+   },
+   "n_commits": 1114,
+   "n_python_files_added": 255,
+   "history_span_days": 826.7,
+   "n_ai": 80,
+   "n_human": 32,
+   "ai_density_mean": 23.11076440484787,
+   "ai_density_median": 21.27659574468085,
+   "hu_density_mean": 51.75673593642344,
+   "hu_density_median": 26.988636363636367,
+   "ratio": 0.4465266981526135,
+   "mannwhitney_p": 0.4873515714505815,
+   "cliffs_delta": -0.083984375,
+   "ai_smell_share": {
+    "LongMethod": 0.08461538461538462,
+    "HighComplexity": 0.6923076923076923,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.06153846153846154,
+    "LongParamList": 0.007692307692307693,
+    "DeepNesting": 0.038461538461538464,
+    "Duplicate": 0.11538461538461539
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.04878048780487805,
+    "HighComplexity": 0.2682926829268293,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.12195121951219512,
+    "Duplicate": 0.5609756097560976
+   }
+  },
+  {
+   "repo": "bponghneng/rouge",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 65
+   },
+   "n_commits": 1024,
+   "n_python_files_added": 148,
+   "history_span_days": 179.5,
+   "n_ai": 31,
+   "n_human": 19,
+   "ai_density_mean": 67.70181553810797,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 16.99684286760164,
+   "hu_density_median": 0.0,
+   "ratio": 3.983199472130033,
+   "mannwhitney_p": 0.5844678097531256,
+   "cliffs_delta": 0.08149405772495766,
+   "ai_smell_share": {
+    "LongMethod": 0.3548387096774194,
+    "HighComplexity": 0.2903225806451613,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.03225806451612903,
+    "Duplicate": 0.3225806451612903
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.15151515151515152,
+    "HighComplexity": 0.15151515151515152,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.09090909090909091,
+    "LongParamList": 0.06060606060606061,
+    "DeepNesting": 0.06060606060606061,
+    "Duplicate": 0.48484848484848486
+   }
+  },
+  {
+   "repo": "Reedboot/Triage-Saurus",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 83
+   },
+   "n_commits": 1345,
+   "n_python_files_added": 263,
+   "history_span_days": 171.9,
+   "n_ai": 17,
+   "n_human": 19,
+   "ai_density_mean": 37.84648173734776,
+   "ai_density_median": 34.48275862068966,
+   "hu_density_mean": 28.229022533435035,
+   "hu_density_median": 0.0,
+   "ratio": 1.3406940212868372,
+   "mannwhitney_p": 0.03106797150533955,
+   "cliffs_delta": 0.4055727554179567,
+   "ai_smell_share": {
+    "LongMethod": 0.12280701754385964,
+    "HighComplexity": 0.3684210526315789,
+    "ComplexConditional": 0.017543859649122806,
+    "GodClass": 0.08771929824561403,
+    "LongParamList": 0.017543859649122806,
+    "DeepNesting": 0.22807017543859648,
+    "Duplicate": 0.15789473684210525
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.15625,
+    "HighComplexity": 0.4375,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0625,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.09375,
+    "Duplicate": 0.25
+   }
+  },
+  {
+   "repo": "rjmurillo/ai-agents",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Copilot": 269,
+    "Claude": 592,
+    "Cursor": 1
+   },
+   "n_commits": 2755,
+   "n_python_files_added": 1033,
+   "history_span_days": 226.9,
+   "n_ai": 80,
+   "n_human": 62,
+   "ai_density_mean": 41.365263787138794,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 60.3293681601302,
+   "hu_density_median": 0.0,
+   "ratio": 0.6856571691144581,
+   "mannwhitney_p": 0.23950001395343257,
+   "cliffs_delta": -0.08649193548387102,
+   "ai_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.18181818181818182,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.045454545454545456,
+    "LongParamList": 0.045454545454545456,
+    "DeepNesting": 0.045454545454545456,
+    "Duplicate": 0.6818181818181818
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.08108108108108109,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.02702702702702703,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.05405405405405406,
+    "Duplicate": 0.8378378378378378
+   }
+  },
+  {
+   "repo": "microsoft-foundry/foundry-samples",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 151
+   },
+   "n_commits": 2274,
+   "n_python_files_added": 436,
+   "history_span_days": 461.4,
+   "n_ai": 36,
+   "n_human": 45,
+   "ai_density_mean": 40.76779464089366,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 29.272740280482292,
+   "hu_density_median": 0.0,
+   "ratio": 1.3926880179398764,
+   "mannwhitney_p": 0.6116127460745727,
+   "cliffs_delta": 0.05308641975308648,
+   "ai_smell_share": {
+    "LongMethod": 0.061224489795918366,
+    "HighComplexity": 0.10204081632653061,
+    "ComplexConditional": 0.02040816326530612,
+    "GodClass": 0.04081632653061224,
+    "LongParamList": 0.061224489795918366,
+    "DeepNesting": 0.10204081632653061,
+    "Duplicate": 0.6122448979591837
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.14516129032258066,
+    "HighComplexity": 0.27419354838709675,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.06451612903225806,
+    "LongParamList": 0.016129032258064516,
+    "DeepNesting": 0.0967741935483871,
+    "Duplicate": 0.4032258064516129
+   }
+  },
+  {
+   "repo": "world-in-progress/c-two",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 99
+   },
+   "n_commits": 862,
+   "n_python_files_added": 241,
+   "history_span_days": 481.4,
+   "n_ai": 55,
+   "n_human": 28,
+   "ai_density_mean": 64.04315680558703,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 89.83270291382574,
+   "hu_density_median": 0.0,
+   "ratio": 0.7129158394245582,
+   "mannwhitney_p": 0.5292729263894804,
+   "cliffs_delta": 0.07792207792207795,
+   "ai_smell_share": {
+    "LongMethod": 0.17117117117117117,
+    "HighComplexity": 0.25225225225225223,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.07207207207207207,
+    "LongParamList": 0.036036036036036036,
+    "DeepNesting": 0.14414414414414414,
+    "Duplicate": 0.32432432432432434
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.19047619047619047,
+    "HighComplexity": 0.2698412698412698,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.06349206349206349,
+    "LongParamList": 0.047619047619047616,
+    "DeepNesting": 0.07936507936507936,
+    "Duplicate": 0.3492063492063492
+   }
+  },
+  {
+   "repo": "wparad/atelier",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 183,
+    "Claude": 23
+   },
+   "n_commits": 1144,
+   "n_python_files_added": 889,
+   "history_span_days": 67.7,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 31.39684163200955,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 14.375526511585742,
+   "hu_density_median": 0.0,
+   "ratio": 2.1840481186345233,
+   "mannwhitney_p": 0.18570689601318446,
+   "cliffs_delta": 0.09906250000000005,
+   "ai_smell_share": {
+    "LongMethod": 0.047619047619047616,
+    "HighComplexity": 0.22857142857142856,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.047619047619047616,
+    "LongParamList": 0.047619047619047616,
+    "DeepNesting": 0.06666666666666667,
+    "Duplicate": 0.5619047619047619
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.1111111111111111,
+    "HighComplexity": 0.2962962962962963,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.05555555555555555,
+    "LongParamList": 0.1111111111111111,
+    "DeepNesting": 0.07407407407407407,
+    "Duplicate": 0.35185185185185186
+   }
+  },
+  {
+   "repo": "tynamite/agentic-brain-T",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 216
+   },
+   "n_commits": 504,
+   "n_python_files_added": 1788,
+   "history_span_days": 14.1,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 21.144638126964136,
+   "ai_density_median": 13.92478676660636,
+   "hu_density_mean": 46.49039585197913,
+   "hu_density_median": 23.71875,
+   "ratio": 0.45481733892493825,
+   "mannwhitney_p": 0.011867964438528049,
+   "cliffs_delta": -0.22499999999999998,
+   "ai_smell_share": {
+    "LongMethod": 0.05714285714285714,
+    "HighComplexity": 0.20714285714285716,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.11428571428571428,
+    "LongParamList": 0.10714285714285714,
+    "DeepNesting": 0.16428571428571428,
+    "Duplicate": 0.35
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.12634408602150538,
+    "HighComplexity": 0.22849462365591397,
+    "ComplexConditional": 0.002688172043010753,
+    "GodClass": 0.06989247311827956,
+    "LongParamList": 0.06451612903225806,
+    "DeepNesting": 0.20698924731182797,
+    "Duplicate": 0.3010752688172043
+   }
+  },
+  {
+   "repo": "rpothin/pulumi-powerplatform",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 85
+   },
+   "n_commits": 183,
+   "n_python_files_added": 267,
+   "history_span_days": 105.5,
+   "n_ai": 58,
+   "n_human": 76,
+   "ai_density_mean": 34.11174594909532,
+   "ai_density_median": 4.310344827586206,
+   "hu_density_mean": 78.21272419279295,
+   "hu_density_median": 18.543956043956044,
+   "ratio": 0.4361406190763857,
+   "mannwhitney_p": 0.3572990562620516,
+   "cliffs_delta": -0.08802177858439197,
+   "ai_smell_share": {
+    "LongMethod": 0.056179775280898875,
+    "HighComplexity": 0.19101123595505617,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.06741573033707865,
+    "LongParamList": 0.21348314606741572,
+    "DeepNesting": 0.011235955056179775,
+    "Duplicate": 0.4606741573033708
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.06462585034013606,
+    "HighComplexity": 0.07482993197278912,
+    "ComplexConditional": 0.006802721088435374,
+    "GodClass": 0.04421768707482993,
+    "LongParamList": 0.061224489795918366,
+    "DeepNesting": 0.030612244897959183,
+    "Duplicate": 0.717687074829932
+   }
+  },
+  {
+   "repo": "Azure/azure-sdk-for-python",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 4298,
+    "Claude": 51
+   },
+   "n_commits": 51664,
+   "n_python_files_added": 118319,
+   "history_span_days": 5199.7,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 993.234803322867,
+   "ai_density_median": 66.5734933187892,
+   "hu_density_mean": 848.2564636710443,
+   "hu_density_median": 60.370370370370374,
+   "ratio": 1.1709133332440431,
+   "mannwhitney_p": 0.812240925509592,
+   "cliffs_delta": -0.02140624999999996,
+   "ai_smell_share": {
+    "LongMethod": 0.015440508628519528,
+    "HighComplexity": 0.025204359673024524,
+    "ComplexConditional": 0.00045413260672116256,
+    "GodClass": 0.004314259763851045,
+    "LongParamList": 0.01226158038147139,
+    "DeepNesting": 0.0036330608537693005,
+    "Duplicate": 0.9386920980926431
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.010617551462621885,
+    "HighComplexity": 0.017768147345612134,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.003466955579631636,
+    "LongParamList": 0.005417118093174431,
+    "DeepNesting": 0.0028169014084507044,
+    "Duplicate": 0.9599133261105092
+   }
+  },
+  {
+   "repo": "mitodl/ol-django",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 31
+   },
+   "n_commits": 843,
+   "n_python_files_added": 397,
+   "history_span_days": 2159.4,
+   "n_ai": 11,
+   "n_human": 23,
+   "ai_density_mean": 19.461476939482807,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 153.78651615704274,
+   "hu_density_median": 0.0,
+   "ratio": 0.12654865605778637,
+   "mannwhitney_p": 0.8111268925174777,
+   "cliffs_delta": 0.035573122529644285,
+   "ai_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.3333333333333333,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.6666666666666666
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.175,
+    "HighComplexity": 0.125,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.025,
+    "LongParamList": 0.1,
+    "DeepNesting": 0.125,
+    "Duplicate": 0.45
+   }
+  },
+  {
+   "repo": "deephaven/deephaven-mcp",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 35,
+    "Claude": 26
+   },
+   "n_commits": 162,
+   "n_python_files_added": 207,
+   "history_span_days": 452.5,
+   "n_ai": 21,
+   "n_human": 54,
+   "ai_density_mean": 38.873405177753,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 9.8581164148411,
+   "hu_density_median": 0.0,
+   "ratio": 3.9432893203848,
+   "mannwhitney_p": 0.3871864803541921,
+   "cliffs_delta": 0.09347442680776008,
+   "ai_smell_share": {
+    "LongMethod": 0.09090909090909091,
+    "HighComplexity": 0.18181818181818182,
+    "ComplexConditional": 0.09090909090909091,
+    "GodClass": 0.18181818181818182,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.18181818181818182,
+    "Duplicate": 0.2727272727272727
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.027777777777777776,
+    "HighComplexity": 0.08333333333333333,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.08333333333333333,
+    "LongParamList": 0.1111111111111111,
+    "DeepNesting": 0.05555555555555555,
+    "Duplicate": 0.6388888888888888
+   }
+  },
+  {
+   "repo": "Boykai/github-workflows",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 66
+   },
+   "n_commits": 519,
+   "n_python_files_added": 162,
+   "history_span_days": 146.9,
+   "n_ai": 34,
+   "n_human": 36,
+   "ai_density_mean": 12.124397557147713,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 43.44113252862591,
+   "hu_density_median": 0.0,
+   "ratio": 0.2790994813304703,
+   "mannwhitney_p": 0.048039412542914064,
+   "cliffs_delta": -0.23039215686274506,
+   "ai_smell_share": {
+    "LongMethod": 0.07692307692307693,
+    "HighComplexity": 0.23076923076923078,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.10256410256410256,
+    "LongParamList": 0.1282051282051282,
+    "DeepNesting": 0.1282051282051282,
+    "Duplicate": 0.3333333333333333
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.10550458715596331,
+    "HighComplexity": 0.1743119266055046,
+    "ComplexConditional": 0.01834862385321101,
+    "GodClass": 0.05045871559633028,
+    "LongParamList": 0.11009174311926606,
+    "DeepNesting": 0.09174311926605505,
+    "Duplicate": 0.44954128440366975
+   }
+  },
+  {
+   "repo": "wende/cicada",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Copilot": 50,
+    "Claude": 17
+   },
+   "n_commits": 515,
+   "n_python_files_added": 239,
+   "history_span_days": 270.0,
+   "n_ai": 30,
+   "n_human": 68,
+   "ai_density_mean": 18.690124141347727,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 31.158386210244952,
+   "hu_density_median": 19.25925925925926,
+   "ratio": 0.5998424955398483,
+   "mannwhitney_p": 0.34121481395881326,
+   "cliffs_delta": -0.11372549019607847,
+   "ai_smell_share": {
+    "LongMethod": 0.21428571428571427,
+    "HighComplexity": 0.3142857142857143,
+    "ComplexConditional": 0.04285714285714286,
+    "GodClass": 0.05714285714285714,
+    "LongParamList": 0.04285714285714286,
+    "DeepNesting": 0.22857142857142856,
+    "Duplicate": 0.1
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.14691943127962084,
+    "HighComplexity": 0.2985781990521327,
+    "ComplexConditional": 0.02843601895734597,
+    "GodClass": 0.09004739336492891,
+    "LongParamList": 0.061611374407582936,
+    "DeepNesting": 0.21800947867298578,
+    "Duplicate": 0.15639810426540285
+   }
+  },
+  {
+   "repo": "Krv-Labs/topos",
+   "dominant_agent": "Copilot",
+   "agent_commit_counts": {
+    "Claude": 48,
+    "Cursor": 2,
+    "Copilot": 117
+   },
+   "n_commits": 314,
+   "n_python_files_added": 231,
+   "history_span_days": 117.5,
+   "n_ai": 46,
+   "n_human": 10,
+   "ai_density_mean": 6.634869706952087,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 4.285714285714286,
+   "hu_density_median": 0.0,
+   "ratio": 1.548136264955487,
+   "mannwhitney_p": 0.9364845331328437,
+   "cliffs_delta": 0.010869565217391353,
+   "ai_smell_share": {
+    "LongMethod": 0.16666666666666666,
+    "HighComplexity": 0.5,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.3333333333333333
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.3333333333333333,
+    "ComplexConditional": 0.3333333333333333,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.3333333333333333,
+    "Duplicate": 0.0
+   }
+  },
+  {
+   "repo": "Arize-ai/phoenix",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 103,
+    "Copilot": 24,
+    "Cursor": 2
+   },
+   "n_commits": 14810,
+   "n_python_files_added": 1928,
+   "history_span_days": 1356.3,
+   "n_ai": 70,
+   "n_human": 80,
+   "ai_density_mean": 79.20859028425615,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 79.61178942270249,
+   "hu_density_median": 0.0,
+   "ratio": 0.9949354342947182,
+   "mannwhitney_p": 0.46298393552354034,
+   "cliffs_delta": -0.055714285714285716,
+   "ai_smell_share": {
+    "LongMethod": 0.021739130434782608,
+    "HighComplexity": 0.13043478260869565,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.043478260869565216,
+    "LongParamList": 0.08695652173913043,
+    "DeepNesting": 0.08695652173913043,
+    "Duplicate": 0.6304347826086957
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.03529411764705882,
+    "HighComplexity": 0.11764705882352941,
+    "ComplexConditional": 0.023529411764705882,
+    "GodClass": 0.047058823529411764,
+    "LongParamList": 0.09411764705882353,
+    "DeepNesting": 0.07058823529411765,
+    "Duplicate": 0.611764705882353
+   }
+  },
+  {
+   "repo": "DDD-Enterprises/dopemux-mvp",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 1336,
+    "Copilot": 112
+   },
+   "n_commits": 10070,
+   "n_python_files_added": 2590,
+   "history_span_days": 312.6,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 132.355352258192,
+   "ai_density_median": 12.5,
+   "hu_density_mean": 249.5233514159122,
+   "hu_density_median": 0.0,
+   "ratio": 0.5304327290698279,
+   "mannwhitney_p": 0.25118779378970346,
+   "cliffs_delta": 0.09609375000000009,
+   "ai_smell_share": {
+    "LongMethod": 0.08287292817679558,
+    "HighComplexity": 0.20441988950276244,
+    "ComplexConditional": 0.016574585635359115,
+    "GodClass": 0.027624309392265192,
+    "LongParamList": 0.022099447513812154,
+    "DeepNesting": 0.08839779005524862,
+    "Duplicate": 0.5580110497237569
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.08333333333333333,
+    "HighComplexity": 0.16025641025641027,
+    "ComplexConditional": 0.00641025641025641,
+    "GodClass": 0.03205128205128205,
+    "LongParamList": 0.15384615384615385,
+    "DeepNesting": 0.10897435897435898,
+    "Duplicate": 0.4551282051282051
+   }
+  },
+  {
+   "repo": "Chris-Lehnen-ICT-CONSULTING/Definitie-app-zakelijk",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 558
+   },
+   "n_commits": 1485,
+   "n_python_files_added": 865,
+   "history_span_days": 398.0,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 34.37848937909707,
+   "ai_density_median": 18.96799712333693,
+   "hu_density_mean": 24.736609553785204,
+   "hu_density_median": 22.72727272727273,
+   "ratio": 1.3897817849429759,
+   "mannwhitney_p": 0.9152645913996386,
+   "cliffs_delta": -0.00968749999999996,
+   "ai_smell_share": {
+    "LongMethod": 0.18018018018018017,
+    "HighComplexity": 0.28378378378378377,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.06756756756756757,
+    "LongParamList": 0.05405405405405406,
+    "DeepNesting": 0.18018018018018017,
+    "Duplicate": 0.23423423423423423
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.15263157894736842,
+    "HighComplexity": 0.33157894736842103,
+    "ComplexConditional": 0.005263157894736842,
+    "GodClass": 0.08947368421052632,
+    "LongParamList": 0.010526315789473684,
+    "DeepNesting": 0.24736842105263157,
+    "Duplicate": 0.1631578947368421
+   }
+  },
+  {
+   "repo": "codeflash-ai/codeflash",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 22
+   },
+   "n_commits": 6516,
+   "n_python_files_added": 2362,
+   "history_span_days": 940.3,
+   "n_ai": 16,
+   "n_human": 80,
+   "ai_density_mean": 13.457225434716355,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 71.04705712407522,
+   "hu_density_median": 24.393871783430015,
+   "ratio": 0.1894128480397846,
+   "mannwhitney_p": 0.04110801525160535,
+   "cliffs_delta": -0.30937499999999996,
+   "ai_smell_share": {
+    "LongMethod": 0.16216216216216217,
+    "HighComplexity": 0.2702702702702703,
+    "ComplexConditional": 0.02702702702702703,
+    "GodClass": 0.02702702702702703,
+    "LongParamList": 0.16216216216216217,
+    "DeepNesting": 0.16216216216216217,
+    "Duplicate": 0.1891891891891892
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.11063829787234042,
+    "HighComplexity": 0.2553191489361702,
+    "ComplexConditional": 0.0425531914893617,
+    "GodClass": 0.07234042553191489,
+    "LongParamList": 0.1829787234042553,
+    "DeepNesting": 0.1276595744680851,
+    "Duplicate": 0.20851063829787234
+   }
+  },
+  {
+   "repo": "KRRT7/codeflash",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 98
+   },
+   "n_commits": 6826,
+   "n_python_files_added": 2471,
+   "history_span_days": 872.7,
+   "n_ai": 35,
+   "n_human": 80,
+   "ai_density_mean": 121.44081834481419,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 99.99339429892528,
+   "hu_density_median": 25.859192525859193,
+   "ratio": 1.2144884089220225,
+   "mannwhitney_p": 0.010214800609868551,
+   "cliffs_delta": -0.28321428571428575,
+   "ai_smell_share": {
+    "LongMethod": 0.1111111111111111,
+    "HighComplexity": 0.18518518518518517,
+    "ComplexConditional": 0.018518518518518517,
+    "GodClass": 0.018518518518518517,
+    "LongParamList": 0.1111111111111111,
+    "DeepNesting": 0.1111111111111111,
+    "Duplicate": 0.4444444444444444
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.09006211180124224,
+    "HighComplexity": 0.20496894409937888,
+    "ComplexConditional": 0.037267080745341616,
+    "GodClass": 0.06521739130434782,
+    "LongParamList": 0.12732919254658384,
+    "DeepNesting": 0.12732919254658384,
+    "Duplicate": 0.34782608695652173
+   }
+  },
+  {
+   "repo": "OlympusLedgerOrg/Olympus",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 62,
+    "Copilot": 7
+   },
+   "n_commits": 2642,
+   "n_python_files_added": 266,
+   "history_span_days": 225.9,
+   "n_ai": 36,
+   "n_human": 75,
+   "ai_density_mean": 16.933665398123868,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 23.259995507573045,
+   "hu_density_median": 0.0,
+   "ratio": 0.7280167097457334,
+   "mannwhitney_p": 0.05352068994982588,
+   "cliffs_delta": 0.16888888888888887,
+   "ai_smell_share": {
+    "LongMethod": 0.075,
+    "HighComplexity": 0.175,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.05,
+    "LongParamList": 0.075,
+    "DeepNesting": 0.05,
+    "Duplicate": 0.575
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.05714285714285714,
+    "HighComplexity": 0.11428571428571428,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.05714285714285714,
+    "DeepNesting": 0.08571428571428572,
+    "Duplicate": 0.6857142857142857
+   }
+  },
+  {
+   "repo": "Tefx/Invar",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 155
+   },
+   "n_commits": 1987,
+   "n_python_files_added": 203,
+   "history_span_days": 116.0,
+   "n_ai": 77,
+   "n_human": 15,
+   "ai_density_mean": 14.759989968730077,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 52.606196441812884,
+   "hu_density_median": 0.0,
+   "ratio": 0.2805751216979911,
+   "mannwhitney_p": 0.11479551393330725,
+   "cliffs_delta": -0.20606060606060606,
+   "ai_smell_share": {
+    "LongMethod": 0.08163265306122448,
+    "HighComplexity": 0.1836734693877551,
+    "ComplexConditional": 0.02040816326530612,
+    "GodClass": 0.08163265306122448,
+    "LongParamList": 0.08163265306122448,
+    "DeepNesting": 0.1836734693877551,
+    "Duplicate": 0.3673469387755102
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.07692307692307693,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.07692307692307693,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.8461538461538461
+   }
+  },
+  {
+   "repo": "BoundaryML/baml",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Cursor": 14,
+    "Claude": 206
+   },
+   "n_commits": 5091,
+   "n_python_files_added": 1432,
+   "history_span_days": 1025.6,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 18.03107692624959,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 70.35187785886976,
+   "hu_density_median": 0.0,
+   "ratio": 0.2562984454007191,
+   "mannwhitney_p": 0.2287512570671305,
+   "cliffs_delta": -0.09296875000000004,
+   "ai_smell_share": {
+    "LongMethod": 0.06060606060606061,
+    "HighComplexity": 0.16666666666666666,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.07575757575757576,
+    "LongParamList": 0.19696969696969696,
+    "DeepNesting": 0.06060606060606061,
+    "Duplicate": 0.4393939393939394
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.003003003003003003,
+    "HighComplexity": 0.003003003003003003,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.006006006006006006,
+    "LongParamList": 0.006006006006006006,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.9819819819819819
+   }
+  },
+  {
+   "repo": "vishwak1002/myAIClone",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 14
+   },
+   "n_commits": 31,
+   "n_python_files_added": 34,
+   "history_span_days": 0.9,
+   "n_ai": 8,
+   "n_human": 11,
+   "ai_density_mean": 0.0,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 6.060606060606061,
+   "hu_density_median": 0.0,
+   "ratio": 0.0,
+   "mannwhitney_p": 0.45554509378932995,
+   "cliffs_delta": -0.09090909090909094,
+   "ai_smell_share": {},
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.5,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.5,
+    "Duplicate": 0.0
+   }
+  },
+  {
+   "repo": "substratum-labs/roche",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 27
+   },
+   "n_commits": 217,
+   "n_python_files_added": 50,
+   "history_span_days": 121.3,
+   "n_ai": 15,
+   "n_human": 12,
+   "ai_density_mean": 6.275378368401624,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 10.512003000750187,
+   "hu_density_median": 0.0,
+   "ratio": 0.5969726576327825,
+   "mannwhitney_p": 0.4284175052075009,
+   "cliffs_delta": -0.12777777777777777,
+   "ai_smell_share": {
+    "LongMethod": 0.2,
+    "HighComplexity": 0.2,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.2,
+    "DeepNesting": 0.4,
+    "Duplicate": 0.0
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.25,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.25,
+    "DeepNesting": 0.5,
+    "Duplicate": 0.0
+   }
+  },
+  {
+   "repo": "shenas-org/shenas",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 389,
+    "Copilot": 6
+   },
+   "n_commits": 2736,
+   "n_python_files_added": 460,
+   "history_span_days": 57.1,
+   "n_ai": 80,
+   "n_human": 41,
+   "ai_density_mean": 8.091173227435979,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 14.04682660483447,
+   "hu_density_median": 0.0,
+   "ratio": 0.5760143166180506,
+   "mannwhitney_p": 0.7953341528789382,
+   "cliffs_delta": -0.021646341463414598,
+   "ai_smell_share": {
+    "LongMethod": 0.25,
+    "HighComplexity": 0.325,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.025,
+    "LongParamList": 0.025,
+    "DeepNesting": 0.225,
+    "Duplicate": 0.15
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.13636363636363635,
+    "HighComplexity": 0.3181818181818182,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.045454545454545456,
+    "LongParamList": 0.18181818181818182,
+    "DeepNesting": 0.045454545454545456,
+    "Duplicate": 0.2727272727272727
+   }
+  },
+  {
+   "repo": "linyalan2000/data-news-radar",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 58
+   },
+   "n_commits": 64,
+   "n_python_files_added": 77,
+   "history_span_days": 70.7,
+   "n_ai": 20,
+   "n_human": 12,
+   "ai_density_mean": 10.978511825573118,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 100.70148002886407,
+   "hu_density_median": 24.695121951219512,
+   "ratio": 0.10902036218758997,
+   "mannwhitney_p": 0.060284039672808,
+   "cliffs_delta": -0.375,
+   "ai_smell_share": {
+    "LongMethod": 0.14285714285714285,
+    "HighComplexity": 0.2857142857142857,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.21428571428571427,
+    "DeepNesting": 0.07142857142857142,
+    "Duplicate": 0.2857142857142857
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.15789473684210525,
+    "HighComplexity": 0.3684210526315789,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.10526315789473684,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.21052631578947367,
+    "Duplicate": 0.15789473684210525
+   }
+  },
+  {
+   "repo": "Nireus79/Socratic-nexus",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 45
+   },
+   "n_commits": 246,
+   "n_python_files_added": 59,
+   "history_span_days": 65.3,
+   "n_ai": 17,
+   "n_human": 12,
+   "ai_density_mean": 38.59738724745512,
+   "ai_density_median": 19.23076923076923,
+   "hu_density_mean": 40.038690717931644,
+   "hu_density_median": 37.48831229546517,
+   "ratio": 0.9640022327245824,
+   "mannwhitney_p": 0.8542204794238659,
+   "cliffs_delta": -0.044117647058823484,
+   "ai_smell_share": {
+    "LongMethod": 0.017241379310344827,
+    "HighComplexity": 0.06896551724137931,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.034482758620689655,
+    "LongParamList": 0.05172413793103448,
+    "DeepNesting": 0.15517241379310345,
+    "Duplicate": 0.6724137931034483
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.037037037037037035,
+    "HighComplexity": 0.037037037037037035,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.037037037037037035,
+    "LongParamList": 0.007407407407407408,
+    "DeepNesting": 0.07407407407407407,
+    "Duplicate": 0.8074074074074075
+   }
+  },
+  {
+   "repo": "pragnition/RAPID",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 51
+   },
+   "n_commits": 2277,
+   "n_python_files_added": 83,
+   "history_span_days": 45.5,
+   "n_ai": 15,
+   "n_human": 16,
+   "ai_density_mean": 14.986225895316805,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 6.969746319928391,
+   "hu_density_median": 0.0,
+   "ratio": 2.1501824036933925,
+   "mannwhitney_p": 0.5098886793363169,
+   "cliffs_delta": -0.09999999999999998,
+   "ai_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.25,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.5,
+    "Duplicate": 0.25
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.11764705882352941,
+    "HighComplexity": 0.17647058823529413,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.11764705882352941,
+    "LongParamList": 0.11764705882352941,
+    "DeepNesting": 0.35294117647058826,
+    "Duplicate": 0.11764705882352941
+   }
+  },
+  {
+   "repo": "kabradshaw1/portfolio",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 82
+   },
+   "n_commits": 1871,
+   "n_python_files_added": 121,
+   "history_span_days": 114.1,
+   "n_ai": 34,
+   "n_human": 17,
+   "ai_density_mean": 6.986435681742078,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 9.575714646708562,
+   "hu_density_median": 0.0,
+   "ratio": 0.7295994021859777,
+   "mannwhitney_p": 0.3683356073272045,
+   "cliffs_delta": -0.10034602076124566,
+   "ai_smell_share": {
+    "LongMethod": 0.1111111111111111,
+    "HighComplexity": 0.1111111111111111,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.2222222222222222,
+    "Duplicate": 0.5555555555555556
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.1111111111111111,
+    "HighComplexity": 0.1111111111111111,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.1111111111111111,
+    "LongParamList": 0.2222222222222222,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.4444444444444444
+   }
+  },
+  {
+   "repo": "avishek-sen-gupta/red-dragon",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 444
+   },
+   "n_commits": 2236,
+   "n_python_files_added": 519,
+   "history_span_days": 137.2,
+   "n_ai": 80,
+   "n_human": 22,
+   "ai_density_mean": 88.43403697356806,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 2.457002457002457,
+   "hu_density_median": 0.0,
+   "ratio": 35.9926530482422,
+   "mannwhitney_p": 0.2331112521805061,
+   "cliffs_delta": 0.09375,
+   "ai_smell_share": {
+    "LongMethod": 0.02,
+    "HighComplexity": 0.02,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.02,
+    "DeepNesting": 0.02,
+    "Duplicate": 0.92
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.5,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.5,
+    "Duplicate": 0.0
+   }
+  },
+  {
+   "repo": "jotpalch/scholarship-system",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 43,
+    "Copilot": 1
+   },
+   "n_commits": 2041,
+   "n_python_files_added": 372,
+   "history_span_days": 349.8,
+   "n_ai": 12,
+   "n_human": 80,
+   "ai_density_mean": 74.44878983609519,
+   "ai_density_median": 19.186560565870913,
+   "hu_density_mean": 52.521012980680894,
+   "hu_density_median": 0.0,
+   "ratio": 1.4175048349406383,
+   "mannwhitney_p": 0.28594401394341484,
+   "cliffs_delta": 0.16979166666666656,
+   "ai_smell_share": {
+    "LongMethod": 0.05555555555555555,
+    "HighComplexity": 0.2222222222222222,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.16666666666666666,
+    "LongParamList": 0.05555555555555555,
+    "DeepNesting": 0.05555555555555555,
+    "Duplicate": 0.4444444444444444
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.07692307692307693,
+    "HighComplexity": 0.14903846153846154,
+    "ComplexConditional": 0.009615384615384616,
+    "GodClass": 0.028846153846153848,
+    "LongParamList": 0.08653846153846154,
+    "DeepNesting": 0.08173076923076923,
+    "Duplicate": 0.5673076923076923
+   }
+  },
+  {
+   "repo": "hallelx2/context8",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 27
+   },
+   "n_commits": 49,
+   "n_python_files_added": 53,
+   "history_span_days": 16.3,
+   "n_ai": 10,
+   "n_human": 10,
+   "ai_density_mean": 13.796451613712907,
+   "ai_density_median": 7.042253521126761,
+   "hu_density_mean": 7.8817733990147785,
+   "hu_density_median": 0.0,
+   "ratio": 1.7504247984898251,
+   "mannwhitney_p": 0.30771074846953017,
+   "cliffs_delta": 0.24,
+   "ai_smell_share": {
+    "LongMethod": 0.06666666666666667,
+    "HighComplexity": 0.13333333333333333,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.2,
+    "LongParamList": 0.06666666666666667,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.5333333333333333
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.25,
+    "HighComplexity": 0.375,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.25,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.125
+   }
+  },
+  {
+   "repo": "mitsuaki0321/maya-fake-tools",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 401
+   },
+   "n_commits": 727,
+   "n_python_files_added": 439,
+   "history_span_days": 262.7,
+   "n_ai": 80,
+   "n_human": 18,
+   "ai_density_mean": 32.26951659407738,
+   "ai_density_median": 9.907060006375831,
+   "hu_density_mean": 49.39563723763908,
+   "hu_density_median": 16.09664464308848,
+   "ratio": 0.6532867758913791,
+   "mannwhitney_p": 0.18045997001390224,
+   "cliffs_delta": -0.19791666666666663,
+   "ai_smell_share": {
+    "LongMethod": 0.2205128205128205,
+    "HighComplexity": 0.17435897435897435,
+    "ComplexConditional": 0.005128205128205128,
+    "GodClass": 0.09743589743589744,
+    "LongParamList": 0.02564102564102564,
+    "DeepNesting": 0.11794871794871795,
+    "Duplicate": 0.358974358974359
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.16279069767441862,
+    "HighComplexity": 0.16279069767441862,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.06976744186046512,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.13953488372093023,
+    "Duplicate": 0.46511627906976744
+   }
+  },
+  {
+   "repo": "anulum/scpn-quantum-control",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 65,
+    "Codex": 11
+   },
+   "n_commits": 3850,
+   "n_python_files_added": 2633,
+   "history_span_days": 150.6,
+   "n_ai": 25,
+   "n_human": 80,
+   "ai_density_mean": 2.7413979055770104,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 43.68051319209104,
+   "hu_density_median": 31.754032258064516,
+   "ratio": 0.06276020369818773,
+   "mannwhitney_p": 4.440249365453124e-06,
+   "cliffs_delta": -0.5745,
+   "ai_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.25,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.5,
+    "DeepNesting": 0.25,
+    "Duplicate": 0.0
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.03389830508474576,
+    "HighComplexity": 0.3813559322033898,
+    "ComplexConditional": 0.00847457627118644,
+    "GodClass": 0.0,
+    "LongParamList": 0.01694915254237288,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.559322033898305
+   }
+  },
+  {
+   "repo": "rieszreg/rieszreg",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 67
+   },
+   "n_commits": 215,
+   "n_python_files_added": 100,
+   "history_span_days": 11.3,
+   "n_ai": 32,
+   "n_human": 18,
+   "ai_density_mean": 39.325921982260866,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 9.610438429882874,
+   "hu_density_median": 0.0,
+   "ratio": 4.092000824851041,
+   "mannwhitney_p": 0.1225174884979999,
+   "cliffs_delta": 0.22569444444444442,
+   "ai_smell_share": {
+    "LongMethod": 0.11764705882352941,
+    "HighComplexity": 0.11764705882352941,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.35294117647058826,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.4117647058823529
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.25,
+    "HighComplexity": 0.25,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.375,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.125
+   }
+  },
+  {
+   "repo": "bobmatnyc/claude-mpm",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 1249
+   },
+   "n_commits": 6628,
+   "n_python_files_added": 1893,
+   "history_span_days": 367.9,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 29.202693686437378,
+   "ai_density_median": 25.051975051975052,
+   "hu_density_mean": 30.537160787979985,
+   "hu_density_median": 31.088917525773198,
+   "ratio": 0.9563002234946518,
+   "mannwhitney_p": 0.12484004061501727,
+   "cliffs_delta": -0.1378125,
+   "ai_smell_share": {
+    "LongMethod": 0.22674418604651161,
+    "HighComplexity": 0.29069767441860467,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.08139534883720931,
+    "LongParamList": 0.011627906976744186,
+    "DeepNesting": 0.19767441860465115,
+    "Duplicate": 0.19186046511627908
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.1712538226299694,
+    "HighComplexity": 0.24464831804281345,
+    "ComplexConditional": 0.01834862385321101,
+    "GodClass": 0.09174311926605505,
+    "LongParamList": 0.03058103975535168,
+    "DeepNesting": 0.20489296636085627,
+    "Duplicate": 0.23853211009174313
+   }
+  },
+  {
+   "repo": "PSU-CSAR/snowtool",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 51
+   },
+   "n_commits": 502,
+   "n_python_files_added": 136,
+   "history_span_days": 209.6,
+   "n_ai": 21,
+   "n_human": 41,
+   "ai_density_mean": 6.519577004309306,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 28.759536067676642,
+   "hu_density_median": 0.0,
+   "ratio": 0.22669270425529484,
+   "mannwhitney_p": 0.9821803791400052,
+   "cliffs_delta": 0.0034843205574912606,
+   "ai_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.2727272727272727,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.18181818181818182,
+    "LongParamList": 0.09090909090909091,
+    "DeepNesting": 0.36363636363636365,
+    "Duplicate": 0.09090909090909091
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.08333333333333333,
+    "HighComplexity": 0.08333333333333333,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.3333333333333333,
+    "DeepNesting": 0.08333333333333333,
+    "Duplicate": 0.4166666666666667
+   }
+  },
+  {
+   "repo": "NathanKrupa/gaudi",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 632
+   },
+   "n_commits": 171,
+   "n_python_files_added": 684,
+   "history_span_days": 108.9,
+   "n_ai": 80,
+   "n_human": 14,
+   "ai_density_mean": 31.72297260657545,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 74.84103561802874,
+   "hu_density_median": 47.16981132075472,
+   "ratio": 0.4238713741012635,
+   "mannwhitney_p": 5.952465505520897e-05,
+   "cliffs_delta": -0.43125,
+   "ai_smell_share": {
+    "LongMethod": 0.043478260869565216,
+    "HighComplexity": 0.13043478260869565,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.08695652173913043,
+    "Duplicate": 0.7391304347826086
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.046511627906976744,
+    "HighComplexity": 0.20930232558139536,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.13953488372093023,
+    "Duplicate": 0.6046511627906976
+   }
+  },
+  {
+   "repo": "abh2technology/ruview",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 79
+   },
+   "n_commits": 2058,
+   "n_python_files_added": 208,
+   "history_span_days": 415.5,
+   "n_ai": 35,
+   "n_human": 13,
+   "ai_density_mean": 13.332763043150711,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 9.290504530982144,
+   "hu_density_median": 0.0,
+   "ratio": 1.4350956935318604,
+   "mannwhitney_p": 0.9135518690555098,
+   "cliffs_delta": 0.01978021978021971,
+   "ai_smell_share": {
+    "LongMethod": 0.13333333333333333,
+    "HighComplexity": 0.3,
+    "ComplexConditional": 0.03333333333333333,
+    "GodClass": 0.06666666666666667,
+    "LongParamList": 0.13333333333333333,
+    "DeepNesting": 0.23333333333333334,
+    "Duplicate": 0.1
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.28,
+    "HighComplexity": 0.16,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.04,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.08,
+    "Duplicate": 0.44
+   }
+  },
+  {
+   "repo": "minhquy017/Ruview",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 74
+   },
+   "n_commits": 1091,
+   "n_python_files_added": 195,
+   "history_span_days": 416.2,
+   "n_ai": 31,
+   "n_human": 13,
+   "ai_density_mean": 15.053119564847576,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 9.290504530982144,
+   "hu_density_median": 0.0,
+   "ratio": 1.620269331406939,
+   "mannwhitney_p": 0.6813242217594042,
+   "cliffs_delta": 0.07196029776674928,
+   "ai_smell_share": {
+    "LongMethod": 0.13333333333333333,
+    "HighComplexity": 0.3,
+    "ComplexConditional": 0.03333333333333333,
+    "GodClass": 0.06666666666666667,
+    "LongParamList": 0.13333333333333333,
+    "DeepNesting": 0.23333333333333334,
+    "Duplicate": 0.1
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.28,
+    "HighComplexity": 0.16,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.04,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.08,
+    "Duplicate": 0.44
+   }
+  },
+  {
+   "repo": "PauloRicardoSM/RuView-UFC-Research",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 79
+   },
+   "n_commits": 1011,
+   "n_python_files_added": 201,
+   "history_span_days": 395.4,
+   "n_ai": 35,
+   "n_human": 9,
+   "ai_density_mean": 13.332763043150711,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 6.540520485503789,
+   "hu_density_median": 0.0,
+   "ratio": 2.038486550527751,
+   "mannwhitney_p": 0.44914242343841837,
+   "cliffs_delta": 0.13968253968253963,
+   "ai_smell_share": {
+    "LongMethod": 0.13333333333333333,
+    "HighComplexity": 0.3,
+    "ComplexConditional": 0.03333333333333333,
+    "GodClass": 0.06666666666666667,
+    "LongParamList": 0.13333333333333333,
+    "DeepNesting": 0.23333333333333334,
+    "Duplicate": 0.1
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.2777777777777778,
+    "HighComplexity": 0.1111111111111111,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.05555555555555555,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.5555555555555556
+   }
+  },
+  {
+   "repo": "D-sorganization/zzz_Golf_GAAI_Sandbox",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 413,
+    "Codex": 7,
+    "Copilot": 8
+   },
+   "n_commits": 2564,
+   "n_python_files_added": 1643,
+   "history_span_days": 124.3,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 35.600123516380876,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 28.530315877580744,
+   "hu_density_median": 10.766563944530049,
+   "ratio": 1.2477998375179442,
+   "mannwhitney_p": 0.437455571755618,
+   "cliffs_delta": -0.06734375000000004,
+   "ai_smell_share": {
+    "LongMethod": 0.1554054054054054,
+    "HighComplexity": 0.20945945945945946,
+    "ComplexConditional": 0.02702702702702703,
+    "GodClass": 0.08783783783783784,
+    "LongParamList": 0.0472972972972973,
+    "DeepNesting": 0.14189189189189189,
+    "Duplicate": 0.3310810810810811
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.10465116279069768,
+    "HighComplexity": 0.2364341085271318,
+    "ComplexConditional": 0.011627906976744186,
+    "GodClass": 0.10077519379844961,
+    "LongParamList": 0.08914728682170543,
+    "DeepNesting": 0.17054263565891473,
+    "Duplicate": 0.2868217054263566
+   }
+  },
+  {
+   "repo": "Diyasshettyyyy/RuView",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 79
+   },
+   "n_commits": 1022,
+   "n_python_files_added": 201,
+   "history_span_days": 408.2,
+   "n_ai": 35,
+   "n_human": 13,
+   "ai_density_mean": 13.332763043150711,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 9.290504530982144,
+   "hu_density_median": 0.0,
+   "ratio": 1.4350956935318604,
+   "mannwhitney_p": 0.9135518690555098,
+   "cliffs_delta": 0.01978021978021971,
+   "ai_smell_share": {
+    "LongMethod": 0.13333333333333333,
+    "HighComplexity": 0.3,
+    "ComplexConditional": 0.03333333333333333,
+    "GodClass": 0.06666666666666667,
+    "LongParamList": 0.13333333333333333,
+    "DeepNesting": 0.23333333333333334,
+    "Duplicate": 0.1
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.28,
+    "HighComplexity": 0.16,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.04,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.08,
+    "Duplicate": 0.44
+   }
+  },
+  {
+   "repo": "heledmx-lab/RUVIEW",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 79
+   },
+   "n_commits": 1913,
+   "n_python_files_added": 202,
+   "history_span_days": 405.8,
+   "n_ai": 35,
+   "n_human": 13,
+   "ai_density_mean": 13.332763043150711,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 9.290504530982144,
+   "hu_density_median": 0.0,
+   "ratio": 1.4350956935318604,
+   "mannwhitney_p": 0.9135518690555098,
+   "cliffs_delta": 0.01978021978021971,
+   "ai_smell_share": {
+    "LongMethod": 0.13333333333333333,
+    "HighComplexity": 0.3,
+    "ComplexConditional": 0.03333333333333333,
+    "GodClass": 0.06666666666666667,
+    "LongParamList": 0.13333333333333333,
+    "DeepNesting": 0.23333333333333334,
+    "Duplicate": 0.1
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.28,
+    "HighComplexity": 0.16,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.04,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.08,
+    "Duplicate": 0.44
+   }
+  },
+  {
+   "repo": "D-sorganization/UpstreamDrift",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 1925,
+    "Codex": 75,
+    "Copilot": 8
+   },
+   "n_commits": 7519,
+   "n_python_files_added": 3878,
+   "history_span_days": 223.5,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 20.926331340016212,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 50.2605552043852,
+   "hu_density_median": 0.0,
+   "ratio": 0.41635694740973345,
+   "mannwhitney_p": 0.25213734254897735,
+   "cliffs_delta": 0.08515625000000004,
+   "ai_smell_share": {
+    "LongMethod": 0.1267605633802817,
+    "HighComplexity": 0.07042253521126761,
+    "ComplexConditional": 0.09859154929577464,
+    "GodClass": 0.09859154929577464,
+    "LongParamList": 0.18309859154929578,
+    "DeepNesting": 0.028169014084507043,
+    "Duplicate": 0.39436619718309857
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.1509433962264151,
+    "HighComplexity": 0.22641509433962265,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.09433962264150944,
+    "LongParamList": 0.018867924528301886,
+    "DeepNesting": 0.1509433962264151,
+    "Duplicate": 0.3584905660377358
+   }
+  },
+  {
+   "repo": "Abhijit4001/WIFI-SIM",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 79
+   },
+   "n_commits": 1091,
+   "n_python_files_added": 201,
+   "history_span_days": 416.4,
+   "n_ai": 35,
+   "n_human": 13,
+   "ai_density_mean": 13.332763043150711,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 9.290504530982144,
+   "hu_density_median": 0.0,
+   "ratio": 1.4350956935318604,
+   "mannwhitney_p": 0.9135518690555098,
+   "cliffs_delta": 0.01978021978021971,
+   "ai_smell_share": {
+    "LongMethod": 0.13333333333333333,
+    "HighComplexity": 0.3,
+    "ComplexConditional": 0.03333333333333333,
+    "GodClass": 0.06666666666666667,
+    "LongParamList": 0.13333333333333333,
+    "DeepNesting": 0.23333333333333334,
+    "Duplicate": 0.1
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.28,
+    "HighComplexity": 0.16,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.04,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.08,
+    "Duplicate": 0.44
+   }
+  },
+  {
+   "repo": "mfriedlander-max/Max_Workflow_Template",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 48
+   },
+   "n_commits": 197,
+   "n_python_files_added": 73,
+   "history_span_days": 5.7,
+   "n_ai": 27,
+   "n_human": 8,
+   "ai_density_mean": 26.861511843223276,
+   "ai_density_median": 14.285714285714285,
+   "hu_density_mean": 20.982142857142858,
+   "hu_density_median": 0.0,
+   "ratio": 1.2802082240174497,
+   "mannwhitney_p": 0.1885603038796566,
+   "cliffs_delta": 0.2962962962962963,
+   "ai_smell_share": {
+    "LongMethod": 0.07692307692307693,
+    "HighComplexity": 0.2564102564102564,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.07692307692307693,
+    "LongParamList": 0.05128205128205128,
+    "DeepNesting": 0.23076923076923078,
+    "Duplicate": 0.3076923076923077
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.5,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.5
+   }
+  },
+  {
+   "repo": "mknutso-2/CLISpecBench",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 34
+   },
+   "n_commits": 585,
+   "n_python_files_added": 65,
+   "history_span_days": 112.9,
+   "n_ai": 20,
+   "n_human": 9,
+   "ai_density_mean": 15.078027001802173,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 34.828272943438655,
+   "hu_density_median": 0.0,
+   "ratio": 0.43292491207614536,
+   "mannwhitney_p": 0.5298275867805935,
+   "cliffs_delta": -0.12222222222222223,
+   "ai_smell_share": {
+    "LongMethod": 0.25,
+    "HighComplexity": 0.2857142857142857,
+    "ComplexConditional": 0.03571428571428571,
+    "GodClass": 0.03571428571428571,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.17857142857142858,
+    "Duplicate": 0.21428571428571427
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.05263157894736842,
+    "HighComplexity": 0.15789473684210525,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.10526315789473684,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.15789473684210525,
+    "Duplicate": 0.5263157894736842
+   }
+  },
+  {
+   "repo": "bbartling/py-bacnet-stacks-playground",
+   "dominant_agent": "Cursor",
+   "agent_commit_counts": {
+    "Cursor": 1279
+   },
+   "n_commits": 381,
+   "n_python_files_added": 4442,
+   "history_span_days": 181.1,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 33.49144772768348,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 183.17777050020922,
+   "hu_density_median": 52.61104015893288,
+   "ratio": 0.18283576460302658,
+   "mannwhitney_p": 1.8006971668232637e-11,
+   "cliffs_delta": -0.569375,
+   "ai_smell_share": {
+    "LongMethod": 0.056338028169014086,
+    "HighComplexity": 0.14084507042253522,
+    "ComplexConditional": 0.014084507042253521,
+    "GodClass": 0.028169014084507043,
+    "LongParamList": 0.07042253521126761,
+    "DeepNesting": 0.028169014084507043,
+    "Duplicate": 0.6619718309859155
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.04451038575667656,
+    "HighComplexity": 0.06602373887240356,
+    "ComplexConditional": 0.000741839762611276,
+    "GodClass": 0.020771513353115726,
+    "LongParamList": 0.019287833827893175,
+    "DeepNesting": 0.040059347181008904,
+    "Duplicate": 0.8086053412462908
+   }
+  },
+  {
+   "repo": "SamPrimeaux/inneranimalmedia",
+   "dominant_agent": "Cursor",
+   "agent_commit_counts": {
+    "Cursor": 273
+   },
+   "n_commits": 3589,
+   "n_python_files_added": 489,
+   "history_span_days": 230.9,
+   "n_ai": 80,
+   "n_human": 25,
+   "ai_density_mean": 63.60460096380491,
+   "ai_density_median": 38.46153846153846,
+   "hu_density_mean": 35.33333333333333,
+   "hu_density_median": 0.0,
+   "ratio": 1.8001302159567432,
+   "mannwhitney_p": 0.0003464356545601748,
+   "cliffs_delta": 0.4424999999999999,
+   "ai_smell_share": {
+    "LongMethod": 0.09772727272727273,
+    "HighComplexity": 0.21136363636363636,
+    "ComplexConditional": 0.09545454545454546,
+    "GodClass": 0.038636363636363635,
+    "LongParamList": 0.10454545454545454,
+    "DeepNesting": 0.15227272727272728,
+    "Duplicate": 0.3
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.14285714285714285,
+    "HighComplexity": 0.14285714285714285,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.14285714285714285,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.14285714285714285,
+    "Duplicate": 0.42857142857142855
+   }
+  },
+  {
+   "repo": "yunkeji2026/telegram-mtproto-ai",
+   "dominant_agent": "Cursor",
+   "agent_commit_counts": {
+    "Cursor": 229,
+    "Claude": 25
+   },
+   "n_commits": 341,
+   "n_python_files_added": 713,
+   "history_span_days": 79.3,
+   "n_ai": 78,
+   "n_human": 80,
+   "ai_density_mean": 33.17868733113354,
+   "ai_density_median": 19.237883832778394,
+   "hu_density_mean": 32.90295326285081,
+   "hu_density_median": 25.083787180561373,
+   "ratio": 1.0083802224706087,
+   "mannwhitney_p": 0.4411732156625555,
+   "cliffs_delta": -0.0690705128205128,
+   "ai_smell_share": {
+    "LongMethod": 0.10285714285714286,
+    "HighComplexity": 0.4342857142857143,
+    "ComplexConditional": 0.017142857142857144,
+    "GodClass": 0.10857142857142857,
+    "LongParamList": 0.09714285714285714,
+    "DeepNesting": 0.10285714285714286,
+    "Duplicate": 0.13714285714285715
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.18930041152263374,
+    "HighComplexity": 0.36213991769547327,
+    "ComplexConditional": 0.0205761316872428,
+    "GodClass": 0.09465020576131687,
+    "LongParamList": 0.11934156378600823,
+    "DeepNesting": 0.102880658436214,
+    "Duplicate": 0.1111111111111111
+   }
+  },
+  {
+   "repo": "PaulSff/ai-taskvector",
+   "dominant_agent": "Cursor",
+   "agent_commit_counts": {
+    "Cursor": 120
+   },
+   "n_commits": 743,
+   "n_python_files_added": 816,
+   "history_span_days": 190.2,
+   "n_ai": 21,
+   "n_human": 57,
+   "ai_density_mean": 41.73338581834227,
+   "ai_density_median": 21.27659574468085,
+   "hu_density_mean": 72.23331411441364,
+   "hu_density_median": 17.543859649122805,
+   "ratio": 0.5777581484388056,
+   "mannwhitney_p": 0.9348640897708015,
+   "cliffs_delta": -0.01253132832080206,
+   "ai_smell_share": {
+    "LongMethod": 0.16666666666666666,
+    "HighComplexity": 0.4,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.06666666666666667,
+    "LongParamList": 0.23333333333333334,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.13333333333333333
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.12244897959183673,
+    "HighComplexity": 0.1326530612244898,
+    "ComplexConditional": 0.04081632653061224,
+    "GodClass": 0.07142857142857142,
+    "LongParamList": 0.12244897959183673,
+    "DeepNesting": 0.09183673469387756,
+    "Duplicate": 0.41836734693877553
+   }
+  },
+  {
+   "repo": "sethdford/h-uman",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 70,
+    "Cursor": 7
+   },
+   "n_commits": 4029,
+   "n_python_files_added": 188,
+   "history_span_days": 161.2,
+   "n_ai": 9,
+   "n_human": 10,
+   "ai_density_mean": 6.5359477124183005,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 8.544508478731434,
+   "hu_density_median": 5.208333333333333,
+   "ratio": 0.7649296303804083,
+   "mannwhitney_p": 0.15129459569749676,
+   "cliffs_delta": -0.33333333333333337,
+   "ai_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.0,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.0,
+    "Duplicate": 1.0
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.4,
+    "HighComplexity": 0.4,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.2
+   }
+  },
+  {
+   "repo": "amirbiron/CodeBot",
+   "dominant_agent": "Cursor",
+   "agent_commit_counts": {
+    "Claude": 46,
+    "Cursor": 185,
+    "Copilot": 21
+   },
+   "n_commits": 7921,
+   "n_python_files_added": 335,
+   "history_span_days": 355.2,
+   "n_ai": 80,
+   "n_human": 33,
+   "ai_density_mean": 21.872732848282926,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 34.451944292854975,
+   "hu_density_median": 24.096385542168672,
+   "ratio": 0.6348765881645505,
+   "mannwhitney_p": 0.07974391673412125,
+   "cliffs_delta": -0.19810606060606062,
+   "ai_smell_share": {
+    "LongMethod": 0.1518987341772152,
+    "HighComplexity": 0.31223628691983124,
+    "ComplexConditional": 0.004219409282700422,
+    "GodClass": 0.10548523206751055,
+    "LongParamList": 0.05907172995780591,
+    "DeepNesting": 0.189873417721519,
+    "Duplicate": 0.17721518987341772
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.18532818532818532,
+    "HighComplexity": 0.23166023166023167,
+    "ComplexConditional": 0.007722007722007722,
+    "GodClass": 0.05405405405405406,
+    "LongParamList": 0.011583011583011582,
+    "DeepNesting": 0.1776061776061776,
+    "Duplicate": 0.33204633204633205
+   }
+  },
+  {
+   "repo": "cisco-ai-defense/mcp-scanner",
+   "dominant_agent": "Cursor",
+   "agent_commit_counts": {
+    "Cursor": 46,
+    "Claude": 1
+   },
+   "n_commits": 262,
+   "n_python_files_added": 550,
+   "history_span_days": 301.8,
+   "n_ai": 21,
+   "n_human": 25,
+   "ai_density_mean": 300.66109508032326,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 58.49457402562678,
+   "hu_density_median": 36.390101892285294,
+   "ratio": 5.139982640930115,
+   "mannwhitney_p": 0.018537255065947993,
+   "cliffs_delta": -0.4,
+   "ai_smell_share": {
+    "LongMethod": 0.16326530612244897,
+    "HighComplexity": 0.32653061224489793,
+    "ComplexConditional": 0.01020408163265306,
+    "GodClass": 0.04081632653061224,
+    "LongParamList": 0.061224489795918366,
+    "DeepNesting": 0.22448979591836735,
+    "Duplicate": 0.17346938775510204
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.13793103448275862,
+    "HighComplexity": 0.28448275862068967,
+    "ComplexConditional": 0.008620689655172414,
+    "GodClass": 0.09482758620689655,
+    "LongParamList": 0.017241379310344827,
+    "DeepNesting": 0.31896551724137934,
+    "Duplicate": 0.13793103448275862
+   }
+  },
+  {
+   "repo": "kernel/cli",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 10,
+    "Cursor": 4
+   },
+   "n_commits": 401,
+   "n_python_files_added": 82,
+   "history_span_days": 440.1,
+   "n_ai": 13,
+   "n_human": 43,
+   "ai_density_mean": 42.46609533495146,
+   "ai_density_median": 28.037383177570096,
+   "hu_density_mean": 31.18753427464266,
+   "hu_density_median": 0.0,
+   "ratio": 1.361636830952646,
+   "mannwhitney_p": 0.3911937029044191,
+   "cliffs_delta": 0.14847942754919496,
+   "ai_smell_share": {
+    "LongMethod": 0.25,
+    "HighComplexity": 0.25,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.041666666666666664,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.3333333333333333,
+    "Duplicate": 0.125
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.13432835820895522,
+    "HighComplexity": 0.22388059701492538,
+    "ComplexConditional": 0.04477611940298507,
+    "GodClass": 0.05970149253731343,
+    "LongParamList": 0.029850746268656716,
+    "DeepNesting": 0.29850746268656714,
+    "Duplicate": 0.208955223880597
+   }
+  },
+  {
+   "repo": "giak/mnemo-lite",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 166
+   },
+   "n_commits": 744,
+   "n_python_files_added": 290,
+   "history_span_days": 354.3,
+   "n_ai": 80,
+   "n_human": 27,
+   "ai_density_mean": 36.922125142957626,
+   "ai_density_median": 20.833333333333332,
+   "hu_density_mean": 24.51143832702881,
+   "hu_density_median": 0.0,
+   "ratio": 1.50632225862664,
+   "mannwhitney_p": 0.11406314067438625,
+   "cliffs_delta": 0.19166666666666665,
+   "ai_smell_share": {
+    "LongMethod": 0.14594594594594595,
+    "HighComplexity": 0.20540540540540542,
+    "ComplexConditional": 0.005405405405405406,
+    "GodClass": 0.03783783783783784,
+    "LongParamList": 0.05945945945945946,
+    "DeepNesting": 0.1837837837837838,
+    "Duplicate": 0.3621621621621622
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.1111111111111111,
+    "HighComplexity": 0.2777777777777778,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.05555555555555555,
+    "LongParamList": 0.16666666666666666,
+    "DeepNesting": 0.1388888888888889,
+    "Duplicate": 0.25
+   }
+  },
+  {
+   "repo": "agentbay-ai/wuying-agentbay-sdk",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 129
+   },
+   "n_commits": 2109,
+   "n_python_files_added": 855,
+   "history_span_days": 378.7,
+   "n_ai": 37,
+   "n_human": 80,
+   "ai_density_mean": 15.109623806118167,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 27.134402476204293,
+   "hu_density_median": 0.0,
+   "ratio": 0.5568438007569416,
+   "mannwhitney_p": 0.622560032473876,
+   "cliffs_delta": -0.05033783783783785,
+   "ai_smell_share": {
+    "LongMethod": 0.16,
+    "HighComplexity": 0.28,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.04,
+    "LongParamList": 0.01,
+    "DeepNesting": 0.13,
+    "Duplicate": 0.38
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.1732283464566929,
+    "HighComplexity": 0.25984251968503935,
+    "ComplexConditional": 0.031496062992125984,
+    "GodClass": 0.047244094488188976,
+    "LongParamList": 0.14173228346456693,
+    "DeepNesting": 0.11023622047244094,
+    "Duplicate": 0.23622047244094488
+   }
+  },
+  {
+   "repo": "Max-Moro/lg-cli",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 145
+   },
+   "n_commits": 1352,
+   "n_python_files_added": 543,
+   "history_span_days": 279.6,
+   "n_ai": 80,
+   "n_human": 10,
+   "ai_density_mean": 14.055285401529085,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 19.435630914759773,
+   "hu_density_median": 12.820512820512821,
+   "ratio": 0.7231710389630441,
+   "mannwhitney_p": 0.14289166309447346,
+   "cliffs_delta": -0.23250000000000004,
+   "ai_smell_share": {
+    "LongMethod": 0.15789473684210525,
+    "HighComplexity": 0.2631578947368421,
+    "ComplexConditional": 0.013157894736842105,
+    "GodClass": 0.05263157894736842,
+    "LongParamList": 0.11842105263157894,
+    "DeepNesting": 0.21052631578947367,
+    "Duplicate": 0.18421052631578946
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.16666666666666666,
+    "HighComplexity": 0.2916666666666667,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.041666666666666664,
+    "LongParamList": 0.125,
+    "DeepNesting": 0.25,
+    "Duplicate": 0.125
+   }
+  },
+  {
+   "repo": "emmilco/claude-memory-server",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 161
+   },
+   "n_commits": 672,
+   "n_python_files_added": 236,
+   "history_span_days": 17.0,
+   "n_ai": 80,
+   "n_human": 22,
+   "ai_density_mean": 39.89184016691081,
+   "ai_density_median": 32.71901709401709,
+   "hu_density_mean": 20.171643441774805,
+   "hu_density_median": 20.730397422126746,
+   "ratio": 1.9776197354498213,
+   "mannwhitney_p": 0.0022745329820875637,
+   "cliffs_delta": 0.42613636363636354,
+   "ai_smell_share": {
+    "LongMethod": 0.12169312169312169,
+    "HighComplexity": 0.20634920634920634,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.06878306878306878,
+    "LongParamList": 0.06878306878306878,
+    "DeepNesting": 0.19047619047619047,
+    "Duplicate": 0.3439153439153439
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.09433962264150944,
+    "HighComplexity": 0.33962264150943394,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.11320754716981132,
+    "LongParamList": 0.07547169811320754,
+    "DeepNesting": 0.1509433962264151,
+    "Duplicate": 0.22641509433962265
+   }
+  },
+  {
+   "repo": "VISHNU0906/vulnerability-scanner",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 15435
+   },
+   "n_commits": 45,
+   "n_python_files_added": 15482,
+   "history_span_days": 38.5,
+   "n_ai": 80,
+   "n_human": 26,
+   "ai_density_mean": 15.01928752082739,
+   "ai_density_median": 11.431347150259068,
+   "hu_density_mean": 9.38382506855072,
+   "hu_density_median": 0.0,
+   "ratio": 1.6005506721521863,
+   "mannwhitney_p": 0.028516522139059218,
+   "cliffs_delta": 0.26875000000000004,
+   "ai_smell_share": {
+    "LongMethod": 0.19298245614035087,
+    "HighComplexity": 0.2894736842105263,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.10526315789473684,
+    "LongParamList": 0.043859649122807015,
+    "DeepNesting": 0.35964912280701755,
+    "Duplicate": 0.008771929824561403
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.25,
+    "HighComplexity": 0.35,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.05,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.35,
+    "Duplicate": 0.0
+   }
+  },
+  {
+   "repo": "fabceolin/the_edge_agent",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 93
+   },
+   "n_commits": 721,
+   "n_python_files_added": 317,
+   "history_span_days": 621.1,
+   "n_ai": 58,
+   "n_human": 76,
+   "ai_density_mean": 74.18559013163112,
+   "ai_density_median": 38.66990472632169,
+   "hu_density_mean": 217.14179648596195,
+   "hu_density_median": 36.60714285714286,
+   "ratio": 0.3416458338845288,
+   "mannwhitney_p": 0.5573212428352754,
+   "cliffs_delta": 0.058529945553539076,
+   "ai_smell_share": {
+    "LongMethod": 0.12955465587044535,
+    "HighComplexity": 0.20647773279352227,
+    "ComplexConditional": 0.004048582995951417,
+    "GodClass": 0.06072874493927125,
+    "LongParamList": 0.05668016194331984,
+    "DeepNesting": 0.1862348178137652,
+    "Duplicate": 0.3562753036437247
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.07575757575757576,
+    "HighComplexity": 0.15824915824915825,
+    "ComplexConditional": 0.0016835016835016834,
+    "GodClass": 0.04882154882154882,
+    "LongParamList": 0.04377104377104377,
+    "DeepNesting": 0.13804713804713806,
+    "Duplicate": 0.5336700336700336
+   }
+  },
+  {
+   "repo": "dvschultz/algorithmic-filmmaking",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 195
+   },
+   "n_commits": 733,
+   "n_python_files_added": 287,
+   "history_span_days": 121.8,
+   "n_ai": 80,
+   "n_human": 47,
+   "ai_density_mean": 21.68452455628426,
+   "ai_density_median": 11.081097673276444,
+   "hu_density_mean": 15.973374961533938,
+   "hu_density_median": 0.0,
+   "ratio": 1.3575418224704263,
+   "mannwhitney_p": 0.196230808497872,
+   "cliffs_delta": 0.13085106382978728,
+   "ai_smell_share": {
+    "LongMethod": 0.36363636363636365,
+    "HighComplexity": 0.21212121212121213,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.09090909090909091,
+    "LongParamList": 0.06818181818181818,
+    "DeepNesting": 0.10606060606060606,
+    "Duplicate": 0.1590909090909091
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.35294117647058826,
+    "HighComplexity": 0.19607843137254902,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.058823529411764705,
+    "LongParamList": 0.11764705882352941,
+    "DeepNesting": 0.058823529411764705,
+    "Duplicate": 0.21568627450980393
+   }
+  },
+  {
+   "repo": "MRodHer/moai-adk",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 1354
+   },
+   "n_commits": 3304,
+   "n_python_files_added": 1419,
+   "history_span_days": 126.1,
+   "n_ai": 80,
+   "n_human": 28,
+   "ai_density_mean": 22.34745124498165,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 22.953761307882182,
+   "hu_density_median": 19.78463933575506,
+   "ratio": 0.9735855899707239,
+   "mannwhitney_p": 0.03189010660077307,
+   "cliffs_delta": -0.2589285714285714,
+   "ai_smell_share": {
+    "LongMethod": 0.07236842105263158,
+    "HighComplexity": 0.14473684210526316,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.07894736842105263,
+    "LongParamList": 0.006578947368421052,
+    "DeepNesting": 0.15789473684210525,
+    "Duplicate": 0.5394736842105263
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.08571428571428572,
+    "HighComplexity": 0.22857142857142856,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.1619047619047619,
+    "LongParamList": 0.0380952380952381,
+    "DeepNesting": 0.3619047619047619,
+    "Duplicate": 0.12380952380952381
+   }
+  },
+  {
+   "repo": "Consiliency/treesitter-chunker",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 175
+   },
+   "n_commits": 490,
+   "n_python_files_added": 3647,
+   "history_span_days": 381.0,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 49.984476809889586,
+   "ai_density_median": 30.545876887340302,
+   "hu_density_mean": 38.96928825780647,
+   "hu_density_median": 24.184149184149184,
+   "ratio": 1.2826633239799168,
+   "mannwhitney_p": 0.12312684473530072,
+   "cliffs_delta": 0.13874999999999993,
+   "ai_smell_share": {
+    "LongMethod": 0.11510791366906475,
+    "HighComplexity": 0.2853717026378897,
+    "ComplexConditional": 0.016786570743405275,
+    "GodClass": 0.06474820143884892,
+    "LongParamList": 0.002398081534772182,
+    "DeepNesting": 0.2997601918465228,
+    "Duplicate": 0.2158273381294964
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.08496732026143791,
+    "HighComplexity": 0.18082788671023964,
+    "ComplexConditional": 0.013071895424836602,
+    "GodClass": 0.07625272331154684,
+    "LongParamList": 0.006535947712418301,
+    "DeepNesting": 0.22657952069716775,
+    "Duplicate": 0.4117647058823529
+   }
+  },
+  {
+   "repo": "HanzoRazer/code-analysis-tool",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 80,
+    "Cursor": 1
+   },
+   "n_commits": 174,
+   "n_python_files_added": 220,
+   "history_span_days": 166.6,
+   "n_ai": 42,
+   "n_human": 44,
+   "ai_density_mean": 37.01632100577783,
+   "ai_density_median": 8.928571428571429,
+   "hu_density_mean": 43.77775737530367,
+   "hu_density_median": 0.0,
+   "ratio": 0.8455508738933218,
+   "mannwhitney_p": 0.7232174848930666,
+   "cliffs_delta": 0.04112554112554112,
+   "ai_smell_share": {
+    "LongMethod": 0.053763440860215055,
+    "HighComplexity": 0.24731182795698925,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.043010752688172046,
+    "LongParamList": 0.03225806451612903,
+    "DeepNesting": 0.17204301075268819,
+    "Duplicate": 0.45161290322580644
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.12345679012345678,
+    "HighComplexity": 0.2222222222222222,
+    "ComplexConditional": 0.012345679012345678,
+    "GodClass": 0.024691358024691357,
+    "LongParamList": 0.024691358024691357,
+    "DeepNesting": 0.19753086419753085,
+    "Duplicate": 0.3950617283950617
+   }
+  },
+  {
+   "repo": "AWeber-Imbi/imbi-automations",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 27
+   },
+   "n_commits": 687,
+   "n_python_files_added": 62,
+   "history_span_days": 285.6,
+   "n_ai": 17,
+   "n_human": 24,
+   "ai_density_mean": 16.526974198010002,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 7.626907783239207,
+   "hu_density_median": 0.0,
+   "ratio": 2.1669298577766294,
+   "mannwhitney_p": 0.1239431519549714,
+   "cliffs_delta": 0.23774509803921573,
+   "ai_smell_share": {
+    "LongMethod": 0.08695652173913043,
+    "HighComplexity": 0.30434782608695654,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.08695652173913043,
+    "LongParamList": 0.043478260869565216,
+    "DeepNesting": 0.21739130434782608,
+    "Duplicate": 0.2608695652173913
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.4166666666666667,
+    "ComplexConditional": 0.08333333333333333,
+    "GodClass": 0.08333333333333333,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.3333333333333333,
+    "Duplicate": 0.08333333333333333
+   }
+  },
+  {
+   "repo": "s243a/UnifyWeaver",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 436
+   },
+   "n_commits": 6746,
+   "n_python_files_added": 620,
+   "history_span_days": 301.4,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 17.722653459281368,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 485.9037267580179,
+   "hu_density_median": 0.0,
+   "ratio": 0.036473590308780085,
+   "mannwhitney_p": 0.2176031646078509,
+   "cliffs_delta": -0.09968750000000004,
+   "ai_smell_share": {
+    "LongMethod": 0.1349206349206349,
+    "HighComplexity": 0.2777777777777778,
+    "ComplexConditional": 0.015873015873015872,
+    "GodClass": 0.05555555555555555,
+    "LongParamList": 0.0873015873015873,
+    "DeepNesting": 0.21428571428571427,
+    "Duplicate": 0.21428571428571427
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.049586776859504134,
+    "HighComplexity": 0.05785123966942149,
+    "ComplexConditional": 0.01652892561983471,
+    "GodClass": 0.024793388429752067,
+    "LongParamList": 0.06611570247933884,
+    "DeepNesting": 0.01652892561983471,
+    "Duplicate": 0.768595041322314
+   }
+  },
+  {
+   "repo": "jsbattig/code-indexer",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 599
+   },
+   "n_commits": 964,
+   "n_python_files_added": 643,
+   "history_span_days": 217.6,
+   "n_ai": 80,
+   "n_human": 21,
+   "ai_density_mean": 25.795921038179365,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 24.299993726760693,
+   "hu_density_median": 7.936507936507937,
+   "ratio": 1.0615608106010028,
+   "mannwhitney_p": 0.4082684302656592,
+   "cliffs_delta": -0.1071428571428571,
+   "ai_smell_share": {
+    "LongMethod": 0.06451612903225806,
+    "HighComplexity": 0.14516129032258066,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.053763440860215055,
+    "LongParamList": 0.07526881720430108,
+    "DeepNesting": 0.11827956989247312,
+    "Duplicate": 0.543010752688172
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.14705882352941177,
+    "HighComplexity": 0.16176470588235295,
+    "ComplexConditional": 0.014705882352941176,
+    "GodClass": 0.07352941176470588,
+    "LongParamList": 0.07352941176470588,
+    "DeepNesting": 0.20588235294117646,
+    "Duplicate": 0.3235294117647059
+   }
+  },
+  {
+   "repo": "spencerduncan/jimbot",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 108
+   },
+   "n_commits": 300,
+   "n_python_files_added": 3390,
+   "history_span_days": 166.4,
+   "n_ai": 54,
+   "n_human": 80,
+   "ai_density_mean": 12.781839621260904,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 61.69365022615889,
+   "hu_density_median": 0.0,
+   "ratio": 0.2071824178729052,
+   "mannwhitney_p": 0.29189780918928676,
+   "cliffs_delta": -0.09791666666666665,
+   "ai_smell_share": {
+    "LongMethod": 0.08571428571428572,
+    "HighComplexity": 0.18571428571428572,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.08571428571428572,
+    "LongParamList": 0.08571428571428572,
+    "DeepNesting": 0.34285714285714286,
+    "Duplicate": 0.21428571428571427
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.035629453681710214,
+    "HighComplexity": 0.08076009501187649,
+    "ComplexConditional": 0.009501187648456057,
+    "GodClass": 0.0332541567695962,
+    "LongParamList": 0.040380047505938245,
+    "DeepNesting": 0.05463182897862233,
+    "Duplicate": 0.7458432304038005
+   }
+  },
+  {
+   "repo": "LuckVd/DeepVuln",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 364
+   },
+   "n_commits": 229,
+   "n_python_files_added": 397,
+   "history_span_days": 125.9,
+   "n_ai": 80,
+   "n_human": 19,
+   "ai_density_mean": 18.771736845568107,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 21.27701020521589,
+   "hu_density_median": 0.0,
+   "ratio": 0.8822544457381688,
+   "mannwhitney_p": 0.7768276260024961,
+   "cliffs_delta": -0.03947368421052633,
+   "ai_smell_share": {
+    "LongMethod": 0.13131313131313133,
+    "HighComplexity": 0.29292929292929293,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.06565656565656566,
+    "LongParamList": 0.050505050505050504,
+    "DeepNesting": 0.25757575757575757,
+    "Duplicate": 0.20202020202020202
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.11627906976744186,
+    "HighComplexity": 0.23255813953488372,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.11627906976744186,
+    "LongParamList": 0.09302325581395349,
+    "DeepNesting": 0.2558139534883721,
+    "Duplicate": 0.18604651162790697
+   }
+  },
+  {
+   "repo": "bobmatnyc/mcp-vector-search",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 225
+   },
+   "n_commits": 1163,
+   "n_python_files_added": 317,
+   "history_span_days": 276.6,
+   "n_ai": 80,
+   "n_human": 11,
+   "ai_density_mean": 35.213278524928356,
+   "ai_density_median": 27.249777249777253,
+   "hu_density_mean": 125.60734820146271,
+   "hu_density_median": 28.98550724637681,
+   "ratio": 0.28034409633781515,
+   "mannwhitney_p": 0.6226276786766022,
+   "cliffs_delta": -0.09204545454545454,
+   "ai_smell_share": {
+    "LongMethod": 0.16044776119402984,
+    "HighComplexity": 0.23134328358208955,
+    "ComplexConditional": 0.0037313432835820895,
+    "GodClass": 0.0708955223880597,
+    "LongParamList": 0.007462686567164179,
+    "DeepNesting": 0.291044776119403,
+    "Duplicate": 0.23507462686567165
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.15,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.35,
+    "Duplicate": 0.5
+   }
+  },
+  {
+   "repo": "rand/ananke-sglang",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 166,
+    "Cursor": 1
+   },
+   "n_commits": 10244,
+   "n_python_files_added": 2113,
+   "history_span_days": 872.8,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 50.3536555169679,
+   "ai_density_median": 35.759897828863345,
+   "hu_density_mean": 113.51671323758232,
+   "hu_density_median": 29.850746268656714,
+   "ratio": 0.44357922354201107,
+   "mannwhitney_p": 0.7448815687457733,
+   "cliffs_delta": -0.02937500000000004,
+   "ai_smell_share": {
+    "LongMethod": 0.11691022964509394,
+    "HighComplexity": 0.21920668058455114,
+    "ComplexConditional": 0.008350730688935281,
+    "GodClass": 0.05636743215031315,
+    "LongParamList": 0.022964509394572025,
+    "DeepNesting": 0.21085594989561587,
+    "Duplicate": 0.3653444676409186
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.09523809523809523,
+    "HighComplexity": 0.08928571428571429,
+    "ComplexConditional": 0.044642857142857144,
+    "GodClass": 0.026785714285714284,
+    "LongParamList": 0.15773809523809523,
+    "DeepNesting": 0.050595238095238096,
+    "Duplicate": 0.5357142857142857
+   }
+  },
+  {
+   "repo": "tekk/omi-mirror",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 184,
+    "Cursor": 150
+   },
+   "n_commits": 24292,
+   "n_python_files_added": 1292,
+   "history_span_days": 852.6,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 22.559236347257123,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 33.24796360006219,
+   "hu_density_median": 0.0,
+   "ratio": 0.6785148293176947,
+   "mannwhitney_p": 0.5384914128415714,
+   "cliffs_delta": -0.04515625000000001,
+   "ai_smell_share": {
+    "LongMethod": 0.11904761904761904,
+    "HighComplexity": 0.20238095238095238,
+    "ComplexConditional": 0.03571428571428571,
+    "GodClass": 0.09523809523809523,
+    "LongParamList": 0.03571428571428571,
+    "DeepNesting": 0.11904761904761904,
+    "Duplicate": 0.39285714285714285
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.18,
+    "HighComplexity": 0.31,
+    "ComplexConditional": 0.03,
+    "GodClass": 0.07,
+    "LongParamList": 0.03,
+    "DeepNesting": 0.12,
+    "Duplicate": 0.26
+   }
+  },
+  {
+   "repo": "mrveiss/AutoBot-AI",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 4542
+   },
+   "n_commits": 11015,
+   "n_python_files_added": 5422,
+   "history_span_days": 396.9,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 27.99978437520346,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 22.329990404632778,
+   "hu_density_median": 0.0,
+   "ratio": 1.253909377829127,
+   "mannwhitney_p": 0.948524853022787,
+   "cliffs_delta": -0.0048437500000000355,
+   "ai_smell_share": {
+    "LongMethod": 0.11538461538461539,
+    "HighComplexity": 0.14102564102564102,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.038461538461538464,
+    "LongParamList": 0.05128205128205128,
+    "DeepNesting": 0.10256410256410256,
+    "Duplicate": 0.5512820512820513
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.20512820512820512,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.05128205128205128,
+    "LongParamList": 0.02564102564102564,
+    "DeepNesting": 0.07692307692307693,
+    "Duplicate": 0.6410256410256411
+   }
+  },
+  {
+   "repo": "undivisible/omi-desktop",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 183,
+    "Cursor": 149
+   },
+   "n_commits": 22008,
+   "n_python_files_added": 1196,
+   "history_span_days": 856.4,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 22.559236347257123,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 200.49856287695732,
+   "hu_density_median": 0.0,
+   "ratio": 0.11251570097837238,
+   "mannwhitney_p": 0.2593589573099324,
+   "cliffs_delta": -0.08328124999999997,
+   "ai_smell_share": {
+    "LongMethod": 0.11904761904761904,
+    "HighComplexity": 0.20238095238095238,
+    "ComplexConditional": 0.03571428571428571,
+    "GodClass": 0.09523809523809523,
+    "LongParamList": 0.03571428571428571,
+    "DeepNesting": 0.11904761904761904,
+    "Duplicate": 0.39285714285714285
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.05813953488372093,
+    "HighComplexity": 0.18604651162790697,
+    "ComplexConditional": 0.011627906976744186,
+    "GodClass": 0.03488372093023256,
+    "LongParamList": 0.03488372093023256,
+    "DeepNesting": 0.05813953488372093,
+    "Duplicate": 0.6162790697674418
+   }
+  },
+  {
+   "repo": "WatchMeJoustMyFlags/JoustMania",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 203
+   },
+   "n_commits": 1928,
+   "n_python_files_added": 279,
+   "history_span_days": 3884.0,
+   "n_ai": 80,
+   "n_human": 11,
+   "ai_density_mean": 37.4131804860542,
+   "ai_density_median": 10.96096096096096,
+   "hu_density_mean": 343.8298955946015,
+   "hu_density_median": 470.5882352941176,
+   "ratio": 0.10881305251643053,
+   "mannwhitney_p": 0.003751820559317904,
+   "cliffs_delta": -0.5204545454545455,
+   "ai_smell_share": {
+    "LongMethod": 0.19183673469387755,
+    "HighComplexity": 0.18775510204081633,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.07755102040816327,
+    "LongParamList": 0.04897959183673469,
+    "DeepNesting": 0.2530612244897959,
+    "Duplicate": 0.24081632653061225
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.0,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.012048192771084338,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.9879518072289156
+   }
+  },
+  {
+   "repo": "shobhitdkombee-del/omidemo",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 173
+   },
+   "n_commits": 17899,
+   "n_python_files_added": 653,
+   "history_span_days": 827.8,
+   "n_ai": 60,
+   "n_human": 51,
+   "ai_density_mean": 16.835864319099937,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 90.96683317304785,
+   "hu_density_median": 0.0,
+   "ratio": 0.1850769531250227,
+   "mannwhitney_p": 0.20296802137102143,
+   "cliffs_delta": -0.11928104575163401,
+   "ai_smell_share": {
+    "LongMethod": 0.13953488372093023,
+    "HighComplexity": 0.23255813953488372,
+    "ComplexConditional": 0.03488372093023256,
+    "GodClass": 0.08139534883720931,
+    "LongParamList": 0.03488372093023256,
+    "DeepNesting": 0.1744186046511628,
+    "Duplicate": 0.3023255813953488
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.1509433962264151,
+    "HighComplexity": 0.18867924528301888,
+    "ComplexConditional": 0.03773584905660377,
+    "GodClass": 0.05660377358490566,
+    "LongParamList": 0.03773584905660377,
+    "DeepNesting": 0.1320754716981132,
+    "Duplicate": 0.39622641509433965
+   }
+  },
+  {
+   "repo": "BasedHardware/omi",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 213,
+    "Cursor": 152
+   },
+   "n_commits": 28628,
+   "n_python_files_added": 1487,
+   "history_span_days": 857.9,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 23.498312166932095,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 46.77036859123606,
+   "hu_density_median": 0.0,
+   "ratio": 0.5024187936661946,
+   "mannwhitney_p": 0.4542925663323837,
+   "cliffs_delta": -0.05406250000000001,
+   "ai_smell_share": {
+    "LongMethod": 0.14864864864864866,
+    "HighComplexity": 0.24324324324324326,
+    "ComplexConditional": 0.02702702702702703,
+    "GodClass": 0.06756756756756757,
+    "LongParamList": 0.02702702702702703,
+    "DeepNesting": 0.12162162162162163,
+    "Duplicate": 0.36486486486486486
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.19480519480519481,
+    "HighComplexity": 0.2857142857142857,
+    "ComplexConditional": 0.025974025974025976,
+    "GodClass": 0.06493506493506493,
+    "LongParamList": 0.03896103896103896,
+    "DeepNesting": 0.14285714285714285,
+    "Duplicate": 0.24675324675324675
+   }
+  },
+  {
+   "repo": "paiml/depyler",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 1099
+   },
+   "n_commits": 5359,
+   "n_python_files_added": 1690,
+   "history_span_days": 515.9,
+   "n_ai": 49,
+   "n_human": 17,
+   "ai_density_mean": 4.543644109252962,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 22.55453709407894,
+   "hu_density_median": 0.0,
+   "ratio": 0.2014514459020207,
+   "mannwhitney_p": 0.06339035649000274,
+   "cliffs_delta": -0.2184873949579832,
+   "ai_smell_share": {
+    "LongMethod": 0.08333333333333333,
+    "HighComplexity": 0.16666666666666666,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.08333333333333333,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.25,
+    "Duplicate": 0.4166666666666667
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.125,
+    "ComplexConditional": 0.125,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.375,
+    "Duplicate": 0.375
+   }
+  },
+  {
+   "repo": "SteveGJones/ai-first-sdlc-practices",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 216
+   },
+   "n_commits": 1288,
+   "n_python_files_added": 272,
+   "history_span_days": 379.0,
+   "n_ai": 80,
+   "n_human": 26,
+   "ai_density_mean": 22.344642477068103,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 24.225136696589836,
+   "hu_density_median": 26.17872807017544,
+   "ratio": 0.9223742576533552,
+   "mannwhitney_p": 0.13926402036137797,
+   "cliffs_delta": -0.18365384615384617,
+   "ai_smell_share": {
+    "LongMethod": 0.18061674008810572,
+    "HighComplexity": 0.32158590308370044,
+    "ComplexConditional": 0.00881057268722467,
+    "GodClass": 0.10572687224669604,
+    "LongParamList": 0.01762114537444934,
+    "DeepNesting": 0.2511013215859031,
+    "Duplicate": 0.1145374449339207
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.16981132075471697,
+    "HighComplexity": 0.36792452830188677,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.10377358490566038,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.330188679245283,
+    "Duplicate": 0.02830188679245283
+   }
+  },
+  {
+   "repo": "MarkusNeusinger/anyplot",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 740,
+    "Copilot": 17
+   },
+   "n_commits": 9286,
+   "n_python_files_added": 3410,
+   "history_span_days": 251.1,
+   "n_ai": 25,
+   "n_human": 24,
+   "ai_density_mean": 26.303971072503632,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 35.7683726793364,
+   "hu_density_median": 14.706677480400106,
+   "ratio": 0.735397478334249,
+   "mannwhitney_p": 0.022517377487463217,
+   "cliffs_delta": -0.3666666666666667,
+   "ai_smell_share": {
+    "LongMethod": 0.3181818181818182,
+    "HighComplexity": 0.18181818181818182,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.5
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.4186046511627907,
+    "HighComplexity": 0.37209302325581395,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.046511627906976744,
+    "LongParamList": 0.046511627906976744,
+    "DeepNesting": 0.023255813953488372,
+    "Duplicate": 0.09302325581395349
+   }
+  },
+  {
+   "repo": "knowlen/esologs-python",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 20
+   },
+   "n_commits": 100,
+   "n_python_files_added": 87,
+   "history_span_days": 1281.1,
+   "n_ai": 8,
+   "n_human": 22,
+   "ai_density_mean": 0.0,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 110.48686612628113,
+   "hu_density_median": 0.0,
+   "ratio": 0.0,
+   "mannwhitney_p": 0.04003639130758685,
+   "cliffs_delta": -0.40909090909090906,
+   "ai_smell_share": {},
+   "hu_smell_share": {
+    "LongMethod": 0.013513513513513514,
+    "HighComplexity": 0.02027027027027027,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.006756756756756757,
+    "LongParamList": 0.07432432432432433,
+    "DeepNesting": 0.006756756756756757,
+    "Duplicate": 0.8783783783783784
+   }
+  },
+  {
+   "repo": "RyosukeMondo/air-executor",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 128
+   },
+   "n_commits": 245,
+   "n_python_files_added": 146,
+   "history_span_days": 37.7,
+   "n_ai": 80,
+   "n_human": 15,
+   "ai_density_mean": 15.155378133036137,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 18.205417379966388,
+   "hu_density_median": 16.666666666666668,
+   "ratio": 0.8324652940785321,
+   "mannwhitney_p": 0.548877273940851,
+   "cliffs_delta": -0.09083333333333332,
+   "ai_smell_share": {
+    "LongMethod": 0.12096774193548387,
+    "HighComplexity": 0.25,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.12903225806451613,
+    "LongParamList": 0.016129032258064516,
+    "DeepNesting": 0.24193548387096775,
+    "Duplicate": 0.24193548387096775
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.23529411764705882,
+    "HighComplexity": 0.17647058823529413,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.058823529411764705,
+    "LongParamList": 0.058823529411764705,
+    "DeepNesting": 0.11764705882352941,
+    "Duplicate": 0.35294117647058826
+   }
+  },
+  {
+   "repo": "Alexweb97/pipeline-buider-ai",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 9
+   },
+   "n_commits": 95,
+   "n_python_files_added": 121,
+   "history_span_days": 20.2,
+   "n_ai": 9,
+   "n_human": 24,
+   "ai_density_mean": 24.932304131414256,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 14.930377169675475,
+   "hu_density_median": 0.0,
+   "ratio": 1.6699045073056369,
+   "mannwhitney_p": 0.7964178922582822,
+   "cliffs_delta": 0.05555555555555558,
+   "ai_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.4,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.4,
+    "Duplicate": 0.2
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.05555555555555555,
+    "HighComplexity": 0.1111111111111111,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.1111111111111111,
+    "DeepNesting": 0.2777777777777778,
+    "Duplicate": 0.4444444444444444
+   }
+  },
+  {
+   "repo": "feyroozecode/tauraro",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 136
+   },
+   "n_commits": 358,
+   "n_python_files_added": 456,
+   "history_span_days": 50.1,
+   "n_ai": 20,
+   "n_human": 39,
+   "ai_density_mean": 0.0,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 1.0683760683760684,
+   "hu_density_median": 0.0,
+   "ratio": 0.0,
+   "mannwhitney_p": 0.49630874453681706,
+   "cliffs_delta": -0.02564102564102566,
+   "ai_smell_share": {},
+   "hu_smell_share": {
+    "LongMethod": 0.5,
+    "HighComplexity": 0.0,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.5,
+    "Duplicate": 0.0
+   }
+  },
+  {
+   "repo": "sougetuOte/claude-friends-templates",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 21
+   },
+   "n_commits": 148,
+   "n_python_files_added": 31,
+   "history_span_days": 108.0,
+   "n_ai": 18,
+   "n_human": 10,
+   "ai_density_mean": 30.488410080424096,
+   "ai_density_median": 29.74018794914317,
+   "hu_density_mean": 33.03612896561084,
+   "hu_density_median": 34.13327120223672,
+   "ratio": 0.9228808288090046,
+   "mannwhitney_p": 0.683444701459569,
+   "cliffs_delta": -0.09999999999999998,
+   "ai_smell_share": {
+    "LongMethod": 0.1323529411764706,
+    "HighComplexity": 0.29411764705882354,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.16176470588235295,
+    "LongParamList": 0.014705882352941176,
+    "DeepNesting": 0.29411764705882354,
+    "Duplicate": 0.10294117647058823
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.15517241379310345,
+    "HighComplexity": 0.3275862068965517,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.15517241379310345,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.29310344827586204,
+    "Duplicate": 0.06896551724137931
+   }
+  },
+  {
+   "repo": "PaulDuvall/ai-development-patterns",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 19
+   },
+   "n_commits": 388,
+   "n_python_files_added": 70,
+   "history_span_days": 406.6,
+   "n_ai": 14,
+   "n_human": 11,
+   "ai_density_mean": 33.962973605481,
+   "ai_density_median": 30.477949665204342,
+   "hu_density_mean": 17.533287419651057,
+   "hu_density_median": 0.0,
+   "ratio": 1.9370567990242253,
+   "mannwhitney_p": 0.09509022646989085,
+   "cliffs_delta": 0.3896103896103895,
+   "ai_smell_share": {
+    "LongMethod": 0.10638297872340426,
+    "HighComplexity": 0.3191489361702128,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.14893617021276595,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.3404255319148936,
+    "Duplicate": 0.0851063829787234
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.09523809523809523,
+    "HighComplexity": 0.23809523809523808,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.14285714285714285,
+    "LongParamList": 0.19047619047619047,
+    "DeepNesting": 0.23809523809523808,
+    "Duplicate": 0.09523809523809523
+   }
+  },
+  {
+   "repo": "allan-simon/stackai-homework",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 104
+   },
+   "n_commits": 690,
+   "n_python_files_added": 146,
+   "history_span_days": 23.1,
+   "n_ai": 42,
+   "n_human": 27,
+   "ai_density_mean": 108.34707739483702,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 42.71398126044332,
+   "hu_density_median": 0.0,
+   "ratio": 2.5365717312606346,
+   "mannwhitney_p": 0.7360501581797649,
+   "cliffs_delta": 0.041446208112874805,
+   "ai_smell_share": {
+    "LongMethod": 0.14285714285714285,
+    "HighComplexity": 0.10714285714285714,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.05952380952380952,
+    "LongParamList": 0.011904761904761904,
+    "DeepNesting": 0.09523809523809523,
+    "Duplicate": 0.5833333333333334
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.125,
+    "HighComplexity": 0.0625,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0625,
+    "LongParamList": 0.0625,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.6875
+   }
+  },
+  {
+   "repo": "gongahkia/a-slow-walk",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Codex": 6,
+    "Claude": 236
+   },
+   "n_commits": 3744,
+   "n_python_files_added": 687,
+   "history_span_days": 672.2,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 41.60269132400449,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 18.80606209239532,
+   "hu_density_median": 0.0,
+   "ratio": 2.2121957866356046,
+   "mannwhitney_p": 0.556032906156791,
+   "cliffs_delta": 0.04656250000000006,
+   "ai_smell_share": {
+    "LongMethod": 0.0967741935483871,
+    "HighComplexity": 0.2903225806451613,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.08602150537634409,
+    "LongParamList": 0.08602150537634409,
+    "DeepNesting": 0.10752688172043011,
+    "Duplicate": 0.3333333333333333
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.15151515151515152,
+    "HighComplexity": 0.35353535353535354,
+    "ComplexConditional": 0.020202020202020204,
+    "GodClass": 0.09090909090909091,
+    "LongParamList": 0.10101010101010101,
+    "DeepNesting": 0.050505050505050504,
+    "Duplicate": 0.23232323232323232
+   }
+  },
+  {
+   "repo": "MarksStuff/github-agent",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 54
+   },
+   "n_commits": 703,
+   "n_python_files_added": 160,
+   "history_span_days": 109.6,
+   "n_ai": 38,
+   "n_human": 35,
+   "ai_density_mean": 72.59658528277595,
+   "ai_density_median": 12.471042471042471,
+   "hu_density_mean": 18.146862708254996,
+   "hu_density_median": 0.0,
+   "ratio": 4.000503362476634,
+   "mannwhitney_p": 0.31470075689778276,
+   "cliffs_delta": 0.13233082706766908,
+   "ai_smell_share": {
+    "LongMethod": 0.10084033613445378,
+    "HighComplexity": 0.23529411764705882,
+    "ComplexConditional": 0.008403361344537815,
+    "GodClass": 0.12605042016806722,
+    "LongParamList": 0.025210084033613446,
+    "DeepNesting": 0.2605042016806723,
+    "Duplicate": 0.24369747899159663
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.1588785046728972,
+    "HighComplexity": 0.2803738317757009,
+    "ComplexConditional": 0.018691588785046728,
+    "GodClass": 0.06542056074766354,
+    "LongParamList": 0.009345794392523364,
+    "DeepNesting": 0.2616822429906542,
+    "Duplicate": 0.205607476635514
+   }
+  },
+  {
+   "repo": "shlapolosa/health-service-idp",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 248
+   },
+   "n_commits": 610,
+   "n_python_files_added": 315,
+   "history_span_days": 392.0,
+   "n_ai": 80,
+   "n_human": 53,
+   "ai_density_mean": 20.93808803596009,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 0.5468963631391851,
+   "hu_density_median": 0.0,
+   "ratio": 38.28529397375302,
+   "mannwhitney_p": 2.817313713101266e-07,
+   "cliffs_delta": 0.4084905660377358,
+   "ai_smell_share": {
+    "LongMethod": 0.11612903225806452,
+    "HighComplexity": 0.2967741935483871,
+    "ComplexConditional": 0.03870967741935484,
+    "GodClass": 0.1032258064516129,
+    "LongParamList": 0.17419354838709677,
+    "DeepNesting": 0.2,
+    "Duplicate": 0.07096774193548387
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.5,
+    "HighComplexity": 0.0,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.0,
+    "Duplicate": 0.5
+   }
+  },
+  {
+   "repo": "miroku0000/AI-Security-Benchmark",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 69998
+   },
+   "n_commits": 207,
+   "n_python_files_added": 70904,
+   "history_span_days": 44.8,
+   "n_ai": 80,
+   "n_human": 80,
+   "ai_density_mean": 11.655109850763832,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 11.889099044142805,
+   "hu_density_median": 0.0,
+   "ratio": 0.9803190138705886,
+   "mannwhitney_p": 0.21045620147747623,
+   "cliffs_delta": 0.07609375000000007,
+   "ai_smell_share": {
+    "LongMethod": 0.15053763440860216,
+    "HighComplexity": 0.24731182795698925,
+    "ComplexConditional": 0.03225806451612903,
+    "GodClass": 0.043010752688172046,
+    "LongParamList": 0.13978494623655913,
+    "DeepNesting": 0.1827956989247312,
+    "Duplicate": 0.20430107526881722
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.1111111111111111,
+    "HighComplexity": 0.1388888888888889,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.05555555555555555,
+    "LongParamList": 0.19444444444444445,
+    "DeepNesting": 0.19444444444444445,
+    "Duplicate": 0.3055555555555556
+   }
+  },
+  {
+   "repo": "yusufkaraaslan/lazy-bird",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 71
+   },
+   "n_commits": 162,
+   "n_python_files_added": 86,
+   "history_span_days": 149.0,
+   "n_ai": 31,
+   "n_human": 8,
+   "ai_density_mean": 21.592249630099722,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 35.617364980748114,
+   "hu_density_median": 35.29900332225914,
+   "ratio": 0.6062281598251515,
+   "mannwhitney_p": 0.04158630239886442,
+   "cliffs_delta": -0.44354838709677424,
+   "ai_smell_share": {
+    "LongMethod": 0.03125,
+    "HighComplexity": 0.09375,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.0625,
+    "LongParamList": 0.15625,
+    "DeepNesting": 0.15625,
+    "Duplicate": 0.5
+   },
+   "hu_smell_share": {
+    "LongMethod": 0.0,
+    "HighComplexity": 0.07692307692307693,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.038461538461538464,
+    "LongParamList": 0.0,
+    "DeepNesting": 0.07692307692307693,
+    "Duplicate": 0.8076923076923077
+   }
+  },
+  {
+   "repo": "chrysa/guideline-checker",
+   "dominant_agent": "Claude",
+   "agent_commit_counts": {
+    "Claude": 17
+   },
+   "n_commits": 259,
+   "n_python_files_added": 45,
+   "history_span_days": 120.8,
+   "n_ai": 13,
+   "n_human": 13,
+   "ai_density_mean": 0.0,
+   "ai_density_median": 0.0,
+   "hu_density_mean": 34.99673602021972,
+   "hu_density_median": 0.0,
+   "ratio": 0.0,
+   "mannwhitney_p": 0.007502499051561932,
+   "cliffs_delta": -0.46153846153846156,
+   "ai_smell_share": {},
+   "hu_smell_share": {
+    "LongMethod": 0.15384615384615385,
+    "HighComplexity": 0.23076923076923078,
+    "ComplexConditional": 0.0,
+    "GodClass": 0.07692307692307693,
+    "LongParamList": 0.15384615384615385,
+    "DeepNesting": 0.23076923076923078,
+    "Duplicate": 0.15384615384615385
+   }
+  }
+ ]
+}

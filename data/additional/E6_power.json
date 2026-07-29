@@ -1,0 +1,44 @@
+{
+ "n_ai": 1083,
+ "n_human": 100,
+ "se_delta_under_h0": 0.06036719485643949,
+ "min_detectable_delta_80pct_power": 0.1691238407687461,
+ "observed_delta": 0.016694367497691598,
+ "observed_delta_ci95": [
+  -0.06297691597414591,
+  0.09747391505078484
+ ],
+ "simulated_power_curve": [
+  {
+   "thinning_q": 0.0,
+   "true_delta_mean": 0.017118204062788554,
+   "power": 0.047
+  },
+  {
+   "thinning_q": 0.05,
+   "true_delta_mean": 0.02589331024930748,
+   "power": 0.0645
+  },
+  {
+   "thinning_q": 0.1,
+   "true_delta_mean": 0.037894367497691595,
+   "power": 0.1125
+  },
+  {
+   "thinning_q": 0.2,
+   "true_delta_mean": 0.05797108956602031,
+   "power": 0.2405
+  },
+  {
+   "thinning_q": 0.3,
+   "true_delta_mean": 0.07851146814404433,
+   "power": 0.4335
+  },
+  {
+   "thinning_q": 0.4,
+   "true_delta_mean": 0.10149967220683287,
+   "power": 0.685
+  }
+ ],
+ "interpretation": "With n1=1083 and n2=100 the design has 80% power to detect |delta| >= 0.169. The observed delta is 0.017 and its 95% CI lies inside the negligible band (|delta| < 0.147), so an effect of small magnitude or larger can be ruled out even though exact equivalence on the mean-difference scale is not established (see E1)."
+}

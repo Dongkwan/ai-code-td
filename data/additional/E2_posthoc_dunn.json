@@ -1,0 +1,850 @@
+{
+ "kruskal_including_human": {
+  "H": 97.39925813616395,
+  "p": 1.7965227532112435e-15,
+  "k": 13
+ },
+ "n_per_group": {
+  "Human": 100,
+  "GPT-4-Turbo": 99,
+  "DeepSeek-Coder": 100,
+  "StarCoder-15B": 100,
+  "InstructCodeGen-16B": 99,
+  "Magicoder-6.7B": 100,
+  "CodeLlama-13B": 95,
+  "GPT-3.5-Turbo": 97,
+  "Gemini-Pro": 94,
+  "WizardCoder-15B": 53,
+  "CodeGeeX2-6B": 46,
+  "PolyCoder-2.7B": 100,
+  "SantaCoder-1.1B": 100
+ },
+ "mean_ranks": {
+  "Human": 582.96,
+  "GPT-4-Turbo": 525.3535353535353,
+  "DeepSeek-Coder": 525.09,
+  "StarCoder-15B": 530.275,
+  "InstructCodeGen-16B": 524.1464646464647,
+  "Magicoder-6.7B": 561.515,
+  "CodeLlama-13B": 560.3,
+  "GPT-3.5-Turbo": 594.680412371134,
+  "Gemini-Pro": 620.4893617021277,
+  "WizardCoder-15B": 636.0754716981132,
+  "CodeGeeX2-6B": 595.304347826087,
+  "PolyCoder-2.7B": 759.38,
+  "SantaCoder-1.1B": 701.79
+ },
+ "pairwise": [
+  {
+   "a": "Human",
+   "b": "GPT-4-Turbo",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 525.3535353535353,
+   "z": 1.6224891970544608,
+   "p": 0.10469864434808832,
+   "p_adj": 0.19918278680855828,
+   "significant": false
+  },
+  {
+   "a": "Human",
+   "b": "DeepSeek-Coder",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 525.09,
+   "z": 1.6340224393487188,
+   "p": 0.10225413899256211,
+   "p_adj": 0.19918278680855828,
+   "significant": false
+  },
+  {
+   "a": "Human",
+   "b": "StarCoder-15B",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 530.275,
+   "z": 1.4876183206685216,
+   "p": 0.1368515790938934,
+   "p_adj": 0.23205267759399315,
+   "significant": false
+  },
+  {
+   "a": "Human",
+   "b": "InstructCodeGen-16B",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 524.1464646464647,
+   "z": 1.6564864089007747,
+   "p": 0.09762335516392258,
+   "p_adj": 0.19918278680855828,
+   "significant": false
+  },
+  {
+   "a": "Human",
+   "b": "Magicoder-6.7B",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 561.515,
+   "z": 0.6055229170871498,
+   "p": 0.5448316022612603,
+   "p_adj": 0.6438918935814893,
+   "significant": false
+  },
+  {
+   "a": "Human",
+   "b": "CodeLlama-13B",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 560.3,
+   "z": 0.6315735507426337,
+   "p": 0.5276655741104186,
+   "p_adj": 0.6331986889325023,
+   "significant": false
+  },
+  {
+   "a": "Human",
+   "b": "GPT-3.5-Turbo",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 594.680412371134,
+   "z": -0.328409096436884,
+   "p": 0.7426023660987624,
+   "p_adj": 0.8394635442855575,
+   "significant": false
+  },
+  {
+   "a": "Human",
+   "b": "Gemini-Pro",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 620.4893617021277,
+   "z": -1.043166835690936,
+   "p": 0.2968710304246469,
+   "p_adj": 0.462668003658548,
+   "significant": false
+  },
+  {
+   "a": "Human",
+   "b": "WizardCoder-15B",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 636.0754716981132,
+   "z": -1.2483397329000832,
+   "p": 0.21190666936208635,
+   "p_adj": 0.3443483377133903,
+   "significant": false
+  },
+  {
+   "a": "Human",
+   "b": "CodeGeeX2-6B",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 595.304347826087,
+   "z": -0.2766879017778078,
+   "p": 0.782019762324599,
+   "p_adj": 0.8713934494474104,
+   "significant": false
+  },
+  {
+   "a": "Human",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 759.38,
+   "z": -4.981410726626938,
+   "p": 6.312240330582128e-07,
+   "p_adj": 5.240062203604887e-06,
+   "significant": true
+  },
+  {
+   "a": "Human",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 582.96,
+   "mean_rank_b": 701.79,
+   "z": -3.3552943920478335,
+   "p": 0.0007928056615644024,
+   "p_adj": 0.0036375789177660817,
+   "significant": true
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "DeepSeek-Coder",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 525.09,
+   "z": 0.007422487506863493,
+   "p": 0.9940777661948259,
+   "p_adj": 0.9940777661948258,
+   "significant": false
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "StarCoder-15B",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 530.275,
+   "z": -0.13861331834159646,
+   "p": 0.8897557183996898,
+   "p_adj": 0.9506978908928193,
+   "significant": false
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "InstructCodeGen-16B",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 524.1464646464647,
+   "z": 0.033912112308974944,
+   "p": 0.9729472345185983,
+   "p_adj": 0.9940777661948258,
+   "significant": false
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "Magicoder-6.7B",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 561.515,
+   "z": -1.0184896104738892,
+   "p": 0.3084453357723653,
+   "p_adj": 0.462668003658548,
+   "significant": false
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "CodeLlama-13B",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 560.3,
+   "z": -0.9716308905319805,
+   "p": 0.33123420912036716,
+   "p_adj": 0.46408346200601425,
+   "significant": false
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "GPT-3.5-Turbo",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 594.680412371134,
+   "z": -1.937744876786238,
+   "p": 0.0526543559200431,
+   "p_adj": 0.12834499255510504,
+   "significant": false
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "Gemini-Pro",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 620.4893617021277,
+   "z": -2.6379496141206302,
+   "p": 0.008340897384876615,
+   "p_adj": 0.029282386607760152,
+   "significant": true
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "WizardCoder-15B",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 636.0754716981132,
+   "z": -2.597687724528721,
+   "p": 0.009385380323000049,
+   "p_adj": 0.029282386607760152,
+   "significant": true
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "CodeGeeX2-6B",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 595.304347826087,
+   "z": -1.5653981162292074,
+   "p": 0.11748958985516686,
+   "p_adj": 0.2082770001977958,
+   "significant": false
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 759.38,
+   "z": -6.591368052943674,
+   "p": 4.3579203147147164e-11,
+   "p_adj": 1.1330592818258264e-09,
+   "significant": true
+  },
+  {
+   "a": "GPT-4-Turbo",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 525.3535353535353,
+   "mean_rank_b": 701.79,
+   "z": -4.969342583548707,
+   "p": 6.718028466160112e-07,
+   "p_adj": 5.240062203604887e-06,
+   "significant": true
+  },
+  {
+   "a": "DeepSeek-Coder",
+   "b": "StarCoder-15B",
+   "mean_rank_a": 525.09,
+   "mean_rank_b": 530.275,
+   "z": -0.1464041186801973,
+   "p": 0.8836023761089544,
+   "p_adj": 0.9506978908928193,
+   "significant": false
+  },
+  {
+   "a": "DeepSeek-Coder",
+   "b": "InstructCodeGen-16B",
+   "mean_rank_a": 525.09,
+   "mean_rank_b": 524.1464646464647,
+   "z": 0.0265747243394504,
+   "p": 0.9787989331933332,
+   "p_adj": 0.9940777661948258,
+   "significant": false
+  },
+  {
+   "a": "DeepSeek-Coder",
+   "b": "Magicoder-6.7B",
+   "mean_rank_a": 525.09,
+   "mean_rank_b": 561.515,
+   "z": -1.0284995222615692,
+   "p": 0.30371491544353735,
+   "p_adj": 0.462668003658548,
+   "significant": false
+  },
+  {
+   "a": "DeepSeek-Coder",
+   "b": "CodeLlama-13B",
+   "mean_rank_a": 525.09,
+   "mean_rank_b": 560.3,
+   "z": -0.9813638447329216,
+   "p": 0.3264133489178819,
+   "p_adj": 0.46408346200601425,
+   "significant": false
+  },
+  {
+   "a": "DeepSeek-Coder",
+   "b": "GPT-3.5-Turbo",
+   "mean_rank_a": 525.09,
+   "mean_rank_b": 594.680412371134,
+   "z": -1.9499420091874342,
+   "p": 0.051183031324952714,
+   "p_adj": 0.12834499255510504,
+   "significant": false
+  },
+  {
+   "a": "DeepSeek-Coder",
+   "b": "Gemini-Pro",
+   "mean_rank_a": 525.09,
+   "mean_rank_b": 620.4893617021277,
+   "z": -2.6517224317220847,
+   "p": 0.00800823456424993,
+   "p_adj": 0.029282386607760152,
+   "significant": true
+  },
+  {
+   "a": "DeepSeek-Coder",
+   "b": "WizardCoder-15B",
+   "mean_rank_a": 525.09,
+   "mean_rank_b": 636.0754716981132,
+   "z": -2.608422172787255,
+   "p": 0.009096069345073564,
+   "p_adj": 0.029282386607760152,
+   "significant": true
+  },
+  {
+   "a": "DeepSeek-Coder",
+   "b": "CodeGeeX2-6B",
+   "mean_rank_a": 525.09,
+   "mean_rank_b": 595.304347826087,
+   "z": -1.5737940025994472,
+   "p": 0.11553508103419625,
+   "p_adj": 0.2082770001977958,
+   "significant": false
+  },
+  {
+   "a": "DeepSeek-Coder",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 525.09,
+   "mean_rank_b": 759.38,
+   "z": -6.615433165975657,
+   "p": 3.704653334532343e-11,
+   "p_adj": 1.1330592818258264e-09,
+   "significant": true
+  },
+  {
+   "a": "DeepSeek-Coder",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 525.09,
+   "mean_rank_b": 701.79,
+   "z": -4.989316831396552,
+   "p": 6.059319723024634e-07,
+   "p_adj": 5.240062203604887e-06,
+   "significant": true
+  },
+  {
+   "a": "StarCoder-15B",
+   "b": "InstructCodeGen-16B",
+   "mean_rank_a": 530.275,
+   "mean_rank_b": 524.1464646464647,
+   "z": 0.17261053018791034,
+   "p": 0.8629575742523554,
+   "p_adj": 0.9480378984744187,
+   "significant": false
+  },
+  {
+   "a": "StarCoder-15B",
+   "b": "Magicoder-6.7B",
+   "mean_rank_a": 530.275,
+   "mean_rank_b": 561.515,
+   "z": -0.8820954035813718,
+   "p": 0.3777252176392337,
+   "p_adj": 0.49936554196373273,
+   "significant": false
+  },
+  {
+   "a": "StarCoder-15B",
+   "b": "CodeLlama-13B",
+   "mean_rank_a": 530.275,
+   "mean_rank_b": 560.3,
+   "z": -0.8368488906022724,
+   "p": 0.4026775119733289,
+   "p_adj": 0.5234807655653275,
+   "significant": false
+  },
+  {
+   "a": "StarCoder-15B",
+   "b": "GPT-3.5-Turbo",
+   "mean_rank_a": 530.275,
+   "mean_rank_b": 594.680412371134,
+   "z": -1.8046569192857318,
+   "p": 0.07112838517519625,
+   "p_adj": 0.1681216376868275,
+   "significant": false
+  },
+  {
+   "a": "StarCoder-15B",
+   "b": "Gemini-Pro",
+   "mean_rank_a": 530.275,
+   "mean_rank_b": 620.4893617021277,
+   "z": -2.5076000753125216,
+   "p": 0.012155415554385573,
+   "p_adj": 0.03646624666315672,
+   "significant": true
+  },
+  {
+   "a": "StarCoder-15B",
+   "b": "WizardCoder-15B",
+   "mean_rank_a": 530.275,
+   "mean_rank_b": 636.0754716981132,
+   "z": -2.4865623585343624,
+   "p": 0.012898396226164902,
+   "p_adj": 0.037262033542254165,
+   "significant": true
+  },
+  {
+   "a": "StarCoder-15B",
+   "b": "CodeGeeX2-6B",
+   "mean_rank_a": 530.275,
+   "mean_rank_b": 595.304347826087,
+   "z": -1.457576702914634,
+   "p": 0.1449572550296158,
+   "p_adj": 0.24056735941085172,
+   "significant": false
+  },
+  {
+   "a": "StarCoder-15B",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 530.275,
+   "mean_rank_b": 759.38,
+   "z": -6.46902904729546,
+   "p": 9.863463642901078e-11,
+   "p_adj": 1.9233754103657103e-09,
+   "significant": true
+  },
+  {
+   "a": "StarCoder-15B",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 530.275,
+   "mean_rank_b": 701.79,
+   "z": -4.842912712716355,
+   "p": 1.2794950607680872e-06,
+   "p_adj": 9.07278315817371e-06,
+   "significant": true
+  },
+  {
+   "a": "InstructCodeGen-16B",
+   "b": "Magicoder-6.7B",
+   "mean_rank_a": 524.1464646464647,
+   "mean_rank_b": 561.515,
+   "z": -1.052486822320203,
+   "p": 0.29257625329216985,
+   "p_adj": 0.462668003658548,
+   "significant": false
+  },
+  {
+   "a": "InstructCodeGen-16B",
+   "b": "CodeLlama-13B",
+   "mean_rank_a": 524.1464646464647,
+   "mean_rank_b": 560.3,
+   "z": -1.005191572503992,
+   "p": 0.3148046124110998,
+   "p_adj": 0.4632973541144488,
+   "significant": false
+  },
+  {
+   "a": "InstructCodeGen-16B",
+   "b": "GPT-3.5-Turbo",
+   "mean_rank_a": 524.1464646464647,
+   "mean_rank_b": 594.680412371134,
+   "z": -1.9714835244675866,
+   "p": 0.0486685956849164,
+   "p_adj": 0.12653834878078266,
+   "significant": false
+  },
+  {
+   "a": "InstructCodeGen-16B",
+   "b": "Gemini-Pro",
+   "mean_rank_a": 524.1464646464647,
+   "mean_rank_b": 620.4893617021277,
+   "z": -2.6714195678504273,
+   "p": 0.007553117153422972,
+   "p_adj": 0.029282386607760152,
+   "significant": true
+  },
+  {
+   "a": "InstructCodeGen-16B",
+   "b": "WizardCoder-15B",
+   "mean_rank_a": 524.1464646464647,
+   "mean_rank_b": 636.0754716981132,
+   "z": -2.626007250558662,
+   "p": 0.008639297709544629,
+   "p_adj": 0.029282386607760152,
+   "significant": true
+  },
+  {
+   "a": "InstructCodeGen-16B",
+   "b": "CodeGeeX2-6B",
+   "mean_rank_a": 524.1464646464647,
+   "mean_rank_b": 595.304347826087,
+   "z": -1.5924106146436516,
+   "p": 0.11129247275364706,
+   "p_adj": 0.2066860208282017,
+   "significant": false
+  },
+  {
+   "a": "InstructCodeGen-16B",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 524.1464646464647,
+   "mean_rank_b": 759.38,
+   "z": -6.625365264789988,
+   "p": 3.463905601071879e-11,
+   "p_adj": 1.1330592818258264e-09,
+   "significant": true
+  },
+  {
+   "a": "InstructCodeGen-16B",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 524.1464646464647,
+   "mean_rank_b": 701.79,
+   "z": -5.003339795395021,
+   "p": 5.634549404761223e-07,
+   "p_adj": 5.240062203604887e-06,
+   "significant": true
+  },
+  {
+   "a": "Magicoder-6.7B",
+   "b": "CodeLlama-13B",
+   "mean_rank_a": 561.515,
+   "mean_rank_b": 560.3,
+   "z": 0.03386415993611285,
+   "p": 0.9729854730135961,
+   "p_adj": 0.9940777661948258,
+   "significant": false
+  },
+  {
+   "a": "Magicoder-6.7B",
+   "b": "GPT-3.5-Turbo",
+   "mean_rank_a": 561.515,
+   "mean_rank_b": 594.680412371134,
+   "z": -0.9293037450274426,
+   "p": 0.35273169493542444,
+   "p_adj": 0.47436331387867425,
+   "significant": false
+  },
+  {
+   "a": "Magicoder-6.7B",
+   "b": "Gemini-Pro",
+   "mean_rank_a": 561.515,
+   "mean_rank_b": 620.4893617021277,
+   "z": -1.6392524544379217,
+   "p": 0.10116069356097815,
+   "p_adj": 0.19918278680855828,
+   "significant": false
+  },
+  {
+   "a": "Magicoder-6.7B",
+   "b": "WizardCoder-15B",
+   "mean_rank_a": 561.515,
+   "mean_rank_b": 636.0754716981132,
+   "z": -1.7523481642700585,
+   "p": 0.07971395883908153,
+   "p_adj": 0.17764825112709598,
+   "significant": false
+  },
+  {
+   "a": "Magicoder-6.7B",
+   "b": "CodeGeeX2-6B",
+   "mean_rank_a": 561.515,
+   "mean_rank_b": 595.304347826087,
+   "z": -0.7573590670123009,
+   "p": 0.4488347723041113,
+   "p_adj": 0.5557001942812806,
+   "significant": false
+  },
+  {
+   "a": "Magicoder-6.7B",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 561.515,
+   "mean_rank_b": 759.38,
+   "z": -5.5869336437140875,
+   "p": 2.311139808480183e-08,
+   "p_adj": 3.605378101229085e-07,
+   "significant": true
+  },
+  {
+   "a": "Magicoder-6.7B",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 561.515,
+   "mean_rank_b": 701.79,
+   "z": -3.9608173091349834,
+   "p": 7.469366456333997e-05,
+   "p_adj": 0.0004472568606904579,
+   "significant": true
+  },
+  {
+   "a": "CodeLlama-13B",
+   "b": "GPT-3.5-Turbo",
+   "mean_rank_a": 560.3,
+   "mean_rank_b": 594.680412371134,
+   "z": -0.9511032563212705,
+   "p": 0.3415519618804349,
+   "p_adj": 0.46738689520480564,
+   "significant": false
+  },
+  {
+   "a": "CodeLlama-13B",
+   "b": "Gemini-Pro",
+   "mean_rank_a": 560.3,
+   "mean_rank_b": 620.4893617021277,
+   "z": -1.652091500055708,
+   "p": 0.09851589945821279,
+   "p_adj": 0.19918278680855828,
+   "significant": false
+  },
+  {
+   "a": "CodeLlama-13B",
+   "b": "WizardCoder-15B",
+   "mean_rank_a": 560.3,
+   "mean_rank_b": 636.0754716981132,
+   "z": -1.7648876331436765,
+   "p": 0.07758265253325981,
+   "p_adj": 0.17764825112709598,
+   "significant": false
+  },
+  {
+   "a": "CodeLlama-13B",
+   "b": "CodeGeeX2-6B",
+   "mean_rank_a": 560.3,
+   "mean_rank_b": 595.304347826087,
+   "z": -0.7781667758333628,
+   "p": 0.4364707005980111,
+   "p_adj": 0.5491083007523365,
+   "significant": false
+  },
+  {
+   "a": "CodeLlama-13B",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 560.3,
+   "mean_rank_b": 759.38,
+   "z": -5.548705316939236,
+   "p": 2.8779277761286126e-08,
+   "p_adj": 3.7413061089671965e-07,
+   "significant": true
+  },
+  {
+   "a": "CodeLlama-13B",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 560.3,
+   "mean_rank_b": 701.79,
+   "z": -3.9435720077041005,
+   "p": 8.027687243162066e-05,
+   "p_adj": 0.0004472568606904579,
+   "significant": true
+  },
+  {
+   "a": "GPT-3.5-Turbo",
+   "b": "Gemini-Pro",
+   "mean_rank_a": 594.680412371134,
+   "mean_rank_b": 620.4893617021277,
+   "z": -0.7120704557604634,
+   "p": 0.4764211481336995,
+   "p_adj": 0.5806382742879462,
+   "significant": false
+  },
+  {
+   "a": "GPT-3.5-Turbo",
+   "b": "WizardCoder-15B",
+   "mean_rank_a": 594.680412371134,
+   "mean_rank_b": 636.0754716981132,
+   "z": -0.9677121937468963,
+   "p": 0.33318812656842045,
+   "p_adj": 0.46408346200601425,
+   "significant": false
+  },
+  {
+   "a": "GPT-3.5-Turbo",
+   "b": "CodeGeeX2-6B",
+   "mean_rank_a": 594.680412371134,
+   "mean_rank_b": 595.304347826087,
+   "z": -0.013917331147651922,
+   "p": 0.9888959348124939,
+   "p_adj": 0.9940777661948258,
+   "significant": false
+  },
+  {
+   "a": "GPT-3.5-Turbo",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 594.680412371134,
+   "mean_rank_b": 759.38,
+   "z": -4.614926595069112,
+   "p": 3.932342757454306e-06,
+   "p_adj": 2.5560227923452985e-05,
+   "significant": true
+  },
+  {
+   "a": "GPT-3.5-Turbo",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 594.680412371134,
+   "mean_rank_b": 701.79,
+   "z": -3.0012393573759333,
+   "p": 0.0026888311747878227,
+   "p_adj": 0.011651601757413898,
+   "significant": true
+  },
+  {
+   "a": "Gemini-Pro",
+   "b": "WizardCoder-15B",
+   "mean_rank_a": 620.4893617021277,
+   "mean_rank_b": 636.0754716981132,
+   "z": -0.36232680364573444,
+   "p": 0.717107830578934,
+   "p_adj": 0.8225648644876008,
+   "significant": false
+  },
+  {
+   "a": "Gemini-Pro",
+   "b": "CodeGeeX2-6B",
+   "mean_rank_a": 620.4893617021277,
+   "mean_rank_b": 595.304347826087,
+   "z": 0.5589082895313467,
+   "p": 0.5762243117346908,
+   "p_adj": 0.6708283032135206,
+   "significant": false
+  },
+  {
+   "a": "Gemini-Pro",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 620.4893617021277,
+   "mean_rank_b": 759.38,
+   "z": -3.860606764651472,
+   "p": 0.00011310580598292342,
+   "p_adj": 0.0005881501911112018,
+   "significant": true
+  },
+  {
+   "a": "Gemini-Pro",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 620.4893617021277,
+   "mean_rank_b": 701.79,
+   "z": -2.259834053826625,
+   "p": 0.023831552029404218,
+   "p_adj": 0.06409865718253548,
+   "significant": false
+  },
+  {
+   "a": "WizardCoder-15B",
+   "b": "CodeGeeX2-6B",
+   "mean_rank_a": 636.0754716981132,
+   "mean_rank_b": 595.304347826087,
+   "z": 0.8079257836257758,
+   "p": 0.41913330744992094,
+   "p_adj": 0.535940950509735,
+   "significant": false
+  },
+  {
+   "a": "WizardCoder-15B",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 636.0754716981132,
+   "mean_rank_b": 759.38,
+   "z": -2.897949260445256,
+   "p": 0.003756113512429885,
+   "p_adj": 0.015419834419449002,
+   "significant": true
+  },
+  {
+   "a": "WizardCoder-15B",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 636.0754716981132,
+   "mean_rank_b": 701.79,
+   "z": -1.5444474855514896,
+   "p": 0.12247996390779506,
+   "p_adj": 0.21229860410684478,
+   "significant": false
+  },
+  {
+   "a": "CodeGeeX2-6B",
+   "b": "PolyCoder-2.7B",
+   "mean_rank_a": 595.304347826087,
+   "mean_rank_b": 759.38,
+   "z": -3.6776141252993226,
+   "p": 0.00023542575117781514,
+   "p_adj": 0.0011477005369918488,
+   "significant": true
+  },
+  {
+   "a": "CodeGeeX2-6B",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 595.304347826087,
+   "mean_rank_b": 701.79,
+   "z": -2.3867839828020316,
+   "p": 0.016996474839383997,
+   "p_adj": 0.047347322766855424,
+   "significant": true
+  },
+  {
+   "a": "PolyCoder-2.7B",
+   "b": "SantaCoder-1.1B",
+   "mean_rank_a": 759.38,
+   "mean_rank_b": 701.79,
+   "z": 1.6261163345791043,
+   "p": 0.10392490979243658,
+   "p_adj": 0.19918278680855828,
+   "significant": false
+  }
+ ],
+ "n_significant_pairs": 28,
+ "significant_pairs": [
+  "Human vs PolyCoder-2.7B (p_adj=0.0000)",
+  "Human vs SantaCoder-1.1B (p_adj=0.0036)",
+  "GPT-4-Turbo vs Gemini-Pro (p_adj=0.0293)",
+  "GPT-4-Turbo vs WizardCoder-15B (p_adj=0.0293)",
+  "GPT-4-Turbo vs PolyCoder-2.7B (p_adj=0.0000)",
+  "GPT-4-Turbo vs SantaCoder-1.1B (p_adj=0.0000)",
+  "DeepSeek-Coder vs Gemini-Pro (p_adj=0.0293)",
+  "DeepSeek-Coder vs WizardCoder-15B (p_adj=0.0293)",
+  "DeepSeek-Coder vs PolyCoder-2.7B (p_adj=0.0000)",
+  "DeepSeek-Coder vs SantaCoder-1.1B (p_adj=0.0000)",
+  "StarCoder-15B vs Gemini-Pro (p_adj=0.0365)",
+  "StarCoder-15B vs WizardCoder-15B (p_adj=0.0373)",
+  "StarCoder-15B vs PolyCoder-2.7B (p_adj=0.0000)",
+  "StarCoder-15B vs SantaCoder-1.1B (p_adj=0.0000)",
+  "InstructCodeGen-16B vs Gemini-Pro (p_adj=0.0293)",
+  "InstructCodeGen-16B vs WizardCoder-15B (p_adj=0.0293)",
+  "InstructCodeGen-16B vs PolyCoder-2.7B (p_adj=0.0000)",
+  "InstructCodeGen-16B vs SantaCoder-1.1B (p_adj=0.0000)",
+  "Magicoder-6.7B vs PolyCoder-2.7B (p_adj=0.0000)",
+  "Magicoder-6.7B vs SantaCoder-1.1B (p_adj=0.0004)",
+  "CodeLlama-13B vs PolyCoder-2.7B (p_adj=0.0000)",
+  "CodeLlama-13B vs SantaCoder-1.1B (p_adj=0.0004)",
+  "GPT-3.5-Turbo vs PolyCoder-2.7B (p_adj=0.0000)",
+  "GPT-3.5-Turbo vs SantaCoder-1.1B (p_adj=0.0117)",
+  "Gemini-Pro vs PolyCoder-2.7B (p_adj=0.0006)",
+  "WizardCoder-15B vs PolyCoder-2.7B (p_adj=0.0154)",
+  "CodeGeeX2-6B vs PolyCoder-2.7B (p_adj=0.0011)",
+  "CodeGeeX2-6B vs SantaCoder-1.1B (p_adj=0.0473)"
+ ]
+}

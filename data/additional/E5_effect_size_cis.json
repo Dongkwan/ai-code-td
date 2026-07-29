@@ -1,0 +1,132 @@
+{
+ "GPT-4-Turbo": {
+  "n": 99,
+  "delta": -0.10808080808080811,
+  "ci95": [
+   -0.21525757575757576,
+   -0.008277777777777813
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": true
+ },
+ "DeepSeek-Coder": {
+  "n": 100,
+  "delta": -0.10470000000000002,
+  "ci95": [
+   -0.21280749999999998,
+   -0.0021899999999999446
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": true
+ },
+ "StarCoder-15B": {
+  "n": 100,
+  "delta": -0.09560000000000002,
+  "ci95": [
+   -0.20020750000000004,
+   0.008707499999999957
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": false
+ },
+ "InstructCodeGen-16B": {
+  "n": 99,
+  "delta": -0.10808080808080811,
+  "ci95": [
+   -0.21353535353535358,
+   -0.0028257575757575835
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": true
+ },
+ "Magicoder-6.7B": {
+  "n": 100,
+  "delta": -0.039100000000000024,
+  "ci95": [
+   -0.15300750000000002,
+   0.07200750000000009
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": false
+ },
+ "CodeLlama-13B": {
+  "n": 95,
+  "delta": -0.04126315789473689,
+  "ci95": [
+   -0.1542236842105263,
+   0.06989736842105261
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": false
+ },
+ "GPT-3.5-Turbo": {
+  "n": 97,
+  "delta": 0.022061855670103103,
+  "ci95": [
+   -0.09793814432989689,
+   0.13670876288659806
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": false
+ },
+ "Gemini-Pro": {
+  "n": 94,
+  "delta": 0.07265957446808513,
+  "ci95": [
+   -0.05064095744680851,
+   0.20202127659574476
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": false
+ },
+ "WizardCoder-15B": {
+  "n": 53,
+  "delta": 0.10207547169811315,
+  "ci95": [
+   -0.05320754716981135,
+   0.2628349056603773
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": false
+ },
+ "CodeGeeX2-6B": {
+  "n": 46,
+  "delta": 0.022826086956521774,
+  "ci95": [
+   -0.12478804347826086,
+   0.1826195652173914
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": false
+ },
+ "PolyCoder-2.7B": {
+  "n": 100,
+  "delta": 0.31309999999999993,
+  "ci95": [
+   0.19119250000000004,
+   0.44241249999999993
+  ],
+  "magnitude": "small",
+  "excludes_zero": true
+ },
+ "SantaCoder-1.1B": {
+  "n": 100,
+  "delta": 0.20599999999999996,
+  "ci95": [
+   0.07799750000000007,
+   0.32540749999999996
+  ],
+  "magnitude": "small",
+  "excludes_zero": true
+ },
+ "AI (pooled)": {
+  "n": 1083,
+  "delta": 0.016694367497691598,
+  "ci95": [
+   -0.0667513850415513,
+   0.09442520775623275
+  ],
+  "magnitude": "negligible",
+  "excludes_zero": false
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "n_complete_blocks": 24,
+ "k_conditions": 13,
+ "chi2": 47.486977886977925,
+ "p": 3.8380486221847065e-06,
+ "mean_density_per_condition": {
+  "Human": 12.763759133341054,
+  "GPT-4-Turbo": 5.1285885167464125,
+  "DeepSeek-Coder": 5.634920634920635,
+  "StarCoder-15B": 18.93704681322699,
+  "InstructCodeGen-16B": 21.3961510530138,
+  "Magicoder-6.7B": 13.43510063697667,
+  "CodeLlama-13B": 9.93987493987494,
+  "GPT-3.5-Turbo": 12.806799717155435,
+  "Gemini-Pro": 17.532467532467532,
+  "WizardCoder-15B": 13.451553650283074,
+  "CodeGeeX2-6B": 73.34035303768401,
+  "PolyCoder-2.7B": 117.84224422092069,
+  "SantaCoder-1.1B": 301.5028519382235
+ },
+ "mean_rank_per_condition": {
+  "Human": 6.25,
+  "GPT-4-Turbo": 5.791666666666667,
+  "DeepSeek-Coder": 5.6875,
+  "StarCoder-15B": 6.541666666666667,
+  "InstructCodeGen-16B": 6.854166666666667,
+  "Magicoder-6.7B": 7.104166666666667,
+  "CodeLlama-13B": 6.4375,
+  "GPT-3.5-Turbo": 6.520833333333333,
+  "Gemini-Pro": 7.1875,
+  "WizardCoder-15B": 6.833333333333333,
+  "CodeGeeX2-6B": 7.625,
+  "PolyCoder-2.7B": 9.479166666666666,
+  "SantaCoder-1.1B": 8.6875
+ },
+ "significant": true
+}

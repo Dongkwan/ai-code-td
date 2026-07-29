@@ -1,0 +1,19 @@
+{
+ "n_ai": 1083,
+ "n_human": 100,
+ "cliffs_delta": 0.016694367497691598,
+ "delta_ci95": [
+  -0.0655320867959372,
+  0.09510133887349943
+ ],
+ "delta_ci_within_negligible": true,
+ "mean_diff": 24.648529007688254,
+ "mean_diff_ci95": [
+  13.43903412062325,
+  37.30049997237656
+ ],
+ "sesoi_margin_smells_per_kloc": 33.87640561299923,
+ "tost_p": 0.06429120393497087,
+ "equivalent_at_005": false,
+ "interpretation": "equivalence not established at the chosen margin"
+}

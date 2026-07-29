@@ -1,0 +1,138 @@
+{
+ "per_model": {
+  "GPT-4-Turbo": {
+   "n": 99,
+   "classes_with_duplicate": 0,
+   "occurrence_rate": 0.0,
+   "share_of_smells": 0.0,
+   "odds_ratio_vs_human": 0.0,
+   "p": 1.0,
+   "p_adj": 1.0
+  },
+  "DeepSeek-Coder": {
+   "n": 100,
+   "classes_with_duplicate": 0,
+   "occurrence_rate": 0.0,
+   "share_of_smells": 0.0,
+   "odds_ratio_vs_human": 0.0,
+   "p": 1.0,
+   "p_adj": 1.0
+  },
+  "StarCoder-15B": {
+   "n": 100,
+   "classes_with_duplicate": 5,
+   "occurrence_rate": 0.05,
+   "share_of_smells": 0.3333333333333333,
+   "odds_ratio_vs_human": 5.2105263157894735,
+   "p": 0.2116478526957317,
+   "p_adj": 0.28219713692764226
+  },
+  "InstructCodeGen-16B": {
+   "n": 99,
+   "classes_with_duplicate": 7,
+   "occurrence_rate": 0.0707070707070707,
+   "share_of_smells": 0.4,
+   "odds_ratio_vs_human": 7.532608695652174,
+   "p": 0.03489915197211575,
+   "p_adj": 0.059827117666484145
+  },
+  "Magicoder-6.7B": {
+   "n": 100,
+   "classes_with_duplicate": 2,
+   "occurrence_rate": 0.02,
+   "share_of_smells": 0.07407407407407407,
+   "odds_ratio_vs_human": 2.020408163265306,
+   "p": 1.0,
+   "p_adj": 1.0
+  },
+  "CodeLlama-13B": {
+   "n": 95,
+   "classes_with_duplicate": 5,
+   "occurrence_rate": 0.05263157894736842,
+   "share_of_smells": 0.23333333333333334,
+   "odds_ratio_vs_human": 5.5,
+   "p": 0.11117536511243176,
+   "p_adj": 0.16676304766864763
+  },
+  "GPT-3.5-Turbo": {
+   "n": 97,
+   "classes_with_duplicate": 8,
+   "occurrence_rate": 0.08247422680412371,
+   "share_of_smells": 0.23809523809523808,
+   "odds_ratio_vs_human": 8.898876404494382,
+   "p": 0.01738248275921223,
+   "p_adj": 0.04171795862210935
+  },
+  "Gemini-Pro": {
+   "n": 94,
+   "classes_with_duplicate": 10,
+   "occurrence_rate": 0.10638297872340426,
+   "share_of_smells": 0.24528301886792453,
+   "odds_ratio_vs_human": 11.785714285714286,
+   "p": 0.0040545329574553915,
+   "p_adj": 0.016218131829821566
+  },
+  "WizardCoder-15B": {
+   "n": 53,
+   "classes_with_duplicate": 6,
+   "occurrence_rate": 0.11320754716981132,
+   "share_of_smells": 0.21428571428571427,
+   "odds_ratio_vs_human": 12.638297872340425,
+   "p": 0.00723117329001567,
+   "p_adj": 0.021693519870047008
+  },
+  "CodeGeeX2-6B": {
+   "n": 46,
+   "classes_with_duplicate": 4,
+   "occurrence_rate": 0.08695652173913043,
+   "share_of_smells": 0.7692307692307693,
+   "odds_ratio_vs_human": 9.428571428571429,
+   "p": 0.034291227544036795,
+   "p_adj": 0.059827117666484145
+  },
+  "PolyCoder-2.7B": {
+   "n": 100,
+   "classes_with_duplicate": 44,
+   "occurrence_rate": 0.44,
+   "share_of_smells": 0.9594594594594594,
+   "odds_ratio_vs_human": 77.78571428571429,
+   "p": 7.263029089964456e-15,
+   "p_adj": 8.715634907957347e-14
+  },
+  "SantaCoder-1.1B": {
+   "n": 100,
+   "classes_with_duplicate": 29,
+   "occurrence_rate": 0.29,
+   "share_of_smells": 0.8940092165898618,
+   "odds_ratio_vs_human": 40.436619718309856,
+   "p": 6.202166733063266e-09,
+   "p_adj": 3.72130003983796e-08
+  }
+ },
+ "share_difference": {
+  "ai_share": 0.6391437308868502,
+  "human_share": 0.05660377358490566,
+  "difference": 0.5825399573019445,
+  "ci95": [
+   0.461348923529103,
+   0.6871588275684491
+  ],
+  "excludes_zero": true
+ },
+ "models_emitting_duplicates": [
+  "StarCoder-15B",
+  "InstructCodeGen-16B",
+  "Magicoder-6.7B",
+  "CodeLlama-13B",
+  "GPT-3.5-Turbo",
+  "Gemini-Pro",
+  "WizardCoder-15B",
+  "CodeGeeX2-6B",
+  "PolyCoder-2.7B",
+  "SantaCoder-1.1B"
+ ],
+ "models_emitting_no_duplicates": [
+  "GPT-4-Turbo",
+  "DeepSeek-Coder"
+ ]
+}
