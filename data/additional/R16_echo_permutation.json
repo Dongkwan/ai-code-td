@@ -1,0 +1,11 @@
+{
+ "n_statement_free_blocks": 302,
+ "permutations_per_block": 20,
+ "own_mean_share": 0.8432671081677701,
+ "foreign_mean_share": 0.17033664459160563,
+ "own_share_at_least_half": 281,
+ "own_rate_at_least_half": 0.9304635761589404,
+ "foreign_share_at_least_half": 455,
+ "foreign_rate_at_least_half": 0.07533112582781457,
+ "seed": 20260809
+}

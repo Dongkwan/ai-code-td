@@ -1,0 +1,38 @@
+{
+ "corpus": "greedy only, as reported in the manuscript",
+ "configs": [
+  {
+   "config": "lenient-0.75x",
+   "scale": 0.75,
+   "n_ai": 1083,
+   "n_human": 100,
+   "ai_density": 81.95438827402248,
+   "human_density": 26.64224014505219,
+   "mannwhitney_p": 0.09865055989115419,
+   "dup_share_ai": 68.97689768976898,
+   "dup_share_human": 16.216216216216218
+  },
+  {
+   "config": "baseline-1.00x",
+   "scale": 1.0,
+   "n_ai": 1083,
+   "n_human": 100,
+   "ai_density": 34.22174823561736,
+   "human_density": 8.776884860159974,
+   "mannwhitney_p": 0.5136823497677449,
+   "dup_share_ai": 72.82229965156795,
+   "dup_share_human": 7.317073170731707
+  },
+  {
+   "config": "strict-1.25x",
+   "scale": 1.25,
+   "n_ai": 1083,
+   "n_human": 100,
+   "ai_density": 15.39179158446368,
+   "human_density": 2.836523547911545,
+   "mannwhitney_p": 0.9874661080087846,
+   "dup_share_ai": 82.97872340425532,
+   "dup_share_human": 20.0
+  }
+ ]
+}

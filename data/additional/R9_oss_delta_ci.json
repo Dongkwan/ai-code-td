@@ -1,0 +1,19 @@
+{
+ "n_repositories": 100,
+ "n_ai_classes": 5191,
+ "n_human_classes": 4216,
+ "cliffs_delta": -0.042,
+ "naive_class_bootstrap_95ci": [
+  -0.063,
+  -0.021
+ ],
+ "cluster_bootstrap_95ci": [
+  -0.087,
+  0.003
+ ],
+ "n_bootstrap": 10000,
+ "negligible_band": 0.147,
+ "cluster_ci_inside_negligible_band": true,
+ "cluster_ci_excludes_zero": false,
+ "note": "The cluster interval resamples repositories, not classes, and is the one the design supports. The naive interval is shown only to quantify what ignoring the nesting costs."
+}

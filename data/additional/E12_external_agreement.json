@@ -44,17 +44,17 @@
    "external_positive": 19
   },
   "DeepNesting": {
-   "kappa": 0.6310439855409616,
-   "raw_agreement": 0.94843617920541,
-   "both": 58,
-   "neither": 1064,
-   "ours_only": 61,
-   "external_only": 0,
-   "precision_vs_external": 0.48739495798319327,
-   "recall_vs_external": 1.0,
-   "f1": 0.655367231638418,
+   "kappa": 0.9237376911795514,
+   "raw_agreement": 0.9932375316990701,
+   "both": 51,
+   "neither": 1124,
+   "ours_only": 1,
+   "external_only": 7,
+   "precision_vs_external": 0.9807692307692307,
+   "recall_vs_external": 0.8793103448275862,
+   "f1": 0.9272727272727272,
    "external_reference": "pylint",
-   "ours_positive": 119,
+   "ours_positive": 52,
    "external_positive": 58
   },
   "GodClass": {
@@ -101,8 +101,8 @@
   "Duplicate": "Pylint R0801 detects duplication across modules, not within a single class file; no single-file external rule is equivalent to our 6-line window."
  },
  "summary": {
-  "mean_kappa": 0.7843577496438426,
+  "mean_kappa": 0.833140033916941,
   "min_kappa": 0.4674103346505937,
-  "mean_raw_agreement": 0.989010989010989
+  "mean_raw_agreement": 0.9964778810932656
  }
 }

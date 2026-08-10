@@ -1,0 +1,77 @@
+[
+  {
+    "label": "All models",
+    "k": 12,
+    "models": [
+      "CodeGeeX2-6B",
+      "CodeLlama-13B",
+      "DeepSeek-Coder",
+      "GPT-3.5-Turbo",
+      "GPT-4-Turbo",
+      "Gemini-Pro",
+      "InstructCodeGen-16B",
+      "Magicoder-6.7B",
+      "PolyCoder-2.7B",
+      "SantaCoder-1.1B",
+      "StarCoder-15B",
+      "WizardCoder-15B"
+    ],
+    "spread": 9.793719866040302,
+    "ratio": 0.9971027970257369,
+    "H": 27.94258697330414,
+    "p": 0.0033035373110870277
+  },
+  {
+    "label": "Excl. pass@1 = 0",
+    "k": 10,
+    "models": [
+      "CodeGeeX2-6B",
+      "CodeLlama-13B",
+      "DeepSeek-Coder",
+      "GPT-3.5-Turbo",
+      "GPT-4-Turbo",
+      "Gemini-Pro",
+      "InstructCodeGen-16B",
+      "Magicoder-6.7B",
+      "StarCoder-15B",
+      "WizardCoder-15B"
+    ],
+    "spread": 9.793719866040302,
+    "ratio": 0.7992651990480771,
+    "H": 22.499064008071766,
+    "p": 0.007424949125015418
+  },
+  {
+    "label": "Passes some test, mostly parses",
+    "k": 9,
+    "models": [
+      "CodeLlama-13B",
+      "DeepSeek-Coder",
+      "GPT-3.5-Turbo",
+      "GPT-4-Turbo",
+      "Gemini-Pro",
+      "InstructCodeGen-16B",
+      "Magicoder-6.7B",
+      "StarCoder-15B",
+      "WizardCoder-15B"
+    ],
+    "spread": 3.6076044094650097,
+    "ratio": 0.6611438879284428,
+    "H": 20.76095844013506,
+    "p": 0.0078102704960077655
+  },
+  {
+    "label": "Four highest pass@1",
+    "k": 4,
+    "models": [
+      "DeepSeek-Coder",
+      "GPT-3.5-Turbo",
+      "GPT-4-Turbo",
+      "Gemini-Pro"
+    ],
+    "spread": 3.6076044094650097,
+    "ratio": 0.7050875677561184,
+    "H": 11.010241872467606,
+    "p": 0.011670622614983013
+  }
+]

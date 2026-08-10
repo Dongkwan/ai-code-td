@@ -2,140 +2,140 @@
   "overall": {
     "n_human": 100,
     "n_ai": 1083,
-    "human_density_mean": 11.617193944402322,
+    "human_density_mean": 8.776884860159972,
     "human_density_median": 0.0,
-    "ai_density_mean": 36.26572295209058,
+    "ai_density_mean": 8.751456443238352,
     "ai_density_median": 0.0,
-    "ratio_mean": 3.1217282870245104,
-    "mannwhitney_U": 55054.0,
-    "p_value": 0.7061190998844487,
-    "cliffs_delta": 0.016694367497691598,
+    "ratio_mean": 0.9971027970257369,
+    "mannwhitney_U": 51868.5,
+    "p_value": 0.24169709023558328,
+    "cliffs_delta": -0.04213296398891967,
     "magnitude": "negligible",
-    "human_smells_per_class": 0.53,
-    "ai_smells_per_class": 0.6038781163434903
+    "human_smells_per_class": 0.41,
+    "ai_smells_per_class": 0.25115420129270544
   },
   "paired": {
     "n_tasks": 100,
-    "human_mean": 11.617193944402322,
-    "ai_mean": 35.61099806856775,
-    "wilcoxon_W": 409.0,
-    "p_value": 2.266841577304587e-07,
-    "ai_higher_in": 63,
-    "human_higher_in": 10
+    "human_mean": 8.776884860159974,
+    "ai_mean": 8.580853047481703,
+    "wilcoxon_W": 536.0,
+    "p_value": 0.23387474482053283,
+    "ai_higher_in": 35,
+    "human_higher_in": 16
   },
   "per_model": {
     "GPT-4-Turbo": {
       "n": 99,
-      "density_mean": 4.571505746617599,
+      "density_mean": 2.9685543829006855,
       "density_median": 0.0,
-      "ratio_vs_human": 0.3935120450339346,
-      "p_value": 0.04992934562222418,
-      "cliffs_delta": -0.10808080808080808,
+      "ratio_vs_human": 0.33822414560495656,
+      "p_value": 0.059020853805086065,
+      "cliffs_delta": -0.09232323232323232,
       "magnitude": "negligible"
     },
     "DeepSeek-Coder": {
       "n": 100,
-      "density_mean": 5.98156362940826,
+      "density_mean": 3.7509927454355796,
       "density_median": 0.0,
-      "ratio_vs_human": 0.5148888499266591,
-      "p_value": 0.05362886925950293,
-      "cliffs_delta": -0.1047,
+      "ratio_vs_human": 0.4273717617582159,
+      "p_value": 0.04193739940388551,
+      "cliffs_delta": -0.0974,
       "magnitude": "negligible"
     },
     "StarCoder-15B": {
       "n": 100,
-      "density_mean": 7.372182855634978,
+      "density_mean": 3.044891235174477,
       "density_median": 0.0,
-      "ratio_vs_human": 0.6345923887400728,
-      "p_value": 0.08152708826594082,
-      "cliffs_delta": -0.0956,
+      "ratio_vs_human": 0.34692163377872764,
+      "p_value": 0.02432885652809958,
+      "cliffs_delta": -0.106,
       "magnitude": "negligible"
     },
     "InstructCodeGen-16B": {
       "n": 99,
-      "density_mean": 8.382894961147016,
+      "density_mean": 4.435960880054008,
       "density_median": 0.0,
-      "ratio_vs_human": 0.7215937860094233,
-      "p_value": 0.044781702156383336,
-      "cliffs_delta": -0.10808080808080808,
+      "ratio_vs_human": 0.5054140450434433,
+      "p_value": 0.07135016285927256,
+      "cliffs_delta": -0.08818181818181818,
       "magnitude": "negligible"
     },
     "Magicoder-6.7B": {
       "n": 100,
-      "density_mean": 8.944230384011416,
+      "density_mean": 5.338806036176863,
       "density_median": 0.0,
-      "ratio_vs_human": 0.7699131500099593,
-      "p_value": 0.5033813908530722,
-      "cliffs_delta": -0.0391,
+      "ratio_vs_human": 0.608280286370255,
+      "p_value": 0.3320930911816473,
+      "cliffs_delta": -0.0501,
       "magnitude": "negligible"
     },
     "CodeLlama-13B": {
       "n": 95,
-      "density_mean": 10.223364275995856,
+      "density_mean": 6.5273830800146575,
       "density_median": 0.0,
-      "ratio_vs_human": 0.8800201085497006,
-      "p_value": 0.481779959191603,
-      "cliffs_delta": -0.04126315789473684,
+      "ratio_vs_human": 0.7437015733957897,
+      "p_value": 0.6199146574574705,
+      "cliffs_delta": -0.02663157894736842,
       "magnitude": "negligible"
     },
     "GPT-3.5-Turbo": {
       "n": 97,
-      "density_mean": 12.03692898555562,
+      "density_mean": 7.606570186745473,
       "density_median": 0.0,
-      "ratio_vs_human": 1.036130501320893,
-      "p_value": 0.7216925214289309,
-      "cliffs_delta": 0.022061855670103093,
+      "ratio_vs_human": 0.8666594478495678,
+      "p_value": 0.988026782129082,
+      "cliffs_delta": -0.0009278350515463917,
       "magnitude": "negligible"
     },
     "Gemini-Pro": {
       "n": 94,
-      "density_mean": 15.219518404111072,
+      "density_mean": 10.709369881489193,
       "density_median": 0.0,
-      "ratio_vs_human": 1.3100855918347227,
-      "p_value": 0.2564121306261119,
-      "cliffs_delta": 0.0726595744680851,
+      "ratio_vs_human": 1.2201789190719767,
+      "p_value": 0.443508803692924,
+      "cliffs_delta": 0.04425531914893617,
       "magnitude": "negligible"
     },
     "WizardCoder-15B": {
       "n": 53,
-      "density_mean": 15.490282880837622,
+      "density_mean": 10.298010223831797,
       "density_median": 0.0,
-      "ratio_vs_human": 1.3333928102578958,
-      "p_value": 0.18032797641834108,
-      "cliffs_delta": 0.10207547169811321,
+      "ratio_vs_human": 1.1733103929136084,
+      "p_value": 0.46526174541497034,
+      "cliffs_delta": 0.05,
       "magnitude": "negligible"
     },
     "CodeGeeX2-6B": {
       "n": 46,
-      "density_mean": 58.21197588014856,
+      "density_mean": 29.073190033235452,
       "density_median": 0.0,
-      "ratio_vs_human": 5.010846522726571,
-      "p_value": 0.764859541994756,
-      "cliffs_delta": 0.02282608695652174,
+      "ratio_vs_human": 3.312472533985771,
+      "p_value": 0.5776706717514617,
+      "cliffs_delta": 0.0391304347826087,
       "magnitude": "negligible"
     },
     "PolyCoder-2.7B": {
       "n": 100,
-      "density_mean": 120.76989247422684,
+      "density_mean": 5.309916691495638,
       "density_median": 0.0,
-      "ratio_vs_human": 10.395788608867903,
-      "p_value": 5.892277001141831e-06,
-      "cliffs_delta": 0.3131,
-      "magnitude": "small"
+      "ratio_vs_human": 0.6049887603742424,
+      "p_value": 0.02960452382480885,
+      "cliffs_delta": -0.1024,
+      "magnitude": "negligible"
     },
     "SantaCoder-1.1B": {
       "n": 100,
-      "density_mean": 166.18333021741077,
+      "density_mean": 27.525388931987596,
       "density_median": 0.0,
-      "ratio_vs_human": 14.304945842578901,
-      "p_value": 0.0019131308858230025,
-      "cliffs_delta": 0.206,
-      "magnitude": "small"
+      "ratio_vs_human": 3.1361228238199654,
+      "p_value": 0.738541200525211,
+      "cliffs_delta": 0.0184,
+      "magnitude": "negligible"
     }
   },
   "model_effect_kruskal": {
-    "H": 96.32594061643712,
-    "p_value": 9.507463907475506e-16,
+    "H": 27.94258697330414,
+    "p_value": 0.0033035373110870277,
     "k_models": 12
   },
   "smell_presence": {
@@ -170,16 +170,16 @@
       "odds_ratio": 1.2965388213283442
     },
     "Deep Nesting": {
-      "human_rate": 0.18,
-      "ai_rate": 0.09325946445060018,
-      "fisher_p": 0.009035566530724161,
-      "odds_ratio": 0.4685449196650826
+      "human_rate": 0.1,
+      "ai_rate": 0.038781163434903045,
+      "fisher_p": 0.009215227797134483,
+      "odds_ratio": 0.3631123919308357
     },
     "Duplicate Code": {
       "human_rate": 0.01,
-      "ai_rate": 0.11080332409972299,
-      "fisher_p": 0.0003813658909145538,
-      "odds_ratio": 12.336448598130842
+      "ai_rate": 0.04155124653739612,
+      "fisher_p": 0.17197184406739452,
+      "odds_ratio": 4.291907514450867
     }
   },
   "smell_distribution": {
@@ -198,7 +198,7 @@
       11.0,
       9.0,
       1.0,
-      24.0,
+      12.0,
       3.0
     ],
     "ai_counts": [
@@ -207,139 +207,139 @@
       47.0,
       26.0,
       23.0,
-      125.0,
-      418.0
+      45.0,
+      116.0
     ],
     "human_prop": [
-      0.018867924528301886,
-      0.07547169811320754,
-      0.20754716981132076,
-      0.16981132075471697,
-      0.018867924528301886,
-      0.4528301886792453,
-      0.05660377358490566
+      0.024390243902439025,
+      0.0975609756097561,
+      0.2682926829268293,
+      0.21951219512195122,
+      0.024390243902439025,
+      0.2926829268292683,
+      0.07317073170731707
     ],
     "ai_prop": [
-      0.009174311926605505,
-      0.013761467889908258,
-      0.07186544342507645,
-      0.039755351681957186,
-      0.035168195718654434,
-      0.191131498470948,
-      0.6391437308868502
+      0.022058823529411766,
+      0.03308823529411765,
+      0.17279411764705882,
+      0.09558823529411764,
+      0.08455882352941177,
+      0.16544117647058823,
+      0.4264705882352941
     ],
-    "chi2": 82.62764481289518,
-    "p_value": 1.022849924500415e-15,
-    "cramers_v": 0.34186369322059634
+    "chi2": 26.76862950166934,
+    "p_value": 0.00015999567087401166,
+    "cramers_v": 0.2924427772413005
   },
   "model_smell_profile": {
     "GPT-4-Turbo": {
       "God Class": 0.0,
       "Long Method": 0.0,
-      "High Complexity": 0.07142857142857142,
-      "Complex Conditional": 0.14285714285714285,
-      "Long Parameter List": 0.07142857142857142,
-      "Deep Nesting": 0.7142857142857143,
+      "High Complexity": 0.1111111111111111,
+      "Complex Conditional": 0.2222222222222222,
+      "Long Parameter List": 0.1111111111111111,
+      "Deep Nesting": 0.5555555555555556,
       "Duplicate Code": 0.0
     },
     "DeepSeek-Coder": {
       "God Class": 0.0,
       "Long Method": 0.0,
-      "High Complexity": 0.2222222222222222,
-      "Complex Conditional": 0.1111111111111111,
-      "Long Parameter List": 0.05555555555555555,
-      "Deep Nesting": 0.6111111111111112,
+      "High Complexity": 0.4,
+      "Complex Conditional": 0.2,
+      "Long Parameter List": 0.1,
+      "Deep Nesting": 0.3,
       "Duplicate Code": 0.0
     },
     "StarCoder-15B": {
       "God Class": 0.0,
       "Long Method": 0.0,
-      "High Complexity": 0.05555555555555555,
-      "Complex Conditional": 0.1111111111111111,
-      "Long Parameter List": 0.05555555555555555,
-      "Deep Nesting": 0.4444444444444444,
-      "Duplicate Code": 0.3333333333333333
+      "High Complexity": 0.1111111111111111,
+      "Complex Conditional": 0.2222222222222222,
+      "Long Parameter List": 0.1111111111111111,
+      "Deep Nesting": 0.1111111111111111,
+      "Duplicate Code": 0.4444444444444444
     },
     "InstructCodeGen-16B": {
       "God Class": 0.0,
-      "Long Method": 0.05,
-      "High Complexity": 0.15,
-      "Complex Conditional": 0.05,
-      "Long Parameter List": 0.05,
-      "Deep Nesting": 0.3,
-      "Duplicate Code": 0.4
+      "Long Method": 0.07692307692307693,
+      "High Complexity": 0.23076923076923078,
+      "Complex Conditional": 0.07692307692307693,
+      "Long Parameter List": 0.07692307692307693,
+      "Deep Nesting": 0.07692307692307693,
+      "Duplicate Code": 0.46153846153846156
     },
     "Magicoder-6.7B": {
       "God Class": 0.0,
-      "Long Method": 0.037037037037037035,
-      "High Complexity": 0.2222222222222222,
-      "Complex Conditional": 0.07407407407407407,
-      "Long Parameter List": 0.037037037037037035,
-      "Deep Nesting": 0.5555555555555556,
-      "Duplicate Code": 0.07407407407407407
+      "Long Method": 0.0625,
+      "High Complexity": 0.375,
+      "Complex Conditional": 0.125,
+      "Long Parameter List": 0.0625,
+      "Deep Nesting": 0.375,
+      "Duplicate Code": 0.0
     },
     "CodeLlama-13B": {
       "God Class": 0.0,
       "Long Method": 0.0,
-      "High Complexity": 0.2,
-      "Complex Conditional": 0.1,
-      "Long Parameter List": 0.03333333333333333,
-      "Deep Nesting": 0.43333333333333335,
-      "Duplicate Code": 0.23333333333333334
+      "High Complexity": 0.3157894736842105,
+      "Complex Conditional": 0.15789473684210525,
+      "Long Parameter List": 0.05263157894736842,
+      "Deep Nesting": 0.21052631578947367,
+      "Duplicate Code": 0.2631578947368421
     },
     "GPT-3.5-Turbo": {
       "God Class": 0.0,
-      "Long Method": 0.047619047619047616,
-      "High Complexity": 0.14285714285714285,
-      "Complex Conditional": 0.07142857142857142,
-      "Long Parameter List": 0.023809523809523808,
-      "Deep Nesting": 0.47619047619047616,
-      "Duplicate Code": 0.23809523809523808
+      "Long Method": 0.08,
+      "High Complexity": 0.24,
+      "Complex Conditional": 0.12,
+      "Long Parameter List": 0.04,
+      "Deep Nesting": 0.28,
+      "Duplicate Code": 0.24
     },
     "Gemini-Pro": {
       "God Class": 0.0,
-      "Long Method": 0.03773584905660377,
-      "High Complexity": 0.1509433962264151,
-      "Complex Conditional": 0.1320754716981132,
-      "Long Parameter List": 0.018867924528301886,
-      "Deep Nesting": 0.41509433962264153,
-      "Duplicate Code": 0.24528301886792453
+      "Long Method": 0.05405405405405406,
+      "High Complexity": 0.21621621621621623,
+      "Complex Conditional": 0.1891891891891892,
+      "Long Parameter List": 0.02702702702702703,
+      "Deep Nesting": 0.2702702702702703,
+      "Duplicate Code": 0.24324324324324326
     },
     "WizardCoder-15B": {
       "God Class": 0.0,
       "Long Method": 0.0,
-      "High Complexity": 0.17857142857142858,
-      "Complex Conditional": 0.10714285714285714,
-      "Long Parameter List": 0.03571428571428571,
-      "Deep Nesting": 0.4642857142857143,
-      "Duplicate Code": 0.21428571428571427
+      "High Complexity": 0.2631578947368421,
+      "Complex Conditional": 0.15789473684210525,
+      "Long Parameter List": 0.05263157894736842,
+      "Deep Nesting": 0.3157894736842105,
+      "Duplicate Code": 0.21052631578947367
     },
     "CodeGeeX2-6B": {
       "God Class": 0.0,
       "Long Method": 0.0,
-      "High Complexity": 0.10256410256410256,
+      "High Complexity": 0.18181818181818182,
       "Complex Conditional": 0.0,
-      "Long Parameter List": 0.02564102564102564,
-      "Deep Nesting": 0.10256410256410256,
-      "Duplicate Code": 0.7692307692307693
+      "Long Parameter List": 0.045454545454545456,
+      "Deep Nesting": 0.09090909090909091,
+      "Duplicate Code": 0.6818181818181818
     },
     "PolyCoder-2.7B": {
       "God Class": 0.0,
-      "Long Method": 0.006756756756756757,
-      "High Complexity": 0.006756756756756757,
+      "Long Method": 0.058823529411764705,
+      "High Complexity": 0.058823529411764705,
       "Complex Conditional": 0.0,
-      "Long Parameter List": 0.02027027027027027,
-      "Deep Nesting": 0.006756756756756757,
-      "Duplicate Code": 0.9594594594594594
+      "Long Parameter List": 0.17647058823529413,
+      "Deep Nesting": 0.0,
+      "Duplicate Code": 0.7058823529411765
     },
     "SantaCoder-1.1B": {
-      "God Class": 0.027649769585253458,
-      "Long Method": 0.009216589861751152,
-      "High Complexity": 0.009216589861751152,
-      "Complex Conditional": 0.004608294930875576,
-      "Long Parameter List": 0.04608294930875576,
-      "Deep Nesting": 0.009216589861751152,
-      "Duplicate Code": 0.8940092165898618
+      "God Class": 0.07894736842105263,
+      "Long Method": 0.02631578947368421,
+      "High Complexity": 0.02631578947368421,
+      "Complex Conditional": 0.013157894736842105,
+      "Long Parameter List": 0.13157894736842105,
+      "Deep Nesting": 0.0,
+      "Duplicate Code": 0.7236842105263158
     }
   },
   "continuous": {
@@ -369,6 +369,381 @@
       "p_value": 1.4346973845679336e-11,
       "cliffs_delta": -0.40017543859649124,
       "magnitude": "medium"
+    }
+  },
+  "measure": "density_logic",
+  "unrestricted": {
+    "overall": {
+      "n_human": 100,
+      "n_ai": 1083,
+      "human_density_mean": 8.776884860159972,
+      "human_density_median": 0.0,
+      "ai_density_mean": 34.22174823561736,
+      "ai_density_median": 0.0,
+      "ratio_mean": 3.8990768115184795,
+      "mannwhitney_U": 55612.5,
+      "p_value": 0.5136823497677449,
+      "cliffs_delta": 0.027008310249307478,
+      "magnitude": "negligible",
+      "human_smells_per_class": 0.41,
+      "ai_smells_per_class": 0.5300092336103417
+    },
+    "paired": {
+      "n_tasks": 100,
+      "human_mean": 8.776884860159974,
+      "ai_mean": 33.55341451734719,
+      "wilcoxon_W": 347.0,
+      "p_value": 9.57855705118266e-08,
+      "ai_higher_in": 60,
+      "human_higher_in": 11
+    },
+    "per_model": {
+      "GPT-4-Turbo": {
+        "n": 99,
+        "density_mean": 2.9685543829006855,
+        "density_median": 0.0,
+        "ratio_vs_human": 0.33822414560495656,
+        "p_value": 0.059020853805086065,
+        "cliffs_delta": -0.09232323232323232,
+        "magnitude": "negligible"
+      },
+      "DeepSeek-Coder": {
+        "n": 100,
+        "density_mean": 3.7509927454355796,
+        "density_median": 0.0,
+        "ratio_vs_human": 0.4273717617582159,
+        "p_value": 0.04193739940388551,
+        "cliffs_delta": -0.0974,
+        "magnitude": "negligible"
+      },
+      "StarCoder-15B": {
+        "n": 100,
+        "density_mean": 5.461557901841144,
+        "density_median": 0.0,
+        "ratio_vs_human": 0.6222660988333392,
+        "p_value": 0.05086632394277906,
+        "cliffs_delta": -0.0935,
+        "magnitude": "negligible"
+      },
+      "InstructCodeGen-16B": {
+        "n": 99,
+        "density_mean": 7.017330128089922,
+        "density_median": 0.0,
+        "ratio_vs_human": 0.799524004233322,
+        "p_value": 0.1971269658889061,
+        "cliffs_delta": -0.06505050505050505,
+        "magnitude": "negligible"
+      },
+      "Magicoder-6.7B": {
+        "n": 100,
+        "density_mean": 6.223421420792248,
+        "density_median": 0.0,
+        "ratio_vs_human": 0.709069507000325,
+        "p_value": 0.4495611794996722,
+        "cliffs_delta": -0.0396,
+        "magnitude": "negligible"
+      },
+      "CodeLlama-13B": {
+        "n": 95,
+        "density_mean": 7.486029696556012,
+        "density_median": 0.0,
+        "ratio_vs_human": 0.8529255898680626,
+        "p_value": 0.6522034724506192,
+        "cliffs_delta": -0.024210526315789474,
+        "magnitude": "negligible"
+      },
+      "GPT-3.5-Turbo": {
+        "n": 97,
+        "density_mean": 8.89880317452573,
+        "density_median": 0.0,
+        "ratio_vs_human": 1.0138908412618204,
+        "p_value": 0.8441512771358943,
+        "cliffs_delta": 0.011030927835051546,
+        "magnitude": "negligible"
+      },
+      "Gemini-Pro": {
+        "n": 94,
+        "density_mean": 12.056869899201976,
+        "density_median": 0.0,
+        "ratio_vs_human": 1.373707196949855,
+        "p_value": 0.3290830614083824,
+        "cliffs_delta": 0.056914893617021275,
+        "magnitude": "negligible"
+      },
+      "WizardCoder-15B": {
+        "n": 53,
+        "density_mean": 12.005108157344825,
+        "density_median": 0.0,
+        "ratio_vs_human": 1.3678096897269783,
+        "p_value": 0.20885103585243736,
+        "cliffs_delta": 0.08811320754716981,
+        "magnitude": "negligible"
+      },
+      "CodeGeeX2-6B": {
+        "n": 46,
+        "density_mean": 56.3665488483334,
+        "density_median": 0.0,
+        "ratio_vs_human": 6.4221588577733755,
+        "p_value": 0.5734270665604793,
+        "cliffs_delta": 0.03956521739130435,
+        "magnitude": "negligible"
+      },
+      "PolyCoder-2.7B": {
+        "n": 100,
+        "density_mean": 120.50673457949,
+        "density_median": 0.0,
+        "ratio_vs_human": 13.730012014455614,
+        "p_value": 4.386111466999534e-07,
+        "cliffs_delta": 0.3407,
+        "magnitude": "medium"
+      },
+      "SantaCoder-1.1B": {
+        "n": 100,
+        "density_mean": 165.4244562884022,
+        "density_median": 0.0,
+        "ratio_vs_human": 18.847741416695204,
+        "p_value": 0.00028951308462601575,
+        "cliffs_delta": 0.232,
+        "magnitude": "small"
+      }
+    },
+    "model_effect_kruskal": {
+      "H": 117.82385974988689,
+      "p_value": 4.963705776410208e-20,
+      "k_models": 12
+    },
+    "smell_presence": {
+      "God Class": {
+        "human_rate": 0.01,
+        "ai_rate": 0.00554016620498615,
+        "fisher_p": 0.46198870766067296,
+        "odds_ratio": 0.5515320334261838
+      },
+      "Long Method": {
+        "human_rate": 0.03,
+        "ai_rate": 0.008310249307479225,
+        "fisher_p": 0.0735702958822469,
+        "odds_ratio": 0.2709497206703911
+      },
+      "High Complexity": {
+        "human_rate": 0.1,
+        "ai_rate": 0.040627885503231764,
+        "fisher_p": 0.019630243169063373,
+        "odds_ratio": 0.3811357074109721
+      },
+      "Complex Conditional": {
+        "human_rate": 0.02,
+        "ai_rate": 0.020313942751615882,
+        "fisher_p": 1.0,
+        "odds_ratio": 1.0160226201696512
+      },
+      "Long Parameter List": {
+        "human_rate": 0.01,
+        "ai_rate": 0.012927054478301015,
+        "fisher_p": 1.0,
+        "odds_ratio": 1.2965388213283442
+      },
+      "Deep Nesting": {
+        "human_rate": 0.1,
+        "ai_rate": 0.038781163434903045,
+        "fisher_p": 0.009215227797134483,
+        "odds_ratio": 0.3631123919308357
+      },
+      "Duplicate Code": {
+        "human_rate": 0.01,
+        "ai_rate": 0.11080332409972299,
+        "fisher_p": 0.0003813658909145538,
+        "odds_ratio": 12.336448598130842
+      }
+    },
+    "smell_distribution": {
+      "labels": [
+        "God Class",
+        "Long Method",
+        "High Complexity",
+        "Complex Conditional",
+        "Long Parameter List",
+        "Deep Nesting",
+        "Duplicate Code"
+      ],
+      "human_counts": [
+        1.0,
+        4.0,
+        11.0,
+        9.0,
+        1.0,
+        12.0,
+        3.0
+      ],
+      "ai_counts": [
+        6.0,
+        9.0,
+        47.0,
+        26.0,
+        23.0,
+        45.0,
+        418.0
+      ],
+      "human_prop": [
+        0.024390243902439025,
+        0.0975609756097561,
+        0.2682926829268293,
+        0.21951219512195122,
+        0.024390243902439025,
+        0.2926829268292683,
+        0.07317073170731707
+      ],
+      "ai_prop": [
+        0.010452961672473868,
+        0.0156794425087108,
+        0.08188153310104529,
+        0.04529616724738676,
+        0.04006968641114982,
+        0.078397212543554,
+        0.7282229965156795
+      ],
+      "chi2": 90.48448574164053,
+      "p_value": 2.4032248620838113e-17,
+      "cramers_v": 0.383574301939479
+    },
+    "model_smell_profile": {
+      "GPT-4-Turbo": {
+        "God Class": 0.0,
+        "Long Method": 0.0,
+        "High Complexity": 0.1111111111111111,
+        "Complex Conditional": 0.2222222222222222,
+        "Long Parameter List": 0.1111111111111111,
+        "Deep Nesting": 0.5555555555555556,
+        "Duplicate Code": 0.0
+      },
+      "DeepSeek-Coder": {
+        "God Class": 0.0,
+        "Long Method": 0.0,
+        "High Complexity": 0.4,
+        "Complex Conditional": 0.2,
+        "Long Parameter List": 0.1,
+        "Deep Nesting": 0.3,
+        "Duplicate Code": 0.0
+      },
+      "StarCoder-15B": {
+        "God Class": 0.0,
+        "Long Method": 0.0,
+        "High Complexity": 0.09090909090909091,
+        "Complex Conditional": 0.18181818181818182,
+        "Long Parameter List": 0.09090909090909091,
+        "Deep Nesting": 0.09090909090909091,
+        "Duplicate Code": 0.5454545454545454
+      },
+      "InstructCodeGen-16B": {
+        "God Class": 0.0,
+        "Long Method": 0.06666666666666667,
+        "High Complexity": 0.2,
+        "Complex Conditional": 0.06666666666666667,
+        "Long Parameter List": 0.06666666666666667,
+        "Deep Nesting": 0.06666666666666667,
+        "Duplicate Code": 0.5333333333333333
+      },
+      "Magicoder-6.7B": {
+        "God Class": 0.0,
+        "Long Method": 0.05555555555555555,
+        "High Complexity": 0.3333333333333333,
+        "Complex Conditional": 0.1111111111111111,
+        "Long Parameter List": 0.05555555555555555,
+        "Deep Nesting": 0.3333333333333333,
+        "Duplicate Code": 0.1111111111111111
+      },
+      "CodeLlama-13B": {
+        "God Class": 0.0,
+        "Long Method": 0.0,
+        "High Complexity": 0.2857142857142857,
+        "Complex Conditional": 0.14285714285714285,
+        "Long Parameter List": 0.047619047619047616,
+        "Deep Nesting": 0.19047619047619047,
+        "Duplicate Code": 0.3333333333333333
+      },
+      "GPT-3.5-Turbo": {
+        "God Class": 0.0,
+        "Long Method": 0.06896551724137931,
+        "High Complexity": 0.20689655172413793,
+        "Complex Conditional": 0.10344827586206896,
+        "Long Parameter List": 0.034482758620689655,
+        "Deep Nesting": 0.2413793103448276,
+        "Duplicate Code": 0.3448275862068966
+      },
+      "Gemini-Pro": {
+        "God Class": 0.0,
+        "Long Method": 0.04878048780487805,
+        "High Complexity": 0.1951219512195122,
+        "Complex Conditional": 0.17073170731707318,
+        "Long Parameter List": 0.024390243902439025,
+        "Deep Nesting": 0.24390243902439024,
+        "Duplicate Code": 0.3170731707317073
+      },
+      "WizardCoder-15B": {
+        "God Class": 0.0,
+        "Long Method": 0.0,
+        "High Complexity": 0.23809523809523808,
+        "Complex Conditional": 0.14285714285714285,
+        "Long Parameter List": 0.047619047619047616,
+        "Deep Nesting": 0.2857142857142857,
+        "Duplicate Code": 0.2857142857142857
+      },
+      "CodeGeeX2-6B": {
+        "God Class": 0.0,
+        "Long Method": 0.0,
+        "High Complexity": 0.10810810810810811,
+        "Complex Conditional": 0.0,
+        "Long Parameter List": 0.02702702702702703,
+        "Deep Nesting": 0.05405405405405406,
+        "Duplicate Code": 0.8108108108108109
+      },
+      "PolyCoder-2.7B": {
+        "God Class": 0.0,
+        "Long Method": 0.006802721088435374,
+        "High Complexity": 0.006802721088435374,
+        "Complex Conditional": 0.0,
+        "Long Parameter List": 0.02040816326530612,
+        "Deep Nesting": 0.0,
+        "Duplicate Code": 0.9659863945578231
+      },
+      "SantaCoder-1.1B": {
+        "God Class": 0.027906976744186046,
+        "Long Method": 0.009302325581395349,
+        "High Complexity": 0.009302325581395349,
+        "Complex Conditional": 0.004651162790697674,
+        "Long Parameter List": 0.046511627906976744,
+        "Deep Nesting": 0.0,
+        "Duplicate Code": 0.9023255813953488
+      }
+    },
+    "continuous": {
+      "SLOC": {
+        "human_mean": 30.71,
+        "ai_mean": 20.833795013850416,
+        "human_median": 28.0,
+        "ai_median": 19.0,
+        "p_value": 7.280363365201854e-16,
+        "cliffs_delta": -0.4866666666666667,
+        "magnitude": "large"
+      },
+      "WMC": {
+        "human_mean": 12.92,
+        "ai_mean": 9.835641735918744,
+        "human_median": 11.0,
+        "ai_median": 9.0,
+        "p_value": 2.9914676294403255e-07,
+        "cliffs_delta": -0.3085595567867036,
+        "magnitude": "small"
+      },
+      "AvgCC": {
+        "human_mean": 2.7647857142857153,
+        "ai_mean": 1.9543973237186536,
+        "human_median": 2.3333333333333335,
+        "ai_median": 1.6666666666666667,
+        "p_value": 1.4346973845679336e-11,
+        "cliffs_delta": -0.40017543859649124,
+        "magnitude": "medium"
+      }
     }
   }
 }

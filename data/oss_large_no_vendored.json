@@ -1,147 +1,147 @@
 {
- "n_repos": 100,
- "n_ai_classes": 5191,
- "n_human_classes": 4216,
+ "n_repos": 91,
+ "n_ai_classes": 4769,
+ "n_human_classes": 3867,
  "pooled": {
-  "ai_density_mean": 46.96871171557139,
-  "human_density_mean": 76.2259209630017,
-  "ratio": 0.6161776876184798,
-  "mannwhitney_p": 8.19946530820664e-05,
-  "cliffs_delta": -0.04218063521852333
+  "ai_density_mean": 49.3513021349004,
+  "human_density_mean": 76.19672244528942,
+  "ratio": 0.6476827421328456,
+  "mannwhitney_p": 0.006491451206701008,
+  "cliffs_delta": -0.030407625144353356
  },
  "repo_level": {
-  "n_repos": 100,
-  "n_repos_ai_higher": 44,
-  "n_repos_ai_lower": 55,
+  "n_repos": 91,
+  "n_repos_ai_higher": 37,
+  "n_repos_ai_lower": 53,
   "wilcoxon_means": {
-   "W": 1898.0,
-   "p": 0.04401710701940724
+   "W": 1554.0,
+   "p": 0.04706770990985802
   },
   "wilcoxon_medians": {
-   "W": 359.0,
-   "p": 0.04737241932552275
+   "W": 340.0,
+   "p": 0.07046967174127461
   },
   "ai_median_of_repo_medians": 0.0,
   "hu_median_of_repo_medians": 0.0,
-  "mean_of_repo_ratios": 1.8215879615990092,
-  "median_of_repo_ratios": 0.886815283062229,
+  "mean_of_repo_ratios": 1.896081273533841,
+  "median_of_repo_ratios": 0.856590348929658,
   "iqr_of_repo_ratios": [
-   0.44102286721188333,
-   1.4384952820587251
+   0.45617585190892906,
+   1.4113919386788343
   ]
  },
  "project_scale": {
   "commits": {
    "min": 31,
-   "q1": 368.5,
-   "median": 1023.0,
-   "q3": 2665.5,
+   "q1": 365.0,
+   "median": 1024.0,
+   "q3": 3029.5,
    "max": 51664
   },
   "python_files_added": {
    "min": 31,
-   "q1": 181.5,
-   "median": 326.0,
-   "q3": 1308.5,
+   "q1": 154.0,
+   "median": 397.0,
+   "q3": 1325.0,
    "max": 118319
   },
   "history_span_days": {
    "min": 0,
-   "q1": 115.525,
-   "median": 224.7,
-   "q3": 407.0,
+   "q1": 113.5,
+   "median": 217.6,
+   "q3": 397.45,
    "max": 5199
   },
   "classes_analysed": {
    "min": 19,
-   "q1": 48.0,
-   "median": 97.0,
-   "q3": 139.0,
+   "q1": 50.5,
+   "median": 98.0,
+   "q3": 138.0,
    "max": 160
   }
  },
  "per_agent": {
   "Copilot": {
-   "n_repos": 17,
-   "n_ai_classes": 907,
-   "n_human_classes": 852,
-   "ai_density_mean": 110.24642324084871,
-   "human_density_mean": 111.18748011779714,
-   "ratio": 0.9915363053830213,
-   "mannwhitney_p": 0.14460611972092247,
-   "cliffs_delta": -0.03592299848336622,
+   "n_repos": 16,
+   "n_ai_classes": 849,
+   "n_human_classes": 772,
+   "ai_density_mean": 115.46271510862518,
+   "human_density_mean": 114.5125509286561,
+   "ratio": 1.0082974675899155,
+   "mannwhitney_p": 0.23967768057596417,
+   "cliffs_delta": -0.03001092415948048,
    "mean_smell_share": {
-    "HighComplexity": 0.26571854736202555,
-    "GodClass": 0.06736794796181651,
-    "LongMethod": 0.08425360957453365,
-    "Duplicate": 0.3627375657738645,
-    "ComplexConditional": 0.010732668125995002,
-    "LongParamList": 0.08832100242235581,
-    "DeepNesting": 0.06204512936764427
+    "HighComplexity": 0.27025209293578845,
+    "GodClass": 0.06731708107306641,
+    "LongMethod": 0.08596832380930562,
+    "Duplicate": 0.3562893454529129,
+    "ComplexConditional": 0.011403459883869689,
+    "LongParamList": 0.08034674689193486,
+    "DeepNesting": 0.06592294995312203
    },
-   "repo_level_wilcoxon_means_p": 0.32587002429697964,
-   "n_repos_ai_lower": 10
+   "repo_level_wilcoxon_means_p": 0.4955208830566151,
+   "n_repos_ai_lower": 9
   },
   "Claude": {
-   "n_repos": 77,
-   "n_ai_classes": 3924,
-   "n_human_classes": 3064,
-   "ai_density_mean": 31.807970662189554,
-   "human_density_mean": 65.98251079786763,
-   "ratio": 0.48206669127264395,
-   "mannwhitney_p": 0.01814019400888575,
-   "cliffs_delta": -0.029214757281294967,
+   "n_repos": 70,
+   "n_ai_classes": 3663,
+   "n_human_classes": 2875,
+   "ai_density_mean": 33.24845534387238,
+   "human_density_mean": 68.27974840425698,
+   "ratio": 0.4869446083342549,
+   "mannwhitney_p": 0.026439419310320324,
+   "cliffs_delta": -0.028407126494083057,
    "mean_smell_share": {
-    "HighComplexity": 0.22538521287765267,
-    "GodClass": 0.06418858825109382,
-    "LongMethod": 0.12277049327094834,
-    "Duplicate": 0.3293393514306562,
-    "ComplexConditional": 0.010407117759825238,
-    "LongParamList": 0.07402882400641823,
-    "DeepNesting": 0.12193236045535367
+    "HighComplexity": 0.2153055586900995,
+    "GodClass": 0.06265349626510953,
+    "LongMethod": 0.12050018519354293,
+    "Duplicate": 0.3489818161393942,
+    "ComplexConditional": 0.008151126239104465,
+    "LongParamList": 0.0668843490025598,
+    "DeepNesting": 0.12038061132733244
    },
-   "repo_level_wilcoxon_means_p": 0.08565480964906011,
+   "repo_level_wilcoxon_means_p": 0.03856987585695126,
    "n_repos_ai_lower": 42
   },
   "Cursor": {
-   "n_repos": 6,
-   "n_ai_classes": 360,
-   "n_human_classes": 300,
-   "ai_density_mean": 52.79611043791523,
-   "human_density_mean": 81.55445544995196,
-   "ratio": 0.647372484392529,
-   "mannwhitney_p": 3.74626052634805e-05,
-   "cliffs_delta": -0.1766944444444445,
+   "n_repos": 5,
+   "n_ai_classes": 257,
+   "n_human_classes": 220,
+   "ai_density_mean": 60.464680270477494,
+   "human_density_mean": 45.20345325805863,
+   "ratio": 1.3376119723706767,
+   "mannwhitney_p": 0.4991592710126309,
+   "cliffs_delta": -0.03425893172974881,
    "mean_smell_share": {
-    "HighComplexity": 0.3129303201086237,
-    "GodClass": 0.06676152342090429,
-    "LongMethod": 0.12739294847491636,
-    "Duplicate": 0.27282832150006275,
-    "ComplexConditional": 0.025055563481064826,
-    "LongParamList": 0.10706218138913581,
-    "DeepNesting": 0.08796914162529228
+    "HighComplexity": 0.3453484732318439,
+    "GodClass": 0.07422365874459615,
+    "LongMethod": 0.14029972304100685,
+    "Duplicate": 0.19824272103237217,
+    "ComplexConditional": 0.025646874771175016,
+    "LongParamList": 0.11430390422684314,
+    "DeepNesting": 0.10193464495216271
    },
-   "repo_level_wilcoxon_means_p": 1.0,
-   "n_repos_ai_lower": 3
+   "repo_level_wilcoxon_means_p": 0.625,
+   "n_repos_ai_lower": 2
   }
  },
  "smell_share_ai": {
-  "LongMethod": 0.0953493806964244,
-  "HighComplexity": 0.17698839292669627,
-  "ComplexConditional": 0.009581677962140687,
-  "GodClass": 0.050556983718937444,
-  "LongParamList": 0.04806418945236426,
-  "DeepNesting": 0.0811716133052894,
-  "Duplicate": 0.5382877619381475
+  "LongMethod": 0.09483460974417468,
+  "HighComplexity": 0.1738634511976536,
+  "ComplexConditional": 0.007739938080495356,
+  "GodClass": 0.05010591494215415,
+  "LongParamList": 0.04415838357503666,
+  "DeepNesting": 0.08065830210200424,
+  "Duplicate": 0.5486394003584814
  },
  "smell_share_human": {
-  "LongMethod": 0.07462987886944818,
-  "HighComplexity": 0.13142664872139972,
-  "ComplexConditional": 0.008075370121130552,
-  "GodClass": 0.0382907133243607,
-  "LongParamList": 0.04347240915208614,
-  "DeepNesting": 0.05585464333781965,
-  "Duplicate": 0.6482503364737551
+  "LongMethod": 0.07646733549253495,
+  "HighComplexity": 0.13997946125286356,
+  "ComplexConditional": 0.008689469942333519,
+  "GodClass": 0.03989256655344024,
+  "LongParamList": 0.046133185875661585,
+  "DeepNesting": 0.06106327514021645,
+  "Duplicate": 0.6277747057429497
  },
  "per_repo": [
   {
@@ -577,43 +577,6 @@
     "LongParamList": 0.07272727272727272,
     "DeepNesting": 0.10606060606060606,
     "Duplicate": 0.3393939393939394
-   }
-  },
-  {
-   "repo": "rpothin/pulumi-powerplatform",
-   "dominant_agent": "Copilot",
-   "agent_commit_counts": {
-    "Copilot": 85
-   },
-   "n_commits": 183,
-   "n_python_files_added": 267,
-   "history_span_days": 105.5,
-   "n_ai": 58,
-   "n_human": 80,
-   "ai_density_mean": 33.89070262460372,
-   "ai_density_median": 4.310344827586206,
-   "hu_density_mean": 79.100546793008,
-   "hu_density_median": 16.504329004329005,
-   "ratio": 0.42845092731520096,
-   "mannwhitney_p": 0.41194010397493364,
-   "cliffs_delta": -0.07737068965517246,
-   "ai_smell_share": {
-    "LongMethod": 0.056818181818181816,
-    "HighComplexity": 0.19318181818181818,
-    "ComplexConditional": 0.0,
-    "GodClass": 0.06818181818181818,
-    "LongParamList": 0.2159090909090909,
-    "DeepNesting": 0.0,
-    "Duplicate": 0.4659090909090909
-   },
-   "hu_smell_share": {
-    "LongMethod": 0.07023411371237458,
-    "HighComplexity": 0.08695652173913043,
-    "ComplexConditional": 0.010033444816053512,
-    "GodClass": 0.046822742474916385,
-    "LongParamList": 0.06020066889632107,
-    "DeepNesting": 0.013377926421404682,
-    "Duplicate": 0.7123745819397993
    }
   },
   {
@@ -1732,117 +1695,6 @@
    }
   },
   {
-   "repo": "abh2technology/ruview",
-   "dominant_agent": "Claude",
-   "agent_commit_counts": {
-    "Claude": 79
-   },
-   "n_commits": 2058,
-   "n_python_files_added": 208,
-   "history_span_days": 415.5,
-   "n_ai": 35,
-   "n_human": 13,
-   "ai_density_mean": 11.438860633013077,
-   "ai_density_median": 0.0,
-   "hu_density_mean": 7.951962565106346,
-   "hu_density_median": 0.0,
-   "ratio": 1.4384952820587251,
-   "mannwhitney_p": 0.9135518690555098,
-   "cliffs_delta": 0.01978021978021971,
-   "ai_smell_share": {
-    "LongMethod": 0.15384615384615385,
-    "HighComplexity": 0.34615384615384615,
-    "ComplexConditional": 0.038461538461538464,
-    "GodClass": 0.07692307692307693,
-    "LongParamList": 0.15384615384615385,
-    "DeepNesting": 0.11538461538461539,
-    "Duplicate": 0.11538461538461539
-   },
-   "hu_smell_share": {
-    "LongMethod": 0.30434782608695654,
-    "HighComplexity": 0.17391304347826086,
-    "ComplexConditional": 0.0,
-    "GodClass": 0.043478260869565216,
-    "LongParamList": 0.0,
-    "DeepNesting": 0.0,
-    "Duplicate": 0.4782608695652174
-   }
-  },
-  {
-   "repo": "minhquy017/Ruview",
-   "dominant_agent": "Claude",
-   "agent_commit_counts": {
-    "Claude": 74
-   },
-   "n_commits": 1091,
-   "n_python_files_added": 195,
-   "history_span_days": 416.2,
-   "n_ai": 31,
-   "n_human": 13,
-   "ai_density_mean": 12.914842650176055,
-   "ai_density_median": 0.0,
-   "hu_density_mean": 7.951962565106346,
-   "hu_density_median": 0.0,
-   "ratio": 1.6241075765179156,
-   "mannwhitney_p": 0.6813242217594042,
-   "cliffs_delta": 0.07196029776674928,
-   "ai_smell_share": {
-    "LongMethod": 0.15384615384615385,
-    "HighComplexity": 0.34615384615384615,
-    "ComplexConditional": 0.038461538461538464,
-    "GodClass": 0.07692307692307693,
-    "LongParamList": 0.15384615384615385,
-    "DeepNesting": 0.11538461538461539,
-    "Duplicate": 0.11538461538461539
-   },
-   "hu_smell_share": {
-    "LongMethod": 0.30434782608695654,
-    "HighComplexity": 0.17391304347826086,
-    "ComplexConditional": 0.0,
-    "GodClass": 0.043478260869565216,
-    "LongParamList": 0.0,
-    "DeepNesting": 0.0,
-    "Duplicate": 0.4782608695652174
-   }
-  },
-  {
-   "repo": "PauloRicardoSM/RuView-UFC-Research",
-   "dominant_agent": "Claude",
-   "agent_commit_counts": {
-    "Claude": 79
-   },
-   "n_commits": 1011,
-   "n_python_files_added": 201,
-   "history_span_days": 395.4,
-   "n_ai": 35,
-   "n_human": 13,
-   "ai_density_mean": 11.438860633013077,
-   "ai_density_median": 0.0,
-   "hu_density_mean": 7.951962565106346,
-   "hu_density_median": 0.0,
-   "ratio": 1.4384952820587251,
-   "mannwhitney_p": 0.9135518690555098,
-   "cliffs_delta": 0.01978021978021971,
-   "ai_smell_share": {
-    "LongMethod": 0.15384615384615385,
-    "HighComplexity": 0.34615384615384615,
-    "ComplexConditional": 0.038461538461538464,
-    "GodClass": 0.07692307692307693,
-    "LongParamList": 0.15384615384615385,
-    "DeepNesting": 0.11538461538461539,
-    "Duplicate": 0.11538461538461539
-   },
-   "hu_smell_share": {
-    "LongMethod": 0.30434782608695654,
-    "HighComplexity": 0.17391304347826086,
-    "ComplexConditional": 0.0,
-    "GodClass": 0.043478260869565216,
-    "LongParamList": 0.0,
-    "DeepNesting": 0.0,
-    "Duplicate": 0.4782608695652174
-   }
-  },
-  {
    "repo": "D-sorganization/zzz_Golf_GAAI_Sandbox",
    "dominant_agent": "Claude",
    "agent_commit_counts": {
@@ -1882,80 +1734,6 @@
    }
   },
   {
-   "repo": "Diyasshettyyyy/RuView",
-   "dominant_agent": "Claude",
-   "agent_commit_counts": {
-    "Claude": 79
-   },
-   "n_commits": 1022,
-   "n_python_files_added": 201,
-   "history_span_days": 408.2,
-   "n_ai": 35,
-   "n_human": 13,
-   "ai_density_mean": 11.438860633013077,
-   "ai_density_median": 0.0,
-   "hu_density_mean": 7.951962565106346,
-   "hu_density_median": 0.0,
-   "ratio": 1.4384952820587251,
-   "mannwhitney_p": 0.9135518690555098,
-   "cliffs_delta": 0.01978021978021971,
-   "ai_smell_share": {
-    "LongMethod": 0.15384615384615385,
-    "HighComplexity": 0.34615384615384615,
-    "ComplexConditional": 0.038461538461538464,
-    "GodClass": 0.07692307692307693,
-    "LongParamList": 0.15384615384615385,
-    "DeepNesting": 0.11538461538461539,
-    "Duplicate": 0.11538461538461539
-   },
-   "hu_smell_share": {
-    "LongMethod": 0.30434782608695654,
-    "HighComplexity": 0.17391304347826086,
-    "ComplexConditional": 0.0,
-    "GodClass": 0.043478260869565216,
-    "LongParamList": 0.0,
-    "DeepNesting": 0.0,
-    "Duplicate": 0.4782608695652174
-   }
-  },
-  {
-   "repo": "heledmx-lab/RUVIEW",
-   "dominant_agent": "Claude",
-   "agent_commit_counts": {
-    "Claude": 79
-   },
-   "n_commits": 1913,
-   "n_python_files_added": 202,
-   "history_span_days": 405.8,
-   "n_ai": 35,
-   "n_human": 13,
-   "ai_density_mean": 11.438860633013077,
-   "ai_density_median": 0.0,
-   "hu_density_mean": 7.951962565106346,
-   "hu_density_median": 0.0,
-   "ratio": 1.4384952820587251,
-   "mannwhitney_p": 0.9135518690555098,
-   "cliffs_delta": 0.01978021978021971,
-   "ai_smell_share": {
-    "LongMethod": 0.15384615384615385,
-    "HighComplexity": 0.34615384615384615,
-    "ComplexConditional": 0.038461538461538464,
-    "GodClass": 0.07692307692307693,
-    "LongParamList": 0.15384615384615385,
-    "DeepNesting": 0.11538461538461539,
-    "Duplicate": 0.11538461538461539
-   },
-   "hu_smell_share": {
-    "LongMethod": 0.30434782608695654,
-    "HighComplexity": 0.17391304347826086,
-    "ComplexConditional": 0.0,
-    "GodClass": 0.043478260869565216,
-    "LongParamList": 0.0,
-    "DeepNesting": 0.0,
-    "Duplicate": 0.4782608695652174
-   }
-  },
-  {
    "repo": "D-sorganization/UpstreamDrift",
    "dominant_agent": "Claude",
    "agent_commit_counts": {
@@ -1992,43 +1770,6 @@
     "LongParamList": 0.020833333333333332,
     "DeepNesting": 0.0625,
     "Duplicate": 0.3958333333333333
-   }
-  },
-  {
-   "repo": "Abhijit4001/WIFI-SIM",
-   "dominant_agent": "Claude",
-   "agent_commit_counts": {
-    "Claude": 79
-   },
-   "n_commits": 1091,
-   "n_python_files_added": 201,
-   "history_span_days": 416.4,
-   "n_ai": 35,
-   "n_human": 13,
-   "ai_density_mean": 11.438860633013077,
-   "ai_density_median": 0.0,
-   "hu_density_mean": 7.951962565106346,
-   "hu_density_median": 0.0,
-   "ratio": 1.4384952820587251,
-   "mannwhitney_p": 0.9135518690555098,
-   "cliffs_delta": 0.01978021978021971,
-   "ai_smell_share": {
-    "LongMethod": 0.15384615384615385,
-    "HighComplexity": 0.34615384615384615,
-    "ComplexConditional": 0.038461538461538464,
-    "GodClass": 0.07692307692307693,
-    "LongParamList": 0.15384615384615385,
-    "DeepNesting": 0.11538461538461539,
-    "Duplicate": 0.11538461538461539
-   },
-   "hu_smell_share": {
-    "LongMethod": 0.30434782608695654,
-    "HighComplexity": 0.17391304347826086,
-    "ComplexConditional": 0.0,
-    "GodClass": 0.043478260869565216,
-    "LongParamList": 0.0,
-    "DeepNesting": 0.0,
-    "Duplicate": 0.4782608695652174
    }
   },
   {
@@ -2106,43 +1847,6 @@
    }
   },
   {
-   "repo": "bbartling/py-bacnet-stacks-playground",
-   "dominant_agent": "Cursor",
-   "agent_commit_counts": {
-    "Cursor": 1279
-   },
-   "n_commits": 381,
-   "n_python_files_added": 4442,
-   "history_span_days": 181.1,
-   "n_ai": 80,
-   "n_human": 80,
-   "ai_density_mean": 33.349402273138026,
-   "ai_density_median": 0.0,
-   "hu_density_mean": 181.51971147765863,
-   "hu_density_median": 51.17852466171978,
-   "ratio": 0.1837233102766509,
-   "mannwhitney_p": 4.337465321624429e-11,
-   "cliffs_delta": -0.5567187499999999,
-   "ai_smell_share": {
-    "LongMethod": 0.05714285714285714,
-    "HighComplexity": 0.14285714285714285,
-    "ComplexConditional": 0.014285714285714285,
-    "GodClass": 0.02857142857142857,
-    "LongParamList": 0.07142857142857142,
-    "DeepNesting": 0.014285714285714285,
-    "Duplicate": 0.6714285714285714
-   },
-   "hu_smell_share": {
-    "LongMethod": 0.045283018867924525,
-    "HighComplexity": 0.06716981132075471,
-    "ComplexConditional": 0.0007547169811320754,
-    "GodClass": 0.021132075471698115,
-    "LongParamList": 0.019622641509433963,
-    "DeepNesting": 0.02339622641509434,
-    "Duplicate": 0.8226415094339623
-   }
-  },
-  {
    "repo": "SamPrimeaux/inneranimalmedia",
    "dominant_agent": "Cursor",
    "agent_commit_counts": {
@@ -2151,23 +1855,23 @@
    "n_commits": 3589,
    "n_python_files_added": 489,
    "history_span_days": 230.9,
-   "n_ai": 80,
+   "n_ai": 58,
    "n_human": 25,
-   "ai_density_mean": 61.36005978053593,
-   "ai_density_median": 37.65690376569038,
+   "ai_density_mean": 70.85482820960597,
+   "ai_density_median": 27.757023311416617,
    "hu_density_mean": 34.83333333333333,
    "hu_density_median": 0.0,
-   "ratio": 1.7615328166661035,
-   "mannwhitney_p": 0.0003360928861215705,
-   "cliffs_delta": 0.4415,
+   "ratio": 2.0341099007542387,
+   "mannwhitney_p": 0.0010286458235868503,
+   "cliffs_delta": 0.41034482758620694,
    "ai_smell_share": {
-    "LongMethod": 0.10617283950617284,
-    "HighComplexity": 0.2271604938271605,
-    "ComplexConditional": 0.1037037037037037,
-    "GodClass": 0.04197530864197531,
-    "LongParamList": 0.11358024691358025,
-    "DeepNesting": 0.08148148148148149,
-    "Duplicate": 0.32592592592592595
+    "LongMethod": 0.1004566210045662,
+    "HighComplexity": 0.2191780821917808,
+    "ComplexConditional": 0.0958904109589041,
+    "GodClass": 0.0410958904109589,
+    "LongParamList": 0.1141552511415525,
+    "DeepNesting": 0.0776255707762557,
+    "Duplicate": 0.3515981735159817
    },
    "hu_smell_share": {
     "LongMethod": 0.16666666666666666,
@@ -2303,15 +2007,15 @@
    "n_commits": 7921,
    "n_python_files_added": 335,
    "history_span_days": 355.2,
-   "n_ai": 80,
+   "n_ai": 79,
    "n_human": 33,
-   "ai_density_mean": 20.81883052664846,
+   "ai_density_mean": 21.08236002698578,
    "ai_density_median": 0.0,
    "hu_density_mean": 31.057968752529128,
    "hu_density_median": 20.51282051282051,
-   "ratio": 0.6703217036675372,
-   "mannwhitney_p": 0.16310358610869147,
-   "cliffs_delta": -0.15719696969696972,
+   "ratio": 0.6788067885240882,
+   "mannwhitney_p": 0.18053844553967535,
+   "cliffs_delta": -0.1515151515151515,
    "ai_smell_share": {
     "LongMethod": 0.16071428571428573,
     "HighComplexity": 0.33035714285714285,
@@ -2713,14 +2417,14 @@
    "n_python_files_added": 3647,
    "history_span_days": 381.0,
    "n_ai": 80,
-   "n_human": 80,
+   "n_human": 49,
    "ai_density_mean": 45.7795063773133,
    "ai_density_median": 30.545876887340302,
-   "hu_density_mean": 37.24805091770206,
-   "hu_density_median": 23.61853832442068,
-   "ratio": 1.2290443459299687,
-   "mannwhitney_p": 0.13050726792371378,
-   "cliffs_delta": 0.13578124999999996,
+   "hu_density_mean": 53.48065574674608,
+   "hu_density_median": 32.6797385620915,
+   "ratio": 0.8560012164790753,
+   "mannwhitney_p": 0.664692776572545,
+   "cliffs_delta": -0.04540816326530617,
    "ai_smell_share": {
     "LongMethod": 0.12972972972972974,
     "HighComplexity": 0.3216216216216216,
@@ -2731,13 +2435,13 @@
     "Duplicate": 0.24324324324324326
    },
    "hu_smell_share": {
-    "LongMethod": 0.08944954128440367,
-    "HighComplexity": 0.19036697247706422,
-    "ComplexConditional": 0.013761467889908258,
-    "GodClass": 0.08027522935779817,
-    "LongParamList": 0.006880733944954129,
-    "DeepNesting": 0.18577981651376146,
-    "Duplicate": 0.4334862385321101
+    "LongMethod": 0.08716707021791767,
+    "HighComplexity": 0.18159806295399517,
+    "ComplexConditional": 0.009685230024213076,
+    "GodClass": 0.07990314769975787,
+    "LongParamList": 0.004842615012106538,
+    "DeepNesting": 0.1864406779661017,
+    "Duplicate": 0.45036319612590797
    }
   },
   {
@@ -2887,43 +2591,6 @@
     "LongParamList": 0.07462686567164178,
     "DeepNesting": 0.19402985074626866,
     "Duplicate": 0.3283582089552239
-   }
-  },
-  {
-   "repo": "spencerduncan/jimbot",
-   "dominant_agent": "Claude",
-   "agent_commit_counts": {
-    "Claude": 108
-   },
-   "n_commits": 300,
-   "n_python_files_added": 3390,
-   "history_span_days": 166.4,
-   "n_ai": 54,
-   "n_human": 80,
-   "ai_density_mean": 11.541189275824676,
-   "ai_density_median": 0.0,
-   "hu_density_mean": 61.0823925065464,
-   "hu_density_median": 0.0,
-   "ratio": 0.18894461729847548,
-   "mannwhitney_p": 0.2752655495061308,
-   "cliffs_delta": -0.09999999999999998,
-   "ai_smell_share": {
-    "LongMethod": 0.09523809523809523,
-    "HighComplexity": 0.20634920634920634,
-    "ComplexConditional": 0.0,
-    "GodClass": 0.09523809523809523,
-    "LongParamList": 0.09523809523809523,
-    "DeepNesting": 0.2698412698412698,
-    "Duplicate": 0.23809523809523808
-   },
-   "hu_smell_share": {
-    "LongMethod": 0.036057692307692304,
-    "HighComplexity": 0.08173076923076923,
-    "ComplexConditional": 0.009615384615384616,
-    "GodClass": 0.03365384615384615,
-    "LongParamList": 0.040865384615384616,
-    "DeepNesting": 0.04326923076923077,
-    "Duplicate": 0.7548076923076923
    }
   },
   {
@@ -3776,15 +3443,15 @@
    "n_commits": 162,
    "n_python_files_added": 86,
    "history_span_days": 149.0,
-   "n_ai": 31,
+   "n_ai": 30,
    "n_human": 8,
-   "ai_density_mean": 21.14626674929581,
+   "ai_density_mean": 21.851142307605667,
    "ai_density_median": 0.0,
    "hu_density_mean": 35.617364980748114,
    "hu_density_median": 35.29900332225914,
-   "ratio": 0.5937066585561784,
-   "mannwhitney_p": 0.04158630239886442,
-   "cliffs_delta": -0.44354838709677424,
+   "ratio": 0.6134968805080511,
+   "mannwhitney_p": 0.04872138740282355,
+   "cliffs_delta": -0.43333333333333335,
    "ai_smell_share": {
     "LongMethod": 0.03333333333333333,
     "HighComplexity": 0.1,

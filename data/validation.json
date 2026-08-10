@@ -1,40 +1,40 @@
 {
- "n_matched_methods": 3589,
- "spearman_cc": 0.9868950705084625,
- "pearson_cc": 0.9944379789592587,
- "spearman_loc": 0.9653018475632262,
- "highcomplexity_kappa": 0.9779787579994973,
- "highcomplexity_agreement": 0.999442741710783,
- "longmethod_kappa": 0.781943009903399,
- "longmethod_agreement": 0.9986068542769574,
- "bh_adjusted": {
-  "God Class": {
-   "p": 0.46198870766067296,
-   "p_adj": 0.6467841907249421
-  },
-  "Long Method": {
-   "p": 0.0735702958822469,
-   "p_adj": 0.12874801779393208
-  },
-  "High Complexity": {
-   "p": 0.019630243169063373,
-   "p_adj": 0.04580390072781454
-  },
-  "Complex Conditional": {
-   "p": 1.0,
-   "p_adj": 1.0
-  },
-  "Long Parameter List": {
-   "p": 1.0,
-   "p_adj": 1.0
-  },
-  "Deep Nesting": {
-   "p": 0.009035566530724161,
-   "p_adj": 0.03162448285753457
-  },
-  "Duplicate Code": {
-   "p": 0.0003813658909145538,
-   "p_adj": 0.002669561236401877
+  "n_matched_methods": 6540,
+  "spearman_cc": 0.9873792033576446,
+  "pearson_cc": 0.9951515299000502,
+  "spearman_loc": 0.9860317616834102,
+  "highcomplexity_kappa": 0.9823019386683702,
+  "highcomplexity_agreement": 0.9996941896024465,
+  "longmethod_kappa": 0.8120563639324571,
+  "longmethod_agreement": 0.9990825688073395,
+  "bh_adjusted": {
+    "God Class": {
+      "p": 0.46198870766067296,
+      "p_adj": 0.6467841907249421
+    },
+    "Long Method": {
+      "p": 0.0735702958822469,
+      "p_adj": 0.12874801779393208
+    },
+    "High Complexity": {
+      "p": 0.019630243169063373,
+      "p_adj": 0.04580390072781454
+    },
+    "Complex Conditional": {
+      "p": 1.0,
+      "p_adj": 1.0
+    },
+    "Long Parameter List": {
+      "p": 1.0,
+      "p_adj": 1.0
+    },
+    "Deep Nesting": {
+      "p": 0.009215227797134483,
+      "p_adj": 0.03225329728997069
+    },
+    "Duplicate Code": {
+      "p": 0.0003813658909145538,
+      "p_adj": 0.002669561236401877
+    }
   }
- }
 }

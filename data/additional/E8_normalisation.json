@@ -1,35 +1,71 @@
 {
  "smells_per_kloc": {
-  "ai_mean": 36.26572295209058,
-  "human_mean": 11.617193944402322,
-  "p": 0.7061190998844487,
-  "cliffs_delta": 0.016694367497691598,
+  "ai_mean": 8.751456443238352,
+  "human_mean": 8.776884860159972,
+  "p": 0.24169709023558328,
+  "cliffs_delta": -0.042132963988919636,
   "magnitude": "negligible",
   "significant": false
  },
  "smells_per_class": {
-  "ai_mean": 0.6038781163434903,
-  "human_mean": 0.53,
-  "p": 0.9911632834053736,
-  "cliffs_delta": -0.0004986149584487176,
+  "ai_mean": 0.25115420129270544,
+  "human_mean": 0.41,
+  "p": 0.17738738210335325,
+  "cliffs_delta": -0.04849492151431212,
   "magnitude": "negligible",
   "significant": false
  },
  "smells_per_method": {
-  "ai_mean": 0.11824737164414642,
-  "human_mean": 0.12996428571428573,
-  "p": 0.8361530240252022,
-  "cliffs_delta": -0.009159741458910409,
+  "ai_mean": 0.05634077256901396,
+  "human_mean": 0.10310714285714286,
+  "p": 0.15315156479370717,
+  "cliffs_delta": -0.051403508771929785,
   "magnitude": "negligible",
   "significant": false
  },
  "smells_per_wmc": {
-  "ai_mean": 0.06855198328519203,
-  "human_mean": 0.02492679658662631,
-  "p": 0.8356778608290846,
-  "cliffs_delta": 0.009187442289935399,
+  "ai_mean": 0.024721360669031158,
+  "human_mean": 0.018197055567411607,
+  "p": 0.20332534387833257,
+  "cliffs_delta": -0.04578024007386883,
   "magnitude": "negligible",
   "significant": false
  },
- "conclusion_stable": true
+ "conclusion_stable": true,
+ "measure": "density_logic",
+ "unrestricted": {
+  "smells_per_kloc": {
+   "ai_mean": 34.22174823561736,
+   "human_mean": 8.776884860159972,
+   "p": 0.5136823497677449,
+   "cliffs_delta": 0.0270083102493075,
+   "magnitude": "negligible",
+   "significant": false
+  },
+  "smells_per_class": {
+   "ai_mean": 0.5300092336103417,
+   "human_mean": 0.41,
+   "p": 0.6995388036120039,
+   "cliffs_delta": 0.01594644506001841,
+   "magnitude": "negligible",
+   "significant": false
+  },
+  "smells_per_method": {
+   "ai_mean": 0.10119377273459185,
+   "human_mean": 0.10310714285714286,
+   "p": 0.8225460731588531,
+   "cliffs_delta": 0.009279778393351812,
+   "magnitude": "negligible",
+   "significant": false
+  },
+  "smells_per_wmc": {
+   "ai_mean": 0.06386862423727875,
+   "human_mean": 0.018197055567411607,
+   "p": 0.5843635216059802,
+   "cliffs_delta": 0.022622345337026672,
+   "magnitude": "negligible",
+   "significant": false
+  },
+  "conclusion_stable": true
+ }
 }

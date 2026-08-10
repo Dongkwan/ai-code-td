@@ -1,0 +1,56 @@
+{
+ "baseline_threshold": 8,
+ "note": "Thresholds below eight cannot be evaluated: repositories that failed the original cut were never mined, so their class counts do not exist in the released data.",
+ "by_threshold": {
+  "8": {
+   "n_repos": 100,
+   "n_ai_classes": 5191,
+   "n_human_classes": 4216,
+   "pooled_ratio": 0.616,
+   "median_of_repo_ratios": 0.887,
+   "n_ai_lower": 55,
+   "wilcoxon_means_p": 0.044,
+   "wilcoxon_medians_p": 0.047
+  },
+  "10": {
+   "n_repos": 93,
+   "n_ai_classes": 5079,
+   "n_human_classes": 4124,
+   "pooled_ratio": 0.618,
+   "median_of_repo_ratios": 0.905,
+   "n_ai_lower": 50,
+   "wilcoxon_means_p": 0.076,
+   "wilcoxon_medians_p": 0.055
+  },
+  "15": {
+   "n_repos": 71,
+   "n_ai_classes": 4340,
+   "n_human_classes": 3752,
+   "pooled_ratio": 0.655,
+   "median_of_repo_ratios": 0.857,
+   "n_ai_lower": 41,
+   "wilcoxon_means_p": 0.129,
+   "wilcoxon_medians_p": 0.047
+  },
+  "20": {
+   "n_repos": 59,
+   "n_ai_classes": 3812,
+   "n_human_classes": 3475,
+   "pooled_ratio": 0.678,
+   "median_of_repo_ratios": 0.808,
+   "n_ai_lower": 34,
+   "wilcoxon_means_p": 0.125,
+   "wilcoxon_medians_p": 0.033
+  },
+  "30": {
+   "n_repos": 42,
+   "n_ai_classes": 2921,
+   "n_human_classes": 2903,
+   "pooled_ratio": 0.629,
+   "median_of_repo_ratios": 0.7,
+   "n_ai_lower": 28,
+   "wilcoxon_means_p": 0.01,
+   "wilcoxon_medians_p": 0.022
+  }
+ }
+}

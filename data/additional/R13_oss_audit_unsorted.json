@@ -1,0 +1,2472 @@
+{
+ "cutoff": "2026-08-01T00:00:00",
+ "n_repos": 97,
+ "reconstruction": {
+  "repos_matching_published_counts": 90,
+  "ai_count_drift_mean": -0.05154639175257732,
+  "human_count_drift_mean": 0.14432989690721648,
+  "published_pooled_ratio": 0.6161776876184798
+ },
+ "ai": {
+  "n": 4946,
+  "density": 39.75893848131421,
+  "density_logic": 33.80681120515479,
+  "blocks": 5855,
+  "statement_free": 980,
+  "pure_string": 965
+ },
+ "human": {
+  "n": 4045,
+  "density": 78.35277192830347,
+  "density_logic": 67.27704027548593,
+  "blocks": 9340,
+  "statement_free": 1587,
+  "pure_string": 1509
+ },
+ "ratio_conventional": 0.5074349956335372,
+ "ratio_logic_bearing": 0.502501463600698,
+ "mannwhitney_p_conventional": 4.4285381939634705e-05,
+ "mannwhitney_p_logic_bearing": 8.401109355743206e-05,
+ "statement_free_share_of_blocks": 0.16893715037841395,
+ "per_repo": [
+  {
+   "repo": "dzungttfci/ms_agent-governance-toolkit",
+   "head": "ab23c71e93ae649c957bf52e0a0fdb5ec1392b91",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 80,
+    "density": 17.56807819069265,
+    "density_logic": 17.568078190692646,
+    "blocks": 21,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 53,
+    "dup": 21
+   },
+   "human": {
+    "n": 63,
+    "density": 23.20006892556704,
+    "density_logic": 23.20006892556704,
+    "blocks": 29,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 66,
+    "dup": 29
+   }
+  },
+  {
+   "repo": "microsoft/agent-governance-toolkit",
+   "head": "81955d48025c6b11deb3fc9dabf89f74f4145775",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 80,
+    "density": 21.111992233511927,
+    "density_logic": 21.111992233511927,
+    "blocks": 16,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 72,
+    "dup": 16
+   },
+   "human": {
+    "n": 68,
+    "density": 22.57022167673589,
+    "density_logic": 22.57022167673589,
+    "blocks": 30,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 69,
+    "dup": 30
+   }
+  },
+  {
+   "repo": "baoqger/agt-fork",
+   "head": "aeeb2a4bea22913cefb7111371478dff117d21ff",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 80,
+    "density": 18.752704208537814,
+    "density_logic": 18.752704208537814,
+    "blocks": 24,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 68,
+    "dup": 24
+   },
+   "human": {
+    "n": 63,
+    "density": 23.20006892556704,
+    "density_logic": 23.20006892556704,
+    "blocks": 29,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 66,
+    "dup": 29
+   }
+  },
+  {
+   "repo": "leo477/book-club-be",
+   "head": "6ffdb6f7af95914506c1f6d71b21b18629c63a0a",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 24,
+    "density": 0.0,
+    "density_logic": 0.0,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 0,
+    "dup": 0
+   },
+   "human": {
+    "n": 12,
+    "density": 0.0,
+    "density_logic": 0.0,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 0,
+    "dup": 0
+   }
+  },
+  {
+   "repo": "microsoft/prompty",
+   "head": "c4e7bd4939d3c3622361fcd5c63237691fee79f5",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 80,
+    "density": 22.32951440484787,
+    "density_logic": 22.32951440484787,
+    "blocks": 15,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 129,
+    "dup": 15
+   },
+   "human": {
+    "n": 32,
+    "density": 49.22788809507559,
+    "density_logic": 47.54363484832234,
+    "blocks": 23,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 38,
+    "dup": 23
+   }
+  },
+  {
+   "repo": "bponghneng/rouge",
+   "head": "93efd85c9a02fe1d8e430346bdf163382c772ed2",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 31,
+    "density": 67.70181553810797,
+    "density_logic": 67.70181553810797,
+    "blocks": 10,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 31,
+    "dup": 10
+   },
+   "human": {
+    "n": 19,
+    "density": 14.803860411461292,
+    "density_logic": 14.803860411461292,
+    "blocks": 16,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 32,
+    "dup": 16
+   }
+  },
+  {
+   "repo": "Reedboot/Triage-Saurus",
+   "head": "d7930698f84e121cfaa671a4c7af60dc8e982d08",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 17,
+    "density": 36.305297312259256,
+    "density_logic": 35.62916479028495,
+    "blocks": 9,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 55,
+    "dup": 9
+   },
+   "human": {
+    "n": 19,
+    "density": 28.229022533435035,
+    "density_logic": 28.229022533435035,
+    "blocks": 8,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 32,
+    "dup": 8
+   }
+  },
+  {
+   "repo": "rjmurillo/ai-agents",
+   "head": "8ad055b8fee55cb8c5b9cfc257a61415b044ebd4",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 40.577100070324626,
+    "density_logic": 40.577100070324626,
+    "blocks": 20,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 34,
+    "dup": 20
+   },
+   "human": {
+    "n": 64,
+    "density": 58.25117417055823,
+    "density_logic": 58.25117417055823,
+    "blocks": 31,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 36,
+    "dup": 31
+   }
+  },
+  {
+   "repo": "microsoft-foundry/foundry-samples",
+   "head": "29f67162beaee7e91fb0c10d3e12ff978976bedd",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 51,
+    "density": 36.81489018262613,
+    "density_logic": 36.81489018262613,
+    "blocks": 34,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 71,
+    "dup": 34
+   },
+   "human": {
+    "n": 58,
+    "density": 27.008502937688373,
+    "density_logic": 27.008502937688373,
+    "blocks": 26,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 75,
+    "dup": 26
+   }
+  },
+  {
+   "repo": "world-in-progress/c-two",
+   "head": "ba334360e568f921ddc369b9cb2466a1c0f55292",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 55,
+    "density": 63.63911640154663,
+    "density_logic": 60.00275276518299,
+    "blocks": 36,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 110,
+    "dup": 36
+   },
+   "human": {
+    "n": 28,
+    "density": 89.83270291382574,
+    "density_logic": 71.9755600566829,
+    "blocks": 22,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 63,
+    "dup": 22
+   }
+  },
+  {
+   "repo": "wparad/atelier",
+   "head": "26d5adee27c8f2ec221bc3d3db66c75457da62c6",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 80,
+    "density": 30.950413060580978,
+    "density_logic": 27.465390019106326,
+    "blocks": 59,
+    "statement_free": 8,
+    "pure_string": 8,
+    "smells": 103,
+    "dup": 59
+   },
+   "human": {
+    "n": 80,
+    "density": 13.636665815518167,
+    "density_logic": 13.636665815518167,
+    "blocks": 19,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 47,
+    "dup": 19
+   }
+  },
+  {
+   "repo": "rpothin/pulumi-powerplatform",
+   "head": "7f0d8d8369c63eccf4719201d058290898734130",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 58,
+    "density": 33.89070262460372,
+    "density_logic": 30.77373169830216,
+    "blocks": 41,
+    "statement_free": 10,
+    "pure_string": 10,
+    "smells": 88,
+    "dup": 41
+   },
+   "human": {
+    "n": 80,
+    "density": 79.100546793008,
+    "density_logic": 70.25497946741658,
+    "blocks": 213,
+    "statement_free": 35,
+    "pure_string": 35,
+    "smells": 299,
+    "dup": 213
+   }
+  },
+  {
+   "repo": "Azure/azure-sdk-for-python",
+   "head": "4e364864cd6bae388020ec71ba1b96b06f5823a8",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 80,
+    "density": 518.9125387990214,
+    "density_logic": 267.159252632632,
+    "blocks": 3280,
+    "statement_free": 773,
+    "pure_string": 771,
+    "smells": 3607,
+    "dup": 3280
+   },
+   "human": {
+    "n": 80,
+    "density": 838.504117353846,
+    "density_logic": 449.3324140679685,
+    "blocks": 4473,
+    "statement_free": 1211,
+    "pure_string": 1162,
+    "smells": 4653,
+    "dup": 4473
+   }
+  },
+  {
+   "repo": "mitodl/ol-django",
+   "head": "a5b72402953c6832fec9c6aff5599c270bcb7b99",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 11,
+    "density": 19.461476939482807,
+    "density_logic": 19.461476939482804,
+    "blocks": 2,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 3,
+    "dup": 2
+   },
+   "human": {
+    "n": 23,
+    "density": 153.72449296036717,
+    "density_logic": 153.72449296036717,
+    "blocks": 18,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 39,
+    "dup": 18
+   }
+  },
+  {
+   "repo": "deephaven/deephaven-mcp",
+   "head": "618642da7d1c03a16b022405af64a0942368c7d8",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 21,
+    "density": 38.873405177753,
+    "density_logic": 20.024198828546652,
+    "blocks": 3,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 11,
+    "dup": 3
+   },
+   "human": {
+    "n": 58,
+    "density": 10.012996195847688,
+    "density_logic": 5.911568389173333,
+    "blocks": 25,
+    "statement_free": 11,
+    "pure_string": 11,
+    "smells": 37,
+    "dup": 25
+   }
+  },
+  {
+   "repo": "Boykai/github-workflows",
+   "head": "207b8402cd7e5b30442b5c11c9d01c996c94666f",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 34,
+    "density": 11.629214018616024,
+    "density_logic": 11.629214018616024,
+    "blocks": 13,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 36,
+    "dup": 13
+   },
+   "human": {
+    "n": 36,
+    "density": 42.6068330002399,
+    "density_logic": 42.0080967822245,
+    "blocks": 98,
+    "statement_free": 7,
+    "pure_string": 7,
+    "smells": 214,
+    "dup": 98
+   }
+  },
+  {
+   "repo": "wende/cicada",
+   "head": "24d926756fa5e522bfad7895bf5e06c4d17158b2",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 30,
+    "density": 18.055175639475067,
+    "density_logic": 17.25329337691865,
+    "blocks": 7,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 68,
+    "dup": 7
+   },
+   "human": {
+    "n": 68,
+    "density": 29.66214574809933,
+    "density_logic": 26.294131875883775,
+    "blocks": 33,
+    "statement_free": 3,
+    "pure_string": 3,
+    "smells": 197,
+    "dup": 33
+   }
+  },
+  {
+   "repo": "Krv-Labs/topos",
+   "head": "c135469d28583e5c17bfb29fd7151c50765b039c",
+   "dominant_agent": "Copilot",
+   "ai": {
+    "n": 46,
+    "density": 6.634869706952087,
+    "density_logic": 4.962628904276502,
+    "blocks": 2,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 6,
+    "dup": 2
+   },
+   "human": {
+    "n": 10,
+    "density": 4.285714285714286,
+    "density_logic": 4.285714285714286,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 3,
+    "dup": 0
+   }
+  },
+  {
+   "repo": "Arize-ai/phoenix",
+   "head": "aa6d8e16f65ffdf82e822c7f50449e65630c3756",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 65,
+    "density": 69.91694338304508,
+    "density_logic": 69.91694338304508,
+    "blocks": 27,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 44,
+    "dup": 27
+   },
+   "human": {
+    "n": 80,
+    "density": 95.52598504444613,
+    "density_logic": 93.4426517111128,
+    "blocks": 62,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 93,
+    "dup": 62
+   }
+  },
+  {
+   "repo": "DDD-Enterprises/dopemux-mvp",
+   "head": "cfa4927a883b469c06f37343c18e6582f23d1443",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 134.38147658697923,
+    "density_logic": 121.24930743786095,
+    "blocks": 108,
+    "statement_free": 6,
+    "pure_string": 6,
+    "smells": 196,
+    "dup": 108
+   },
+   "human": {
+    "n": 80,
+    "density": 246.32628832141796,
+    "density_logic": 245.81524843537804,
+    "blocks": 67,
+    "statement_free": 3,
+    "pure_string": 3,
+    "smells": 125,
+    "dup": 67
+   }
+  },
+  {
+   "repo": "Chris-Lehnen-ICT-CONSULTING/Definitie-app-zakelijk",
+   "head": "2a47dac3cdac9d6c13ed457710ec2a9da1e04632",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 33.71888381314964,
+    "density_logic": 32.052217146482974,
+    "blocks": 52,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 214,
+    "dup": 52
+   },
+   "human": {
+    "n": 80,
+    "density": 22.71784985862534,
+    "density_logic": 21.75516031353356,
+    "blocks": 31,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 177,
+    "dup": 31
+   }
+  },
+  {
+   "repo": "codeflash-ai/codeflash",
+   "head": "a3a38efc9ec3d0a52a23056fd0a069863398a7ce",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 16,
+    "density": 13.235594229042597,
+    "density_logic": 13.235594229042595,
+    "blocks": 7,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 36,
+    "dup": 7
+   },
+   "human": {
+    "n": 80,
+    "density": 70.34105440797765,
+    "density_logic": 57.287694724183176,
+    "blocks": 49,
+    "statement_free": 7,
+    "pure_string": 7,
+    "smells": 231,
+    "dup": 49
+   }
+  },
+  {
+   "repo": "KRRT7/codeflash",
+   "head": "de3ad9e6de8cffd53fc161621ffa5e7c8636bff5",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 35,
+    "density": 121.33950122222048,
+    "density_logic": 45.14902503174429,
+    "blocks": 24,
+    "statement_free": 8,
+    "pure_string": 8,
+    "smells": 53,
+    "dup": 24
+   },
+   "human": {
+    "n": 80,
+    "density": 99.40042906406497,
+    "density_logic": 86.3470693802705,
+    "blocks": 112,
+    "statement_free": 7,
+    "pure_string": 7,
+    "smells": 317,
+    "dup": 112
+   }
+  },
+  {
+   "repo": "OlympusLedgerOrg/Olympus",
+   "head": "887ee2173b292dae27fa5a6b0059f8debd477c90",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 36,
+    "density": 16.316381447506583,
+    "density_logic": 14.580270336395472,
+    "blocks": 23,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 39,
+    "dup": 23
+   },
+   "human": {
+    "n": 75,
+    "density": 22.95402470592955,
+    "density_logic": 22.008666415137338,
+    "blocks": 24,
+    "statement_free": 3,
+    "pure_string": 3,
+    "smells": 33,
+    "dup": 24
+   }
+  },
+  {
+   "repo": "Tefx/Invar",
+   "head": "a9a829338715a7c8c6b3b2ac97ebd1f379ac0af5",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 77,
+    "density": 13.58278970736615,
+    "density_logic": 12.600208551961147,
+    "blocks": 18,
+    "statement_free": 5,
+    "pure_string": 5,
+    "smells": 44,
+    "dup": 18
+   },
+   "human": {
+    "n": 15,
+    "density": 52.606196441812884,
+    "density_logic": 45.19878903440547,
+    "blocks": 11,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 13,
+    "dup": 11
+   }
+  },
+  {
+   "repo": "BoundaryML/baml",
+   "head": "2fa0d0df4d0898ddc985be5a501c803a8ff35836",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 17.683854704027368,
+    "density_logic": 17.500031174615604,
+    "blocks": 29,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 65,
+    "dup": 29
+   },
+   "human": {
+    "n": 80,
+    "density": 70.35187785886976,
+    "density_logic": 70.35187785886976,
+    "blocks": 327,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 333,
+    "dup": 327
+   }
+  },
+  {
+   "repo": "vishwak1002/myAIClone",
+   "head": "fc8d921cb62adf310d3bac36b0596b59ae593e98",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 8,
+    "density": 0.0,
+    "density_logic": 0.0,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 0,
+    "dup": 0
+   },
+   "human": {
+    "n": 11,
+    "density": 6.060606060606061,
+    "density_logic": 6.060606060606061,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 2,
+    "dup": 0
+   }
+  },
+  {
+   "repo": "substratum-labs/roche",
+   "head": "039d9125c5acec38751c3a6434446f4a21e68afc",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 15,
+    "density": 6.275378368401624,
+    "density_logic": 6.275378368401624,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 5,
+    "dup": 0
+   },
+   "human": {
+    "n": 12,
+    "density": 3.657164291072768,
+    "density_logic": 3.657164291072768,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 2,
+    "dup": 0
+   }
+  },
+  {
+   "repo": "shenas-org/shenas",
+   "head": "d6ba391fbc606aae9d1fa72c4668bd7eda7dfb72",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 7.617497841788763,
+    "density_logic": 7.6174978417887615,
+    "blocks": 6,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 38,
+    "dup": 6
+   },
+   "human": {
+    "n": 41,
+    "density": 14.04682660483447,
+    "density_logic": 14.04682660483447,
+    "blocks": 6,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 22,
+    "dup": 6
+   }
+  },
+  {
+   "repo": "linyalan2000/data-news-radar",
+   "head": "be70c37f5f2332772eef3f09aedc169384fdc174",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 20,
+    "density": 10.978511825573118,
+    "density_logic": 10.978511825573118,
+    "blocks": 4,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 14,
+    "dup": 4
+   },
+   "human": {
+    "n": 12,
+    "density": 100.70148002886407,
+    "density_logic": 100.70148002886407,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 19,
+    "dup": 3
+   }
+  },
+  {
+   "repo": "Nireus79/Socratic-nexus",
+   "head": "96f7fce662a669303b31430dca6d9413d0a1462f",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 17,
+    "density": 35.99804242478029,
+    "density_logic": 34.71927004626367,
+    "blocks": 39,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 52,
+    "dup": 39
+   },
+   "human": {
+    "n": 12,
+    "density": 39.66331534255627,
+    "density_logic": 35.41908196525838,
+    "blocks": 109,
+    "statement_free": 15,
+    "pure_string": 15,
+    "smells": 133,
+    "dup": 109
+   }
+  },
+  {
+   "repo": "pragnition/RAPID",
+   "head": "d87975b28f01489cec5a996858f93c4139101c4d",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 15,
+    "density": 14.986225895316805,
+    "density_logic": 14.986225895316805,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 4,
+    "dup": 1
+   },
+   "human": {
+    "n": 16,
+    "density": 6.65724631992839,
+    "density_logic": 6.65724631992839,
+    "blocks": 2,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 16,
+    "dup": 2
+   }
+  },
+  {
+   "repo": "kabradshaw1/portfolio",
+   "head": "c6caae578e17b542ccedf5fea9b0411d27a0389a",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 34,
+    "density": 6.986435681742078,
+    "density_logic": 6.986435681742077,
+    "blocks": 5,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 9,
+    "dup": 5
+   },
+   "human": {
+    "n": 17,
+    "density": 9.575714646708562,
+    "density_logic": 9.575714646708562,
+    "blocks": 4,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 9,
+    "dup": 4
+   }
+  },
+  {
+   "repo": "avishek-sen-gupta/red-dragon",
+   "head": "cedb8bbcf4ac24c5546f03b46bd0bfcf2f272233",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 88.43403697356806,
+    "density_logic": 88.43403697356806,
+    "blocks": 46,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 50,
+    "dup": 46
+   },
+   "human": {
+    "n": 22,
+    "density": 2.457002457002457,
+    "density_logic": 2.457002457002457,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 2,
+    "dup": 0
+   }
+  },
+  {
+   "repo": "jotpalch/scholarship-system",
+   "head": "3b659f2e1d6b8a3ab3f86f8006e9b845035f16f4",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 12,
+    "density": 73.66997363671824,
+    "density_logic": 73.66997363671823,
+    "blocks": 8,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 17,
+    "dup": 8
+   },
+   "human": {
+    "n": 80,
+    "density": 52.029742257067994,
+    "density_logic": 48.26300803943106,
+    "blocks": 118,
+    "statement_free": 8,
+    "pure_string": 8,
+    "smells": 203,
+    "dup": 118
+   }
+  },
+  {
+   "repo": "hallelx2/context8",
+   "head": "5b97e4d0083c66dac4fa2e42cc7da189841852db",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 10,
+    "density": 13.796451613712907,
+    "density_logic": 13.796451613712907,
+    "blocks": 8,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 15,
+    "dup": 8
+   },
+   "human": {
+    "n": 10,
+    "density": 7.8817733990147785,
+    "density_logic": 7.8817733990147785,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 8,
+    "dup": 1
+   }
+  },
+  {
+   "repo": "mitsuaki0321/maya-fake-tools",
+   "head": "2ab53a0324ca79b0da0ae1c0bd2f6198aa15237b",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 31.815108257123107,
+    "density_logic": 31.815108257123107,
+    "blocks": 70,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 190,
+    "dup": 70
+   },
+   "human": {
+    "n": 18,
+    "density": 49.172522556693075,
+    "density_logic": 26.445249829420348,
+    "blocks": 20,
+    "statement_free": 9,
+    "pure_string": 0,
+    "smells": 42,
+    "dup": 20
+   }
+  },
+  {
+   "repo": "anulum/scpn-quantum-control",
+   "head": "ff19e6cca5b9f8d97746065617a41c4b91c81f31",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 25,
+    "density": 2.1260132901923945,
+    "density_logic": 2.126013290192395,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 3,
+    "dup": 0
+   },
+   "human": {
+    "n": 80,
+    "density": 37.90537553829846,
+    "density_logic": 33.53144231718536,
+    "blocks": 47,
+    "statement_free": 12,
+    "pure_string": 12,
+    "smells": 112,
+    "dup": 47
+   }
+  },
+  {
+   "repo": "rieszreg/rieszreg",
+   "head": "9d782067633d9ac8d325d738dc9aa46cfe9e4813",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 32,
+    "density": 39.325921982260866,
+    "density_logic": 39.325921982260866,
+    "blocks": 14,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 34,
+    "dup": 14
+   },
+   "human": {
+    "n": 18,
+    "density": 9.610438429882874,
+    "density_logic": 9.610438429882874,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 8,
+    "dup": 1
+   }
+  },
+  {
+   "repo": "bobmatnyc/claude-mpm",
+   "head": "bb378b48c850f12c0fbba9831d9a00d734fad4cb",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 28.031679891439772,
+    "density_logic": 27.962998572758455,
+    "blocks": 33,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 161,
+    "dup": 33
+   },
+   "human": {
+    "n": 80,
+    "density": 29.775053768064243,
+    "density_logic": 29.734989665500144,
+    "blocks": 78,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 318,
+    "dup": 78
+   }
+  },
+  {
+   "repo": "PSU-CSAR/snowtool",
+   "head": "28d7e093d94cba9535cdf704fd24e7977e361894",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 21,
+    "density": 6.082705007804281,
+    "density_logic": 6.082705007804282,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 10,
+    "dup": 1
+   },
+   "human": {
+    "n": 38,
+    "density": 9.417483763948985,
+    "density_logic": 9.417483763948985,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 7,
+    "dup": 1
+   }
+  },
+  {
+   "repo": "NathanKrupa/gaudi",
+   "head": "5cc65b4dfda92bf73b1e2d8676453cfc42e58979",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 30.69474680012384,
+    "density_logic": 30.69474680012384,
+    "blocks": 17,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 21,
+    "dup": 17
+   },
+   "human": {
+    "n": 14,
+    "density": 74.84103561802874,
+    "density_logic": 74.84103561802874,
+    "blocks": 26,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 43,
+    "dup": 26
+   }
+  },
+  {
+   "repo": "abh2technology/ruview",
+   "head": "e9dc0c726dd1723571626d4360306897785e5eef",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 35,
+    "density": 11.438860633013077,
+    "density_logic": 11.438860633013077,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 26,
+    "dup": 3
+   },
+   "human": {
+    "n": 13,
+    "density": 7.951962565106346,
+    "density_logic": 7.022378553951338,
+    "blocks": 11,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 23,
+    "dup": 11
+   }
+  },
+  {
+   "repo": "minhquy017/Ruview",
+   "head": "6a7791d8ae6a417aea948dcbadd9a7c50b2bffc7",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 31,
+    "density": 12.914842650176055,
+    "density_logic": 12.914842650176055,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 26,
+    "dup": 3
+   },
+   "human": {
+    "n": 13,
+    "density": 7.951962565106346,
+    "density_logic": 7.022378553951338,
+    "blocks": 11,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 23,
+    "dup": 11
+   }
+  },
+  {
+   "repo": "PauloRicardoSM/RuView-UFC-Research",
+   "head": "ed251753bfcbf8ab7bf37a3f3c2ad4d258d35400",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 35,
+    "density": 11.438860633013077,
+    "density_logic": 11.438860633013077,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 26,
+    "dup": 3
+   },
+   "human": {
+    "n": 13,
+    "density": 7.951962565106346,
+    "density_logic": 7.022378553951338,
+    "blocks": 11,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 23,
+    "dup": 11
+   }
+  },
+  {
+   "repo": "D-sorganization/zzz_Golf_GAAI_Sandbox",
+   "head": "9f43586986b83c63f027eb27e3221eee3215629a",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 33.51996900593484,
+    "density_logic": 30.394969005934836,
+    "blocks": 49,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 140,
+    "dup": 49
+   },
+   "human": {
+    "n": 80,
+    "density": 26.593994814518283,
+    "density_logic": 26.37847757313897,
+    "blocks": 74,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 231,
+    "dup": 74
+   }
+  },
+  {
+   "repo": "Diyasshettyyyy/RuView",
+   "head": "82c1b8fdf81f3dd8b786f394dd9bbd3914921fa1",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 35,
+    "density": 11.438860633013077,
+    "density_logic": 11.438860633013077,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 26,
+    "dup": 3
+   },
+   "human": {
+    "n": 13,
+    "density": 7.951962565106346,
+    "density_logic": 7.022378553951338,
+    "blocks": 11,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 23,
+    "dup": 11
+   }
+  },
+  {
+   "repo": "heledmx-lab/RUVIEW",
+   "head": "3573c4fdfd29d5fee94a93be776e392ecf7282f3",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 35,
+    "density": 11.438860633013077,
+    "density_logic": 11.438860633013077,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 26,
+    "dup": 3
+   },
+   "human": {
+    "n": 13,
+    "density": 7.951962565106346,
+    "density_logic": 7.022378553951338,
+    "blocks": 11,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 23,
+    "dup": 11
+   }
+  },
+  {
+   "repo": "D-sorganization/UpstreamDrift",
+   "head": "0782853295e005af68818617e4725eb980890f43",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 20.926331340016212,
+    "density_logic": 20.926331340016212,
+    "blocks": 28,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 71,
+    "dup": 28
+   },
+   "human": {
+    "n": 80,
+    "density": 54.45813414254799,
+    "density_logic": 50.8696173961365,
+    "blocks": 23,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 51,
+    "dup": 23
+   }
+  },
+  {
+   "repo": "Abhijit4001/WIFI-SIM",
+   "head": "1fb3e884de867a413998c1b5952fd37b36ee24af",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 35,
+    "density": 11.438860633013077,
+    "density_logic": 11.438860633013077,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 26,
+    "dup": 3
+   },
+   "human": {
+    "n": 13,
+    "density": 7.951962565106346,
+    "density_logic": 7.022378553951338,
+    "blocks": 11,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 23,
+    "dup": 11
+   }
+  },
+  {
+   "repo": "mfriedlander-max/Max_Workflow_Template",
+   "head": "841ca4f62326568a7d60d74b36510e9333e09a23",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 27,
+    "density": 26.69316167487311,
+    "density_logic": 26.693161674873114,
+    "blocks": 12,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 38,
+    "dup": 12
+   },
+   "human": {
+    "n": 8,
+    "density": 20.982142857142858,
+    "density_logic": 20.982142857142858,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 2,
+    "dup": 1
+   }
+  },
+  {
+   "repo": "mknutso-2/CLISpecBench",
+   "head": "9da52967d7b07b59e8a9f9b44550343fa1febf21",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 20,
+    "density": 15.01800299219833,
+    "density_logic": 15.01800299219833,
+    "blocks": 6,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 27,
+    "dup": 6
+   },
+   "human": {
+    "n": 9,
+    "density": 31.833815479613943,
+    "density_logic": 23.286806932605394,
+    "blocks": 10,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 16,
+    "dup": 10
+   }
+  },
+  {
+   "repo": "bbartling/py-bacnet-stacks-playground",
+   "head": "4720a8fa75f3d10609e3ab2e67a927360ef7714e",
+   "dominant_agent": "Cursor",
+   "ai": {
+    "n": 80,
+    "density": 32.75416417789993,
+    "density_logic": 24.1323402214571,
+    "blocks": 45,
+    "statement_free": 31,
+    "pure_string": 31,
+    "smells": 66,
+    "dup": 45
+   },
+   "human": {
+    "n": 80,
+    "density": 181.51971147765863,
+    "density_logic": 159.0307850263196,
+    "blocks": 1090,
+    "statement_free": 127,
+    "pure_string": 116,
+    "smells": 1325,
+    "dup": 1090
+   }
+  },
+  {
+   "repo": "yunkeji2026/telegram-mtproto-ai",
+   "head": "a44dd97caec8e494a513ca9d15ecfa442aba2db1",
+   "dominant_agent": "Cursor",
+   "ai": {
+    "n": 78,
+    "density": 33.079303510819486,
+    "density_logic": 33.079303510819486,
+    "blocks": 24,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 174,
+    "dup": 24
+   },
+   "human": {
+    "n": 80,
+    "density": 31.94213429579804,
+    "density_logic": 31.94213429579804,
+    "blocks": 27,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 235,
+    "dup": 27
+   }
+  },
+  {
+   "repo": "PaulSff/ai-taskvector",
+   "head": "cb98e00213d0faf745dc10d0b5a8f1a91a72a105",
+   "dominant_agent": "Cursor",
+   "ai": {
+    "n": 21,
+    "density": 41.73338581834227,
+    "density_logic": 41.73338581834227,
+    "blocks": 4,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 30,
+    "dup": 4
+   },
+   "human": {
+    "n": 61,
+    "density": 67.65815445929762,
+    "density_logic": 67.53805597854343,
+    "blocks": 42,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 101,
+    "dup": 42
+   }
+  },
+  {
+   "repo": "sethdford/h-uman",
+   "head": "229e33f5ce4089a4580bffc948030317307c69d1",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 9,
+    "density": 6.5359477124183005,
+    "density_logic": 6.5359477124183005,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 1,
+    "dup": 1
+   },
+   "human": {
+    "n": 10,
+    "density": 8.544508478731434,
+    "density_logic": 8.544508478731434,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 5,
+    "dup": 1
+   }
+  },
+  {
+   "repo": "amirbiron/CodeBot",
+   "head": "32de08bb96871bf541f9878d728904fabd20d0fa",
+   "dominant_agent": "Cursor",
+   "ai": {
+    "n": 80,
+    "density": 20.81883052664846,
+    "density_logic": 20.76942341202395,
+    "blocks": 42,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 224,
+    "dup": 42
+   },
+   "human": {
+    "n": 33,
+    "density": 31.057968752529128,
+    "density_logic": 30.850413750453576,
+    "blocks": 86,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 243,
+    "dup": 86
+   }
+  },
+  {
+   "repo": "cisco-ai-defense/mcp-scanner",
+   "head": "893327c54d223ea07296f68f32d8294f5c045f4a",
+   "dominant_agent": "Cursor",
+   "ai": {
+    "n": 21,
+    "density": 300.3690273902183,
+    "density_logic": 300.3159994975468,
+    "blocks": 17,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 94,
+    "dup": 17
+   },
+   "human": {
+    "n": 25,
+    "density": 55.83412583720246,
+    "density_logic": 55.83412583720246,
+    "blocks": 16,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 104,
+    "dup": 16
+   }
+  },
+  {
+   "repo": "kernel/cli",
+   "head": "23680fe12c0b7a57456d85aeb2637669afb1475d",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 13,
+    "density": 39.923038756327166,
+    "density_logic": 39.923038756327166,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 21,
+    "dup": 3
+   },
+   "human": {
+    "n": 43,
+    "density": 29.57422777784267,
+    "density_logic": 29.57422777784267,
+    "blocks": 14,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 60,
+    "dup": 14
+   }
+  },
+  {
+   "repo": "giak/mnemo-lite",
+   "head": "5fe8829078d73727154961416c0dbf16a67157b0",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 35.410116445922455,
+    "density_logic": 32.78520938104015,
+    "blocks": 67,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 177,
+    "dup": 67
+   },
+   "human": {
+    "n": 32,
+    "density": 24.565581486157832,
+    "density_logic": 24.56558148615783,
+    "blocks": 16,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 50,
+    "dup": 16
+   }
+  },
+  {
+   "repo": "agentbay-ai/wuying-agentbay-sdk",
+   "head": "8e2fa8f20981c826eb5d247bc6701d52570e104a",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 37,
+    "density": 14.928186647503699,
+    "density_logic": 13.326954418965197,
+    "blocks": 38,
+    "statement_free": 3,
+    "pure_string": 3,
+    "smells": 98,
+    "dup": 38
+   },
+   "human": {
+    "n": 80,
+    "density": 26.81003814321927,
+    "density_logic": 26.81003814321927,
+    "blocks": 30,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 123,
+    "dup": 30
+   }
+  },
+  {
+   "repo": "Max-Moro/lg-cli",
+   "head": "5e2880b1f3f5e4a8ed5c44a8543d8ce5ae9e3617",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 12.54120532701597,
+    "density_logic": 11.180585857989422,
+    "blocks": 14,
+    "statement_free": 3,
+    "pure_string": 2,
+    "smells": 67,
+    "dup": 14
+   },
+   "human": {
+    "n": 10,
+    "density": 17.136780340047128,
+    "density_logic": 17.136780340047125,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 22,
+    "dup": 3
+   }
+  },
+  {
+   "repo": "emmilco/claude-memory-server",
+   "head": "b8b10c9378fc30870b7534fa6a971c8c4c0eb688",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 37.105677234875735,
+    "density_logic": 35.86047503600811,
+    "blocks": 130,
+    "statement_free": 5,
+    "pure_string": 5,
+    "smells": 350,
+    "dup": 130
+   },
+   "human": {
+    "n": 22,
+    "density": 18.94420467143967,
+    "density_logic": 18.94420467143967,
+    "blocks": 12,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 50,
+    "dup": 12
+   }
+  },
+  {
+   "repo": "VISHNU0906/vulnerability-scanner",
+   "head": "557d6b8ecbcdaa1342bf49d110a5c49e1d146efe",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 51.22923181344767,
+    "density_logic": 34.971880057082856,
+    "blocks": 55,
+    "statement_free": 25,
+    "pure_string": 20,
+    "smells": 155,
+    "dup": 55
+   },
+   "human": {
+    "n": 26,
+    "density": 6.929573653110483,
+    "density_logic": 6.929573653110483,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 15,
+    "dup": 0
+   }
+  },
+  {
+   "repo": "fabceolin/the_edge_agent",
+   "head": "14b64873fdebd1b7fea6b3c2ef185a89cbaa0963",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 58,
+    "density": 69.88049183237361,
+    "density_logic": 63.11589435927,
+    "blocks": 88,
+    "statement_free": 14,
+    "pure_string": 9,
+    "smells": 227,
+    "dup": 88
+   },
+   "human": {
+    "n": 76,
+    "density": 215.2268804617037,
+    "density_logic": 207.94490718779377,
+    "blocks": 317,
+    "statement_free": 13,
+    "pure_string": 13,
+    "smells": 567,
+    "dup": 317
+   }
+  },
+  {
+   "repo": "dvschultz/algorithmic-filmmaking",
+   "head": "3cec9f6b2f2a727bd37d272cf486240e13e7a889",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 21.24472380478756,
+    "density_logic": 19.682223804787565,
+    "blocks": 21,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 128,
+    "dup": 21
+   },
+   "human": {
+    "n": 47,
+    "density": 15.198615202165204,
+    "density_logic": 15.198615202165204,
+    "blocks": 11,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 49,
+    "dup": 11
+   }
+  },
+  {
+   "repo": "MRodHer/moai-adk",
+   "head": "6ae3b5b5436c2b9e52e62f3b6bc02347ba66ee95",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 21.09700887066085,
+    "density_logic": 19.104545877558476,
+    "blocks": 82,
+    "statement_free": 7,
+    "pure_string": 7,
+    "smells": 142,
+    "dup": 82
+   },
+   "human": {
+    "n": 28,
+    "density": 19.294185339442695,
+    "density_logic": 19.127296153861924,
+    "blocks": 13,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 88,
+    "dup": 13
+   }
+  },
+  {
+   "repo": "Consiliency/treesitter-chunker",
+   "head": "2a728c52227b517476900f708f54e1cd06fc2ff3",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 45.7795063773133,
+    "density_logic": 44.05741710657826,
+    "blocks": 90,
+    "statement_free": 12,
+    "pure_string": 12,
+    "smells": 370,
+    "dup": 90
+   },
+   "human": {
+    "n": 80,
+    "density": 37.24805091770206,
+    "density_logic": 36.34858001823116,
+    "blocks": 189,
+    "statement_free": 7,
+    "pure_string": 7,
+    "smells": 436,
+    "dup": 189
+   }
+  },
+  {
+   "repo": "HanzoRazer/code-analysis-tool",
+   "head": "3802ccf44d60effec61dd0c0848e01b466565e62",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 42,
+    "density": 36.13371676791044,
+    "density_logic": 36.13371676791044,
+    "blocks": 42,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 89,
+    "dup": 42
+   },
+   "human": {
+    "n": 44,
+    "density": 42.15420171948995,
+    "density_logic": 42.15420171948995,
+    "blocks": 32,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 78,
+    "dup": 32
+   }
+  },
+  {
+   "repo": "AWeber-Imbi/imbi-automations",
+   "head": "03bb2b6787bebf838266ee729ac3e6f9affdb706",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 17,
+    "density": 16.526974198010002,
+    "density_logic": 16.526974198010002,
+    "blocks": 6,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 23,
+    "dup": 6
+   },
+   "human": {
+    "n": 24,
+    "density": 6.5202937434568495,
+    "density_logic": 6.5202937434568495,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 9,
+    "dup": 1
+   }
+  },
+  {
+   "repo": "s243a/UnifyWeaver",
+   "head": "5e0ef108f3577a07b5131b4c4bb5131ca97b7b9f",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 15.073824328291925,
+    "density_logic": 14.904905409373004,
+    "blocks": 17,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 103,
+    "dup": 17
+   },
+   "human": {
+    "n": 80,
+    "density": 485.9037267580179,
+    "density_logic": 471.9739881959264,
+    "blocks": 93,
+    "statement_free": 3,
+    "pure_string": 3,
+    "smells": 121,
+    "dup": 93
+   }
+  },
+  {
+   "repo": "jsbattig/code-indexer",
+   "head": "f77d0973fa753d5617625f282d4930debe086a55",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 25.564760643421778,
+    "density_logic": 24.20039849445984,
+    "blocks": 101,
+    "statement_free": 11,
+    "pure_string": 10,
+    "smells": 183,
+    "dup": 101
+   },
+   "human": {
+    "n": 21,
+    "density": 23.990779131831815,
+    "density_logic": 21.1950098893928,
+    "blocks": 22,
+    "statement_free": 5,
+    "pure_string": 5,
+    "smells": 67,
+    "dup": 22
+   }
+  },
+  {
+   "repo": "spencerduncan/jimbot",
+   "head": "7df8a0d21f2ee688b5ee6d07c5d8d7d430d7a05e",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 54,
+    "density": 11.541189275824676,
+    "density_logic": 11.019540866852322,
+    "blocks": 15,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 63,
+    "dup": 15
+   },
+   "human": {
+    "n": 80,
+    "density": 61.0823925065464,
+    "density_logic": 45.40697302388652,
+    "blocks": 314,
+    "statement_free": 23,
+    "pure_string": 16,
+    "smells": 416,
+    "dup": 314
+   }
+  },
+  {
+   "repo": "LuckVd/DeepVuln",
+   "head": "09a58d8d3a7fe0da49908ee0b85d864069cdccfa",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 17.467576824870484,
+    "density_logic": 16.735272438442802,
+    "blocks": 40,
+    "statement_free": 3,
+    "pure_string": 3,
+    "smells": 184,
+    "dup": 40
+   },
+   "human": {
+    "n": 19,
+    "density": 19.696973156071287,
+    "density_logic": 19.348419653108586,
+    "blocks": 8,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 38,
+    "dup": 8
+   }
+  },
+  {
+   "repo": "bobmatnyc/mcp-vector-search",
+   "head": "3c5b7868a53a9d967d204624b6717dfacc1fca6a",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 32.88272703671877,
+    "density_logic": 32.63432960082133,
+    "blocks": 63,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 253,
+    "dup": 63
+   },
+   "human": {
+    "n": 11,
+    "density": 120.13139299724664,
+    "density_logic": 113.63788650374013,
+    "blocks": 10,
+    "statement_free": 3,
+    "pure_string": 3,
+    "smells": 17,
+    "dup": 10
+   }
+  },
+  {
+   "repo": "rand/ananke-sglang",
+   "head": "29925551c55f705c1ac8b2584296fb0fed26a66d",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 47.29311666858715,
+    "density_logic": 46.34920978602927,
+    "blocks": 175,
+    "statement_free": 9,
+    "pure_string": 9,
+    "smells": 405,
+    "dup": 175
+   },
+   "human": {
+    "n": 80,
+    "density": 113.04375793386473,
+    "density_logic": 110.26598015608695,
+    "blocks": 180,
+    "statement_free": 2,
+    "pure_string": 0,
+    "smells": 330,
+    "dup": 180
+   }
+  },
+  {
+   "repo": "tekk/omi-mirror",
+   "head": "31ae65875900a82e26d3189ee9e3c79dfbdb5d25",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 22.427657399888705,
+    "density_logic": 22.325198383495263,
+    "blocks": 33,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 83,
+    "dup": 33
+   },
+   "human": {
+    "n": 80,
+    "density": 32.56030622433705,
+    "density_logic": 32.56030622433705,
+    "blocks": 26,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 96,
+    "dup": 26
+   }
+  },
+  {
+   "repo": "mrveiss/AutoBot-AI",
+   "head": "212b8cd2bf440015d5bd8e667756ab0d1d68ffb1",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 27.70755464547373,
+    "density_logic": 27.608348296267376,
+    "blocks": 43,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 76,
+    "dup": 43
+   },
+   "human": {
+    "n": 80,
+    "density": 14.269694124398464,
+    "density_logic": 12.707194124398464,
+    "blocks": 16,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 26,
+    "dup": 16
+   }
+  },
+  {
+   "repo": "undivisible/omi-desktop",
+   "head": "d877571819d52b878c3e7f71c721d285435f9ca5",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 22.427657399888705,
+    "density_logic": 22.325198383495263,
+    "blocks": 33,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 83,
+    "dup": 33
+   },
+   "human": {
+    "n": 80,
+    "density": 199.97598762612117,
+    "density_logic": 181.22598762612117,
+    "blocks": 53,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 84,
+    "dup": 53
+   }
+  },
+  {
+   "repo": "WatchMeJoustMyFlags/JoustMania",
+   "head": "ac2a0c44f80d2bd8a00e849670c59caeab8673df",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 37.09846776333594,
+    "density_logic": 36.65693626848211,
+    "blocks": 59,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 238,
+    "dup": 59
+   },
+   "human": {
+    "n": 11,
+    "density": 343.8298955946015,
+    "density_logic": 343.8298955946015,
+    "blocks": 82,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 83,
+    "dup": 82
+   }
+  },
+  {
+   "repo": "shobhitdkombee-del/omidemo",
+   "head": "9af1d7754429f7e5eaf3d51a36d01f876e27a773",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 60,
+    "density": 16.660425722608707,
+    "density_logic": 16.523813700750786,
+    "blocks": 26,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 85,
+    "dup": 26
+   },
+   "human": {
+    "n": 51,
+    "density": 90.86470899004131,
+    "density_logic": 84.328761277623,
+    "blocks": 21,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 52,
+    "dup": 21
+   }
+  },
+  {
+   "repo": "BasedHardware/omi",
+   "head": "856ad94538024d301dc28e560ec1e4f3e716b506",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 39.68038667137502,
+    "density_logic": 39.68038667137502,
+    "blocks": 27,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 62,
+    "dup": 27
+   },
+   "human": {
+    "n": 80,
+    "density": 46.97476791880262,
+    "density_logic": 46.97476791880262,
+    "blocks": 21,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 74,
+    "dup": 21
+   }
+  },
+  {
+   "repo": "paiml/depyler",
+   "head": "5d664cda8d54d52c0810a485dd93bbf747054ba8",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 49,
+    "density": 4.118474041225751,
+    "density_logic": 4.118474041225751,
+    "blocks": 5,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 11,
+    "dup": 5
+   },
+   "human": {
+    "n": 17,
+    "density": 21.378066505843645,
+    "density_logic": 21.37806650584364,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 7,
+    "dup": 3
+   }
+  },
+  {
+   "repo": "SteveGJones/ai-first-sdlc-practices",
+   "head": "323732f3e0c4df15df38135fd122721e8bd3b3d2",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 21.112688334030796,
+    "density_logic": 21.069435738875086,
+    "blocks": 27,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 209,
+    "dup": 27
+   },
+   "human": {
+    "n": 26,
+    "density": 19.390046125035862,
+    "density_logic": 19.390046125035862,
+    "blocks": 3,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 85,
+    "dup": 3
+   }
+  },
+  {
+   "repo": "MarkusNeusinger/anyplot",
+   "head": "c90c1c3203d112bcee8271491ea0ba2f790ef5d5",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 25,
+    "density": 26.303971072503632,
+    "density_logic": 26.303971072503632,
+    "blocks": 11,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 22,
+    "dup": 11
+   },
+   "human": {
+    "n": 24,
+    "density": 35.7683726793364,
+    "density_logic": 35.50297989802005,
+    "blocks": 4,
+    "statement_free": 1,
+    "pure_string": 1,
+    "smells": 43,
+    "dup": 4
+   }
+  },
+  {
+   "repo": "knowlen/esologs-python",
+   "head": "052cfc3319d37314f5dee8fd583de8dbca716297",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 8,
+    "density": 0.0,
+    "density_logic": 0.0,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 0,
+    "dup": 0
+   },
+   "human": {
+    "n": 22,
+    "density": 110.48686612628113,
+    "density_logic": 103.75996576529269,
+    "blocks": 130,
+    "statement_free": 14,
+    "pure_string": 14,
+    "smells": 148,
+    "dup": 130
+   }
+  },
+  {
+   "repo": "RyosukeMondo/air-executor",
+   "head": "36adcde09fe33e7c69b4fae9fd304c90b0082bee",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 14.1083708103609,
+    "density_logic": 13.901759240112963,
+    "blocks": 30,
+    "statement_free": 2,
+    "pure_string": 2,
+    "smells": 112,
+    "dup": 30
+   },
+   "human": {
+    "n": 15,
+    "density": 16.244633066240898,
+    "density_logic": 16.244633066240898,
+    "blocks": 6,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 16,
+    "dup": 6
+   }
+  },
+  {
+   "repo": "Alexweb97/pipeline-buider-ai",
+   "head": "af44423f95ba3eb4c051d03b751feb2c7fa30b16",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 9,
+    "density": 21.100886506893183,
+    "density_logic": 21.100886506893183,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 4,
+    "dup": 1
+   },
+   "human": {
+    "n": 24,
+    "density": 11.37624168060848,
+    "density_logic": 11.376241680608478,
+    "blocks": 8,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 13,
+    "dup": 8
+   }
+  },
+  {
+   "repo": "feyroozecode/tauraro",
+   "head": "beb1410e6588dc01048b9151a930aaa9d4bca847",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 20,
+    "density": 0.0,
+    "density_logic": 0.0,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 0,
+    "dup": 0
+   },
+   "human": {
+    "n": 39,
+    "density": 0.5341880341880342,
+    "density_logic": 0.5341880341880342,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 1,
+    "dup": 0
+   }
+  },
+  {
+   "repo": "sougetuOte/claude-friends-templates",
+   "head": "eaaa0a1f386a45cd487f59c61a87c906988c13f5",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 18,
+    "density": 28.325494692773713,
+    "density_logic": 28.325494692773717,
+    "blocks": 7,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 63,
+    "dup": 7
+   },
+   "human": {
+    "n": 10,
+    "density": 31.382511805509715,
+    "density_logic": 31.382511805509715,
+    "blocks": 4,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 55,
+    "dup": 4
+   }
+  },
+  {
+   "repo": "PaulDuvall/ai-development-patterns",
+   "head": "683acf674427bb9fda6b091931b8f2d3f49ff715",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 14,
+    "density": 29.69802807736625,
+    "density_logic": 23.7456471249853,
+    "blocks": 4,
+    "statement_free": 1,
+    "pure_string": 0,
+    "smells": 40,
+    "dup": 4
+   },
+   "human": {
+    "n": 11,
+    "density": 16.811786698150335,
+    "density_logic": 16.811786698150332,
+    "blocks": 2,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 20,
+    "dup": 2
+   }
+  },
+  {
+   "repo": "allan-simon/stackai-homework",
+   "head": "dec4341d13a70c389637cba967ea9f8353e316e1",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 42,
+    "density": 107.87539700997591,
+    "density_logic": 106.59161045487151,
+    "blocks": 49,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 82,
+    "dup": 49
+   },
+   "human": {
+    "n": 27,
+    "density": 42.71398126044332,
+    "density_logic": 26.620506833635563,
+    "blocks": 11,
+    "statement_free": 3,
+    "pure_string": 3,
+    "smells": 16,
+    "dup": 11
+   }
+  },
+  {
+   "repo": "MarksStuff/github-agent",
+   "head": "e95fc06f96c58776fdcbbac6f1553bc46afa3503",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 38,
+    "density": 70.48337183660595,
+    "density_logic": 69.61790603305965,
+    "blocks": 29,
+    "statement_free": 3,
+    "pure_string": 3,
+    "smells": 106,
+    "dup": 29
+   },
+   "human": {
+    "n": 35,
+    "density": 17.177415485870174,
+    "density_logic": 15.863789901370248,
+    "blocks": 22,
+    "statement_free": 4,
+    "pure_string": 4,
+    "smells": 96,
+    "dup": 22
+   }
+  },
+  {
+   "repo": "shlapolosa/health-service-idp",
+   "head": "040d724af4194fe82c2a6bfc5c17a35dbe19a900",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 18.26068708132383,
+    "density_logic": 18.26068708132383,
+    "blocks": 11,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 136,
+    "dup": 11
+   },
+   "human": {
+    "n": 53,
+    "density": 0.5468963631391851,
+    "density_logic": 0.5468963631391851,
+    "blocks": 1,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 2,
+    "dup": 1
+   }
+  },
+  {
+   "repo": "miroku0000/AI-Security-Benchmark",
+   "head": "c21cd8b601c85f8a5a32dd77dceb1533a2227104",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 80,
+    "density": 11.363617222057394,
+    "density_logic": 11.363617222057394,
+    "blocks": 19,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 86,
+    "dup": 19
+   },
+   "human": {
+    "n": 80,
+    "density": 11.119438406061114,
+    "density_logic": 11.119438406061114,
+    "blocks": 11,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 33,
+    "dup": 11
+   }
+  },
+  {
+   "repo": "yusufkaraaslan/lazy-bird",
+   "head": "a9bbc35cb2dc571d787384e12828eb1b3adf602c",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 31,
+    "density": 21.14626674929581,
+    "density_logic": 21.146266749295805,
+    "blocks": 16,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 30,
+    "dup": 16
+   },
+   "human": {
+    "n": 8,
+    "density": 35.617364980748114,
+    "density_logic": 31.829486192869325,
+    "blocks": 21,
+    "statement_free": 3,
+    "pure_string": 3,
+    "smells": 26,
+    "dup": 21
+   }
+  },
+  {
+   "repo": "chrysa/guideline-checker",
+   "head": "0574c233c1fb3d80daf34c8a04d5b911584df51d",
+   "dominant_agent": "Claude",
+   "ai": {
+    "n": 13,
+    "density": 0.0,
+    "density_logic": 0.0,
+    "blocks": 0,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 0,
+    "dup": 0
+   },
+   "human": {
+    "n": 13,
+    "density": 34.99673602021972,
+    "density_logic": 34.99673602021972,
+    "blocks": 2,
+    "statement_free": 0,
+    "pure_string": 0,
+    "smells": 13,
+    "dup": 2
+   }
+  }
+ ],
+ "failed": [
+  {
+   "repo": "tynamite/agentic-brain-T",
+   "error": "clone_failed"
+  },
+  {
+   "repo": "SamPrimeaux/inneranimalmedia",
+   "error": "clone_failed"
+  },
+  {
+   "repo": "gongahkia/a-slow-walk",
+   "error": "clone_failed"
+  }
+ ]
+}

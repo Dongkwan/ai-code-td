@@ -1,19 +1,39 @@
 {
  "n_ai": 1083,
  "n_human": 100,
- "cliffs_delta": 0.016694367497691598,
+ "cliffs_delta": -0.042132963988919636,
  "delta_ci95": [
-  -0.0655320867959372,
-  0.09510133887349943
+  -0.12184879963065556,
+  0.030868190212372932
  ],
  "delta_ci_within_negligible": true,
- "mean_diff": 24.648529007688254,
+ "mean_diff": -0.025428416921620567,
  "mean_diff_ci95": [
-  13.43903412062325,
-  37.30049997237656
+  -6.140027910291857,
+  4.985401667740172
  ],
- "sesoi_margin_smells_per_kloc": 33.87640561299923,
- "tost_p": 0.06429120393497087,
- "equivalent_at_005": false,
- "interpretation": "equivalence not established at the chosen margin"
+ "sesoi_margin_smells_per_kloc": 7.233824918143661,
+ "tost_p": 0.006420141873441008,
+ "equivalent_at_005": true,
+ "interpretation": "AI and human TD density are statistically equivalent within the pre-specified small-effect margin",
+ "measure": "density_logic",
+ "unrestricted": {
+  "n_ai": 1083,
+  "n_human": 100,
+  "cliffs_delta": 0.0270083102493075,
+  "delta_ci95": [
+   -0.04950207756232684,
+   0.09737765466297321
+  ],
+  "delta_ci_within_negligible": true,
+  "mean_diff": 25.444863375457388,
+  "mean_diff_ci95": [
+   14.207929713301658,
+   37.96230516874363
+  ],
+  "sesoi_margin_smells_per_kloc": 33.881689778458195,
+  "tost_p": 0.07936012453505681,
+  "equivalent_at_005": false,
+  "interpretation": "equivalence not established at the chosen margin"
+ }
 }

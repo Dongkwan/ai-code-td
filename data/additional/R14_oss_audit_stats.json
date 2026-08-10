@@ -1,0 +1,46 @@
+{
+ "deterministic": {
+  "n_repos": 87,
+  "free_share_ai_median": 0.027777777777777776,
+  "free_share_human_median": 0.03333333333333333,
+  "free_share_ai_mean": 0.07511506505333611,
+  "free_share_human_mean": 0.08248004759260713,
+  "wilcoxon_W": 975.5,
+  "wilcoxon_p": 0.994405365688047,
+  "ratio_conventional_median": 0.9075903543079927,
+  "ratio_conventional_ci": [
+   0.7353974783342487,
+   1.2647306026967562
+  ],
+  "ratio_logic_median": 0.8571794813802405,
+  "ratio_logic_ci": [
+   0.7131930696396855,
+   1.1528771751616267
+  ]
+ },
+ "log-order": {
+  "n_repos": 87,
+  "free_share_ai_median": 0.0,
+  "free_share_human_median": 0.01282051282051282,
+  "free_share_ai_mean": 0.06217976635852244,
+  "free_share_human_mean": 0.08005718032642127,
+  "wilcoxon_W": 814.5,
+  "wilcoxon_p": 0.45933709905665276,
+  "ratio_conventional_median": 0.8571794813802407,
+  "ratio_conventional_ci": [
+   0.7108287830365403,
+   1.0656077696743724
+  ],
+  "ratio_logic_median": 0.8557755157303722,
+  "ratio_logic_ci": [
+   0.6965885348768374,
+   1.0356009152203407
+  ]
+ },
+ "benchmark": {
+  "flagged_blocks": 421,
+  "statement_free": 302,
+  "statement_free_share_ai": 0.722488038277512,
+  "note": "418 of the 421 flagged blocks are AI; the human reference contributes 3, none of them statement-free"
+ }
+}
