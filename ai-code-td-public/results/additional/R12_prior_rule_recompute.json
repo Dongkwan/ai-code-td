@@ -1,0 +1,104 @@
+{
+  "note": "Re-measure the AI-human duplication contrast under the duplication rules",
+  "configs": {
+    "conventional-6": {
+      "min_repeated_lines": 6,
+      "line_kinds_removed": [],
+      "requires_a_statement": false,
+      "blocks_ai": 418,
+      "blocks_human": 3,
+      "blocks_total": 421,
+      "density_ai": 34.22174823561736,
+      "density_human": 8.776884860159972,
+      "ratio": 3.8990768115184795,
+      "dup_share_ai": 0.7282229965156795,
+      "dup_share_human": 0.07317073170731707
+    },
+    "conventional-4": {
+      "min_repeated_lines": 4,
+      "line_kinds_removed": [],
+      "requires_a_statement": false,
+      "blocks_ai": 1045,
+      "blocks_human": 18,
+      "blocks_total": 1063,
+      "density_ai": 71.17258420113018,
+      "density_human": 12.537165234402403,
+      "ratio": 5.676927987343599,
+      "dup_share_ai": 0.8701082431307244,
+      "dup_share_human": 0.32142857142857145
+    },
+    "gitclear-5": {
+      "min_repeated_lines": 5,
+      "line_kinds_removed": [],
+      "requires_a_statement": false,
+      "blocks_ai": 654,
+      "blocks_human": 11,
+      "blocks_total": 665,
+      "density_ai": 47.39488797797949,
+      "density_human": 10.370033306753223,
+      "ratio": 4.570369889469377,
+      "dup_share_ai": 0.8074074074074075,
+      "dup_share_human": 0.22448979591836735
+    },
+    "nodocstring-6": {
+      "min_repeated_lines": 6,
+      "line_kinds_removed": [
+        "docstring_or_string"
+      ],
+      "requires_a_statement": false,
+      "blocks_ai": 82,
+      "blocks_human": 3,
+      "blocks_total": 85,
+      "density_ai": 7.097273093442528,
+      "density_human": 8.776884860159972,
+      "ratio": 0.8086323572112086,
+      "dup_share_ai": 0.3445378151260504,
+      "dup_share_human": 0.07317073170731707
+    },
+    "pylint2x-4": {
+      "min_repeated_lines": 4,
+      "line_kinds_removed": [
+        "docstring_or_string"
+      ],
+      "requires_a_statement": false,
+      "blocks_ai": 197,
+      "blocks_human": 18,
+      "blocks_total": 215,
+      "density_ai": 11.002821937157114,
+      "density_human": 12.537165234402403,
+      "ratio": 0.8776164094068889,
+      "dup_share_ai": 0.5580736543909348,
+      "dup_share_human": 0.32142857142857145
+    },
+    "pylint3x-4": {
+      "min_repeated_lines": 4,
+      "line_kinds_removed": [
+        "docstring_or_string",
+        "import",
+        "signature"
+      ],
+      "requires_a_statement": false,
+      "blocks_ai": 266,
+      "blocks_human": 24,
+      "blocks_total": 290,
+      "density_ai": 14.304167290704054,
+      "density_human": 14.204300472741687,
+      "ratio": 1.007030745241838,
+      "dup_share_ai": 0.6303317535545023,
+      "dup_share_human": 0.3870967741935484
+    },
+    "logic-bearing-6": {
+      "min_repeated_lines": 6,
+      "line_kinds_removed": [],
+      "requires_a_statement": true,
+      "blocks_ai": 116,
+      "blocks_human": 3,
+      "blocks_total": 119,
+      "density_ai": 8.751456443238352,
+      "density_human": 8.776884860159972,
+      "ratio": 0.9971027970257369,
+      "dup_share_ai": 0.4264705882352941,
+      "dup_share_human": 0.07317073170731707
+    }
+  }
+}

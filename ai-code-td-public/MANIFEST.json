@@ -1,0 +1,53 @@
+{
+  "inclusion_rule": "A file is published if a number reported in the manuscript or the supplement is stored in it, or if the Data availability statement promises it. A figure is published if a document includes it. Intermediate selection files and analyses no document reports are not published; they accompany the source code, supplied on request.",
+  "manuscript_files": {
+    "results/metrics.csv": "per-class measurements under the conventional rule",
+    "results/metrics_logic_bearing.csv": "the same classes with both counting rules side by side",
+    "results/metrics_newcohort_logic.csv": "the later model-and-prompt cohort, both rules",
+    "results/sqj_revision.json": "block audit, cutoff sensitivity, count models, leave-one-producer-out",
+    "results/sqj_interaction.json": "the size-adjusted rule change and the size-slope test",
+    "results/oss_large.json": "the repository study, and the pinned commit SHA for each repository",
+    "results/additional/R5_duplicate_validation.json": "block composition audit and agreement with jscpd",
+    "results/additional/R11_specification_echo.json": "specification-match rates and the cross-task permutation",
+    "results/additional/R12_prior_rule_recompute.json": "published duplication rules re-measured on this corpus"
+  },
+  "supplement_files": {
+    "results/validation.json": "S1: agreement with lizard over 6,540 name-matched methods",
+    "results/additional/E12_external_agreement.json": "S1: agreement with Pylint and Radon over all 1,183 classes",
+    "results/additional/R16_echo_permutation.json": "S2: the cross-task specification permutation, per producer and threshold",
+    "results/review_addenda.json": "S3: Skillings-Mack with the tie correction, hurdle decomposition, alternative normalisations",
+    "results/additional/E3_negative_binomial.json": "S3: negative-binomial count models and the model ladder",
+    "results/additional/R1_task_clustered_nb.json": "S3: the count models refitted with task clustering respected",
+    "results/additional/E2_posthoc_dunn.json": "S3: post-hoc producer pairs after correction",
+    "results/additional/E8_normalisation.json": "S3: per class, per method and per unit WMC normalisations",
+    "results/additional/E4_threshold_sensitivity.json": "S3: detector threshold sweeps",
+    "results/syntactic_validity.json": "S4: parse rates per producer, behind the attrition analysis",
+    "results/additional/R7_attrition_robustness.json": "S4: differential attrition diagnostics",
+    "results/review_dependence.json": "S4: dependence and clustering diagnostics",
+    "results/metrics_newcohort.csv": "S5: the later cohort under the conventional rule",
+    "results/test_pass_newcohort.json": "S5: test outcomes for the later cohort",
+    "results/oss_large_no_vendored.json": "S6: the repository comparison with vendored code excluded",
+    "results/additional/R13_oss_audit.json": "S6: the repository audit behind the composition comparison",
+    "results/stats_results.json": "S7: per-producer densities, ratios and effect sizes",
+    "results/refocus_stats.json": "S7: per-producer inflation under the two rules",
+    "results/additional/E5_effect_size_cis.json": "S7: bootstrap intervals for Cliff's delta by producer",
+    "results/review_recomputations.json": "S7: headline ratios, smell composition and between-model spread"
+  },
+  "figures": [
+    "fig3_model_profile.png",
+    "fig_dup_by_producer.png",
+    "fig_exponent_forest.png",
+    "fig_inflation.png",
+    "fig_mechanism.png",
+    "fig_permodel_forest.png",
+    "fig_presence_or.png"
+  ],
+  "redactions": {
+    "results/additional/R5_duplicate_validation.json": "The audited examples keep their file, producer, line numbers and line classification; their source lines are removed, because publishing those would redistribute the ClassEval generations."
+  },
+  "not_included": [
+    "source code (detector, mining pipeline, analysis scripts) - available from the corresponding author on request",
+    "ClassEval generations - available from the benchmark authors",
+    "mined repository contents - reconstructible from the pinned commit SHAs in results/oss_large.json"
+  ]
+}

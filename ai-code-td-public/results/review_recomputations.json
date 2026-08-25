@@ -1,0 +1,91 @@
+{
+  "seed": 20260808,
+  "bootstrap_replicates": 20000,
+  "headline_ratios": {
+    "rq1_logic": {
+      "point": 0.9971027970257369,
+      "ci": [
+        0.5935284633400753,
+        1.8991550168473437
+      ]
+    },
+    "rq1_unrestricted": {
+      "point": 3.8990768115184795,
+      "ci": [
+        2.249072836838884,
+        7.944922243352842
+      ]
+    },
+    "open_cohort_logic": {
+      "point": 0.6591520645335129,
+      "ci": [
+        0.4300047118387874,
+        1.160730801355342
+      ]
+    },
+    "human_nonzero_classes": 18
+  },
+  "rq3_composition": {
+    "chi2": 90.48448574164054,
+    "p_asymptotic": 2.4032248620837935e-17,
+    "cells_expected_below_5": 6,
+    "min_expected": 0.4666666666666667,
+    "p_monte_carlo": 4.999750012499375e-05,
+    "cramers_v": 0.383574301939479,
+    "cramers_v_bias_corrected": 0.3709195761458833,
+    "dup_vs_rest_odds_ratio": 33.94017094017094,
+    "dup_vs_rest_fisher_p": 2.5616416349317143e-17
+  },
+  "between_model_spread": {
+    "published": {
+      "H": 27.94258697330414,
+      "p": 0.0033035373110870277,
+      "epsilon2": 0.01581940893865933,
+      "range": 9.793719866040302,
+      "log_mean_sd": 0.7635003543438893
+    },
+    "open_cohort": {
+      "H": 5.142242948870914,
+      "p": 0.3987686330415207,
+      "epsilon2": 0.0002394662438904273,
+      "range": 2.305434204113779,
+      "log_mean_sd": 0.29148356401003417
+    },
+    "six_of_twelve_subsets": {
+      "n": 924,
+      "median_range": 9.156090209858501,
+      "pct5_range": 2.8550761380493106,
+      "percentile_of_open_cohort": 0.974025974025974
+    }
+  },
+  "posthoc": {
+    "all_pairs": {
+      "n": 66,
+      "min_bh": 0.10190885458699844,
+      "n_significant": 0
+    },
+    "versus_control": {
+      "n": 12,
+      "min_bh": 0.19667617185281866,
+      "n_significant": 0,
+      "unadjusted": {
+        "CodeGeeX2-6B": 0.5847,
+        "CodeLlama-13B": 0.5689,
+        "DeepSeek-Coder": 0.0499,
+        "GPT-3.5-Turbo": 0.964,
+        "GPT-4-Turbo": 0.0685,
+        "Gemini-Pro": 0.4202,
+        "InstructCodeGen-16B": 0.0819,
+        "Magicoder-6.7B": 0.3152,
+        "PolyCoder-2.7B": 0.0392,
+        "SantaCoder-1.1B": 0.7498,
+        "StarCoder-15B": 0.0315,
+        "WizardCoder-15B": 0.4077
+      }
+    }
+  },
+  "dup_validation_positive_agreement": {
+    "matched": 0.446,
+    "defaults": 0.407
+  }
+}

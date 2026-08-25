@@ -1,0 +1,65 @@
+{
+  "n_classes": 1183,
+  "n_rows": 2366,
+  "primary_specification": "rule_specific_size_slope",
+  "slope_test": {
+    "term": "logsloc:rule[T.conventional]",
+    "coefficient": -1.9369430549897442,
+    "p": 6.372956450730258e-11,
+    "size_exponent_statement_aware": 2.4330779652681276,
+    "size_exponent_conventional": 0.4961349102783834
+  },
+  "rule_specific_size_slope": {
+    "formula": "y ~ ai * rule + logsloc * rule",
+    "poisson": {
+      "estimator": "Poisson GLM, task-clustered sandwich",
+      "irr_interaction": 1.2662840607973955,
+      "ci95": [
+        1.0429968749811556,
+        1.5373730843234912
+      ],
+      "p": 0.017065049747661903,
+      "irr_ai_statement_aware": 1.263363346054484,
+      "irr_ai_conventional": 1.599776868104457
+    },
+    "negbin": {
+      "estimator": "NB GLM, alpha fixed, task-clustered sandwich",
+      "irr_interaction": 1.0975963276841527,
+      "ci95": [
+        0.799601385240432,
+        1.5066478382644266
+      ],
+      "p": 0.5644858586993609,
+      "irr_ai_statement_aware": 1.5475316288954046,
+      "irr_ai_conventional": 1.6985650328506712,
+      "alpha": 4.64373670755314
+    }
+  },
+  "common_size_slope": {
+    "formula": "y ~ ai * rule + logsloc",
+    "poisson": {
+      "estimator": "Poisson GLM, task-clustered sandwich",
+      "irr_interaction": 2.110294117647087,
+      "ci95": [
+        1.7142342959202481,
+        2.5978603237460143
+      ],
+      "p": 1.895080194962458e-12,
+      "irr_ai_statement_aware": 0.9303916681806563,
+      "irr_ai_conventional": 1.963400064469499
+    },
+    "negbin": {
+      "estimator": "NB GLM, alpha fixed, task-clustered sandwich",
+      "irr_interaction": 2.973628084649957,
+      "ci95": [
+        2.4342301216068503,
+        3.632550557702412
+      ],
+      "p": 1.3829786254787987e-26,
+      "irr_ai_statement_aware": 0.9415446525945551,
+      "irr_ai_conventional": 2.7998036219071563,
+      "alpha": 6.677681152419783
+    }
+  },
+  "note": "smf.negativebinomial (joint MLE over beta and alpha) is multimodal on these data and is not used; see the module docstring."
+}

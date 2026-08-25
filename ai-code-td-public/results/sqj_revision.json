@@ -1,0 +1,197 @@
+{
+  "seed": 20260808,
+  "replicates": 20000,
+  "audit": {
+    "n_flagged_blocks": 421,
+    "n_statement_free": 302,
+    "logic_line_distribution": {
+      "0": 302,
+      "1": 21,
+      "2": 8,
+      "3": 11,
+      "4": 14,
+      "5": 11,
+      "6": 54
+    }
+  },
+  "cutoff_sensitivity": {
+    "conventional": {
+      "blocks_kept": 421,
+      "blocks_dropped": 0,
+      "ai_density_mean": 34.22174823561736,
+      "human_density_mean": 8.776884860159972,
+      "ratio": 3.8990768115184795
+    },
+    "stmt>=1": {
+      "blocks_kept": 119,
+      "blocks_dropped": 302,
+      "ai_density_mean": 8.751456443238352,
+      "human_density_mean": 8.776884860159972,
+      "ratio": 0.9971027970257369
+    },
+    "0.10": {
+      "blocks_kept": 119,
+      "blocks_dropped": 302,
+      "ai_density_mean": 8.751456443238352,
+      "human_density_mean": 8.776884860159972,
+      "ratio": 0.9971027970257369
+    },
+    "0.25": {
+      "blocks_kept": 98,
+      "blocks_dropped": 323,
+      "ai_density_mean": 7.5229130602907075,
+      "human_density_mean": 8.776884860159972,
+      "ratio": 0.8571279195467981
+    },
+    "0.50": {
+      "blocks_kept": 90,
+      "blocks_dropped": 331,
+      "ai_density_mean": 7.126560710265241,
+      "human_density_mean": 8.776884860159972,
+      "ratio": 0.8119692605988394
+    }
+  },
+  "rule_change": {
+    "stmt>=1": {
+      "ratio_conventional": 3.89907681151848,
+      "ratio_alternative": 0.9971027970257369,
+      "delta_log_ratio": 1.3636412181095439,
+      "fold_change": 3.910406051561641,
+      "fold_change_ci": [
+        2.8171318921903694,
+        5.669128673057842
+      ],
+      "excludes_one": true,
+      "replicates": 20000
+    },
+    "0.10": {
+      "ratio_conventional": 3.89907681151848,
+      "ratio_alternative": 0.9971027970257369,
+      "delta_log_ratio": 1.3636412181095439,
+      "fold_change": 3.910406051561641,
+      "fold_change_ci": [
+        2.793074129655504,
+        5.688548297748735
+      ],
+      "excludes_one": true,
+      "replicates": 20000
+    },
+    "0.25": {
+      "ratio_conventional": 3.89907681151848,
+      "ratio_alternative": 0.8571279195467981,
+      "delta_log_ratio": 1.5149079172934383,
+      "fold_change": 4.549002223122187,
+      "fold_change_ci": [
+        3.1581284850410563,
+        6.826755562943532
+      ],
+      "excludes_one": true,
+      "replicates": 20000
+    },
+    "0.50": {
+      "ratio_conventional": 3.89907681151848,
+      "ratio_alternative": 0.8119692605988394,
+      "delta_log_ratio": 1.5690326060613236,
+      "fold_change": 4.802000519875411,
+      "fold_change_ci": [
+        3.280569263185902,
+        7.32235212124431
+      ],
+      "excludes_one": true,
+      "replicates": 20000
+    }
+  },
+  "count_models": {
+    "conventional": {
+      "free_size_exponent": {
+        "irr_is_ai": 1.7202986613020093,
+        "p_is_ai": 0.08185852585514478,
+        "ci95_irr_is_ai": [
+          0.9337192475903243,
+          3.1695046361258625
+        ],
+        "converged": true,
+        "hessian_invertible": true,
+        "standard_errors_trustworthy": true,
+        "n": 1183,
+        "size_exponent": 0.34277434876262397,
+        "size_exponent_ci": [
+          -0.03168913794305306,
+          0.717237835468301
+        ],
+        "size_exponent_p_vs_one": 0.0005818048138901996,
+        "poisson_deviance_per_df": 2.1423102611998885,
+        "zero_share": 0.8098055790363483
+      },
+      "size_exponent_fixed_at_one": {
+        "irr_is_ai": 1.9055090191907047,
+        "p_is_ai": 0.04553887264814295,
+        "ci95_irr_is_ai": [
+          1.0128758459923064,
+          3.584807196838517
+        ],
+        "converged": true,
+        "hessian_invertible": false,
+        "standard_errors_trustworthy": false,
+        "n": 1183,
+        "poisson_deviance_per_df": 2.1787445110399433,
+        "zero_share": 0.8098055790363483
+      }
+    },
+    "stmt>=1": {
+      "free_size_exponent": {
+        "irr_is_ai": 1.4944493751523973,
+        "p_is_ai": 0.0682215006149587,
+        "ci95_irr_is_ai": [
+          0.9703908310744828,
+          2.3015251828177736
+        ],
+        "converged": true,
+        "hessian_invertible": true,
+        "standard_errors_trustworthy": true,
+        "n": 1183,
+        "size_exponent": 2.045114482074329,
+        "size_exponent_ci": [
+          1.4399415104652993,
+          2.650287453683359
+        ],
+        "size_exponent_p_vs_one": 0.0007123130439119808,
+        "poisson_deviance_per_df": 0.8458855424782287,
+        "zero_share": 0.863905325443787
+      },
+      "size_exponent_fixed_at_one": {
+        "irr_is_ai": 0.9816238797964454,
+        "p_is_ai": 0.9458562975063098,
+        "ci95_irr_is_ai": [
+          0.5747456514234071,
+          1.6765423783550584
+        ],
+        "converged": true,
+        "hessian_invertible": true,
+        "standard_errors_trustworthy": true,
+        "n": 1183,
+        "poisson_deviance_per_df": 0.980308143368426,
+        "zero_share": 0.863905325443787
+      }
+    }
+  },
+  "leave_one_producer_out": {
+    "statement_aware_ratio_full": 0.9971027970257369,
+    "without_producer": {
+      "CodeGeeX2-6B": 0.8943959427343561,
+      "CodeLlama-13B": 1.021468299297847,
+      "DeepSeek-Coder": 1.0550611932889635,
+      "GPT-3.5-Turbo": 1.0099354591657856,
+      "GPT-4-Turbo": 1.0633924174430713,
+      "Gemini-Pro": 0.9759004153550123,
+      "InstructCodeGen-16B": 1.0465714824385894,
+      "Magicoder-6.7B": 1.036657477662103,
+      "PolyCoder-2.7B": 1.0369923226260922,
+      "SantaCoder-1.1B": 0.7795015735471782,
+      "StarCoder-15B": 1.063245336521872,
+      "WizardCoder-15B": 0.9880358042276229
+    },
+    "min": 0.7795015735471782,
+    "max": 1.0633924174430713
+  }
+}
