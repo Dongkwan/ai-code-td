@@ -50,7 +50,7 @@ Top-level keys: `repos`, `groups`
 
 ## `results/repository/statement_free_share.json`
 
-statement-free share, AI minus human, deduplicated repositories (Section 4.3.7).
+statement-free share, AI minus human, deduplicated repositories (Section 4.3.8).
 
 Top-level keys: `attribution`, `candidate_groups`, `duplicate_groups`, `copies_verified`, `all`, `deduplicated`, `pooled_classes`, `pooled_classes_deduplicated`, `kept_from_each_group`, `n_deduplicated`
 
@@ -115,7 +115,7 @@ Top-level keys: `scope`, `conv`, `stmt`
 
 ## `results/task_class/producers.json`
 
-Skillings-Mack and post-hoc producer pairs (Section 4.3.4).
+Skillings-Mack and post-hoc producer pairs (Section 4.3.5).
 
 Top-level keys: `scope`, `skillings_mack`, `posthoc`, `significant_pairs`
 
@@ -187,7 +187,7 @@ Top-level keys: `stmt_or_def`, `stmt>=1`, `share>=0.25`, `share>=0.5`
 
 ## `results/task_class/jscpd.json`
 
-jscpd 4.0.5 clone counts and contrasts (Section 4.3.3).
+jscpd 4.0.5 clone counts and contrasts (Section 4.3.4).
 
 Top-level keys: `matched`, `default`
 
@@ -229,7 +229,7 @@ Top-level keys: `multi_class_files`, `largest_not_task_class`, `without_multi_cl
 
 ## `results/task_class/segmentation.json`
 
-maximal repeated spans, duplicated lines/kLoC (Section 4.3.3).
+maximal repeated spans, duplicated lines/kLoC (Section 4.3.4).
 
 Top-level keys: `ai_spans_all`, `hu_spans_all`, `diff_spans_all`, `ai_spans_stmt`, `hu_spans_stmt`, `diff_spans_stmt`, `ai_lines_all`, `hu_lines_all`, `diff_lines_all`, `ai_lines_stmt`, `hu_lines_stmt`, `diff_lines_stmt`, `n_spans`, `n_statement_free_spans`, `duplicated_lines`, `duplicated_lines_in_statement_free_spans`, `statement_free_spans_by_model`, `statement_free_spans_from_dominant_two`, `human_classes_with_span`, `ai_classes_with_span`
 

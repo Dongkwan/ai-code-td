@@ -1,0 +1,442 @@
+{
+ "flow": {
+  "stage1_sampled_100": {
+   "repos": 100,
+   "ai_classes": 5191,
+   "human_classes": 4216,
+   "blocks": "not recorded at this stage (oss_large.json stores smell shares, not block counts or block composition)"
+  },
+  "stage1_restricted_to_the_97_still_public_original_measurement": {
+   "repos": 97,
+   "ai_classes": 4951,
+   "human_classes": 4031
+  },
+  "dropped_not_public": [
+   {
+    "repo": "tynamite/agentic-brain-T",
+    "error": "clone_failed"
+   },
+   {
+    "repo": "SamPrimeaux/inneranimalmedia",
+    "error": "clone_failed"
+   },
+   {
+    "repo": "gongahkia/a-slow-walk",
+    "error": "clone_failed"
+   }
+  ],
+  "stage2_reaudit_97": {
+   "repos": 97,
+   "ai": {
+    "classes": 4945,
+    "blocks": 5570,
+    "statement_free": 1419,
+    "repos_with_blocks": 90,
+    "pooled_share": 0.2547576301615799
+   },
+   "human": {
+    "classes": 4045,
+    "blocks": 7185,
+    "statement_free": 854,
+    "repos_with_blocks": 90,
+    "pooled_share": 0.11885873347251218
+   },
+   "repos_blocks_both": 87,
+   "repos_blocks_ai_only": 3,
+   "repos_blocks_human_only": 3,
+   "repos_blocks_neither": 4
+  },
+  "stage3_deduplicated_89": {
+   "repos": 89,
+   "ai": {
+    "classes": 4534,
+    "blocks": 5434,
+    "statement_free": 1406,
+    "repos_with_blocks": 82,
+    "pooled_share": 0.25874125874125875
+   },
+   "human": {
+    "classes": 3769,
+    "blocks": 7032,
+    "statement_free": 831,
+    "repos_with_blocks": 82,
+    "pooled_share": 0.1181740614334471
+   },
+   "repos_blocks_both": 79,
+   "repos_blocks_ai_only": 3,
+   "repos_blocks_human_only": 3,
+   "repos_blocks_neither": 4
+  },
+  "stage4_blocks_in_both_groups_79": {
+   "repos": 79,
+   "ai": {
+    "classes": 4215,
+    "blocks": 4284,
+    "statement_free": 701,
+    "repos_with_blocks": 79,
+    "pooled_share": 0.16363211951447246
+   },
+   "human": {
+    "classes": 3522,
+    "blocks": 6892,
+    "statement_free": 817,
+    "repos_with_blocks": 79,
+    "pooled_share": 0.1185432385374347
+   },
+   "repos_blocks_both": 79,
+   "repos_blocks_ai_only": 0,
+   "repos_blocks_human_only": 0,
+   "repos_blocks_neither": 0
+  },
+  "non_deduplicated_blocks_in_both_87": {
+   "repos": 87,
+   "ai": {
+    "classes": 4626,
+    "blocks": 4420,
+    "statement_free": 714,
+    "repos_with_blocks": 87,
+    "pooled_share": 0.16153846153846155
+   },
+   "human": {
+    "classes": 3798,
+    "blocks": 7045,
+    "statement_free": 840,
+    "repos_with_blocks": 87,
+    "pooled_share": 0.11923349893541518
+   },
+   "repos_blocks_both": 87,
+   "repos_blocks_ai_only": 0,
+   "repos_blocks_human_only": 0,
+   "repos_blocks_neither": 0
+  },
+  "copy_clusters": [
+   [
+    "dzungttfci/ms_agent-governance-toolkit",
+    "microsoft/agent-governance-toolkit",
+    "baoqger/agt-fork"
+   ],
+   [
+    "abh2technology/ruview",
+    "minhquy017/Ruview",
+    "PauloRicardoSM/RuView-UFC-Research",
+    "Diyasshettyyyy/RuView",
+    "heledmx-lab/RUVIEW",
+    "Abhijit4001/WIFI-SIM"
+   ],
+   [
+    "D-sorganization/zzz_Golf_GAAI_Sandbox",
+    "D-sorganization/UpstreamDrift"
+   ]
+  ],
+  "reaudit_reconstruction": {
+   "repos_matching_published_counts": 89,
+   "ai_count_drift_mean": -0.061855670103092786,
+   "human_count_drift_mean": 0.14432989690721648,
+   "published_pooled_ratio": 0.6161776876184798
+  }
+ },
+ "paired_79_reproduced": {
+  "n_eligible": 79,
+  "n_without_blocks_in_a_group": 10,
+  "median_ai": 0.031746031746031744,
+  "median_human": 0.017543859649122806,
+  "median_paired_diff": 0.0,
+  "median_paired_diff_ci": [
+   0.0,
+   0.010617806045611022
+  ],
+  "mean_paired_diff": 0.014108436303186787,
+  "mean_paired_diff_ci": [
+   -0.01527600675175337,
+   0.046496914383231315
+  ],
+  "wilcoxon_p": 0.29454920302572374
+ },
+ "paired_79_published": {
+  "n_eligible": 79,
+  "n_without_blocks_in_a_group": 10,
+  "median_ai": 0.031746031746031744,
+  "median_human": 0.017543859649122806,
+  "median_paired_diff": 0.0,
+  "median_paired_diff_ci": [
+   0.0,
+   0.010617806045611022
+  ],
+  "mean_paired_diff": 0.014108436303186787,
+  "mean_paired_diff_ci": [
+   -0.01527600675175337,
+   0.046496914383231315
+  ],
+  "wilcoxon_p": 0.29454920302572374
+ },
+ "paired_79_identical": true,
+ "published_all_97_share": {
+  "n_eligible": 87,
+  "n_without_blocks_in_a_group": 10,
+  "median_ai": 0.027777777777777776,
+  "median_human": 0.03333333333333333,
+  "median_paired_diff": 0.0,
+  "median_paired_diff_ci": [
+   0.0,
+   0.0
+  ],
+  "mean_paired_diff": -0.00736498253927103,
+  "mean_paired_diff_ci": [
+   -0.039985237288211344,
+   0.02690506873600885
+  ],
+  "wilcoxon_p": 0.994405365688047
+ },
+ "published_all_97_reproduced_identical": true,
+ "note_on_minus_0_7": "statement_free_share.summarize(rows) with rows = all 97 re-audited repositories (copies NOT removed) keeps only repositories with flagged blocks in both groups: the \"-0.7 points over all 97\" is the mean paired AI-minus-human difference over those 87 repositories (8 of them verified copies of others), not over 97.",
+ "shares": {
+  "dedup_89": {
+   "pooled_ai": {
+    "est": 0.25874125874125875,
+    "ci": [
+     0.09443892493281945,
+     0.41588044370139166
+    ]
+   },
+   "pooled_human": {
+    "est": 0.1181740614334471,
+    "ci": [
+     0.05273600894121191,
+     0.15294309997785235
+    ]
+   },
+   "pooled_diff": {
+    "est": 0.14056719730781164,
+    "ci": [
+     -0.012664265266211895,
+     0.3392413933975141
+    ]
+   },
+   "pooled_ratio": {
+    "est": 2.1894928176516624,
+    "ci": [
+     0.9007097843446258,
+     6.513096806314806
+    ]
+   },
+   "mean_of_repo_shares_ai": {
+    "est": 0.09263206929685881,
+    "ci": [
+     0.06153603938714622,
+     0.1283797758814461
+    ]
+   },
+   "mean_of_repo_shares_human": {
+    "est": 0.065711604306637,
+    "ci": [
+     0.045138759888334525,
+     0.08887618077840864
+    ]
+   },
+   "mean_of_repo_shares_diff": {
+    "est": 0.026920464990221812,
+    "ci": [
+     -0.005821471584328489,
+     0.0632787344578315
+    ]
+   },
+   "paired_mean_diff_where_both": {
+    "est": 0.01410843630318679,
+    "ci": [
+     -0.014997405433643418,
+     0.046360773908926824
+    ]
+   },
+   "n_repos": 89,
+   "n_defined_ai": 82,
+   "n_defined_human": 82,
+   "n_both": 79
+  },
+  "paired_79": {
+   "pooled_ai": {
+    "est": 0.16363211951447246,
+    "ci": [
+     0.08183249478236625,
+     0.2477797068391013
+    ]
+   },
+   "pooled_human": {
+    "est": 0.1185432385374347,
+    "ci": [
+     0.05069221854928759,
+     0.15354704909654926
+    ]
+   },
+   "pooled_diff": {
+    "est": 0.045088880977037754,
+    "ci": [
+     -0.01737297685803399,
+     0.17780038170110746
+    ]
+   },
+   "pooled_ratio": {
+    "est": 1.380358099992343,
+    "ci": [
+     0.8657688371374328,
+     4.124008741177941
+    ]
+   },
+   "mean_of_repo_shares_ai": {
+    "est": 0.08095222422029978,
+    "ci": [
+     0.05422993407801268,
+     0.11319470244092283
+    ]
+   },
+   "mean_of_repo_shares_human": {
+    "est": 0.06684378791711298,
+    "ci": [
+     0.046052924969555785,
+     0.09095524119539443
+    ]
+   },
+   "mean_of_repo_shares_diff": {
+    "est": 0.014108436303186797,
+    "ci": [
+     -0.015359981824622148,
+     0.046541217781592883
+    ]
+   },
+   "paired_mean_diff_where_both": {
+    "est": 0.014108436303186787,
+    "ci": [
+     -0.015359981824622141,
+     0.04654121778159291
+    ]
+   },
+   "n_repos": 79,
+   "n_defined_ai": 79,
+   "n_defined_human": 79,
+   "n_both": 79
+  },
+  "all_97": {
+   "pooled_ai": {
+    "est": 0.2547576301615799,
+    "ci": [
+     0.09646051859036872,
+     0.40842794578515645
+    ]
+   },
+   "pooled_human": {
+    "est": 0.11885873347251218,
+    "ci": [
+     0.055828440867373014,
+     0.15315430465731353
+    ]
+   },
+   "pooled_diff": {
+    "est": 0.13589889668906768,
+    "ci": [
+     -0.014355243867588753,
+     0.3296300207010626
+    ]
+   },
+   "pooled_ratio": {
+    "est": 2.14336483923999,
+    "ci": [
+     0.8892622995740322,
+     6.029475834165082
+    ]
+   },
+   "mean_of_repo_shares_ai": {
+    "est": 0.08595127365087757,
+    "ci": [
+     0.057435023171524296,
+     0.11933177572560211
+    ]
+   },
+   "mean_of_repo_shares_human": {
+    "est": 0.08092729386943477,
+    "ci": [
+     0.05778779087874035,
+     0.10675459308336316
+    ]
+   },
+   "mean_of_repo_shares_diff": {
+    "est": 0.005023979781442797,
+    "ci": [
+     -0.030121486651069916,
+     0.04185048714334451
+    ]
+   },
+   "paired_mean_diff_where_both": {
+    "est": -0.00736498253927103,
+    "ci": [
+     -0.03978257766393618,
+     0.02666157580641739
+    ]
+   },
+   "n_repos": 97,
+   "n_defined_ai": 90,
+   "n_defined_human": 90,
+   "n_both": 87
+  },
+  "non_dedup_87": {
+   "pooled_ai": {
+    "est": 0.16153846153846155,
+    "ci": [
+     0.08251695578453111,
+     0.2429334418641235
+    ]
+   },
+   "pooled_human": {
+    "est": 0.11923349893541518,
+    "ci": [
+     0.054337476746152545,
+     0.15370055624807927
+    ]
+   },
+   "pooled_diff": {
+    "est": 0.042304962603046364,
+    "ci": [
+     -0.018455841449714516,
+     0.1699890372895496
+    ]
+   },
+   "pooled_ratio": {
+    "est": 1.3548076923076924,
+    "ci": [
+     0.8567440356649473,
+     3.7939480688555527
+    ]
+   },
+   "mean_of_repo_shares_ai": {
+    "est": 0.07511506505333611,
+    "ci": [
+     0.0505689326526244,
+     0.1046269008008427
+    ]
+   },
+   "mean_of_repo_shares_human": {
+    "est": 0.08248004759260713,
+    "ci": [
+     0.05860183807584582,
+     0.10857515697523426
+    ]
+   },
+   "mean_of_repo_shares_diff": {
+    "est": -0.007364982539271023,
+    "ci": [
+     -0.040776926212887754,
+     0.027284868705849827
+    ]
+   },
+   "paired_mean_diff_where_both": {
+    "est": -0.00736498253927103,
+    "ci": [
+     -0.040776926212887775,
+     0.027284868705849827
+    ]
+   },
+   "n_repos": 87,
+   "n_defined_ai": 87,
+   "n_defined_human": 87,
+   "n_both": 87
+  }
+ }
+}
