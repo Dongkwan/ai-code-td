@@ -82,7 +82,7 @@ Top-level keys: `note`, `configs`
 | `class_key` | `<model>__<sample_id>`. |
 | `group` | `AI` or `Human`. |
 | `task` | ClassEval task number. |
-| `line_index` | Position of the flagged copy in the class's stripped-line sequence (Algorithm 1). |
+| `line_index` | Position of the flagged copy in the class's stripped-line sequence (six-line rule, Section 3.2). |
 | `first_seen_at` | Position of the first occurrence of the same six-line window. |
 | `lines_decorator` | Lines labelled decorator. |
 | `lines_docstring_or_string` | Lines labelled documentation. |
@@ -321,7 +321,7 @@ Top-level keys: `n_matched_methods`, `spearman_cc`, `pearson_cc`, `spearman_loc`
 | `class_key` | `<model>__<sample_id>`. |
 | `group` | `AI` or `Human`. |
 | `task` | ClassEval task number. |
-| `line_index` | Position of the flagged copy in the class's stripped-line sequence (Algorithm 1). |
+| `line_index` | Position of the flagged copy in the class's stripped-line sequence (six-line rule, Section 3.2). |
 | `first_seen_at` | Position of the first occurrence of the same six-line window. |
 | `lines_decorator` | Lines labelled decorator. |
 | `lines_docstring_or_string` | Lines labelled documentation. |
