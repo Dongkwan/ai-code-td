@@ -1,0 +1,120 @@
+{
+ "ai_spans_all": {
+  "est": 20.61643832920215,
+  "ci": [
+   14.261455696733549,
+   28.09360638210077
+  ],
+  "finite_share": 1.0
+ },
+ "hu_spans_all": {
+  "est": 0.547945205479452,
+  "ci": [
+   0.0,
+   1.643835616438356
+  ],
+  "finite_share": 1.0
+ },
+ "diff_spans_all": {
+  "est": 20.0684931237227,
+  "ci": [
+   14.164532479027178,
+   26.684679065755684
+  ],
+  "finite_share": 1.0
+ },
+ "ai_spans_stmt": {
+  "est": 2.2095364938403006,
+  "ci": [
+   1.204113072498395,
+   3.400021456907664
+  ],
+  "finite_share": 1.0
+ },
+ "hu_spans_stmt": {
+  "est": 0.547945205479452,
+  "ci": [
+   0.0,
+   1.643835616438356
+  ],
+  "finite_share": 1.0
+ },
+ "diff_spans_stmt": {
+  "est": 1.6615912883608486,
+  "ci": [
+   0.41897467222949536,
+   2.914683769629138
+  ],
+  "finite_share": 1.0
+ },
+ "ai_lines_all": {
+  "est": 160.94388623346848,
+  "ci": [
+   113.81244568655434,
+   216.074188046621
+  ],
+  "finite_share": 1.0
+ },
+ "hu_lines_all": {
+  "est": 7.6712328767123275,
+  "ci": [
+   0.0,
+   23.013698630136982
+  ],
+  "finite_share": 1.0
+ },
+ "diff_lines_all": {
+  "est": 153.27265335675614,
+  "ci": [
+   111.97498801586416,
+   197.85637701760746
+  ],
+  "finite_share": 1.0
+ },
+ "ai_lines_stmt": {
+  "est": 18.252377425702228,
+  "ci": [
+   9.817650523858044,
+   28.430379676303303
+  ],
+  "finite_share": 1.0
+ },
+ "hu_lines_stmt": {
+  "est": 7.6712328767123275,
+  "ci": [
+   0.0,
+   23.013698630136982
+  ],
+  "finite_share": 1.0
+ },
+ "diff_lines_stmt": {
+  "est": 10.5811445489899,
+  "ci": [
+   -3.1801230200050643,
+   21.750447558402016
+  ],
+  "finite_share": 1.0
+ },
+ "n_spans": 345,
+ "n_statement_free_spans": 263,
+ "duplicated_lines": 2822,
+ "duplicated_lines_in_statement_free_spans": 2048,
+ "statement_free_spans_by_model": {
+  "Human": 0,
+  "GPT-4-Turbo": 0,
+  "DeepSeek-Coder": 0,
+  "StarCoder-15B": 4,
+  "InstructCodeGen-16B": 4,
+  "Magicoder-6.7B": 4,
+  "CodeLlama-13B": 4,
+  "GPT-3.5-Turbo": 8,
+  "Gemini-Pro": 8,
+  "WizardCoder-15B": 4,
+  "CodeGeeX2-6B": 2,
+  "PolyCoder-2.7B": 142,
+  "SantaCoder-1.1B": 83
+ },
+ "statement_free_spans_from_dominant_two": 225,
+ "human_classes_with_span": 1,
+ "ai_classes_with_span": 103
+}

@@ -1,0 +1,19 @@
+{
+ "scope": "task",
+ "sa_blocks": 69,
+ "sa_overlapped": 53,
+ "sa_not_overlapped": 16,
+ "not_overlapped_line_kinds": {
+  "docstring_or_string": 30,
+  "logic": 54,
+  "validation_boilerplate": 12
+ },
+ "not_overlapped_lines": 96,
+ "overlap_share_of_statement_lines": {
+  "mean": 1.0,
+  "median": 1.0,
+  "all_lines_covered": 53,
+  "at_least_half": 53
+ },
+ "same_statement_lines_as_an_overlapping_dx_block": 45
+}

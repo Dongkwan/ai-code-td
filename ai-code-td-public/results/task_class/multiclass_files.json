@@ -1,0 +1,117 @@
+{
+ "multi_class_files": [
+  "CodeGeeX2-6B__ClassEval_44",
+  "CodeGeeX2-6B__ClassEval_51",
+  "CodeGeeX2-6B__ClassEval_95",
+  "CodeGeeX2-6B__ClassEval_99",
+  "PolyCoder-2.7B__ClassEval_8",
+  "PolyCoder-2.7B__ClassEval_62",
+  "PolyCoder-2.7B__ClassEval_70",
+  "SantaCoder-1.1B__ClassEval_8",
+  "SantaCoder-1.1B__ClassEval_12",
+  "SantaCoder-1.1B__ClassEval_25",
+  "SantaCoder-1.1B__ClassEval_28",
+  "SantaCoder-1.1B__ClassEval_33",
+  "SantaCoder-1.1B__ClassEval_45",
+  "SantaCoder-1.1B__ClassEval_50",
+  "SantaCoder-1.1B__ClassEval_63",
+  "SantaCoder-1.1B__ClassEval_73",
+  "SantaCoder-1.1B__ClassEval_76",
+  "SantaCoder-1.1B__ClassEval_77",
+  "SantaCoder-1.1B__ClassEval_86",
+  "SantaCoder-1.1B__ClassEval_95"
+ ],
+ "largest_not_task_class": [
+  "CodeGeeX2-6B__ClassEval_33",
+  "CodeGeeX2-6B__ClassEval_95",
+  "PolyCoder-2.7B__ClassEval_8",
+  "PolyCoder-2.7B__ClassEval_70",
+  "SantaCoder-1.1B__ClassEval_8",
+  "SantaCoder-1.1B__ClassEval_25",
+  "SantaCoder-1.1B__ClassEval_28",
+  "SantaCoder-1.1B__ClassEval_45",
+  "SantaCoder-1.1B__ClassEval_73",
+  "SantaCoder-1.1B__ClassEval_76",
+  "SantaCoder-1.1B__ClassEval_86"
+ ],
+ "without_multi_class": {
+  "n_ai": 1063,
+  "blocks_conv": 267,
+  "blocks_stmt": 69,
+  "diff_conv": {
+   "est": 15.20588556393109,
+   "ci": [
+    10.965301055884655,
+    19.809938872902208
+   ]
+  },
+  "diff_stmt": {
+   "est": 1.1051623565388953,
+   "ci": [
+    0.3510444556359332,
+    1.9333668454138497
+   ]
+  },
+  "ratio_conv": {
+   "est": 2.3273568538886646,
+   "ci": [
+    1.4369344087239926,
+    4.213278482345318
+   ]
+  },
+  "ratio_stmt": {
+   "est": 0.7207819207482986,
+   "ci": [
+    0.43480743210412454,
+    1.2822791374453033
+   ]
+  },
+  "rule_change": {
+   "est": 3.228933449763083,
+   "ci": [
+    2.421991635022582,
+    4.5459468208044695
+   ]
+  }
+ },
+ "without_not_task_class": {
+  "n_ai": 1072,
+  "blocks_conv": 363,
+  "blocks_stmt": 91,
+  "diff_conv": {
+   "est": 26.477004534207833,
+   "ci": [
+    17.315963518498656,
+    37.88817606065112
+   ]
+  },
+  "diff_stmt": {
+   "est": 2.475496308554202,
+   "ci": [
+    1.2051629087470723,
+    3.877717484360535
+   ]
+  },
+  "ratio_conv": {
+   "est": 3.6069379191715574,
+   "ci": [
+    2.0689528147892653,
+    7.318463933750823
+   ]
+  },
+  "ratio_stmt": {
+   "est": 0.8723107014212992,
+   "ci": [
+    0.5306765666665464,
+    1.6148116114681073
+   ]
+  },
+  "rule_change": {
+   "est": 4.134923386007525,
+   "ci": [
+    2.8950010348734803,
+    6.265651131530588
+   ]
+  }
+ }
+}

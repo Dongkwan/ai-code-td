@@ -1,0 +1,32 @@
+{
+ "AI/boundary": {
+  "blocks": 1,
+  "statement_free": 0
+ },
+ "AI/first_out": {
+  "blocks": 18,
+  "statement_free": 8
+ },
+ "AI/kept": {
+  "blocks": 264,
+  "statement_free": 198
+ },
+ "AI/outside": {
+  "blocks": 135,
+  "statement_free": 96
+ },
+ "Human/kept": {
+  "blocks": 3,
+  "statement_free": 0
+ },
+ "totals": {
+  "kept": 267,
+  "outside": 135,
+  "first_out": 18,
+  "boundary": 1
+ },
+ "check": {
+  "file_scope_blocks": 421,
+  "task_scope_blocks": 267
+ }
+}

@@ -1,0 +1,248 @@
+{
+ "repos": {
+  "dzungttfci/ms_agent-governance-toolkit": {
+   "head_used": "ab23c71e93ae",
+   "n_commits": 2176,
+   "n_py_files": 1947
+  },
+  "microsoft/agent-governance-toolkit": {
+   "head_used": "81955d48025c",
+   "n_commits": 2410,
+   "n_py_files": 1859
+  },
+  "baoqger/agt-fork": {
+   "head_used": "aeeb2a4bea22",
+   "n_commits": 2222,
+   "n_py_files": 1949
+  },
+  "abh2technology/ruview": {
+   "head_used": "e9dc0c726dd1",
+   "n_commits": 1152,
+   "n_py_files": 269
+  },
+  "minhquy017/Ruview": {
+   "head_used": "6a7791d8ae6a",
+   "n_commits": 960,
+   "n_py_files": 250
+  },
+  "PauloRicardoSM/RuView-UFC-Research": {
+   "head_used": "ed251753bfcb",
+   "n_commits": 1057,
+   "n_py_files": 256
+  },
+  "Diyasshettyyyy/RuView": {
+   "head_used": "82c1b8fdf81f",
+   "n_commits": 1067,
+   "n_py_files": 256
+  },
+  "heledmx-lab/RUVIEW": {
+   "head_used": "3573c4fdfd29",
+   "n_commits": 902,
+   "n_py_files": 250
+  },
+  "Abhijit4001/WIFI-SIM": {
+   "head_used": "1fb3e884de86",
+   "n_commits": 1056,
+   "n_py_files": 256
+  },
+  "D-sorganization/zzz_Golf_GAAI_Sandbox": {
+   "head_used": "9f43586986b8",
+   "n_commits": 2981,
+   "n_py_files": 1775
+  },
+  "D-sorganization/UpstreamDrift": {
+   "head_used": "0782853295e0",
+   "n_commits": 5652,
+   "n_py_files": 5636
+  },
+  "tekk/omi-mirror": {
+   "head_used": "31ae65875900",
+   "n_commits": 30026,
+   "n_py_files": 1910
+  },
+  "undivisible/omi-desktop": {
+   "head_used": "d877571819d5",
+   "n_commits": 27004,
+   "n_py_files": 0
+  }
+ },
+ "groups": [
+  {
+   "members": [
+    "dzungttfci/ms_agent-governance-toolkit",
+    "microsoft/agent-governance-toolkit",
+    "baoqger/agt-fork"
+   ],
+   "pairs": [
+    {
+     "a": "dzungttfci/ms_agent-governance-toolkit",
+     "b": "microsoft/agent-governance-toolkit",
+     "shared_commits": 2111,
+     "py_content_jaccard": 0.629,
+     "verified_copy": true
+    },
+    {
+     "a": "dzungttfci/ms_agent-governance-toolkit",
+     "b": "baoqger/agt-fork",
+     "shared_commits": 2111,
+     "py_content_jaccard": 0.977,
+     "verified_copy": true
+    },
+    {
+     "a": "microsoft/agent-governance-toolkit",
+     "b": "baoqger/agt-fork",
+     "shared_commits": 2154,
+     "py_content_jaccard": 0.637,
+     "verified_copy": true
+    }
+   ]
+  },
+  {
+   "members": [
+    "abh2technology/ruview",
+    "minhquy017/Ruview",
+    "PauloRicardoSM/RuView-UFC-Research",
+    "Diyasshettyyyy/RuView",
+    "heledmx-lab/RUVIEW",
+    "Abhijit4001/WIFI-SIM"
+   ],
+   "pairs": [
+    {
+     "a": "abh2technology/ruview",
+     "b": "minhquy017/Ruview",
+     "shared_commits": 959,
+     "py_content_jaccard": 0.867,
+     "verified_copy": true
+    },
+    {
+     "a": "abh2technology/ruview",
+     "b": "PauloRicardoSM/RuView-UFC-Research",
+     "shared_commits": 1055,
+     "py_content_jaccard": 0.902,
+     "verified_copy": true
+    },
+    {
+     "a": "abh2technology/ruview",
+     "b": "Diyasshettyyyy/RuView",
+     "shared_commits": 1067,
+     "py_content_jaccard": 0.902,
+     "verified_copy": true
+    },
+    {
+     "a": "abh2technology/ruview",
+     "b": "heledmx-lab/RUVIEW",
+     "shared_commits": 901,
+     "py_content_jaccard": 0.874,
+     "verified_copy": true
+    },
+    {
+     "a": "abh2technology/ruview",
+     "b": "Abhijit4001/WIFI-SIM",
+     "shared_commits": 1055,
+     "py_content_jaccard": 0.902,
+     "verified_copy": true
+    },
+    {
+     "a": "minhquy017/Ruview",
+     "b": "PauloRicardoSM/RuView-UFC-Research",
+     "shared_commits": 959,
+     "py_content_jaccard": 0.961,
+     "verified_copy": true
+    },
+    {
+     "a": "minhquy017/Ruview",
+     "b": "Diyasshettyyyy/RuView",
+     "shared_commits": 959,
+     "py_content_jaccard": 0.961,
+     "verified_copy": true
+    },
+    {
+     "a": "minhquy017/Ruview",
+     "b": "heledmx-lab/RUVIEW",
+     "shared_commits": 901,
+     "py_content_jaccard": 0.992,
+     "verified_copy": true
+    },
+    {
+     "a": "minhquy017/Ruview",
+     "b": "Abhijit4001/WIFI-SIM",
+     "shared_commits": 959,
+     "py_content_jaccard": 0.961,
+     "verified_copy": true
+    },
+    {
+     "a": "PauloRicardoSM/RuView-UFC-Research",
+     "b": "Diyasshettyyyy/RuView",
+     "shared_commits": 1055,
+     "py_content_jaccard": 1.0,
+     "verified_copy": true
+    },
+    {
+     "a": "PauloRicardoSM/RuView-UFC-Research",
+     "b": "heledmx-lab/RUVIEW",
+     "shared_commits": 901,
+     "py_content_jaccard": 0.969,
+     "verified_copy": true
+    },
+    {
+     "a": "PauloRicardoSM/RuView-UFC-Research",
+     "b": "Abhijit4001/WIFI-SIM",
+     "shared_commits": 1055,
+     "py_content_jaccard": 1.0,
+     "verified_copy": true
+    },
+    {
+     "a": "Diyasshettyyyy/RuView",
+     "b": "heledmx-lab/RUVIEW",
+     "shared_commits": 901,
+     "py_content_jaccard": 0.969,
+     "verified_copy": true
+    },
+    {
+     "a": "Diyasshettyyyy/RuView",
+     "b": "Abhijit4001/WIFI-SIM",
+     "shared_commits": 1055,
+     "py_content_jaccard": 1.0,
+     "verified_copy": true
+    },
+    {
+     "a": "heledmx-lab/RUVIEW",
+     "b": "Abhijit4001/WIFI-SIM",
+     "shared_commits": 901,
+     "py_content_jaccard": 0.969,
+     "verified_copy": true
+    }
+   ]
+  },
+  {
+   "members": [
+    "D-sorganization/zzz_Golf_GAAI_Sandbox",
+    "D-sorganization/UpstreamDrift"
+   ],
+   "pairs": [
+    {
+     "a": "D-sorganization/zzz_Golf_GAAI_Sandbox",
+     "b": "D-sorganization/UpstreamDrift",
+     "shared_commits": 2886,
+     "py_content_jaccard": 0.049,
+     "verified_copy": true
+    }
+   ]
+  },
+  {
+   "members": [
+    "tekk/omi-mirror",
+    "undivisible/omi-desktop"
+   ],
+   "pairs": [
+    {
+     "a": "tekk/omi-mirror",
+     "b": "undivisible/omi-desktop",
+     "shared_commits": 0,
+     "py_content_jaccard": 0.0,
+     "verified_copy": false
+    }
+   ]
+  }
+ ]
+}

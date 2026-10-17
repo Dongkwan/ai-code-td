@@ -1,0 +1,233 @@
+{
+ "scope": "task",
+ "dataset": {
+  "CodeGeeX2-6B": {
+   "valid": 44,
+   "salvaged": 9,
+   "impl_share": 0.7758620689655172,
+   "pass_share_of_100": 0.08,
+   "complete": 32,
+   "mean_sloc": 19.295454545454547,
+   "density_stmt": 10.928054204465324,
+   "n_smells_stmt": 9
+  },
+  "CodeLlama-13B": {
+   "valid": 95,
+   "salvaged": 18,
+   "impl_share": 0.8979591836734694,
+   "pass_share_of_100": 0.2,
+   "complete": 79,
+   "mean_sloc": 22.0,
+   "density_stmt": 6.5273830800146575,
+   "n_smells_stmt": 19
+  },
+  "DeepSeek-Coder": {
+   "valid": 100,
+   "salvaged": 6,
+   "impl_share": 0.9780487804878049,
+   "pass_share_of_100": 0.26,
+   "complete": 97,
+   "mean_sloc": 22.74,
+   "density_stmt": 3.7509927454355796,
+   "n_smells_stmt": 10
+  },
+  "GPT-3.5-Turbo": {
+   "valid": 97,
+   "salvaged": 0,
+   "impl_share": 0.9642857142857143,
+   "pass_share_of_100": 0.25,
+   "complete": 92,
+   "mean_sloc": 25.969072164948454,
+   "density_stmt": 7.606570186745473,
+   "n_smells_stmt": 25
+  },
+  "GPT-4-Turbo": {
+   "valid": 99,
+   "salvaged": 0,
+   "impl_share": 0.9975429975429976,
+   "pass_share_of_100": 0.36,
+   "complete": 98,
+   "mean_sloc": 22.555555555555557,
+   "density_stmt": 2.9685543829006855,
+   "n_smells_stmt": 9
+  },
+  "Gemini-Pro": {
+   "valid": 94,
+   "salvaged": 4,
+   "impl_share": 0.9795918367346939,
+   "pass_share_of_100": 0.31,
+   "complete": 90,
+   "mean_sloc": 28.47872340425532,
+   "density_stmt": 10.709369881489193,
+   "n_smells_stmt": 37
+  },
+  "Human": {
+   "valid": 100,
+   "salvaged": 0,
+   "impl_share": 1.0,
+   "pass_share_of_100": 0.94,
+   "complete": 100,
+   "mean_sloc": 30.71,
+   "density_stmt": 8.776884860159972,
+   "n_smells_stmt": 41
+  },
+  "InstructCodeGen-16B": {
+   "valid": 99,
+   "salvaged": 37,
+   "impl_share": 0.38480392156862747,
+   "pass_share_of_100": 0.05,
+   "complete": 30,
+   "mean_sloc": 14.030303030303031,
+   "density_stmt": 4.435960880054008,
+   "n_smells_stmt": 13
+  },
+  "Magicoder-6.7B": {
+   "valid": 100,
+   "salvaged": 13,
+   "impl_share": 0.926829268292683,
+   "pass_share_of_100": 0.21,
+   "complete": 86,
+   "mean_sloc": 22.72,
+   "density_stmt": 5.338806036176863,
+   "n_smells_stmt": 16
+  },
+  "PolyCoder-2.7B": {
+   "valid": 100,
+   "salvaged": 97,
+   "impl_share": 0.01951219512195122,
+   "pass_share_of_100": 0.0,
+   "complete": 0,
+   "mean_sloc": 14.44,
+   "density_stmt": 3.7714551530340996,
+   "n_smells_stmt": 15
+  },
+  "SantaCoder-1.1B": {
+   "valid": 100,
+   "salvaged": 51,
+   "impl_share": 0.01707317073170732,
+   "pass_share_of_100": 0.0,
+   "complete": 0,
+   "mean_sloc": 14.46,
+   "density_stmt": 10.098618586875482,
+   "n_smells_stmt": 39
+  },
+  "StarCoder-15B": {
+   "valid": 100,
+   "salvaged": 15,
+   "impl_share": 0.551219512195122,
+   "pass_share_of_100": 0.11,
+   "complete": 51,
+   "mean_sloc": 18.37,
+   "density_stmt": 3.044891235174477,
+   "n_smells_stmt": 9
+  },
+  "WizardCoder-15B": {
+   "valid": 53,
+   "salvaged": 1,
+   "impl_share": 0.9211822660098522,
+   "pass_share_of_100": 0.07,
+   "complete": 47,
+   "mean_sloc": 25.20754716981132,
+   "density_stmt": 10.298010223831797,
+   "n_smells_stmt": 19
+  },
+  "AI total": {
+   "valid": 1081,
+   "salvaged": 251,
+   "complete": 702,
+   "complete_and_passing": 190,
+   "mean_sloc": 20.690101757631822,
+   "density_stmt": 6.2208804654370145,
+   "n_smells_stmt": 220
+  }
+ },
+ "audit": {
+  "blocks": 267,
+  "statement_free": 198,
+  "entirely_documentation": 183,
+  "line_kinds": {
+   "logic": 351,
+   "validation_boilerplate": 18,
+   "docstring_or_string": 1209,
+   "signature": 14,
+   "decorator": 10
+  },
+  "lines": 1602,
+  "free_from_dominant": 179,
+  "free_from_other_ai": 19,
+  "free_from_reference": 0,
+  "reference_blocks": 3,
+  "reference_classes_with_block": 1,
+  "blocks_by_producer": {
+   "CodeGeeX2-6B": 3,
+   "CodeLlama-13B": 7,
+   "GPT-3.5-Turbo": 10,
+   "Gemini-Pro": 13,
+   "Human": 3,
+   "InstructCodeGen-16B": 8,
+   "Magicoder-6.7B": 2,
+   "PolyCoder-2.7B": 127,
+   "SantaCoder-1.1B": 82,
+   "StarCoder-15B": 6,
+   "WizardCoder-15B": 6
+  },
+  "free_by_producer": {
+   "CodeGeeX2-6B": 1,
+   "CodeLlama-13B": 2,
+   "GPT-3.5-Turbo": 4,
+   "Gemini-Pro": 4,
+   "InstructCodeGen-16B": 2,
+   "Magicoder-6.7B": 2,
+   "PolyCoder-2.7B": 116,
+   "SantaCoder-1.1B": 63,
+   "StarCoder-15B": 2,
+   "WizardCoder-15B": 2
+  }
+ },
+ "first_occ": {
+  "first_occurrences_with_two_or_more_later_copies": 43
+ },
+ "examples": {
+  "a": 1,
+  "b": 1,
+  "c": 1
+ },
+ "presence": {
+  "AI": {
+   "any_conv": 0.09528214616096208,
+   "any_stmt": 0.030527289546716005,
+   "classes_any_conv": 103,
+   "classes_any_stmt": 33,
+   "no_smell_conv": 0.8242368177613321,
+   "no_smell_stmt": 0.879740980573543
+  },
+  "Human": {
+   "any_conv": 0.01,
+   "any_stmt": 0.01,
+   "classes_any_conv": 1,
+   "classes_any_stmt": 1,
+   "no_smell_conv": 0.82,
+   "no_smell_stmt": 0.82
+  }
+ },
+ "dup_share_of_instances": {
+  "AI": 0.631578947368421,
+  "Human": 0.07317073170731707
+ },
+ "per_producer_dup_density_conv": {
+  "CodeGeeX2-6B": 5.681818181818182,
+  "CodeLlama-13B": 2.5418388313125155,
+  "DeepSeek-Coder": 0.0,
+  "GPT-3.5-Turbo": 3.6401201289418803,
+  "GPT-4-Turbo": 0.0,
+  "Gemini-Pro": 3.8180681896414845,
+  "Human": 0.410958904109589,
+  "InstructCodeGen-16B": 4.551777476266421,
+  "Magicoder-6.7B": 0.8846153846153847,
+  "PolyCoder-2.7B": 97.77810210085752,
+  "SantaCoder-1.1B": 44.5727220457561,
+  "StarCoder-15B": 3.7057303960136374,
+  "WizardCoder-15B": 4.764112364985946
+ },
+ "all_classes_no_smell_stmt": 0.8746824724809483
+}

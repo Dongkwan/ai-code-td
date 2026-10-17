@@ -1,0 +1,165 @@
+{
+ "attribution": {
+  "unit": "a Python file, attributed to the commit that added it (git log --diff-filter=A); AI if that commit message carries a machine-written agent trailer, human otherwise; human files are restricted to those added after the first AI-trailer commit; paths containing /test are excluded; each path counted once; the largest class in the file is analyzed",
+  "cap": "the first 80 analyzable files per group in git-log order"
+ },
+ "candidate_groups": [
+  [
+   "dzungttfci/ms_agent-governance-toolkit",
+   "microsoft/agent-governance-toolkit",
+   "baoqger/agt-fork"
+  ],
+  [
+   "abh2technology/ruview",
+   "minhquy017/Ruview",
+   "PauloRicardoSM/RuView-UFC-Research",
+   "Diyasshettyyyy/RuView",
+   "heledmx-lab/RUVIEW",
+   "Abhijit4001/WIFI-SIM"
+  ],
+  [
+   "D-sorganization/zzz_Golf_GAAI_Sandbox",
+   "D-sorganization/UpstreamDrift"
+  ],
+  [
+   "tekk/omi-mirror",
+   "undivisible/omi-desktop"
+  ]
+ ],
+ "duplicate_groups": [
+  [
+   "dzungttfci/ms_agent-governance-toolkit",
+   "microsoft/agent-governance-toolkit",
+   "baoqger/agt-fork"
+  ],
+  [
+   "abh2technology/ruview",
+   "minhquy017/Ruview",
+   "PauloRicardoSM/RuView-UFC-Research",
+   "Diyasshettyyyy/RuView",
+   "heledmx-lab/RUVIEW",
+   "Abhijit4001/WIFI-SIM"
+  ],
+  [
+   "D-sorganization/zzz_Golf_GAAI_Sandbox",
+   "D-sorganization/UpstreamDrift"
+  ]
+ ],
+ "copies_verified": true,
+ "all": {
+  "n_repos": 97,
+  "share": {
+   "n_eligible": 87,
+   "n_without_blocks_in_a_group": 10,
+   "median_ai": 0.027777777777777776,
+   "median_human": 0.03333333333333333,
+   "median_paired_diff": 0.0,
+   "median_paired_diff_ci": [
+    0.0,
+    0.0
+   ],
+   "mean_paired_diff": -0.00736498253927103,
+   "mean_paired_diff_ci": [
+    -0.039985237288211344,
+    0.02690506873600885
+   ],
+   "wilcoxon_p": 0.994405365688047
+  },
+  "conventional": {
+   "median_paired_diff": -1.4863968242842205,
+   "median_paired_diff_ci": [
+    -5.894240265775448,
+    3.486898067906731
+   ],
+   "n_zero_human_density": 1,
+   "median_ratio_over_positive_human": 0.9050894341006425,
+   "median_ratio_ci": [
+    0.7295994021859776,
+    1.2647306026967562
+   ],
+   "n_ratio": 96
+  },
+  "statement_aware": {
+   "median_paired_diff": -2.008560766313133,
+   "median_paired_diff_ci": [
+    -6.384540032612395,
+    2.618214077328856
+   ],
+   "n_zero_human_density": 1,
+   "median_ratio_over_positive_human": 0.8564774985553065,
+   "median_ratio_ci": [
+    0.7036840415877834,
+    1.1528771751616267
+   ],
+   "n_ratio": 96
+  }
+ },
+ "deduplicated": {
+  "n_repos": 89,
+  "share": {
+   "n_eligible": 79,
+   "n_without_blocks_in_a_group": 10,
+   "median_ai": 0.031746031746031744,
+   "median_human": 0.017543859649122806,
+   "median_paired_diff": 0.0,
+   "median_paired_diff_ci": [
+    0.0,
+    0.010617806045611022
+   ],
+   "mean_paired_diff": 0.014108436303186787,
+   "mean_paired_diff_ci": [
+    -0.01527600675175337,
+    0.046496914383231315
+   ],
+   "wilcoxon_p": 0.29454920302572374
+  },
+  "conventional": {
+   "median_paired_diff": -2.136262255880002,
+   "median_paired_diff_ci": [
+    -6.060606060606061,
+    3.486898067906731
+   ],
+   "n_zero_human_density": 1,
+   "median_ratio_over_positive_human": 0.8628368779702009,
+   "median_ratio_ci": [
+    0.7096234620312327,
+    1.2417057813118095
+   ],
+   "n_ratio": 88
+  },
+  "statement_aware": {
+   "median_paired_diff": -2.5892789649664847,
+   "median_paired_diff_ci": [
+    -7.399109644085531,
+    2.1393913921115306
+   ],
+   "n_zero_human_density": 1,
+   "median_ratio_over_positive_human": 0.817288870908069,
+   "median_ratio_ci": [
+    0.6793128398710815,
+    1.1206547338123702
+   ],
+   "n_ratio": 88
+  }
+ },
+ "pooled_classes": {
+  "ai": 4945,
+  "human": 4045
+ },
+ "pooled_classes_deduplicated": {
+  "ai": 4534,
+  "human": 3769
+ },
+ "kept_from_each_group": [
+  [
+   "dzungttfci/ms_agent-governance-toolkit"
+  ],
+  [
+   "abh2technology/ruview"
+  ],
+  [
+   "D-sorganization/zzz_Golf_GAAI_Sandbox"
+  ]
+ ],
+ "n_deduplicated": 89
+}

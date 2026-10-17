@@ -1,0 +1,37 @@
+{
+ "scope": "task",
+ "skillings_mack": {
+  "statistic": 28.435065875910446,
+  "df": 11,
+  "p": 0.00277561513049083,
+  "n_blocks_used": 100,
+  "n_complete_blocks": 23,
+  "treatments": 12
+ },
+ "posthoc": {
+  "n_pairs": 66,
+  "n_significant": 3,
+  "min_p": 0.0002,
+  "min_p_adj": 0.0132
+ },
+ "significant_pairs": [
+  [
+   "DeepSeek-Coder",
+   "Gemini-Pro",
+   -6.718952067196024,
+   0.0132
+  ],
+  [
+   "GPT-4-Turbo",
+   "Gemini-Pro",
+   -7.3527782549079514,
+   0.015399999999999999
+  ],
+  [
+   "Gemini-Pro",
+   "StarCoder-15B",
+   7.470123886622729,
+   0.015399999999999999
+  ]
+ ]
+}
