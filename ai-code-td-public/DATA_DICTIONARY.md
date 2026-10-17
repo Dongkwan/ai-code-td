@@ -161,6 +161,12 @@ task-indicator Poisson M0 refits: IRLS convergence, failure diagnostics and Newt
 
 Top-level keys: `full`, `common`
 
+## `results/task_class/task_effects_separation.json`
+
+task-indicator Poisson M0: all-zero tasks dropped, linear-programming separation check and state of the fits IRLS does not finish (Section 4.3.2, Table S10). `per_replicate` holds every refit; `full.tail` locates the near-zero fitted means on the size axis.
+
+Top-level keys: `full`, `common`
+
 ## `results/task_class/pylint_actual.json`
 
 actual Pylint 2.14.5 duplicate-code runs and controls (Section 5.1). `self_compare_*` (its similarity engine applied to a file paired with itself, diagonal and mirrored matches dropped) is exploratory and not used in the manuscript.
@@ -172,6 +178,24 @@ Top-level keys: `pylint_version_output`, `controls`, `self_compare_engine`, `cou
 repository sample flow 100/97/89/79 and share estimates over all 89 (Sections 3.5, 4.3.9).
 
 Top-level keys: `flow`, `paired_79_reproduced`, `paired_79_published`, `paired_79_identical`, `published_all_97_share`, `published_all_97_reproduced_identical`, `note_on_minus_0_7`, `shares`
+
+## `results/task_class/policy_stability.json`
+
+size-adjusted policy contrast with 2,000 refits from a new seed, and after dropping the same influential classes under both rules (Sections 4.3.2, 6; Table S9).
+
+Top-level keys: `A_common_2000`, `B_cooks_full`, `B_cooks_common`
+
+## `results/later_cohort/later_cohort_status.json`
+
+per-model parse, salvage, completeness, test and statement-free counts of the later cohort (Table S8).
+
+Top-level keys: `Qwen2.5-Coder-1.5B`, `Qwen2.5-Coder-3B`, `Qwen2.5-Coder-7B`, `Qwen2.5-Coder-14B`, `Granite-8B-Code`, `StarCoder2-15B`
+
+## `results/repository/repository_heads.json`
+
+HEAD commit of each of the 97 repositories still public at the re-audit, and the history cutoff (Section S7).
+
+Top-level keys: `cutoff`, `note`, `repositories`
 
 ## `results/task_class/metrics.csv`
 

@@ -17,7 +17,7 @@ the manuscript to the file and key that store it.
 | [`ai-code-td-public/results/whole_file_config/`](ai-code-td-public/results/whole_file_config/) | The whole-file configuration compared in the manuscript's scope table. |
 | [`ai-code-td-public/results/repository/`](ai-code-td-public/results/repository/) | Repository boundary check, with pinned commit SHAs. |
 | [`ai-code-td-public/results/later_cohort/`](ai-code-td-public/results/later_cohort/) | Later model-and-prompt cohort. |
-| [`ai-code-td-public/docs/diagnostic_results.pdf`](ai-code-td-public/docs/diagnostic_results.pdf) | Diagnostic results cited in the manuscript as Tables S1–S7 and Figure S1. |
+| [`ai-code-td-public/docs/diagnostic_results.pdf`](ai-code-td-public/docs/diagnostic_results.pdf) | Diagnostic results cited in the manuscript as Tables S1–S10 and Figure S1. |
 | [`ai-code-td-public/DATA_DICTIONARY.md`](ai-code-td-public/DATA_DICTIONARY.md) | Every column and every result file. |
 
 ## Not included

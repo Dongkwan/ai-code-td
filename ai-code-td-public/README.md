@@ -11,7 +11,7 @@ Every number quoted in the manuscript is a value stored in one of the files
 here, so the claims can be checked by reading the data rather than by running
 anything. `DATA_DICTIONARY.md` documents every column and every result file,
 and `MANIFEST.json` states what each file backs. The diagnostic results that
-the manuscript cites as Tables S1–S7 and Figure S1 are in
+the manuscript cites as Tables S1–S10 and Figure S1 are in
 `docs/diagnostic_results.pdf`.
 
 ## Layout
@@ -24,7 +24,7 @@ the manuscript cites as Tables S1–S7 and Figure S1 are in
 | `results/repository/` | The repository boundary check (100 repositories, 89 after deduplication). |
 | `results/later_cohort/` | The later model-and-prompt cohort (six models, 600 classes). |
 | `figures/` | Figures as they appear in the manuscript and the diagnostic document. |
-| `docs/diagnostic_results.pdf` | Tables S1–S7 and Figure S1. |
+| `docs/diagnostic_results.pdf` | Tables S1–S10 and Figure S1. |
 
 Each of `task_class/` and `whole_file_config/` contains
 `per_class_both_rules.csv` (per-class counts and densities under both counting
@@ -60,6 +60,10 @@ All values refer to the task class unless stated.
 | AI blocks repeated in the skeleton / echo added / generated | 30 / 155 / 79 | `documentation_asymmetry.json` → `B_blocks` |
 | Task-indicator Poisson M0: refits converging (IRLS / Newton) | 224 / 300; [1.03, 1.73] | `task_effects_convergence.json` |
 | Repository sample flow; share difference over all 89 | 100/97/89/79; +2.7 points | `repository/repository_flow.json` |
+| Policy contrast: 2,000 refits, new seed; same influential classes dropped under both rules | bounds move ≤0.04; 1.22×–1.40× | `policy_stability.json` |
+| Task-indicator fits: separation check (LP) and IRLS stops | 0 of 1,200 separated; 85 stops, all near-separation of the size spline below 13 Stmt | `task_effects_separation.json` |
+| Later cohort per model (Table S8) | 600 parsed, 566 complete, 157 pass, 17 statement-free | `later_cohort/later_cohort_status.json` |
+| Repository HEAD commits and cutoff | 97; 2026-08-01 | `repository/repository_heads.json` |
 
 ## The two counting rules
 

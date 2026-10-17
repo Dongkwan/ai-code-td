@@ -1,0 +1,394 @@
+{
+ "cutoff": "2026-08-01T00:00:00",
+ "note": "HEAD commit of each repository that was still public at the re-audit; every history walk is restricted to commits authored before the cutoff.",
+ "repositories": [
+  {
+   "repo": "dzungttfci/ms_agent-governance-toolkit",
+   "head": "ab23c71e93ae649c957bf52e0a0fdb5ec1392b91"
+  },
+  {
+   "repo": "microsoft/agent-governance-toolkit",
+   "head": "81955d48025c6b11deb3fc9dabf89f74f4145775"
+  },
+  {
+   "repo": "baoqger/agt-fork",
+   "head": "aeeb2a4bea22913cefb7111371478dff117d21ff"
+  },
+  {
+   "repo": "leo477/book-club-be",
+   "head": "6ffdb6f7af95914506c1f6d71b21b18629c63a0a"
+  },
+  {
+   "repo": "microsoft/prompty",
+   "head": "c4e7bd4939d3c3622361fcd5c63237691fee79f5"
+  },
+  {
+   "repo": "bponghneng/rouge",
+   "head": "93efd85c9a02fe1d8e430346bdf163382c772ed2"
+  },
+  {
+   "repo": "Reedboot/Triage-Saurus",
+   "head": "d7930698f84e121cfaa671a4c7af60dc8e982d08"
+  },
+  {
+   "repo": "rjmurillo/ai-agents",
+   "head": "8ad055b8fee55cb8c5b9cfc257a61415b044ebd4"
+  },
+  {
+   "repo": "microsoft-foundry/foundry-samples",
+   "head": "29f67162beaee7e91fb0c10d3e12ff978976bedd"
+  },
+  {
+   "repo": "world-in-progress/c-two",
+   "head": "ba334360e568f921ddc369b9cb2466a1c0f55292"
+  },
+  {
+   "repo": "wparad/atelier",
+   "head": "26d5adee27c8f2ec221bc3d3db66c75457da62c6"
+  },
+  {
+   "repo": "rpothin/pulumi-powerplatform",
+   "head": "7f0d8d8369c63eccf4719201d058290898734130"
+  },
+  {
+   "repo": "Azure/azure-sdk-for-python",
+   "head": "4e364864cd6bae388020ec71ba1b96b06f5823a8"
+  },
+  {
+   "repo": "mitodl/ol-django",
+   "head": "a5b72402953c6832fec9c6aff5599c270bcb7b99"
+  },
+  {
+   "repo": "deephaven/deephaven-mcp",
+   "head": "618642da7d1c03a16b022405af64a0942368c7d8"
+  },
+  {
+   "repo": "Boykai/github-workflows",
+   "head": "207b8402cd7e5b30442b5c11c9d01c996c94666f"
+  },
+  {
+   "repo": "wende/cicada",
+   "head": "24d926756fa5e522bfad7895bf5e06c4d17158b2"
+  },
+  {
+   "repo": "Krv-Labs/topos",
+   "head": "c135469d28583e5c17bfb29fd7151c50765b039c"
+  },
+  {
+   "repo": "Arize-ai/phoenix",
+   "head": "aa6d8e16f65ffdf82e822c7f50449e65630c3756"
+  },
+  {
+   "repo": "DDD-Enterprises/dopemux-mvp",
+   "head": "cfa4927a883b469c06f37343c18e6582f23d1443"
+  },
+  {
+   "repo": "Chris-Lehnen-ICT-CONSULTING/Definitie-app-zakelijk",
+   "head": "2a47dac3cdac9d6c13ed457710ec2a9da1e04632"
+  },
+  {
+   "repo": "codeflash-ai/codeflash",
+   "head": "a3a38efc9ec3d0a52a23056fd0a069863398a7ce"
+  },
+  {
+   "repo": "KRRT7/codeflash",
+   "head": "de3ad9e6de8cffd53fc161621ffa5e7c8636bff5"
+  },
+  {
+   "repo": "OlympusLedgerOrg/Olympus",
+   "head": "887ee2173b292dae27fa5a6b0059f8debd477c90"
+  },
+  {
+   "repo": "Tefx/Invar",
+   "head": "a9a829338715a7c8c6b3b2ac97ebd1f379ac0af5"
+  },
+  {
+   "repo": "BoundaryML/baml",
+   "head": "2fa0d0df4d0898ddc985be5a501c803a8ff35836"
+  },
+  {
+   "repo": "vishwak1002/myAIClone",
+   "head": "fc8d921cb62adf310d3bac36b0596b59ae593e98"
+  },
+  {
+   "repo": "substratum-labs/roche",
+   "head": "039d9125c5acec38751c3a6434446f4a21e68afc"
+  },
+  {
+   "repo": "shenas-org/shenas",
+   "head": "d6ba391fbc606aae9d1fa72c4668bd7eda7dfb72"
+  },
+  {
+   "repo": "linyalan2000/data-news-radar",
+   "head": "be70c37f5f2332772eef3f09aedc169384fdc174"
+  },
+  {
+   "repo": "Nireus79/Socratic-nexus",
+   "head": "96f7fce662a669303b31430dca6d9413d0a1462f"
+  },
+  {
+   "repo": "pragnition/RAPID",
+   "head": "d87975b28f01489cec5a996858f93c4139101c4d"
+  },
+  {
+   "repo": "kabradshaw1/portfolio",
+   "head": "c6caae578e17b542ccedf5fea9b0411d27a0389a"
+  },
+  {
+   "repo": "avishek-sen-gupta/red-dragon",
+   "head": "cedb8bbcf4ac24c5546f03b46bd0bfcf2f272233"
+  },
+  {
+   "repo": "jotpalch/scholarship-system",
+   "head": "3b659f2e1d6b8a3ab3f86f8006e9b845035f16f4"
+  },
+  {
+   "repo": "hallelx2/context8",
+   "head": "5b97e4d0083c66dac4fa2e42cc7da189841852db"
+  },
+  {
+   "repo": "mitsuaki0321/maya-fake-tools",
+   "head": "2ab53a0324ca79b0da0ae1c0bd2f6198aa15237b"
+  },
+  {
+   "repo": "anulum/scpn-quantum-control",
+   "head": "ff19e6cca5b9f8d97746065617a41c4b91c81f31"
+  },
+  {
+   "repo": "rieszreg/rieszreg",
+   "head": "9d782067633d9ac8d325d738dc9aa46cfe9e4813"
+  },
+  {
+   "repo": "bobmatnyc/claude-mpm",
+   "head": "bb378b48c850f12c0fbba9831d9a00d734fad4cb"
+  },
+  {
+   "repo": "PSU-CSAR/snowtool",
+   "head": "28d7e093d94cba9535cdf704fd24e7977e361894"
+  },
+  {
+   "repo": "NathanKrupa/gaudi",
+   "head": "5cc65b4dfda92bf73b1e2d8676453cfc42e58979"
+  },
+  {
+   "repo": "abh2technology/ruview",
+   "head": "e9dc0c726dd1723571626d4360306897785e5eef"
+  },
+  {
+   "repo": "minhquy017/Ruview",
+   "head": "6a7791d8ae6a417aea948dcbadd9a7c50b2bffc7"
+  },
+  {
+   "repo": "PauloRicardoSM/RuView-UFC-Research",
+   "head": "ed251753bfcbf8ab7bf37a3f3c2ad4d258d35400"
+  },
+  {
+   "repo": "D-sorganization/zzz_Golf_GAAI_Sandbox",
+   "head": "9f43586986b83c63f027eb27e3221eee3215629a"
+  },
+  {
+   "repo": "Diyasshettyyyy/RuView",
+   "head": "82c1b8fdf81f3dd8b786f394dd9bbd3914921fa1"
+  },
+  {
+   "repo": "heledmx-lab/RUVIEW",
+   "head": "3573c4fdfd29d5fee94a93be776e392ecf7282f3"
+  },
+  {
+   "repo": "D-sorganization/UpstreamDrift",
+   "head": "0782853295e005af68818617e4725eb980890f43"
+  },
+  {
+   "repo": "Abhijit4001/WIFI-SIM",
+   "head": "1fb3e884de867a413998c1b5952fd37b36ee24af"
+  },
+  {
+   "repo": "mfriedlander-max/Max_Workflow_Template",
+   "head": "841ca4f62326568a7d60d74b36510e9333e09a23"
+  },
+  {
+   "repo": "mknutso-2/CLISpecBench",
+   "head": "9da52967d7b07b59e8a9f9b44550343fa1febf21"
+  },
+  {
+   "repo": "bbartling/py-bacnet-stacks-playground",
+   "head": "4720a8fa75f3d10609e3ab2e67a927360ef7714e"
+  },
+  {
+   "repo": "yunkeji2026/telegram-mtproto-ai",
+   "head": "a44dd97caec8e494a513ca9d15ecfa442aba2db1"
+  },
+  {
+   "repo": "PaulSff/ai-taskvector",
+   "head": "cb98e00213d0faf745dc10d0b5a8f1a91a72a105"
+  },
+  {
+   "repo": "sethdford/h-uman",
+   "head": "229e33f5ce4089a4580bffc948030317307c69d1"
+  },
+  {
+   "repo": "amirbiron/CodeBot",
+   "head": "32de08bb96871bf541f9878d728904fabd20d0fa"
+  },
+  {
+   "repo": "cisco-ai-defense/mcp-scanner",
+   "head": "893327c54d223ea07296f68f32d8294f5c045f4a"
+  },
+  {
+   "repo": "kernel/cli",
+   "head": "23680fe12c0b7a57456d85aeb2637669afb1475d"
+  },
+  {
+   "repo": "giak/mnemo-lite",
+   "head": "5fe8829078d73727154961416c0dbf16a67157b0"
+  },
+  {
+   "repo": "agentbay-ai/wuying-agentbay-sdk",
+   "head": "8e2fa8f20981c826eb5d247bc6701d52570e104a"
+  },
+  {
+   "repo": "Max-Moro/lg-cli",
+   "head": "5e2880b1f3f5e4a8ed5c44a8543d8ce5ae9e3617"
+  },
+  {
+   "repo": "emmilco/claude-memory-server",
+   "head": "b8b10c9378fc30870b7534fa6a971c8c4c0eb688"
+  },
+  {
+   "repo": "VISHNU0906/vulnerability-scanner",
+   "head": "557d6b8ecbcdaa1342bf49d110a5c49e1d146efe"
+  },
+  {
+   "repo": "fabceolin/the_edge_agent",
+   "head": "14b64873fdebd1b7fea6b3c2ef185a89cbaa0963"
+  },
+  {
+   "repo": "dvschultz/algorithmic-filmmaking",
+   "head": "3cec9f6b2f2a727bd37d272cf486240e13e7a889"
+  },
+  {
+   "repo": "MRodHer/moai-adk",
+   "head": "6ae3b5b5436c2b9e52e62f3b6bc02347ba66ee95"
+  },
+  {
+   "repo": "Consiliency/treesitter-chunker",
+   "head": "2a728c52227b517476900f708f54e1cd06fc2ff3"
+  },
+  {
+   "repo": "HanzoRazer/code-analysis-tool",
+   "head": "3802ccf44d60effec61dd0c0848e01b466565e62"
+  },
+  {
+   "repo": "AWeber-Imbi/imbi-automations",
+   "head": "03bb2b6787bebf838266ee729ac3e6f9affdb706"
+  },
+  {
+   "repo": "s243a/UnifyWeaver",
+   "head": "5e0ef108f3577a07b5131b4c4bb5131ca97b7b9f"
+  },
+  {
+   "repo": "jsbattig/code-indexer",
+   "head": "f77d0973fa753d5617625f282d4930debe086a55"
+  },
+  {
+   "repo": "spencerduncan/jimbot",
+   "head": "7df8a0d21f2ee688b5ee6d07c5d8d7d430d7a05e"
+  },
+  {
+   "repo": "LuckVd/DeepVuln",
+   "head": "09a58d8d3a7fe0da49908ee0b85d864069cdccfa"
+  },
+  {
+   "repo": "bobmatnyc/mcp-vector-search",
+   "head": "3c5b7868a53a9d967d204624b6717dfacc1fca6a"
+  },
+  {
+   "repo": "rand/ananke-sglang",
+   "head": "29925551c55f705c1ac8b2584296fb0fed26a66d"
+  },
+  {
+   "repo": "tekk/omi-mirror",
+   "head": "31ae65875900a82e26d3189ee9e3c79dfbdb5d25"
+  },
+  {
+   "repo": "mrveiss/AutoBot-AI",
+   "head": "212b8cd2bf440015d5bd8e667756ab0d1d68ffb1"
+  },
+  {
+   "repo": "undivisible/omi-desktop",
+   "head": "d877571819d52b878c3e7f71c721d285435f9ca5"
+  },
+  {
+   "repo": "WatchMeJoustMyFlags/JoustMania",
+   "head": "ac2a0c44f80d2bd8a00e849670c59caeab8673df"
+  },
+  {
+   "repo": "shobhitdkombee-del/omidemo",
+   "head": "9af1d7754429f7e5eaf3d51a36d01f876e27a773"
+  },
+  {
+   "repo": "BasedHardware/omi",
+   "head": "856ad94538024d301dc28e560ec1e4f3e716b506"
+  },
+  {
+   "repo": "paiml/depyler",
+   "head": "5d664cda8d54d52c0810a485dd93bbf747054ba8"
+  },
+  {
+   "repo": "SteveGJones/ai-first-sdlc-practices",
+   "head": "323732f3e0c4df15df38135fd122721e8bd3b3d2"
+  },
+  {
+   "repo": "MarkusNeusinger/anyplot",
+   "head": "c90c1c3203d112bcee8271491ea0ba2f790ef5d5"
+  },
+  {
+   "repo": "knowlen/esologs-python",
+   "head": "052cfc3319d37314f5dee8fd583de8dbca716297"
+  },
+  {
+   "repo": "RyosukeMondo/air-executor",
+   "head": "36adcde09fe33e7c69b4fae9fd304c90b0082bee"
+  },
+  {
+   "repo": "Alexweb97/pipeline-buider-ai",
+   "head": "af44423f95ba3eb4c051d03b751feb2c7fa30b16"
+  },
+  {
+   "repo": "feyroozecode/tauraro",
+   "head": "beb1410e6588dc01048b9151a930aaa9d4bca847"
+  },
+  {
+   "repo": "sougetuOte/claude-friends-templates",
+   "head": "eaaa0a1f386a45cd487f59c61a87c906988c13f5"
+  },
+  {
+   "repo": "PaulDuvall/ai-development-patterns",
+   "head": "683acf674427bb9fda6b091931b8f2d3f49ff715"
+  },
+  {
+   "repo": "allan-simon/stackai-homework",
+   "head": "dec4341d13a70c389637cba967ea9f8353e316e1"
+  },
+  {
+   "repo": "MarksStuff/github-agent",
+   "head": "e95fc06f96c58776fdcbbac6f1553bc46afa3503"
+  },
+  {
+   "repo": "shlapolosa/health-service-idp",
+   "head": "040d724af4194fe82c2a6bfc5c17a35dbe19a900"
+  },
+  {
+   "repo": "miroku0000/AI-Security-Benchmark",
+   "head": "c21cd8b601c85f8a5a32dd77dceb1533a2227104"
+  },
+  {
+   "repo": "yusufkaraaslan/lazy-bird",
+   "head": "a9bbc35cb2dc571d787384e12828eb1b3adf602c"
+  },
+  {
+   "repo": "chrysa/guideline-checker",
+   "head": "0574c233c1fb3d80daf34c8a04d5b911584df51d"
+  }
+ ]
+}

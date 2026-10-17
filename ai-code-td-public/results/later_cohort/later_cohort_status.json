@@ -1,0 +1,56 @@
+{
+ "Qwen2.5-Coder-1.5B": {
+  "outputs": 100,
+  "parsed": 100,
+  "salvaged": 3,
+  "complete": 77,
+  "passed": 12,
+  "analyzed": 100,
+  "stmt_free": 4
+ },
+ "Qwen2.5-Coder-3B": {
+  "outputs": 100,
+  "parsed": 100,
+  "salvaged": 0,
+  "complete": 100,
+  "passed": 25,
+  "analyzed": 100,
+  "stmt_free": 3
+ },
+ "Qwen2.5-Coder-7B": {
+  "outputs": 100,
+  "parsed": 100,
+  "salvaged": 0,
+  "complete": 99,
+  "passed": 33,
+  "analyzed": 100,
+  "stmt_free": 1
+ },
+ "Qwen2.5-Coder-14B": {
+  "outputs": 100,
+  "parsed": 100,
+  "salvaged": 0,
+  "complete": 100,
+  "passed": 40,
+  "analyzed": 100,
+  "stmt_free": 3
+ },
+ "Granite-8B-Code": {
+  "outputs": 100,
+  "parsed": 100,
+  "salvaged": 3,
+  "complete": 91,
+  "passed": 19,
+  "analyzed": 100,
+  "stmt_free": 4
+ },
+ "StarCoder2-15B": {
+  "outputs": 100,
+  "parsed": 100,
+  "salvaged": 1,
+  "complete": 99,
+  "passed": 28,
+  "analyzed": 100,
+  "stmt_free": 2
+ }
+}
