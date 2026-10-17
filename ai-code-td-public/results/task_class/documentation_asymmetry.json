@@ -1,0 +1,2925 @@
+{
+ "A_skeleton": {
+  "tasks": 100,
+  "skeleton_blocks_total": 4,
+  "tasks_with_skeleton_block": 4,
+  "solution_code_docstrings_in_benchmark": 0
+ },
+ "B_blocks": {
+  "n_ai_blocks": 264,
+  "by_category": {
+   "echo_added": 155,
+   "generated": 79,
+   "repeated_in_skeleton": 30
+  },
+  "by_category_and_statement": {
+   "echo_added|statement-bearing": 4,
+   "echo_added|statement-free": 151,
+   "generated|statement-bearing": 62,
+   "generated|statement-free": 17,
+   "repeated_in_skeleton|statement-free": 30
+  },
+  "by_category_dominant": {
+   "echo_added|other": 6,
+   "echo_added|dominant": 149,
+   "generated|other": 32,
+   "generated|dominant": 47,
+   "repeated_in_skeleton|other": 17,
+   "repeated_in_skeleton|dominant": 13
+  },
+  "classes_with_repeated_in_skeleton": 23,
+  "tasks_with_repeated_in_skeleton": 4
+ },
+ "C_documented_reference": {
+  "docstrings_inserted": 575,
+  "docs_from_methods_info": [
+   "ClassEval_5",
+   "ClassEval_22",
+   "ClassEval_43",
+   "ClassEval_46"
+  ],
+  "blocks_conv": 10,
+  "blocks_stmt": 6,
+  "classes_with_block": 6,
+  "original_blocks_conv": 3,
+  "original_blocks_stmt": 3,
+  "doc_share_of_ncnb": 0.5686896734100225,
+  "ai_doc_share_of_ncnb": 0.645479759150416
+ },
+ "C_estimates": {
+  "original_reference|sloc": {
+   "ai_dup_conv": {
+    "est": 15.356804504650553,
+    "ci": [
+     10.904050360333516,
+     20.433707279852634
+    ],
+    "finite_share": 1.0
+   },
+   "ref_dup_conv": {
+    "est": 0.410958904109589,
+    "ci": [
+     0.0,
+     1.232876712328767
+    ],
+    "finite_share": 1.0
+   },
+   "diff_dup_conv": {
+    "est": 14.945845600540963,
+    "ci": [
+     10.835366591776694,
+     19.438042353441805
+    ],
+    "finite_share": 1.0
+   },
+   "diff_dup_stmt": {
+    "est": 1.079917044150669,
+    "ci": [
+     0.30061239287396607,
+     1.920123529108315
+    ],
+    "finite_share": 1.0
+   },
+   "ratio_tot_conv": {
+    "est": 2.2886034557665593,
+    "ci": [
+     1.4436542072646326,
+     4.215299467949932
+    ],
+    "finite_share": 1.0
+   },
+   "ratio_tot_stmt": {
+    "est": 0.708780001623905,
+    "ci": [
+     0.42894272701641767,
+     1.296463142396404
+    ],
+    "finite_share": 1.0
+   },
+   "rule_change": {
+    "est": 3.2289334497630833,
+    "ci": [
+     2.4309423717756524,
+     4.580885851667227
+    ],
+    "finite_share": 1.0
+   }
+  },
+  "original_reference|phys_ncnb": {
+   "ai_dup_conv": {
+    "est": 2.472025819328618,
+    "ci": [
+     1.747220771925197,
+     3.324102111202377
+    ],
+    "finite_share": 1.0
+   },
+   "ref_dup_conv": {
+    "est": 0.3703703703703704,
+    "ci": [
+     0.0,
+     1.1111111111111112
+    ],
+    "finite_share": 1.0
+   },
+   "diff_dup_conv": {
+    "est": 2.101655448958248,
+    "ci": [
+     1.482077236031123,
+     2.7602514817500112
+    ],
+    "finite_share": 1.0
+   },
+   "diff_dup_stmt": {
+    "est": 0.3507918755603527,
+    "ci": [
+     -0.47140492438301,
+     1.004436110868467
+    ],
+    "finite_share": 1.0
+   },
+   "ratio_tot_conv": {
+    "est": 0.5364052024131384,
+    "ci": [
+     0.350511564213297,
+     0.9649100971287928
+    ],
+    "finite_share": 1.0
+   },
+   "ratio_tot_stmt": {
+    "est": 0.32261612830382447,
+    "ci": [
+     0.20392362349321638,
+     0.5914983197751824
+    ],
+    "finite_share": 1.0
+   },
+   "rule_change": {
+    "est": 1.662673237179195,
+    "ci": [
+     1.4227394260057753,
+     2.0304568991410474
+    ],
+    "finite_share": 1.0
+   }
+  },
+  "documented_reference|sloc": {
+   "ai_dup_conv": {
+    "est": 15.356804504650553,
+    "ci": [
+     10.904050360333516,
+     20.433707279852634
+    ],
+    "finite_share": 1.0
+   },
+   "ref_dup_conv": {
+    "est": 2.094564191008097,
+    "ci": [
+     0.5398618957940993,
+     4.123879075583559
+    ],
+    "finite_share": 1.0
+   },
+   "diff_dup_conv": {
+    "est": 13.262240313642456,
+    "ci": [
+     9.350800353698167,
+     17.44837741621791
+    ],
+    "finite_share": 1.0
+   },
+   "diff_dup_stmt": {
+    "est": 0.35033815018821324,
+    "ci": [
+     -1.025427718679708,
+     1.5504158905301288
+    ],
+    "finite_share": 1.0
+   },
+   "ratio_tot_conv": {
+    "est": 1.920255049183883,
+    "ci": [
+     1.2633101194820346,
+     3.368828100614883
+    ],
+    "finite_share": 1.0
+   },
+   "ratio_tot_stmt": {
+    "est": 0.6543842827717468,
+    "ci": [
+     0.3996435266475751,
+     1.1736617780635
+    ],
+    "finite_share": 1.0
+   },
+   "rule_change": {
+    "est": 2.9344455539951895,
+    "ci": [
+     2.207136148281978,
+     4.158795696873195
+    ],
+    "finite_share": 1.0
+   }
+  },
+  "documented_reference|phys_ncnb": {
+   "ai_dup_conv": {
+    "est": 2.472025819328618,
+    "ci": [
+     1.747220771925197,
+     3.324102111202377
+    ],
+    "finite_share": 1.0
+   },
+   "ref_dup_conv": {
+    "est": 1.0327082556550473,
+    "ci": [
+     0.21994824747118322,
+     2.1990375216181666
+    ],
+    "finite_share": 1.0
+   },
+   "diff_dup_conv": {
+    "est": 1.4393175636735709,
+    "ci": [
+     0.6106306181817625,
+     2.223844159119656
+    ],
+    "finite_share": 1.0
+   },
+   "diff_dup_stmt": {
+    "est": 0.07995648994627247,
+    "ci": [
+     -0.8162050661922188,
+     0.825486226432631
+    ],
+    "finite_share": 1.0
+   },
+   "ratio_tot_conv": {
+    "est": 0.8038787829126994,
+    "ci": [
+     0.5329029380858666,
+     1.4663027964433177
+    ],
+    "finite_share": 1.0
+   },
+   "ratio_tot_stmt": {
+    "est": 0.5207964224515689,
+    "ci": [
+     0.3220135260850553,
+     1.0008271342685686
+    ],
+    "finite_share": 1.0
+   },
+   "rule_change": {
+    "est": 1.5435566533436693,
+    "ci": [
+     1.3290193721214842,
+     1.8620644916237097
+    ],
+    "finite_share": 1.0
+   }
+  }
+ },
+ "B_per_block": [
+  {
+   "key": "StarCoder-15B__ClassEval_8",
+   "model": "StarCoder-15B",
+   "task": 8,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "StarCoder-15B__ClassEval_11",
+   "model": "StarCoder-15B",
+   "task": 11,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "StarCoder-15B__ClassEval_11",
+   "model": "StarCoder-15B",
+   "task": 11,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "StarCoder-15B__ClassEval_37",
+   "model": "StarCoder-15B",
+   "task": 37,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "StarCoder-15B__ClassEval_57",
+   "model": "StarCoder-15B",
+   "task": 57,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "StarCoder-15B__ClassEval_59",
+   "model": "StarCoder-15B",
+   "task": 59,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "InstructCodeGen-16B__ClassEval_32",
+   "model": "InstructCodeGen-16B",
+   "task": 32,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "InstructCodeGen-16B__ClassEval_37",
+   "model": "InstructCodeGen-16B",
+   "task": 37,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "InstructCodeGen-16B__ClassEval_38",
+   "model": "InstructCodeGen-16B",
+   "task": 38,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "InstructCodeGen-16B__ClassEval_41",
+   "model": "InstructCodeGen-16B",
+   "task": 41,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "InstructCodeGen-16B__ClassEval_41",
+   "model": "InstructCodeGen-16B",
+   "task": 41,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "InstructCodeGen-16B__ClassEval_57",
+   "model": "InstructCodeGen-16B",
+   "task": 57,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "InstructCodeGen-16B__ClassEval_59",
+   "model": "InstructCodeGen-16B",
+   "task": 59,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "InstructCodeGen-16B__ClassEval_62",
+   "model": "InstructCodeGen-16B",
+   "task": 62,
+   "cat": "echo_added",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "Magicoder-6.7B__ClassEval_57",
+   "model": "Magicoder-6.7B",
+   "task": 57,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "Magicoder-6.7B__ClassEval_59",
+   "model": "Magicoder-6.7B",
+   "task": 59,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "CodeLlama-13B__ClassEval_8",
+   "model": "CodeLlama-13B",
+   "task": 8,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "CodeLlama-13B__ClassEval_37",
+   "model": "CodeLlama-13B",
+   "task": 37,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "CodeLlama-13B__ClassEval_57",
+   "model": "CodeLlama-13B",
+   "task": 57,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "CodeLlama-13B__ClassEval_57",
+   "model": "CodeLlama-13B",
+   "task": 57,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "CodeLlama-13B__ClassEval_59",
+   "model": "CodeLlama-13B",
+   "task": 59,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "CodeLlama-13B__ClassEval_80",
+   "model": "CodeLlama-13B",
+   "task": 80,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "CodeLlama-13B__ClassEval_80",
+   "model": "CodeLlama-13B",
+   "task": 80,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "GPT-3.5-Turbo__ClassEval_8",
+   "model": "GPT-3.5-Turbo",
+   "task": 8,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "GPT-3.5-Turbo__ClassEval_44",
+   "model": "GPT-3.5-Turbo",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "GPT-3.5-Turbo__ClassEval_54",
+   "model": "GPT-3.5-Turbo",
+   "task": 54,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "GPT-3.5-Turbo__ClassEval_57",
+   "model": "GPT-3.5-Turbo",
+   "task": 57,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "GPT-3.5-Turbo__ClassEval_57",
+   "model": "GPT-3.5-Turbo",
+   "task": 57,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "GPT-3.5-Turbo__ClassEval_59",
+   "model": "GPT-3.5-Turbo",
+   "task": 59,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "GPT-3.5-Turbo__ClassEval_80",
+   "model": "GPT-3.5-Turbo",
+   "task": 80,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "GPT-3.5-Turbo__ClassEval_80",
+   "model": "GPT-3.5-Turbo",
+   "task": 80,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "GPT-3.5-Turbo__ClassEval_89",
+   "model": "GPT-3.5-Turbo",
+   "task": 89,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "GPT-3.5-Turbo__ClassEval_98",
+   "model": "GPT-3.5-Turbo",
+   "task": 98,
+   "cat": "echo_added",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_8",
+   "model": "Gemini-Pro",
+   "task": 8,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_32",
+   "model": "Gemini-Pro",
+   "task": 32,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_32",
+   "model": "Gemini-Pro",
+   "task": 32,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_37",
+   "model": "Gemini-Pro",
+   "task": 37,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_44",
+   "model": "Gemini-Pro",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_48",
+   "model": "Gemini-Pro",
+   "task": 48,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_54",
+   "model": "Gemini-Pro",
+   "task": 54,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_57",
+   "model": "Gemini-Pro",
+   "task": 57,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_57",
+   "model": "Gemini-Pro",
+   "task": 57,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_59",
+   "model": "Gemini-Pro",
+   "task": 59,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_80",
+   "model": "Gemini-Pro",
+   "task": 80,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_80",
+   "model": "Gemini-Pro",
+   "task": 80,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "Gemini-Pro__ClassEval_82",
+   "model": "Gemini-Pro",
+   "task": 82,
+   "cat": "echo_added",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "WizardCoder-15B__ClassEval_18",
+   "model": "WizardCoder-15B",
+   "task": 18,
+   "cat": "echo_added",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "WizardCoder-15B__ClassEval_50",
+   "model": "WizardCoder-15B",
+   "task": 50,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "WizardCoder-15B__ClassEval_54",
+   "model": "WizardCoder-15B",
+   "task": 54,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "WizardCoder-15B__ClassEval_57",
+   "model": "WizardCoder-15B",
+   "task": 57,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "WizardCoder-15B__ClassEval_58",
+   "model": "WizardCoder-15B",
+   "task": 58,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "WizardCoder-15B__ClassEval_89",
+   "model": "WizardCoder-15B",
+   "task": 89,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "CodeGeeX2-6B__ClassEval_57",
+   "model": "CodeGeeX2-6B",
+   "task": 57,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "CodeGeeX2-6B__ClassEval_57",
+   "model": "CodeGeeX2-6B",
+   "task": 57,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": false,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "CodeGeeX2-6B__ClassEval_57",
+   "model": "CodeGeeX2-6B",
+   "task": 57,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": false,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_0",
+   "model": "PolyCoder-2.7B",
+   "task": 0,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_0",
+   "model": "PolyCoder-2.7B",
+   "task": 0,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_0",
+   "model": "PolyCoder-2.7B",
+   "task": 0,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_2",
+   "model": "PolyCoder-2.7B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_2",
+   "model": "PolyCoder-2.7B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_6",
+   "model": "PolyCoder-2.7B",
+   "task": 6,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_7",
+   "model": "PolyCoder-2.7B",
+   "task": 7,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_7",
+   "model": "PolyCoder-2.7B",
+   "task": 7,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_7",
+   "model": "PolyCoder-2.7B",
+   "task": 7,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_7",
+   "model": "PolyCoder-2.7B",
+   "task": 7,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_7",
+   "model": "PolyCoder-2.7B",
+   "task": 7,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_9",
+   "model": "PolyCoder-2.7B",
+   "task": 9,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_9",
+   "model": "PolyCoder-2.7B",
+   "task": 9,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_9",
+   "model": "PolyCoder-2.7B",
+   "task": 9,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_9",
+   "model": "PolyCoder-2.7B",
+   "task": 9,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_9",
+   "model": "PolyCoder-2.7B",
+   "task": 9,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_9",
+   "model": "PolyCoder-2.7B",
+   "task": 9,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_12",
+   "model": "PolyCoder-2.7B",
+   "task": 12,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_12",
+   "model": "PolyCoder-2.7B",
+   "task": 12,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_12",
+   "model": "PolyCoder-2.7B",
+   "task": 12,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_15",
+   "model": "PolyCoder-2.7B",
+   "task": 15,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_15",
+   "model": "PolyCoder-2.7B",
+   "task": 15,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_15",
+   "model": "PolyCoder-2.7B",
+   "task": 15,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_15",
+   "model": "PolyCoder-2.7B",
+   "task": 15,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_15",
+   "model": "PolyCoder-2.7B",
+   "task": 15,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_20",
+   "model": "PolyCoder-2.7B",
+   "task": 20,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_20",
+   "model": "PolyCoder-2.7B",
+   "task": 20,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_21",
+   "model": "PolyCoder-2.7B",
+   "task": 21,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_21",
+   "model": "PolyCoder-2.7B",
+   "task": 21,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_21",
+   "model": "PolyCoder-2.7B",
+   "task": 21,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_23",
+   "model": "PolyCoder-2.7B",
+   "task": 23,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_24",
+   "model": "PolyCoder-2.7B",
+   "task": 24,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_24",
+   "model": "PolyCoder-2.7B",
+   "task": 24,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_24",
+   "model": "PolyCoder-2.7B",
+   "task": 24,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_24",
+   "model": "PolyCoder-2.7B",
+   "task": 24,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_24",
+   "model": "PolyCoder-2.7B",
+   "task": 24,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_26",
+   "model": "PolyCoder-2.7B",
+   "task": 26,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_26",
+   "model": "PolyCoder-2.7B",
+   "task": 26,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_26",
+   "model": "PolyCoder-2.7B",
+   "task": 26,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_26",
+   "model": "PolyCoder-2.7B",
+   "task": 26,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_26",
+   "model": "PolyCoder-2.7B",
+   "task": 26,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_26",
+   "model": "PolyCoder-2.7B",
+   "task": 26,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_30",
+   "model": "PolyCoder-2.7B",
+   "task": 30,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_32",
+   "model": "PolyCoder-2.7B",
+   "task": 32,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_33",
+   "model": "PolyCoder-2.7B",
+   "task": 33,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_33",
+   "model": "PolyCoder-2.7B",
+   "task": 33,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_33",
+   "model": "PolyCoder-2.7B",
+   "task": 33,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_33",
+   "model": "PolyCoder-2.7B",
+   "task": 33,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_38",
+   "model": "PolyCoder-2.7B",
+   "task": 38,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_38",
+   "model": "PolyCoder-2.7B",
+   "task": 38,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_38",
+   "model": "PolyCoder-2.7B",
+   "task": 38,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_38",
+   "model": "PolyCoder-2.7B",
+   "task": 38,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_38",
+   "model": "PolyCoder-2.7B",
+   "task": 38,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_41",
+   "model": "PolyCoder-2.7B",
+   "task": 41,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_44",
+   "model": "PolyCoder-2.7B",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_44",
+   "model": "PolyCoder-2.7B",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_44",
+   "model": "PolyCoder-2.7B",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_48",
+   "model": "PolyCoder-2.7B",
+   "task": 48,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_48",
+   "model": "PolyCoder-2.7B",
+   "task": 48,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_50",
+   "model": "PolyCoder-2.7B",
+   "task": 50,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_50",
+   "model": "PolyCoder-2.7B",
+   "task": 50,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_50",
+   "model": "PolyCoder-2.7B",
+   "task": 50,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_50",
+   "model": "PolyCoder-2.7B",
+   "task": 50,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_53",
+   "model": "PolyCoder-2.7B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_53",
+   "model": "PolyCoder-2.7B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_53",
+   "model": "PolyCoder-2.7B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_53",
+   "model": "PolyCoder-2.7B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_53",
+   "model": "PolyCoder-2.7B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_54",
+   "model": "PolyCoder-2.7B",
+   "task": 54,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_57",
+   "model": "PolyCoder-2.7B",
+   "task": 57,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_57",
+   "model": "PolyCoder-2.7B",
+   "task": 57,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_57",
+   "model": "PolyCoder-2.7B",
+   "task": 57,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_58",
+   "model": "PolyCoder-2.7B",
+   "task": 58,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_59",
+   "model": "PolyCoder-2.7B",
+   "task": 59,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_59",
+   "model": "PolyCoder-2.7B",
+   "task": 59,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_59",
+   "model": "PolyCoder-2.7B",
+   "task": 59,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_64",
+   "model": "PolyCoder-2.7B",
+   "task": 64,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_64",
+   "model": "PolyCoder-2.7B",
+   "task": 64,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_64",
+   "model": "PolyCoder-2.7B",
+   "task": 64,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_64",
+   "model": "PolyCoder-2.7B",
+   "task": 64,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_64",
+   "model": "PolyCoder-2.7B",
+   "task": 64,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_67",
+   "model": "PolyCoder-2.7B",
+   "task": 67,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_68",
+   "model": "PolyCoder-2.7B",
+   "task": 68,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_68",
+   "model": "PolyCoder-2.7B",
+   "task": 68,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_68",
+   "model": "PolyCoder-2.7B",
+   "task": 68,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_69",
+   "model": "PolyCoder-2.7B",
+   "task": 69,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_69",
+   "model": "PolyCoder-2.7B",
+   "task": 69,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_69",
+   "model": "PolyCoder-2.7B",
+   "task": 69,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_69",
+   "model": "PolyCoder-2.7B",
+   "task": 69,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_69",
+   "model": "PolyCoder-2.7B",
+   "task": 69,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_71",
+   "model": "PolyCoder-2.7B",
+   "task": 71,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_75",
+   "model": "PolyCoder-2.7B",
+   "task": 75,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_77",
+   "model": "PolyCoder-2.7B",
+   "task": 77,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_77",
+   "model": "PolyCoder-2.7B",
+   "task": 77,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_77",
+   "model": "PolyCoder-2.7B",
+   "task": 77,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_77",
+   "model": "PolyCoder-2.7B",
+   "task": 77,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_77",
+   "model": "PolyCoder-2.7B",
+   "task": 77,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_77",
+   "model": "PolyCoder-2.7B",
+   "task": 77,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_84",
+   "model": "PolyCoder-2.7B",
+   "task": 84,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_84",
+   "model": "PolyCoder-2.7B",
+   "task": 84,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_84",
+   "model": "PolyCoder-2.7B",
+   "task": 84,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_84",
+   "model": "PolyCoder-2.7B",
+   "task": 84,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_84",
+   "model": "PolyCoder-2.7B",
+   "task": 84,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_86",
+   "model": "PolyCoder-2.7B",
+   "task": 86,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_87",
+   "model": "PolyCoder-2.7B",
+   "task": 87,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_88",
+   "model": "PolyCoder-2.7B",
+   "task": 88,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_89",
+   "model": "PolyCoder-2.7B",
+   "task": 89,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_89",
+   "model": "PolyCoder-2.7B",
+   "task": 89,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_89",
+   "model": "PolyCoder-2.7B",
+   "task": 89,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_89",
+   "model": "PolyCoder-2.7B",
+   "task": 89,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_89",
+   "model": "PolyCoder-2.7B",
+   "task": 89,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_89",
+   "model": "PolyCoder-2.7B",
+   "task": 89,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_91",
+   "model": "PolyCoder-2.7B",
+   "task": 91,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_91",
+   "model": "PolyCoder-2.7B",
+   "task": 91,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_91",
+   "model": "PolyCoder-2.7B",
+   "task": 91,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_91",
+   "model": "PolyCoder-2.7B",
+   "task": 91,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.16666666666666666
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_95",
+   "model": "PolyCoder-2.7B",
+   "task": 95,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_98",
+   "model": "PolyCoder-2.7B",
+   "task": 98,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_98",
+   "model": "PolyCoder-2.7B",
+   "task": 98,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_98",
+   "model": "PolyCoder-2.7B",
+   "task": 98,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_98",
+   "model": "PolyCoder-2.7B",
+   "task": 98,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_98",
+   "model": "PolyCoder-2.7B",
+   "task": 98,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_99",
+   "model": "PolyCoder-2.7B",
+   "task": 99,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_99",
+   "model": "PolyCoder-2.7B",
+   "task": 99,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_99",
+   "model": "PolyCoder-2.7B",
+   "task": 99,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_99",
+   "model": "PolyCoder-2.7B",
+   "task": 99,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "PolyCoder-2.7B__ClassEval_99",
+   "model": "PolyCoder-2.7B",
+   "task": 99,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_2",
+   "model": "SantaCoder-1.1B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_2",
+   "model": "SantaCoder-1.1B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_2",
+   "model": "SantaCoder-1.1B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_2",
+   "model": "SantaCoder-1.1B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_2",
+   "model": "SantaCoder-1.1B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_2",
+   "model": "SantaCoder-1.1B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_2",
+   "model": "SantaCoder-1.1B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_2",
+   "model": "SantaCoder-1.1B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_2",
+   "model": "SantaCoder-1.1B",
+   "task": 2,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_4",
+   "model": "SantaCoder-1.1B",
+   "task": 4,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_4",
+   "model": "SantaCoder-1.1B",
+   "task": 4,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_4",
+   "model": "SantaCoder-1.1B",
+   "task": 4,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_4",
+   "model": "SantaCoder-1.1B",
+   "task": 4,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_4",
+   "model": "SantaCoder-1.1B",
+   "task": 4,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_4",
+   "model": "SantaCoder-1.1B",
+   "task": 4,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_21",
+   "model": "SantaCoder-1.1B",
+   "task": 21,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_21",
+   "model": "SantaCoder-1.1B",
+   "task": 21,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_21",
+   "model": "SantaCoder-1.1B",
+   "task": 21,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_21",
+   "model": "SantaCoder-1.1B",
+   "task": 21,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_21",
+   "model": "SantaCoder-1.1B",
+   "task": 21,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_23",
+   "model": "SantaCoder-1.1B",
+   "task": 23,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_23",
+   "model": "SantaCoder-1.1B",
+   "task": 23,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_23",
+   "model": "SantaCoder-1.1B",
+   "task": 23,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_23",
+   "model": "SantaCoder-1.1B",
+   "task": 23,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_29",
+   "model": "SantaCoder-1.1B",
+   "task": 29,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_29",
+   "model": "SantaCoder-1.1B",
+   "task": 29,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_38",
+   "model": "SantaCoder-1.1B",
+   "task": 38,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_41",
+   "model": "SantaCoder-1.1B",
+   "task": 41,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_41",
+   "model": "SantaCoder-1.1B",
+   "task": 41,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_41",
+   "model": "SantaCoder-1.1B",
+   "task": 41,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_44",
+   "model": "SantaCoder-1.1B",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_44",
+   "model": "SantaCoder-1.1B",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_44",
+   "model": "SantaCoder-1.1B",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_44",
+   "model": "SantaCoder-1.1B",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_44",
+   "model": "SantaCoder-1.1B",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_44",
+   "model": "SantaCoder-1.1B",
+   "task": 44,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_48",
+   "model": "SantaCoder-1.1B",
+   "task": 48,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_48",
+   "model": "SantaCoder-1.1B",
+   "task": 48,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_48",
+   "model": "SantaCoder-1.1B",
+   "task": 48,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.5
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_48",
+   "model": "SantaCoder-1.1B",
+   "task": 48,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_53",
+   "model": "SantaCoder-1.1B",
+   "task": 53,
+   "cat": "generated",
+   "stmt": "statement-bearing",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_54",
+   "model": "SantaCoder-1.1B",
+   "task": 54,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_57",
+   "model": "SantaCoder-1.1B",
+   "task": 57,
+   "cat": "repeated_in_skeleton",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 2,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_57",
+   "model": "SantaCoder-1.1B",
+   "task": 57,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_57",
+   "model": "SantaCoder-1.1B",
+   "task": 57,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_57",
+   "model": "SantaCoder-1.1B",
+   "task": 57,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_58",
+   "model": "SantaCoder-1.1B",
+   "task": 58,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_58",
+   "model": "SantaCoder-1.1B",
+   "task": 58,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_58",
+   "model": "SantaCoder-1.1B",
+   "task": 58,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_59",
+   "model": "SantaCoder-1.1B",
+   "task": 59,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.8333333333333334
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_87",
+   "model": "SantaCoder-1.1B",
+   "task": 87,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_87",
+   "model": "SantaCoder-1.1B",
+   "task": 87,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_87",
+   "model": "SantaCoder-1.1B",
+   "task": 87,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_87",
+   "model": "SantaCoder-1.1B",
+   "task": 87,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_87",
+   "model": "SantaCoder-1.1B",
+   "task": 87,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_87",
+   "model": "SantaCoder-1.1B",
+   "task": 87,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_87",
+   "model": "SantaCoder-1.1B",
+   "task": 87,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_87",
+   "model": "SantaCoder-1.1B",
+   "task": 87,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_91",
+   "model": "SantaCoder-1.1B",
+   "task": 91,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.6666666666666666
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_94",
+   "model": "SantaCoder-1.1B",
+   "task": 94,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_98",
+   "model": "SantaCoder-1.1B",
+   "task": 98,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_98",
+   "model": "SantaCoder-1.1B",
+   "task": 98,
+   "cat": "echo_added",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 1,
+   "share": 1.0
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_98",
+   "model": "SantaCoder-1.1B",
+   "task": 98,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  },
+  {
+   "key": "SantaCoder-1.1B__ClassEval_98",
+   "model": "SantaCoder-1.1B",
+   "task": 98,
+   "cat": "generated",
+   "stmt": "statement-free",
+   "dominant": true,
+   "skel_occ": 0,
+   "share": 0.3333333333333333
+  }
+ ]
+}

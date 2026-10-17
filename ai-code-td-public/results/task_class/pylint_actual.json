@@ -2,9 +2,12 @@
  "pylint_version_output": "pylint 2.14.5\nastroid 2.11.7\nPython 3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
  "controls": {
   "same_class_as_two_files_R0801": 1,
-  "same_class_as_two_files_first_message": "Similar lines in 2 files\n==m0:[4:45]\n==m1:[4:45]\nclass AccessGatewayFilter:\n\n    def __init__(self):\n        pass\n\n    def filter(self, request):\n        request_uri = request['path']\n        method = request['method']\n\n        if self.is_start_with(request_uri):\n            return True\n\n        try:\n            token = self.get_jwt_user(request)\n            user = token['user']\n            if use",
   "synthetic_within_file_10_lines_R0801": 0,
-  "synthetic_as_two_files_R0801": 3
+  "synthetic_as_two_files_R0801": 3,
+  "same_class_as_two_files_first_message_lines": [
+   "==m0:[4:45]",
+   "==m1:[4:45]"
+  ]
  },
  "self_compare_engine": {
   "version": "2.14.5",

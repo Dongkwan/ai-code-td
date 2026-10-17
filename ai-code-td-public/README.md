@@ -55,7 +55,10 @@ All values refer to the task class unless stated.
 | Later cohort: statement-free blocks | 17 in 600 classes | `later_cohort/metrics_newcohort_logic.csv` |
 | Size-measure sensitivity (physical lines with and without docstrings) | 13.4 → 0.9; 0.54× | `size_measure_sensitivity.json`; per-class measures in `size_measures.json` |
 | Equal-task-weight estimates | 2.26× → 0.69×; 3.27× | `task_weighted.json` |
-| Actual Pylint 2.14.5 runs (no within-file duplicates by design) | 0; self-comparison 0.75× | `pylint_actual.json` |
+| Actual Pylint 2.14.5 runs (no within-file duplicates by design) | 0 | `pylint_actual.json` → `counts.r0801` |
+| Documented references: duplication difference; total smell ratio | 13.3; 1.92× (0.80× with docstring lines in size) | `documentation_asymmetry.json` → `C_estimates` |
+| AI blocks repeated in the skeleton / echo added / generated | 30 / 155 / 79 | `documentation_asymmetry.json` → `B_blocks` |
+| Task-indicator Poisson M0: refits converging (IRLS / Newton) | 224 / 300; [1.03, 1.73] | `task_effects_convergence.json` |
 | Repository sample flow; share difference over all 89 | 100/97/89/79; +2.7 points | `repository/repository_flow.json` |
 
 ## The two counting rules

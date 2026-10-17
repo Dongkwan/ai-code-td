@@ -1,7 +1,7 @@
 # Data dictionary
 
 Generated from the published files. Densities in the manuscript are arithmetic means of
-per-class densities, not total instances divided by total SLOC.
+per-class densities, not total instances divided by total statement count.
 
 ## `results/later_cohort/metrics_newcohort_logic.csv`
 
@@ -50,7 +50,7 @@ Top-level keys: `repos`, `groups`
 
 ## `results/repository/statement_free_share.json`
 
-statement-free share, AI minus human, deduplicated repositories (Section 4.3.8).
+statement-free share, AI minus human, deduplicated repositories (Section 4.3.9).
 
 Top-level keys: `attribution`, `candidate_groups`, `duplicate_groups`, `copies_verified`, `all`, `deduplicated`, `pooled_classes`, `pooled_classes_deduplicated`, `kept_from_each_group`, `n_deduplicated`
 
@@ -115,7 +115,7 @@ Top-level keys: `scope`, `conv`, `stmt`
 
 ## `results/task_class/producers.json`
 
-Skillings-Mack and post-hoc producer pairs (Section 4.3.5).
+Skillings-Mack and post-hoc producer pairs (Section 4.3.6).
 
 Top-level keys: `scope`, `skillings_mack`, `posthoc`, `significant_pairs`
 
@@ -130,6 +130,48 @@ Top-level keys: `scope`, `dataset`, `audit`, `first_occ`, `examples`, `presence`
 window lengths 4, 6 and 8 (Section 6).
 
 Top-level keys: `scope`, `replicates`, `W4`, `W6`, `W8`, `copies_overlapping_own_first_occurrence`
+
+## `results/task_class/size_measure_sensitivity.json`
+
+key estimates with physical-line size measures (Section 4.3.3).
+
+Top-level keys: `measures`, `describe`, `correlation_with_sloc`, `descriptive`, `reproduction_descriptive`, `common_range_models`, `reproduction_common_models`
+
+## `results/task_class/size_measures.json`
+
+per-class statement count and physical-line size measures (Section 4.3.3).
+
+list of 1181 records; fields: `key`, `model`, `group`, `task`, `sloc`, `phys_ncnb`, `phys_ncnb_nodoc`, `phys_all`, `doc_lines`, `dup_conv`, `dup_stmt`, `other6`
+
+## `results/task_class/documentation_asymmetry.json`
+
+skeleton baseline, decomposition of the 264 AI blocks (repeated in skeleton / echo added / generated), and AI vs references given the skeleton docstrings (Section 4.3.4). `B_per_block` lists every AI block with its category.
+
+Top-level keys: `A_skeleton`, `B_blocks`, `C_documented_reference`, `C_estimates`, `B_per_block`
+
+## `results/task_class/task_weighted.json`
+
+equal-task-weight and within-task estimates (Section 4.3.1).
+
+Top-level keys: `definition`, `by_measure`, `existing`
+
+## `results/task_class/task_effects_convergence.json`
+
+task-indicator Poisson M0 refits: IRLS convergence, failure diagnostics and Newton-Raphson refits on the same 300 resamples per range (Section 4.3.2). `per_replicate` holds every refit.
+
+Top-level keys: `full`, `common`
+
+## `results/task_class/pylint_actual.json`
+
+actual Pylint 2.14.5 duplicate-code runs and controls (Section 5.1). `self_compare_*` (its similarity engine applied to a file paired with itself, diagonal and mirrored matches dropped) is exploratory and not used in the manuscript.
+
+Top-level keys: `pylint_version_output`, `controls`, `self_compare_engine`, `counts`, `pylint_runs`, `self_compare_densities`, `emulated_row_table8`, `per_class`
+
+## `results/repository/repository_flow.json`
+
+repository sample flow 100/97/89/79 and share estimates over all 89 (Sections 3.5, 4.3.9).
+
+Top-level keys: `flow`, `paired_79_reproduced`, `paired_79_published`, `paired_79_identical`, `published_all_97_share`, `published_all_97_reproduced_identical`, `note_on_minus_0_7`, `shares`
 
 ## `results/task_class/metrics.csv`
 
@@ -174,10 +216,10 @@ Top-level keys: `scope`, `replicates`, `W4`, `W6`, `W8`, `copies_overlapping_own
 | `dup_stmt` | Duplicate Code blocks, statement-aware rule. |
 | `tot_conv` | Total smells, documentation-preserving rule. |
 | `tot_stmt` | Total smells, statement-aware rule. |
-| `d_dup_conv` | Per kLoC (`/ sloc * 1000`) of `dup_conv`. |
-| `d_dup_stmt` | Per kLoC of `dup_stmt`. |
-| `d_tot_conv` | Per kLoC of `tot_conv`. |
-| `d_tot_stmt` | Per kLoC of `tot_stmt`. |
+| `d_dup_conv` | Per 1,000 statements (`/ sloc * 1000`) of `dup_conv`. |
+| `d_dup_stmt` | Per 1,000 statements of `dup_stmt`. |
+| `d_tot_conv` | Per 1,000 statements of `tot_conv`. |
+| `d_tot_stmt` | Per 1,000 statements of `tot_stmt`. |
 
 ## `results/task_class/statement_criterion.json`
 
@@ -187,7 +229,7 @@ Top-level keys: `stmt_or_def`, `stmt>=1`, `share>=0.25`, `share>=0.5`
 
 ## `results/task_class/jscpd.json`
 
-jscpd 4.0.5 clone counts and contrasts (Section 4.3.4).
+jscpd 4.0.5 clone counts and contrasts (Section 4.3.5).
 
 Top-level keys: `matched`, `default`
 
@@ -229,13 +271,13 @@ Top-level keys: `multi_class_files`, `largest_not_task_class`, `without_multi_cl
 
 ## `results/task_class/segmentation.json`
 
-maximal repeated spans, duplicated lines/kLoC (Section 4.3.4).
+maximal repeated spans, duplicated lines per 1,000 statements (Section 4.3.5).
 
 Top-level keys: `ai_spans_all`, `hu_spans_all`, `diff_spans_all`, `ai_spans_stmt`, `hu_spans_stmt`, `diff_spans_stmt`, `ai_lines_all`, `hu_lines_all`, `diff_lines_all`, `ai_lines_stmt`, `hu_lines_stmt`, `diff_lines_stmt`, `n_spans`, `n_statement_free_spans`, `duplicated_lines`, `duplicated_lines_in_statement_free_spans`, `statement_free_spans_by_model`, `statement_free_spans_from_dominant_two`, `human_classes_with_span`, `ai_classes_with_span`
 
 ## `results/task_class/size_exponent.json`
 
-free log(SLOC) exponent under both rules (Section 3.4; Figure S1).
+free log(Stmt) exponent under both rules (Section 3.4; Figure S1).
 
 Top-level keys: `statement_aware`, `documentation_preserving`
 
@@ -361,7 +403,7 @@ Top-level keys: `n_matched_methods`, `spearman_cc`, `pearson_cc`, `spearman_loc`
 | `dup_stmt` | Duplicate Code blocks, statement-aware rule. |
 | `tot_conv` | Total smells, documentation-preserving rule. |
 | `tot_stmt` | Total smells, statement-aware rule. |
-| `d_dup_conv` | Per kLoC (`/ sloc * 1000`) of `dup_conv`. |
-| `d_dup_stmt` | Per kLoC of `dup_stmt`. |
-| `d_tot_conv` | Per kLoC of `tot_conv`. |
-| `d_tot_stmt` | Per kLoC of `tot_stmt`. |
+| `d_dup_conv` | Per 1,000 statements (`/ sloc * 1000`) of `dup_conv`. |
+| `d_dup_stmt` | Per 1,000 statements of `dup_stmt`. |
+| `d_tot_conv` | Per 1,000 statements of `tot_conv`. |
+| `d_tot_stmt` | Per 1,000 statements of `tot_stmt`. |
